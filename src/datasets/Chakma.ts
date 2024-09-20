@@ -1,0 +1,92 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Chakma**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **69888**
+ *
+ * _End Code:_ **69967**
+ *
+ * _Total Characters:_ **71**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Chakma,
+  startCode: 69888,
+  endCode: 69967,
+  characters: [
+    { "code": 69888, "name": "CHAKMA SIGN CANDRABINDU", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 69889, "name": "CHAKMA SIGN ANUSVARA", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 69890, "name": "CHAKMA SIGN VISARGA", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 69891, "name": "CHAKMA LETTER AA", "cat": "Lo" },
+    { "code": 69892, "name": "CHAKMA LETTER I", "cat": "Lo" },
+    { "code": 69893, "name": "CHAKMA LETTER U", "cat": "Lo" },
+    { "code": 69894, "name": "CHAKMA LETTER E", "cat": "Lo" },
+    { "code": 69895, "name": "CHAKMA LETTER KAA", "cat": "Lo" },
+    { "code": 69896, "name": "CHAKMA LETTER KHAA", "cat": "Lo" },
+    { "code": 69897, "name": "CHAKMA LETTER GAA", "cat": "Lo" },
+    { "code": 69898, "name": "CHAKMA LETTER GHAA", "cat": "Lo" },
+    { "code": 69899, "name": "CHAKMA LETTER NGAA", "cat": "Lo" },
+    { "code": 69900, "name": "CHAKMA LETTER CAA", "cat": "Lo" },
+    { "code": 69901, "name": "CHAKMA LETTER CHAA", "cat": "Lo" },
+    { "code": 69902, "name": "CHAKMA LETTER JAA", "cat": "Lo" },
+    { "code": 69903, "name": "CHAKMA LETTER JHAA", "cat": "Lo" },
+    { "code": 69904, "name": "CHAKMA LETTER NYAA", "cat": "Lo" },
+    { "code": 69905, "name": "CHAKMA LETTER TTAA", "cat": "Lo" },
+    { "code": 69906, "name": "CHAKMA LETTER TTHAA", "cat": "Lo" },
+    { "code": 69907, "name": "CHAKMA LETTER DDAA", "cat": "Lo" },
+    { "code": 69908, "name": "CHAKMA LETTER DDHAA", "cat": "Lo" },
+    { "code": 69909, "name": "CHAKMA LETTER NNAA", "cat": "Lo" },
+    { "code": 69910, "name": "CHAKMA LETTER TAA", "cat": "Lo" },
+    { "code": 69911, "name": "CHAKMA LETTER THAA", "cat": "Lo" },
+    { "code": 69912, "name": "CHAKMA LETTER DAA", "cat": "Lo" },
+    { "code": 69913, "name": "CHAKMA LETTER DHAA", "cat": "Lo" },
+    { "code": 69914, "name": "CHAKMA LETTER NAA", "cat": "Lo" },
+    { "code": 69915, "name": "CHAKMA LETTER PAA", "cat": "Lo" },
+    { "code": 69916, "name": "CHAKMA LETTER PHAA", "cat": "Lo" },
+    { "code": 69917, "name": "CHAKMA LETTER BAA", "cat": "Lo" },
+    { "code": 69918, "name": "CHAKMA LETTER BHAA", "cat": "Lo" },
+    { "code": 69919, "name": "CHAKMA LETTER MAA", "cat": "Lo" },
+    { "code": 69920, "name": "CHAKMA LETTER YYAA", "cat": "Lo" },
+    { "code": 69921, "name": "CHAKMA LETTER YAA", "cat": "Lo" },
+    { "code": 69922, "name": "CHAKMA LETTER RAA", "cat": "Lo" },
+    { "code": 69923, "name": "CHAKMA LETTER LAA", "cat": "Lo" },
+    { "code": 69924, "name": "CHAKMA LETTER WAA", "cat": "Lo" },
+    { "code": 69925, "name": "CHAKMA LETTER SAA", "cat": "Lo" },
+    { "code": 69926, "name": "CHAKMA LETTER HAA", "cat": "Lo" },
+    { "code": 69927, "name": "CHAKMA VOWEL SIGN A", "cat": "Mn", "bidi": "NSM" },
+    { "code": 69928, "name": "CHAKMA VOWEL SIGN I", "cat": "Mn", "bidi": "NSM" },
+    { "code": 69929, "name": "CHAKMA VOWEL SIGN II", "cat": "Mn", "bidi": "NSM" },
+    { "code": 69930, "name": "CHAKMA VOWEL SIGN U", "cat": "Mn", "bidi": "NSM" },
+    { "code": 69931, "name": "CHAKMA VOWEL SIGN UU", "cat": "Mn", "bidi": "NSM" },
+    { "code": 69932, "name": "CHAKMA VOWEL SIGN E", "cat": "Mc" },
+    { "code": 69933, "name": "CHAKMA VOWEL SIGN AI", "cat": "Mn", "bidi": "NSM" },
+    { "code": 69934, "name": "CHAKMA VOWEL SIGN O", "cat": "Mn", "bidi": "NSM", "decomp": [69937, 69927] },
+    { "code": 69935, "name": "CHAKMA VOWEL SIGN AU", "cat": "Mn", "bidi": "NSM", "decomp": [69938, 69927] },
+    { "code": 69936, "name": "CHAKMA VOWEL SIGN OI", "cat": "Mn", "bidi": "NSM" },
+    { "code": 69937, "name": "CHAKMA O MARK", "cat": "Mn", "bidi": "NSM" },
+    { "code": 69938, "name": "CHAKMA AU MARK", "cat": "Mn", "bidi": "NSM" },
+    { "code": 69939, "name": "CHAKMA VIRAMA", "cat": "Mn", "comb": 9, "bidi": "NSM" },
+    { "code": 69940, "name": "CHAKMA MAAYYAA", "cat": "Mn", "comb": 9, "bidi": "NSM" },
+    { "code": 69942, "name": "CHAKMA DIGIT ZERO", "cat": "Nd", "num": "0" },
+    { "code": 69943, "name": "CHAKMA DIGIT ONE", "cat": "Nd", "num": "1" },
+    { "code": 69944, "name": "CHAKMA DIGIT TWO", "cat": "Nd", "num": "2" },
+    { "code": 69945, "name": "CHAKMA DIGIT THREE", "cat": "Nd", "num": "3" },
+    { "code": 69946, "name": "CHAKMA DIGIT FOUR", "cat": "Nd", "num": "4" },
+    { "code": 69947, "name": "CHAKMA DIGIT FIVE", "cat": "Nd", "num": "5" },
+    { "code": 69948, "name": "CHAKMA DIGIT SIX", "cat": "Nd", "num": "6" },
+    { "code": 69949, "name": "CHAKMA DIGIT SEVEN", "cat": "Nd", "num": "7" },
+    { "code": 69950, "name": "CHAKMA DIGIT EIGHT", "cat": "Nd", "num": "8" },
+    { "code": 69951, "name": "CHAKMA DIGIT NINE", "cat": "Nd", "num": "9" },
+    { "code": 69952, "name": "CHAKMA SECTION MARK", "cat": "Po" },
+    { "code": 69953, "name": "CHAKMA DANDA", "cat": "Po" },
+    { "code": 69954, "name": "CHAKMA DOUBLE DANDA", "cat": "Po" },
+    { "code": 69955, "name": "CHAKMA QUESTION MARK", "cat": "Po" },
+    { "code": 69956, "name": "CHAKMA LETTER LHAA", "cat": "Lo" },
+    { "code": 69957, "name": "CHAKMA VOWEL SIGN AA", "cat": "Mc" },
+    { "code": 69958, "name": "CHAKMA VOWEL SIGN EI", "cat": "Mc" },
+    { "code": 69959, "name": "CHAKMA LETTER VAA", "cat": "Lo" },
+  ],
+};

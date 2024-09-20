@@ -1,0 +1,90 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Khudawadi**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **70320**
+ *
+ * _End Code:_ **70399**
+ *
+ * _Total Characters:_ **69**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Khudawadi,
+  startCode: 70320,
+  endCode: 70399,
+  characters: [
+    { "code": 70320, "name": "KHUDAWADI LETTER A", "cat": "Lo" },
+    { "code": 70321, "name": "KHUDAWADI LETTER AA", "cat": "Lo" },
+    { "code": 70322, "name": "KHUDAWADI LETTER I", "cat": "Lo" },
+    { "code": 70323, "name": "KHUDAWADI LETTER II", "cat": "Lo" },
+    { "code": 70324, "name": "KHUDAWADI LETTER U", "cat": "Lo" },
+    { "code": 70325, "name": "KHUDAWADI LETTER UU", "cat": "Lo" },
+    { "code": 70326, "name": "KHUDAWADI LETTER E", "cat": "Lo" },
+    { "code": 70327, "name": "KHUDAWADI LETTER AI", "cat": "Lo" },
+    { "code": 70328, "name": "KHUDAWADI LETTER O", "cat": "Lo" },
+    { "code": 70329, "name": "KHUDAWADI LETTER AU", "cat": "Lo" },
+    { "code": 70330, "name": "KHUDAWADI LETTER KA", "cat": "Lo" },
+    { "code": 70331, "name": "KHUDAWADI LETTER KHA", "cat": "Lo" },
+    { "code": 70332, "name": "KHUDAWADI LETTER GA", "cat": "Lo" },
+    { "code": 70333, "name": "KHUDAWADI LETTER GGA", "cat": "Lo" },
+    { "code": 70334, "name": "KHUDAWADI LETTER GHA", "cat": "Lo" },
+    { "code": 70335, "name": "KHUDAWADI LETTER NGA", "cat": "Lo" },
+    { "code": 70336, "name": "KHUDAWADI LETTER CA", "cat": "Lo" },
+    { "code": 70337, "name": "KHUDAWADI LETTER CHA", "cat": "Lo" },
+    { "code": 70338, "name": "KHUDAWADI LETTER JA", "cat": "Lo" },
+    { "code": 70339, "name": "KHUDAWADI LETTER JJA", "cat": "Lo" },
+    { "code": 70340, "name": "KHUDAWADI LETTER JHA", "cat": "Lo" },
+    { "code": 70341, "name": "KHUDAWADI LETTER NYA", "cat": "Lo" },
+    { "code": 70342, "name": "KHUDAWADI LETTER TTA", "cat": "Lo" },
+    { "code": 70343, "name": "KHUDAWADI LETTER TTHA", "cat": "Lo" },
+    { "code": 70344, "name": "KHUDAWADI LETTER DDA", "cat": "Lo" },
+    { "code": 70345, "name": "KHUDAWADI LETTER DDDA", "cat": "Lo" },
+    { "code": 70346, "name": "KHUDAWADI LETTER RRA", "cat": "Lo" },
+    { "code": 70347, "name": "KHUDAWADI LETTER DDHA", "cat": "Lo" },
+    { "code": 70348, "name": "KHUDAWADI LETTER NNA", "cat": "Lo" },
+    { "code": 70349, "name": "KHUDAWADI LETTER TA", "cat": "Lo" },
+    { "code": 70350, "name": "KHUDAWADI LETTER THA", "cat": "Lo" },
+    { "code": 70351, "name": "KHUDAWADI LETTER DA", "cat": "Lo" },
+    { "code": 70352, "name": "KHUDAWADI LETTER DHA", "cat": "Lo" },
+    { "code": 70353, "name": "KHUDAWADI LETTER NA", "cat": "Lo" },
+    { "code": 70354, "name": "KHUDAWADI LETTER PA", "cat": "Lo" },
+    { "code": 70355, "name": "KHUDAWADI LETTER PHA", "cat": "Lo" },
+    { "code": 70356, "name": "KHUDAWADI LETTER BA", "cat": "Lo" },
+    { "code": 70357, "name": "KHUDAWADI LETTER BBA", "cat": "Lo" },
+    { "code": 70358, "name": "KHUDAWADI LETTER BHA", "cat": "Lo" },
+    { "code": 70359, "name": "KHUDAWADI LETTER MA", "cat": "Lo" },
+    { "code": 70360, "name": "KHUDAWADI LETTER YA", "cat": "Lo" },
+    { "code": 70361, "name": "KHUDAWADI LETTER RA", "cat": "Lo" },
+    { "code": 70362, "name": "KHUDAWADI LETTER LA", "cat": "Lo" },
+    { "code": 70363, "name": "KHUDAWADI LETTER VA", "cat": "Lo" },
+    { "code": 70364, "name": "KHUDAWADI LETTER SHA", "cat": "Lo" },
+    { "code": 70365, "name": "KHUDAWADI LETTER SA", "cat": "Lo" },
+    { "code": 70366, "name": "KHUDAWADI LETTER HA", "cat": "Lo" },
+    { "code": 70367, "name": "KHUDAWADI SIGN ANUSVARA", "cat": "Mn", "bidi": "NSM" },
+    { "code": 70368, "name": "KHUDAWADI VOWEL SIGN AA", "cat": "Mc" },
+    { "code": 70369, "name": "KHUDAWADI VOWEL SIGN I", "cat": "Mc" },
+    { "code": 70370, "name": "KHUDAWADI VOWEL SIGN II", "cat": "Mc" },
+    { "code": 70371, "name": "KHUDAWADI VOWEL SIGN U", "cat": "Mn", "bidi": "NSM" },
+    { "code": 70372, "name": "KHUDAWADI VOWEL SIGN UU", "cat": "Mn", "bidi": "NSM" },
+    { "code": 70373, "name": "KHUDAWADI VOWEL SIGN E", "cat": "Mn", "bidi": "NSM" },
+    { "code": 70374, "name": "KHUDAWADI VOWEL SIGN AI", "cat": "Mn", "bidi": "NSM" },
+    { "code": 70375, "name": "KHUDAWADI VOWEL SIGN O", "cat": "Mn", "bidi": "NSM" },
+    { "code": 70376, "name": "KHUDAWADI VOWEL SIGN AU", "cat": "Mn", "bidi": "NSM" },
+    { "code": 70377, "name": "KHUDAWADI SIGN NUKTA", "cat": "Mn", "comb": 7, "bidi": "NSM" },
+    { "code": 70378, "name": "KHUDAWADI SIGN VIRAMA", "cat": "Mn", "comb": 9, "bidi": "NSM" },
+    { "code": 70384, "name": "KHUDAWADI DIGIT ZERO", "cat": "Nd", "num": "0" },
+    { "code": 70385, "name": "KHUDAWADI DIGIT ONE", "cat": "Nd", "num": "1" },
+    { "code": 70386, "name": "KHUDAWADI DIGIT TWO", "cat": "Nd", "num": "2" },
+    { "code": 70387, "name": "KHUDAWADI DIGIT THREE", "cat": "Nd", "num": "3" },
+    { "code": 70388, "name": "KHUDAWADI DIGIT FOUR", "cat": "Nd", "num": "4" },
+    { "code": 70389, "name": "KHUDAWADI DIGIT FIVE", "cat": "Nd", "num": "5" },
+    { "code": 70390, "name": "KHUDAWADI DIGIT SIX", "cat": "Nd", "num": "6" },
+    { "code": 70391, "name": "KHUDAWADI DIGIT SEVEN", "cat": "Nd", "num": "7" },
+    { "code": 70392, "name": "KHUDAWADI DIGIT EIGHT", "cat": "Nd", "num": "8" },
+    { "code": 70393, "name": "KHUDAWADI DIGIT NINE", "cat": "Nd", "num": "9" },
+  ],
+};

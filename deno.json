@@ -1,0 +1,29 @@
+{
+  "name": "@j3lte/unidata",
+  "version": "0.0.1",
+  "exports": {
+    ".": "./src/mod.ts"
+  },
+  "tasks": {
+    "generate": "deno run -A --lock deno.dev.lock scripts/generate.ts",
+    "test": "deno test -A",
+    "prep": "deno fmt && deno lint",
+    "publish:test": "deno publish --dry-run --allow-dirty"
+  },
+  "fmt": {
+    "exclude": [
+      "**/*.md"
+    ],
+    "lineWidth": 120,
+    "indentWidth": 2
+  },
+  "imports": {},
+  "publish": {
+    "include": [
+      "src/**/*.ts",
+      "README.md",
+      "LICENSE",
+      "deno.json"
+    ]
+  }
+}

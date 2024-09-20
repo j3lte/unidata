@@ -1,0 +1,91 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Ancient Greek Musical Notation**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **119296**
+ *
+ * _End Code:_ **119375**
+ *
+ * _Total Characters:_ **70**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Ancient_Greek_Musical_Notation,
+  startCode: 119296,
+  endCode: 119375,
+  characters: [
+    { "code": 119296, "name": "GREEK VOCAL NOTATION SYMBOL-1", "cat": "So", "bidi": "ON" },
+    { "code": 119297, "name": "GREEK VOCAL NOTATION SYMBOL-2", "cat": "So", "bidi": "ON" },
+    { "code": 119298, "name": "GREEK VOCAL NOTATION SYMBOL-3", "cat": "So", "bidi": "ON" },
+    { "code": 119299, "name": "GREEK VOCAL NOTATION SYMBOL-4", "cat": "So", "bidi": "ON" },
+    { "code": 119300, "name": "GREEK VOCAL NOTATION SYMBOL-5", "cat": "So", "bidi": "ON" },
+    { "code": 119301, "name": "GREEK VOCAL NOTATION SYMBOL-6", "cat": "So", "bidi": "ON" },
+    { "code": 119302, "name": "GREEK VOCAL NOTATION SYMBOL-7", "cat": "So", "bidi": "ON" },
+    { "code": 119303, "name": "GREEK VOCAL NOTATION SYMBOL-8", "cat": "So", "bidi": "ON" },
+    { "code": 119304, "name": "GREEK VOCAL NOTATION SYMBOL-9", "cat": "So", "bidi": "ON" },
+    { "code": 119305, "name": "GREEK VOCAL NOTATION SYMBOL-10", "cat": "So", "bidi": "ON" },
+    { "code": 119306, "name": "GREEK VOCAL NOTATION SYMBOL-11", "cat": "So", "bidi": "ON" },
+    { "code": 119307, "name": "GREEK VOCAL NOTATION SYMBOL-12", "cat": "So", "bidi": "ON" },
+    { "code": 119308, "name": "GREEK VOCAL NOTATION SYMBOL-13", "cat": "So", "bidi": "ON" },
+    { "code": 119309, "name": "GREEK VOCAL NOTATION SYMBOL-14", "cat": "So", "bidi": "ON" },
+    { "code": 119310, "name": "GREEK VOCAL NOTATION SYMBOL-15", "cat": "So", "bidi": "ON" },
+    { "code": 119311, "name": "GREEK VOCAL NOTATION SYMBOL-16", "cat": "So", "bidi": "ON" },
+    { "code": 119312, "name": "GREEK VOCAL NOTATION SYMBOL-17", "cat": "So", "bidi": "ON" },
+    { "code": 119313, "name": "GREEK VOCAL NOTATION SYMBOL-18", "cat": "So", "bidi": "ON" },
+    { "code": 119314, "name": "GREEK VOCAL NOTATION SYMBOL-19", "cat": "So", "bidi": "ON" },
+    { "code": 119315, "name": "GREEK VOCAL NOTATION SYMBOL-20", "cat": "So", "bidi": "ON" },
+    { "code": 119316, "name": "GREEK VOCAL NOTATION SYMBOL-21", "cat": "So", "bidi": "ON" },
+    { "code": 119317, "name": "GREEK VOCAL NOTATION SYMBOL-22", "cat": "So", "bidi": "ON" },
+    { "code": 119318, "name": "GREEK VOCAL NOTATION SYMBOL-23", "cat": "So", "bidi": "ON" },
+    { "code": 119319, "name": "GREEK VOCAL NOTATION SYMBOL-24", "cat": "So", "bidi": "ON" },
+    { "code": 119320, "name": "GREEK VOCAL NOTATION SYMBOL-50", "cat": "So", "bidi": "ON" },
+    { "code": 119321, "name": "GREEK VOCAL NOTATION SYMBOL-51", "cat": "So", "bidi": "ON" },
+    { "code": 119322, "name": "GREEK VOCAL NOTATION SYMBOL-52", "cat": "So", "bidi": "ON" },
+    { "code": 119323, "name": "GREEK VOCAL NOTATION SYMBOL-53", "cat": "So", "bidi": "ON" },
+    { "code": 119324, "name": "GREEK VOCAL NOTATION SYMBOL-54", "cat": "So", "bidi": "ON" },
+    { "code": 119325, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-1", "cat": "So", "bidi": "ON" },
+    { "code": 119326, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-2", "cat": "So", "bidi": "ON" },
+    { "code": 119327, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-4", "cat": "So", "bidi": "ON" },
+    { "code": 119328, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-5", "cat": "So", "bidi": "ON" },
+    { "code": 119329, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-7", "cat": "So", "bidi": "ON" },
+    { "code": 119330, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-8", "cat": "So", "bidi": "ON" },
+    { "code": 119331, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-11", "cat": "So", "bidi": "ON" },
+    { "code": 119332, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-12", "cat": "So", "bidi": "ON" },
+    { "code": 119333, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-13", "cat": "So", "bidi": "ON" },
+    { "code": 119334, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-14", "cat": "So", "bidi": "ON" },
+    { "code": 119335, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-17", "cat": "So", "bidi": "ON" },
+    { "code": 119336, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-18", "cat": "So", "bidi": "ON" },
+    { "code": 119337, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-19", "cat": "So", "bidi": "ON" },
+    { "code": 119338, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-23", "cat": "So", "bidi": "ON" },
+    { "code": 119339, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-24", "cat": "So", "bidi": "ON" },
+    { "code": 119340, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-25", "cat": "So", "bidi": "ON" },
+    { "code": 119341, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-26", "cat": "So", "bidi": "ON" },
+    { "code": 119342, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-27", "cat": "So", "bidi": "ON" },
+    { "code": 119343, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-29", "cat": "So", "bidi": "ON" },
+    { "code": 119344, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-30", "cat": "So", "bidi": "ON" },
+    { "code": 119345, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-32", "cat": "So", "bidi": "ON" },
+    { "code": 119346, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-36", "cat": "So", "bidi": "ON" },
+    { "code": 119347, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-37", "cat": "So", "bidi": "ON" },
+    { "code": 119348, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-38", "cat": "So", "bidi": "ON" },
+    { "code": 119349, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-39", "cat": "So", "bidi": "ON" },
+    { "code": 119350, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-40", "cat": "So", "bidi": "ON" },
+    { "code": 119351, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-42", "cat": "So", "bidi": "ON" },
+    { "code": 119352, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-43", "cat": "So", "bidi": "ON" },
+    { "code": 119353, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-45", "cat": "So", "bidi": "ON" },
+    { "code": 119354, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-47", "cat": "So", "bidi": "ON" },
+    { "code": 119355, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-48", "cat": "So", "bidi": "ON" },
+    { "code": 119356, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-49", "cat": "So", "bidi": "ON" },
+    { "code": 119357, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-50", "cat": "So", "bidi": "ON" },
+    { "code": 119358, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-51", "cat": "So", "bidi": "ON" },
+    { "code": 119359, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-52", "cat": "So", "bidi": "ON" },
+    { "code": 119360, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-53", "cat": "So", "bidi": "ON" },
+    { "code": 119361, "name": "GREEK INSTRUMENTAL NOTATION SYMBOL-54", "cat": "So", "bidi": "ON" },
+    { "code": 119362, "name": "COMBINING GREEK MUSICAL TRISEME", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 119363, "name": "COMBINING GREEK MUSICAL TETRASEME", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 119364, "name": "COMBINING GREEK MUSICAL PENTASEME", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 119365, "name": "GREEK MUSICAL LEIMMA", "cat": "So", "bidi": "ON" },
+  ],
+};

@@ -1,0 +1,93 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Tai Viet**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **43648**
+ *
+ * _End Code:_ **43743**
+ *
+ * _Total Characters:_ **72**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Tai_Viet,
+  startCode: 43648,
+  endCode: 43743,
+  characters: [
+    { "code": 43648, "name": "TAI VIET LETTER LOW KO", "cat": "Lo" },
+    { "code": 43649, "name": "TAI VIET LETTER HIGH KO", "cat": "Lo" },
+    { "code": 43650, "name": "TAI VIET LETTER LOW KHO", "cat": "Lo" },
+    { "code": 43651, "name": "TAI VIET LETTER HIGH KHO", "cat": "Lo" },
+    { "code": 43652, "name": "TAI VIET LETTER LOW KHHO", "cat": "Lo" },
+    { "code": 43653, "name": "TAI VIET LETTER HIGH KHHO", "cat": "Lo" },
+    { "code": 43654, "name": "TAI VIET LETTER LOW GO", "cat": "Lo" },
+    { "code": 43655, "name": "TAI VIET LETTER HIGH GO", "cat": "Lo" },
+    { "code": 43656, "name": "TAI VIET LETTER LOW NGO", "cat": "Lo" },
+    { "code": 43657, "name": "TAI VIET LETTER HIGH NGO", "cat": "Lo" },
+    { "code": 43658, "name": "TAI VIET LETTER LOW CO", "cat": "Lo" },
+    { "code": 43659, "name": "TAI VIET LETTER HIGH CO", "cat": "Lo" },
+    { "code": 43660, "name": "TAI VIET LETTER LOW CHO", "cat": "Lo" },
+    { "code": 43661, "name": "TAI VIET LETTER HIGH CHO", "cat": "Lo" },
+    { "code": 43662, "name": "TAI VIET LETTER LOW SO", "cat": "Lo" },
+    { "code": 43663, "name": "TAI VIET LETTER HIGH SO", "cat": "Lo" },
+    { "code": 43664, "name": "TAI VIET LETTER LOW NYO", "cat": "Lo" },
+    { "code": 43665, "name": "TAI VIET LETTER HIGH NYO", "cat": "Lo" },
+    { "code": 43666, "name": "TAI VIET LETTER LOW DO", "cat": "Lo" },
+    { "code": 43667, "name": "TAI VIET LETTER HIGH DO", "cat": "Lo" },
+    { "code": 43668, "name": "TAI VIET LETTER LOW TO", "cat": "Lo" },
+    { "code": 43669, "name": "TAI VIET LETTER HIGH TO", "cat": "Lo" },
+    { "code": 43670, "name": "TAI VIET LETTER LOW THO", "cat": "Lo" },
+    { "code": 43671, "name": "TAI VIET LETTER HIGH THO", "cat": "Lo" },
+    { "code": 43672, "name": "TAI VIET LETTER LOW NO", "cat": "Lo" },
+    { "code": 43673, "name": "TAI VIET LETTER HIGH NO", "cat": "Lo" },
+    { "code": 43674, "name": "TAI VIET LETTER LOW BO", "cat": "Lo" },
+    { "code": 43675, "name": "TAI VIET LETTER HIGH BO", "cat": "Lo" },
+    { "code": 43676, "name": "TAI VIET LETTER LOW PO", "cat": "Lo" },
+    { "code": 43677, "name": "TAI VIET LETTER HIGH PO", "cat": "Lo" },
+    { "code": 43678, "name": "TAI VIET LETTER LOW PHO", "cat": "Lo" },
+    { "code": 43679, "name": "TAI VIET LETTER HIGH PHO", "cat": "Lo" },
+    { "code": 43680, "name": "TAI VIET LETTER LOW FO", "cat": "Lo" },
+    { "code": 43681, "name": "TAI VIET LETTER HIGH FO", "cat": "Lo" },
+    { "code": 43682, "name": "TAI VIET LETTER LOW MO", "cat": "Lo" },
+    { "code": 43683, "name": "TAI VIET LETTER HIGH MO", "cat": "Lo" },
+    { "code": 43684, "name": "TAI VIET LETTER LOW YO", "cat": "Lo" },
+    { "code": 43685, "name": "TAI VIET LETTER HIGH YO", "cat": "Lo" },
+    { "code": 43686, "name": "TAI VIET LETTER LOW RO", "cat": "Lo" },
+    { "code": 43687, "name": "TAI VIET LETTER HIGH RO", "cat": "Lo" },
+    { "code": 43688, "name": "TAI VIET LETTER LOW LO", "cat": "Lo" },
+    { "code": 43689, "name": "TAI VIET LETTER HIGH LO", "cat": "Lo" },
+    { "code": 43690, "name": "TAI VIET LETTER LOW VO", "cat": "Lo" },
+    { "code": 43691, "name": "TAI VIET LETTER HIGH VO", "cat": "Lo" },
+    { "code": 43692, "name": "TAI VIET LETTER LOW HO", "cat": "Lo" },
+    { "code": 43693, "name": "TAI VIET LETTER HIGH HO", "cat": "Lo" },
+    { "code": 43694, "name": "TAI VIET LETTER LOW O", "cat": "Lo" },
+    { "code": 43695, "name": "TAI VIET LETTER HIGH O", "cat": "Lo" },
+    { "code": 43696, "name": "TAI VIET MAI KANG", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 43697, "name": "TAI VIET VOWEL AA", "cat": "Lo" },
+    { "code": 43698, "name": "TAI VIET VOWEL I", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 43699, "name": "TAI VIET VOWEL UE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 43700, "name": "TAI VIET VOWEL U", "cat": "Mn", "comb": 220, "bidi": "NSM" },
+    { "code": 43701, "name": "TAI VIET VOWEL E", "cat": "Lo" },
+    { "code": 43702, "name": "TAI VIET VOWEL O", "cat": "Lo" },
+    { "code": 43703, "name": "TAI VIET MAI KHIT", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 43704, "name": "TAI VIET VOWEL IA", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 43705, "name": "TAI VIET VOWEL UEA", "cat": "Lo" },
+    { "code": 43706, "name": "TAI VIET VOWEL UA", "cat": "Lo" },
+    { "code": 43707, "name": "TAI VIET VOWEL AUE", "cat": "Lo" },
+    { "code": 43708, "name": "TAI VIET VOWEL AY", "cat": "Lo" },
+    { "code": 43709, "name": "TAI VIET VOWEL AN", "cat": "Lo" },
+    { "code": 43710, "name": "TAI VIET VOWEL AM", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 43711, "name": "TAI VIET TONE MAI EK", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 43712, "name": "TAI VIET TONE MAI NUENG", "cat": "Lo" },
+    { "code": 43713, "name": "TAI VIET TONE MAI THO", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 43714, "name": "TAI VIET TONE MAI SONG", "cat": "Lo" },
+    { "code": 43739, "name": "TAI VIET SYMBOL KON", "cat": "Lo" },
+    { "code": 43740, "name": "TAI VIET SYMBOL NUENG", "cat": "Lo" },
+    { "code": 43741, "name": "TAI VIET SYMBOL SAM", "cat": "Lm" },
+    { "code": 43742, "name": "TAI VIET SYMBOL HO HOI", "cat": "Po" },
+    { "code": 43743, "name": "TAI VIET SYMBOL KOI KOI", "cat": "Po" },
+  ],
+};

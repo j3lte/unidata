@@ -1,0 +1,93 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Osage**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **66736**
+ *
+ * _End Code:_ **66815**
+ *
+ * _Total Characters:_ **72**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Osage,
+  startCode: 66736,
+  endCode: 66815,
+  characters: [
+    { "code": 66736, "name": "OSAGE CAPITAL LETTER A", "cat": "Lu", "lower": 66776 },
+    { "code": 66737, "name": "OSAGE CAPITAL LETTER AI", "cat": "Lu", "lower": 66777 },
+    { "code": 66738, "name": "OSAGE CAPITAL LETTER AIN", "cat": "Lu", "lower": 66778 },
+    { "code": 66739, "name": "OSAGE CAPITAL LETTER AH", "cat": "Lu", "lower": 66779 },
+    { "code": 66740, "name": "OSAGE CAPITAL LETTER BRA", "cat": "Lu", "lower": 66780 },
+    { "code": 66741, "name": "OSAGE CAPITAL LETTER CHA", "cat": "Lu", "lower": 66781 },
+    { "code": 66742, "name": "OSAGE CAPITAL LETTER EHCHA", "cat": "Lu", "lower": 66782 },
+    { "code": 66743, "name": "OSAGE CAPITAL LETTER E", "cat": "Lu", "lower": 66783 },
+    { "code": 66744, "name": "OSAGE CAPITAL LETTER EIN", "cat": "Lu", "lower": 66784 },
+    { "code": 66745, "name": "OSAGE CAPITAL LETTER HA", "cat": "Lu", "lower": 66785 },
+    { "code": 66746, "name": "OSAGE CAPITAL LETTER HYA", "cat": "Lu", "lower": 66786 },
+    { "code": 66747, "name": "OSAGE CAPITAL LETTER I", "cat": "Lu", "lower": 66787 },
+    { "code": 66748, "name": "OSAGE CAPITAL LETTER KA", "cat": "Lu", "lower": 66788 },
+    { "code": 66749, "name": "OSAGE CAPITAL LETTER EHKA", "cat": "Lu", "lower": 66789 },
+    { "code": 66750, "name": "OSAGE CAPITAL LETTER KYA", "cat": "Lu", "lower": 66790 },
+    { "code": 66751, "name": "OSAGE CAPITAL LETTER LA", "cat": "Lu", "lower": 66791 },
+    { "code": 66752, "name": "OSAGE CAPITAL LETTER MA", "cat": "Lu", "lower": 66792 },
+    { "code": 66753, "name": "OSAGE CAPITAL LETTER NA", "cat": "Lu", "lower": 66793 },
+    { "code": 66754, "name": "OSAGE CAPITAL LETTER O", "cat": "Lu", "lower": 66794 },
+    { "code": 66755, "name": "OSAGE CAPITAL LETTER OIN", "cat": "Lu", "lower": 66795 },
+    { "code": 66756, "name": "OSAGE CAPITAL LETTER PA", "cat": "Lu", "lower": 66796 },
+    { "code": 66757, "name": "OSAGE CAPITAL LETTER EHPA", "cat": "Lu", "lower": 66797 },
+    { "code": 66758, "name": "OSAGE CAPITAL LETTER SA", "cat": "Lu", "lower": 66798 },
+    { "code": 66759, "name": "OSAGE CAPITAL LETTER SHA", "cat": "Lu", "lower": 66799 },
+    { "code": 66760, "name": "OSAGE CAPITAL LETTER TA", "cat": "Lu", "lower": 66800 },
+    { "code": 66761, "name": "OSAGE CAPITAL LETTER EHTA", "cat": "Lu", "lower": 66801 },
+    { "code": 66762, "name": "OSAGE CAPITAL LETTER TSA", "cat": "Lu", "lower": 66802 },
+    { "code": 66763, "name": "OSAGE CAPITAL LETTER EHTSA", "cat": "Lu", "lower": 66803 },
+    { "code": 66764, "name": "OSAGE CAPITAL LETTER TSHA", "cat": "Lu", "lower": 66804 },
+    { "code": 66765, "name": "OSAGE CAPITAL LETTER DHA", "cat": "Lu", "lower": 66805 },
+    { "code": 66766, "name": "OSAGE CAPITAL LETTER U", "cat": "Lu", "lower": 66806 },
+    { "code": 66767, "name": "OSAGE CAPITAL LETTER WA", "cat": "Lu", "lower": 66807 },
+    { "code": 66768, "name": "OSAGE CAPITAL LETTER KHA", "cat": "Lu", "lower": 66808 },
+    { "code": 66769, "name": "OSAGE CAPITAL LETTER GHA", "cat": "Lu", "lower": 66809 },
+    { "code": 66770, "name": "OSAGE CAPITAL LETTER ZA", "cat": "Lu", "lower": 66810 },
+    { "code": 66771, "name": "OSAGE CAPITAL LETTER ZHA", "cat": "Lu", "lower": 66811 },
+    { "code": 66776, "name": "OSAGE SMALL LETTER A", "cat": "Ll", "upper": 66736, "title": 66736 },
+    { "code": 66777, "name": "OSAGE SMALL LETTER AI", "cat": "Ll", "upper": 66737, "title": 66737 },
+    { "code": 66778, "name": "OSAGE SMALL LETTER AIN", "cat": "Ll", "upper": 66738, "title": 66738 },
+    { "code": 66779, "name": "OSAGE SMALL LETTER AH", "cat": "Ll", "upper": 66739, "title": 66739 },
+    { "code": 66780, "name": "OSAGE SMALL LETTER BRA", "cat": "Ll", "upper": 66740, "title": 66740 },
+    { "code": 66781, "name": "OSAGE SMALL LETTER CHA", "cat": "Ll", "upper": 66741, "title": 66741 },
+    { "code": 66782, "name": "OSAGE SMALL LETTER EHCHA", "cat": "Ll", "upper": 66742, "title": 66742 },
+    { "code": 66783, "name": "OSAGE SMALL LETTER E", "cat": "Ll", "upper": 66743, "title": 66743 },
+    { "code": 66784, "name": "OSAGE SMALL LETTER EIN", "cat": "Ll", "upper": 66744, "title": 66744 },
+    { "code": 66785, "name": "OSAGE SMALL LETTER HA", "cat": "Ll", "upper": 66745, "title": 66745 },
+    { "code": 66786, "name": "OSAGE SMALL LETTER HYA", "cat": "Ll", "upper": 66746, "title": 66746 },
+    { "code": 66787, "name": "OSAGE SMALL LETTER I", "cat": "Ll", "upper": 66747, "title": 66747 },
+    { "code": 66788, "name": "OSAGE SMALL LETTER KA", "cat": "Ll", "upper": 66748, "title": 66748 },
+    { "code": 66789, "name": "OSAGE SMALL LETTER EHKA", "cat": "Ll", "upper": 66749, "title": 66749 },
+    { "code": 66790, "name": "OSAGE SMALL LETTER KYA", "cat": "Ll", "upper": 66750, "title": 66750 },
+    { "code": 66791, "name": "OSAGE SMALL LETTER LA", "cat": "Ll", "upper": 66751, "title": 66751 },
+    { "code": 66792, "name": "OSAGE SMALL LETTER MA", "cat": "Ll", "upper": 66752, "title": 66752 },
+    { "code": 66793, "name": "OSAGE SMALL LETTER NA", "cat": "Ll", "upper": 66753, "title": 66753 },
+    { "code": 66794, "name": "OSAGE SMALL LETTER O", "cat": "Ll", "upper": 66754, "title": 66754 },
+    { "code": 66795, "name": "OSAGE SMALL LETTER OIN", "cat": "Ll", "upper": 66755, "title": 66755 },
+    { "code": 66796, "name": "OSAGE SMALL LETTER PA", "cat": "Ll", "upper": 66756, "title": 66756 },
+    { "code": 66797, "name": "OSAGE SMALL LETTER EHPA", "cat": "Ll", "upper": 66757, "title": 66757 },
+    { "code": 66798, "name": "OSAGE SMALL LETTER SA", "cat": "Ll", "upper": 66758, "title": 66758 },
+    { "code": 66799, "name": "OSAGE SMALL LETTER SHA", "cat": "Ll", "upper": 66759, "title": 66759 },
+    { "code": 66800, "name": "OSAGE SMALL LETTER TA", "cat": "Ll", "upper": 66760, "title": 66760 },
+    { "code": 66801, "name": "OSAGE SMALL LETTER EHTA", "cat": "Ll", "upper": 66761, "title": 66761 },
+    { "code": 66802, "name": "OSAGE SMALL LETTER TSA", "cat": "Ll", "upper": 66762, "title": 66762 },
+    { "code": 66803, "name": "OSAGE SMALL LETTER EHTSA", "cat": "Ll", "upper": 66763, "title": 66763 },
+    { "code": 66804, "name": "OSAGE SMALL LETTER TSHA", "cat": "Ll", "upper": 66764, "title": 66764 },
+    { "code": 66805, "name": "OSAGE SMALL LETTER DHA", "cat": "Ll", "upper": 66765, "title": 66765 },
+    { "code": 66806, "name": "OSAGE SMALL LETTER U", "cat": "Ll", "upper": 66766, "title": 66766 },
+    { "code": 66807, "name": "OSAGE SMALL LETTER WA", "cat": "Ll", "upper": 66767, "title": 66767 },
+    { "code": 66808, "name": "OSAGE SMALL LETTER KHA", "cat": "Ll", "upper": 66768, "title": 66768 },
+    { "code": 66809, "name": "OSAGE SMALL LETTER GHA", "cat": "Ll", "upper": 66769, "title": 66769 },
+    { "code": 66810, "name": "OSAGE SMALL LETTER ZA", "cat": "Ll", "upper": 66770, "title": 66770 },
+    { "code": 66811, "name": "OSAGE SMALL LETTER ZHA", "cat": "Ll", "upper": 66771, "title": 66771 },
+  ],
+};

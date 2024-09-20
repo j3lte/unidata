@@ -1,0 +1,91 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Unified Canadian Aboriginal Syllabics Extended**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **6320**
+ *
+ * _End Code:_ **6399**
+ *
+ * _Total Characters:_ **70**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Unified_Canadian_Aboriginal_Syllabics_Extended,
+  startCode: 6320,
+  endCode: 6399,
+  characters: [
+    { "code": 6320, "name": "CANADIAN SYLLABICS OY", "cat": "Lo" },
+    { "code": 6321, "name": "CANADIAN SYLLABICS AY", "cat": "Lo" },
+    { "code": 6322, "name": "CANADIAN SYLLABICS AAY", "cat": "Lo" },
+    { "code": 6323, "name": "CANADIAN SYLLABICS WAY", "cat": "Lo" },
+    { "code": 6324, "name": "CANADIAN SYLLABICS POY", "cat": "Lo" },
+    { "code": 6325, "name": "CANADIAN SYLLABICS PAY", "cat": "Lo" },
+    { "code": 6326, "name": "CANADIAN SYLLABICS PWOY", "cat": "Lo" },
+    { "code": 6327, "name": "CANADIAN SYLLABICS TAY", "cat": "Lo" },
+    { "code": 6328, "name": "CANADIAN SYLLABICS KAY", "cat": "Lo" },
+    { "code": 6329, "name": "CANADIAN SYLLABICS KWAY", "cat": "Lo" },
+    { "code": 6330, "name": "CANADIAN SYLLABICS MAY", "cat": "Lo" },
+    { "code": 6331, "name": "CANADIAN SYLLABICS NOY", "cat": "Lo" },
+    { "code": 6332, "name": "CANADIAN SYLLABICS NAY", "cat": "Lo" },
+    { "code": 6333, "name": "CANADIAN SYLLABICS LAY", "cat": "Lo" },
+    { "code": 6334, "name": "CANADIAN SYLLABICS SOY", "cat": "Lo" },
+    { "code": 6335, "name": "CANADIAN SYLLABICS SAY", "cat": "Lo" },
+    { "code": 6336, "name": "CANADIAN SYLLABICS SHOY", "cat": "Lo" },
+    { "code": 6337, "name": "CANADIAN SYLLABICS SHAY", "cat": "Lo" },
+    { "code": 6338, "name": "CANADIAN SYLLABICS SHWOY", "cat": "Lo" },
+    { "code": 6339, "name": "CANADIAN SYLLABICS YOY", "cat": "Lo" },
+    { "code": 6340, "name": "CANADIAN SYLLABICS YAY", "cat": "Lo" },
+    { "code": 6341, "name": "CANADIAN SYLLABICS RAY", "cat": "Lo" },
+    { "code": 6342, "name": "CANADIAN SYLLABICS NWI", "cat": "Lo" },
+    { "code": 6343, "name": "CANADIAN SYLLABICS OJIBWAY NWI", "cat": "Lo" },
+    { "code": 6344, "name": "CANADIAN SYLLABICS NWII", "cat": "Lo" },
+    { "code": 6345, "name": "CANADIAN SYLLABICS OJIBWAY NWII", "cat": "Lo" },
+    { "code": 6346, "name": "CANADIAN SYLLABICS NWO", "cat": "Lo" },
+    { "code": 6347, "name": "CANADIAN SYLLABICS OJIBWAY NWO", "cat": "Lo" },
+    { "code": 6348, "name": "CANADIAN SYLLABICS NWOO", "cat": "Lo" },
+    { "code": 6349, "name": "CANADIAN SYLLABICS OJIBWAY NWOO", "cat": "Lo" },
+    { "code": 6350, "name": "CANADIAN SYLLABICS RWEE", "cat": "Lo" },
+    { "code": 6351, "name": "CANADIAN SYLLABICS RWI", "cat": "Lo" },
+    { "code": 6352, "name": "CANADIAN SYLLABICS RWII", "cat": "Lo" },
+    { "code": 6353, "name": "CANADIAN SYLLABICS RWO", "cat": "Lo" },
+    { "code": 6354, "name": "CANADIAN SYLLABICS RWOO", "cat": "Lo" },
+    { "code": 6355, "name": "CANADIAN SYLLABICS RWA", "cat": "Lo" },
+    { "code": 6356, "name": "CANADIAN SYLLABICS OJIBWAY P", "cat": "Lo" },
+    { "code": 6357, "name": "CANADIAN SYLLABICS OJIBWAY T", "cat": "Lo" },
+    { "code": 6358, "name": "CANADIAN SYLLABICS OJIBWAY K", "cat": "Lo" },
+    { "code": 6359, "name": "CANADIAN SYLLABICS OJIBWAY C", "cat": "Lo" },
+    { "code": 6360, "name": "CANADIAN SYLLABICS OJIBWAY M", "cat": "Lo" },
+    { "code": 6361, "name": "CANADIAN SYLLABICS OJIBWAY N", "cat": "Lo" },
+    { "code": 6362, "name": "CANADIAN SYLLABICS OJIBWAY S", "cat": "Lo" },
+    { "code": 6363, "name": "CANADIAN SYLLABICS OJIBWAY SH", "cat": "Lo" },
+    { "code": 6364, "name": "CANADIAN SYLLABICS EASTERN W", "cat": "Lo" },
+    { "code": 6365, "name": "CANADIAN SYLLABICS WESTERN W", "cat": "Lo" },
+    { "code": 6366, "name": "CANADIAN SYLLABICS FINAL SMALL RING", "cat": "Lo" },
+    { "code": 6367, "name": "CANADIAN SYLLABICS FINAL RAISED DOT", "cat": "Lo" },
+    { "code": 6368, "name": "CANADIAN SYLLABICS R-CREE RWE", "cat": "Lo" },
+    { "code": 6369, "name": "CANADIAN SYLLABICS WEST-CREE LOO", "cat": "Lo" },
+    { "code": 6370, "name": "CANADIAN SYLLABICS WEST-CREE LAA", "cat": "Lo" },
+    { "code": 6371, "name": "CANADIAN SYLLABICS THWE", "cat": "Lo" },
+    { "code": 6372, "name": "CANADIAN SYLLABICS THWA", "cat": "Lo" },
+    { "code": 6373, "name": "CANADIAN SYLLABICS TTHWE", "cat": "Lo" },
+    { "code": 6374, "name": "CANADIAN SYLLABICS TTHOO", "cat": "Lo" },
+    { "code": 6375, "name": "CANADIAN SYLLABICS TTHAA", "cat": "Lo" },
+    { "code": 6376, "name": "CANADIAN SYLLABICS TLHWE", "cat": "Lo" },
+    { "code": 6377, "name": "CANADIAN SYLLABICS TLHOO", "cat": "Lo" },
+    { "code": 6378, "name": "CANADIAN SYLLABICS SAYISI SHWE", "cat": "Lo" },
+    { "code": 6379, "name": "CANADIAN SYLLABICS SAYISI SHOO", "cat": "Lo" },
+    { "code": 6380, "name": "CANADIAN SYLLABICS SAYISI HOO", "cat": "Lo" },
+    { "code": 6381, "name": "CANADIAN SYLLABICS CARRIER GWU", "cat": "Lo" },
+    { "code": 6382, "name": "CANADIAN SYLLABICS CARRIER DENE GEE", "cat": "Lo" },
+    { "code": 6383, "name": "CANADIAN SYLLABICS CARRIER GAA", "cat": "Lo" },
+    { "code": 6384, "name": "CANADIAN SYLLABICS CARRIER GWA", "cat": "Lo" },
+    { "code": 6385, "name": "CANADIAN SYLLABICS SAYISI JUU", "cat": "Lo" },
+    { "code": 6386, "name": "CANADIAN SYLLABICS CARRIER JWA", "cat": "Lo" },
+    { "code": 6387, "name": "CANADIAN SYLLABICS BEAVER DENE L", "cat": "Lo" },
+    { "code": 6388, "name": "CANADIAN SYLLABICS BEAVER DENE R", "cat": "Lo" },
+    { "code": 6389, "name": "CANADIAN SYLLABICS CARRIER DENTAL S", "cat": "Lo" },
+  ],
+};

@@ -1,0 +1,93 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Zanabazar Square**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **72192**
+ *
+ * _End Code:_ **72271**
+ *
+ * _Total Characters:_ **72**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Zanabazar_Square,
+  startCode: 72192,
+  endCode: 72271,
+  characters: [
+    { "code": 72192, "name": "ZANABAZAR SQUARE LETTER A", "cat": "Lo" },
+    { "code": 72193, "name": "ZANABAZAR SQUARE VOWEL SIGN I", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72194, "name": "ZANABAZAR SQUARE VOWEL SIGN UE", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72195, "name": "ZANABAZAR SQUARE VOWEL SIGN U", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72196, "name": "ZANABAZAR SQUARE VOWEL SIGN E", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72197, "name": "ZANABAZAR SQUARE VOWEL SIGN OE", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72198, "name": "ZANABAZAR SQUARE VOWEL SIGN O", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72199, "name": "ZANABAZAR SQUARE VOWEL SIGN AI", "cat": "Mn" },
+    { "code": 72200, "name": "ZANABAZAR SQUARE VOWEL SIGN AU", "cat": "Mn" },
+    { "code": 72201, "name": "ZANABAZAR SQUARE VOWEL SIGN REVERSED I", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72202, "name": "ZANABAZAR SQUARE VOWEL LENGTH MARK", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72203, "name": "ZANABAZAR SQUARE LETTER KA", "cat": "Lo" },
+    { "code": 72204, "name": "ZANABAZAR SQUARE LETTER KHA", "cat": "Lo" },
+    { "code": 72205, "name": "ZANABAZAR SQUARE LETTER GA", "cat": "Lo" },
+    { "code": 72206, "name": "ZANABAZAR SQUARE LETTER GHA", "cat": "Lo" },
+    { "code": 72207, "name": "ZANABAZAR SQUARE LETTER NGA", "cat": "Lo" },
+    { "code": 72208, "name": "ZANABAZAR SQUARE LETTER CA", "cat": "Lo" },
+    { "code": 72209, "name": "ZANABAZAR SQUARE LETTER CHA", "cat": "Lo" },
+    { "code": 72210, "name": "ZANABAZAR SQUARE LETTER JA", "cat": "Lo" },
+    { "code": 72211, "name": "ZANABAZAR SQUARE LETTER NYA", "cat": "Lo" },
+    { "code": 72212, "name": "ZANABAZAR SQUARE LETTER TTA", "cat": "Lo" },
+    { "code": 72213, "name": "ZANABAZAR SQUARE LETTER TTHA", "cat": "Lo" },
+    { "code": 72214, "name": "ZANABAZAR SQUARE LETTER DDA", "cat": "Lo" },
+    { "code": 72215, "name": "ZANABAZAR SQUARE LETTER DDHA", "cat": "Lo" },
+    { "code": 72216, "name": "ZANABAZAR SQUARE LETTER NNA", "cat": "Lo" },
+    { "code": 72217, "name": "ZANABAZAR SQUARE LETTER TA", "cat": "Lo" },
+    { "code": 72218, "name": "ZANABAZAR SQUARE LETTER THA", "cat": "Lo" },
+    { "code": 72219, "name": "ZANABAZAR SQUARE LETTER DA", "cat": "Lo" },
+    { "code": 72220, "name": "ZANABAZAR SQUARE LETTER DHA", "cat": "Lo" },
+    { "code": 72221, "name": "ZANABAZAR SQUARE LETTER NA", "cat": "Lo" },
+    { "code": 72222, "name": "ZANABAZAR SQUARE LETTER PA", "cat": "Lo" },
+    { "code": 72223, "name": "ZANABAZAR SQUARE LETTER PHA", "cat": "Lo" },
+    { "code": 72224, "name": "ZANABAZAR SQUARE LETTER BA", "cat": "Lo" },
+    { "code": 72225, "name": "ZANABAZAR SQUARE LETTER BHA", "cat": "Lo" },
+    { "code": 72226, "name": "ZANABAZAR SQUARE LETTER MA", "cat": "Lo" },
+    { "code": 72227, "name": "ZANABAZAR SQUARE LETTER TSA", "cat": "Lo" },
+    { "code": 72228, "name": "ZANABAZAR SQUARE LETTER TSHA", "cat": "Lo" },
+    { "code": 72229, "name": "ZANABAZAR SQUARE LETTER DZA", "cat": "Lo" },
+    { "code": 72230, "name": "ZANABAZAR SQUARE LETTER DZHA", "cat": "Lo" },
+    { "code": 72231, "name": "ZANABAZAR SQUARE LETTER ZHA", "cat": "Lo" },
+    { "code": 72232, "name": "ZANABAZAR SQUARE LETTER ZA", "cat": "Lo" },
+    { "code": 72233, "name": "ZANABAZAR SQUARE LETTER -A", "cat": "Lo" },
+    { "code": 72234, "name": "ZANABAZAR SQUARE LETTER YA", "cat": "Lo" },
+    { "code": 72235, "name": "ZANABAZAR SQUARE LETTER RA", "cat": "Lo" },
+    { "code": 72236, "name": "ZANABAZAR SQUARE LETTER LA", "cat": "Lo" },
+    { "code": 72237, "name": "ZANABAZAR SQUARE LETTER VA", "cat": "Lo" },
+    { "code": 72238, "name": "ZANABAZAR SQUARE LETTER SHA", "cat": "Lo" },
+    { "code": 72239, "name": "ZANABAZAR SQUARE LETTER SSA", "cat": "Lo" },
+    { "code": 72240, "name": "ZANABAZAR SQUARE LETTER SA", "cat": "Lo" },
+    { "code": 72241, "name": "ZANABAZAR SQUARE LETTER HA", "cat": "Lo" },
+    { "code": 72242, "name": "ZANABAZAR SQUARE LETTER KSSA", "cat": "Lo" },
+    { "code": 72243, "name": "ZANABAZAR SQUARE FINAL CONSONANT MARK", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72244, "name": "ZANABAZAR SQUARE SIGN VIRAMA", "cat": "Mn", "comb": 9, "bidi": "NSM" },
+    { "code": 72245, "name": "ZANABAZAR SQUARE SIGN CANDRABINDU", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72246, "name": "ZANABAZAR SQUARE SIGN CANDRABINDU WITH ORNAMENT", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72247, "name": "ZANABAZAR SQUARE SIGN CANDRA WITH ORNAMENT", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72248, "name": "ZANABAZAR SQUARE SIGN ANUSVARA", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72249, "name": "ZANABAZAR SQUARE SIGN VISARGA", "cat": "Mc" },
+    { "code": 72250, "name": "ZANABAZAR SQUARE CLUSTER-INITIAL LETTER RA", "cat": "Lo" },
+    { "code": 72251, "name": "ZANABAZAR SQUARE CLUSTER-FINAL LETTER YA", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72252, "name": "ZANABAZAR SQUARE CLUSTER-FINAL LETTER RA", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72253, "name": "ZANABAZAR SQUARE CLUSTER-FINAL LETTER LA", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72254, "name": "ZANABAZAR SQUARE CLUSTER-FINAL LETTER VA", "cat": "Mn", "bidi": "NSM" },
+    { "code": 72255, "name": "ZANABAZAR SQUARE INITIAL HEAD MARK", "cat": "Po" },
+    { "code": 72256, "name": "ZANABAZAR SQUARE CLOSING HEAD MARK", "cat": "Po" },
+    { "code": 72257, "name": "ZANABAZAR SQUARE MARK TSHEG", "cat": "Po" },
+    { "code": 72258, "name": "ZANABAZAR SQUARE MARK SHAD", "cat": "Po" },
+    { "code": 72259, "name": "ZANABAZAR SQUARE MARK DOUBLE SHAD", "cat": "Po" },
+    { "code": 72260, "name": "ZANABAZAR SQUARE MARK LONG TSHEG", "cat": "Po" },
+    { "code": 72261, "name": "ZANABAZAR SQUARE INITIAL DOUBLE-LINED HEAD MARK", "cat": "Po" },
+    { "code": 72262, "name": "ZANABAZAR SQUARE CLOSING DOUBLE-LINED HEAD MARK", "cat": "Po" },
+    { "code": 72263, "name": "ZANABAZAR SQUARE SUBJOINER", "cat": "Mn", "comb": 9, "bidi": "NSM" },
+  ],
+};

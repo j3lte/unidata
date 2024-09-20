@@ -1,0 +1,90 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Garay**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **68928**
+ *
+ * _End Code:_ **69007**
+ *
+ * _Total Characters:_ **69**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Garay,
+  startCode: 68928,
+  endCode: 69007,
+  characters: [
+    { "code": 68928, "name": "GARAY DIGIT ZERO", "cat": "Nd", "bidi": "AN", "num": "0" },
+    { "code": 68929, "name": "GARAY DIGIT ONE", "cat": "Nd", "bidi": "AN", "num": "1" },
+    { "code": 68930, "name": "GARAY DIGIT TWO", "cat": "Nd", "bidi": "AN", "num": "2" },
+    { "code": 68931, "name": "GARAY DIGIT THREE", "cat": "Nd", "bidi": "AN", "num": "3" },
+    { "code": 68932, "name": "GARAY DIGIT FOUR", "cat": "Nd", "bidi": "AN", "num": "4" },
+    { "code": 68933, "name": "GARAY DIGIT FIVE", "cat": "Nd", "bidi": "AN", "num": "5" },
+    { "code": 68934, "name": "GARAY DIGIT SIX", "cat": "Nd", "bidi": "AN", "num": "6" },
+    { "code": 68935, "name": "GARAY DIGIT SEVEN", "cat": "Nd", "bidi": "AN", "num": "7" },
+    { "code": 68936, "name": "GARAY DIGIT EIGHT", "cat": "Nd", "bidi": "AN", "num": "8" },
+    { "code": 68937, "name": "GARAY DIGIT NINE", "cat": "Nd", "bidi": "AN", "num": "9" },
+    { "code": 68938, "name": "GARAY VOWEL SIGN A", "cat": "Lo", "bidi": "R" },
+    { "code": 68939, "name": "GARAY VOWEL SIGN I", "cat": "Lo", "bidi": "R" },
+    { "code": 68940, "name": "GARAY VOWEL SIGN O", "cat": "Lo", "bidi": "R" },
+    { "code": 68941, "name": "GARAY VOWEL SIGN EE", "cat": "Lo", "bidi": "R" },
+    { "code": 68942, "name": "GARAY VOWEL LENGTH MARK", "cat": "Lm", "bidi": "R" },
+    { "code": 68943, "name": "GARAY SUKUN", "cat": "Lo", "bidi": "R" },
+    { "code": 68944, "name": "GARAY CAPITAL LETTER A", "cat": "Lu", "bidi": "R", "lower": 68976 },
+    { "code": 68945, "name": "GARAY CAPITAL LETTER CA", "cat": "Lu", "bidi": "R", "lower": 68977 },
+    { "code": 68946, "name": "GARAY CAPITAL LETTER MA", "cat": "Lu", "bidi": "R", "lower": 68978 },
+    { "code": 68947, "name": "GARAY CAPITAL LETTER KA", "cat": "Lu", "bidi": "R", "lower": 68979 },
+    { "code": 68948, "name": "GARAY CAPITAL LETTER BA", "cat": "Lu", "bidi": "R", "lower": 68980 },
+    { "code": 68949, "name": "GARAY CAPITAL LETTER JA", "cat": "Lu", "bidi": "R", "lower": 68981 },
+    { "code": 68950, "name": "GARAY CAPITAL LETTER SA", "cat": "Lu", "bidi": "R", "lower": 68982 },
+    { "code": 68951, "name": "GARAY CAPITAL LETTER WA", "cat": "Lu", "bidi": "R", "lower": 68983 },
+    { "code": 68952, "name": "GARAY CAPITAL LETTER LA", "cat": "Lu", "bidi": "R", "lower": 68984 },
+    { "code": 68953, "name": "GARAY CAPITAL LETTER GA", "cat": "Lu", "bidi": "R", "lower": 68985 },
+    { "code": 68954, "name": "GARAY CAPITAL LETTER DA", "cat": "Lu", "bidi": "R", "lower": 68986 },
+    { "code": 68955, "name": "GARAY CAPITAL LETTER XA", "cat": "Lu", "bidi": "R", "lower": 68987 },
+    { "code": 68956, "name": "GARAY CAPITAL LETTER YA", "cat": "Lu", "bidi": "R", "lower": 68988 },
+    { "code": 68957, "name": "GARAY CAPITAL LETTER TA", "cat": "Lu", "bidi": "R", "lower": 68989 },
+    { "code": 68958, "name": "GARAY CAPITAL LETTER RA", "cat": "Lu", "bidi": "R", "lower": 68990 },
+    { "code": 68959, "name": "GARAY CAPITAL LETTER NYA", "cat": "Lu", "bidi": "R", "lower": 68991 },
+    { "code": 68960, "name": "GARAY CAPITAL LETTER FA", "cat": "Lu", "bidi": "R", "lower": 68992 },
+    { "code": 68961, "name": "GARAY CAPITAL LETTER NA", "cat": "Lu", "bidi": "R", "lower": 68993 },
+    { "code": 68962, "name": "GARAY CAPITAL LETTER PA", "cat": "Lu", "bidi": "R", "lower": 68994 },
+    { "code": 68963, "name": "GARAY CAPITAL LETTER HA", "cat": "Lu", "bidi": "R", "lower": 68995 },
+    { "code": 68964, "name": "GARAY CAPITAL LETTER OLD KA", "cat": "Lu", "bidi": "R", "lower": 68996 },
+    { "code": 68965, "name": "GARAY CAPITAL LETTER OLD NA", "cat": "Lu", "bidi": "R", "lower": 68997 },
+    { "code": 68969, "name": "GARAY VOWEL SIGN E", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 68970, "name": "GARAY CONSONANT GEMINATION MARK", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 68971, "name": "GARAY COMBINING DOT ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 68972, "name": "GARAY COMBINING DOUBLE DOT ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 68973, "name": "GARAY CONSONANT NASALIZATION MARK", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 68974, "name": "GARAY HYPHEN", "cat": "Pd", "bidi": "ON" },
+    { "code": 68975, "name": "GARAY REDUPLICATION MARK", "cat": "Lm", "bidi": "R" },
+    { "code": 68976, "name": "GARAY SMALL LETTER A", "cat": "Ll", "bidi": "R", "upper": 68944, "title": 68944 },
+    { "code": 68977, "name": "GARAY SMALL LETTER CA", "cat": "Ll", "bidi": "R", "upper": 68945, "title": 68945 },
+    { "code": 68978, "name": "GARAY SMALL LETTER MA", "cat": "Ll", "bidi": "R", "upper": 68946, "title": 68946 },
+    { "code": 68979, "name": "GARAY SMALL LETTER KA", "cat": "Ll", "bidi": "R", "upper": 68947, "title": 68947 },
+    { "code": 68980, "name": "GARAY SMALL LETTER BA", "cat": "Ll", "bidi": "R", "upper": 68948, "title": 68948 },
+    { "code": 68981, "name": "GARAY SMALL LETTER JA", "cat": "Ll", "bidi": "R", "upper": 68949, "title": 68949 },
+    { "code": 68982, "name": "GARAY SMALL LETTER SA", "cat": "Ll", "bidi": "R", "upper": 68950, "title": 68950 },
+    { "code": 68983, "name": "GARAY SMALL LETTER WA", "cat": "Ll", "bidi": "R", "upper": 68951, "title": 68951 },
+    { "code": 68984, "name": "GARAY SMALL LETTER LA", "cat": "Ll", "bidi": "R", "upper": 68952, "title": 68952 },
+    { "code": 68985, "name": "GARAY SMALL LETTER GA", "cat": "Ll", "bidi": "R", "upper": 68953, "title": 68953 },
+    { "code": 68986, "name": "GARAY SMALL LETTER DA", "cat": "Ll", "bidi": "R", "upper": 68954, "title": 68954 },
+    { "code": 68987, "name": "GARAY SMALL LETTER XA", "cat": "Ll", "bidi": "R", "upper": 68955, "title": 68955 },
+    { "code": 68988, "name": "GARAY SMALL LETTER YA", "cat": "Ll", "bidi": "R", "upper": 68956, "title": 68956 },
+    { "code": 68989, "name": "GARAY SMALL LETTER TA", "cat": "Ll", "bidi": "R", "upper": 68957, "title": 68957 },
+    { "code": 68990, "name": "GARAY SMALL LETTER RA", "cat": "Ll", "bidi": "R", "upper": 68958, "title": 68958 },
+    { "code": 68991, "name": "GARAY SMALL LETTER NYA", "cat": "Ll", "bidi": "R", "upper": 68959, "title": 68959 },
+    { "code": 68992, "name": "GARAY SMALL LETTER FA", "cat": "Ll", "bidi": "R", "upper": 68960, "title": 68960 },
+    { "code": 68993, "name": "GARAY SMALL LETTER NA", "cat": "Ll", "bidi": "R", "upper": 68961, "title": 68961 },
+    { "code": 68994, "name": "GARAY SMALL LETTER PA", "cat": "Ll", "bidi": "R", "upper": 68962, "title": 68962 },
+    { "code": 68995, "name": "GARAY SMALL LETTER HA", "cat": "Ll", "bidi": "R", "upper": 68963, "title": 68963 },
+    { "code": 68996, "name": "GARAY SMALL LETTER OLD KA", "cat": "Ll", "bidi": "R", "upper": 68964, "title": 68964 },
+    { "code": 68997, "name": "GARAY SMALL LETTER OLD NA", "cat": "Ll", "bidi": "R", "upper": 68965, "title": 68965 },
+    { "code": 69006, "name": "GARAY PLUS SIGN", "cat": "Sm", "bidi": "R" },
+    { "code": 69007, "name": "GARAY MINUS SIGN", "cat": "Sm", "bidi": "R" },
+  ],
+};

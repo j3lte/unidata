@@ -1,0 +1,115 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Combining Diacritical Marks Supplement**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **7616**
+ *
+ * _End Code:_ **7679**
+ *
+ * _Total Characters:_ **64**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Combining_Diacritical_Marks_Supplement,
+  startCode: 7616,
+  endCode: 7679,
+  characters: [
+    { "code": 7616, "name": "COMBINING DOTTED GRAVE ACCENT", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7617, "name": "COMBINING DOTTED ACUTE ACCENT", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7618, "name": "COMBINING SNAKE BELOW", "cat": "Mn", "comb": 220, "bidi": "NSM" },
+    { "code": 7619, "name": "COMBINING SUSPENSION MARK", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7620, "name": "COMBINING MACRON-ACUTE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7621, "name": "COMBINING GRAVE-MACRON", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7622, "name": "COMBINING MACRON-GRAVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7623, "name": "COMBINING ACUTE-MACRON", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7624, "name": "COMBINING GRAVE-ACUTE-GRAVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7625, "name": "COMBINING ACUTE-GRAVE-ACUTE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7626, "name": "COMBINING LATIN SMALL LETTER R BELOW", "cat": "Mn", "comb": 220, "bidi": "NSM" },
+    { "code": 7627, "name": "COMBINING BREVE-MACRON", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7628, "name": "COMBINING MACRON-BREVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7629, "name": "COMBINING DOUBLE CIRCUMFLEX ABOVE", "cat": "Mn", "comb": 234, "bidi": "NSM" },
+    { "code": 7630, "name": "COMBINING OGONEK ABOVE", "cat": "Mn", "comb": 214, "bidi": "NSM" },
+    { "code": 7631, "name": "COMBINING ZIGZAG BELOW", "cat": "Mn", "comb": 220, "bidi": "NSM" },
+    { "code": 7632, "name": "COMBINING IS BELOW", "cat": "Mn", "comb": 202, "bidi": "NSM" },
+    { "code": 7633, "name": "COMBINING UR ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7634, "name": "COMBINING US ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    {
+      "code": 7635,
+      "name": "COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE",
+      "cat": "Mn",
+      "comb": 230,
+      "bidi": "NSM",
+    },
+    { "code": 7636, "name": "COMBINING LATIN SMALL LETTER AE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7637, "name": "COMBINING LATIN SMALL LETTER AO", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7638, "name": "COMBINING LATIN SMALL LETTER AV", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7639, "name": "COMBINING LATIN SMALL LETTER C CEDILLA", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7640, "name": "COMBINING LATIN SMALL LETTER INSULAR D", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7641, "name": "COMBINING LATIN SMALL LETTER ETH", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7642, "name": "COMBINING LATIN SMALL LETTER G", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7643, "name": "COMBINING LATIN LETTER SMALL CAPITAL G", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7644, "name": "COMBINING LATIN SMALL LETTER K", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7645, "name": "COMBINING LATIN SMALL LETTER L", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7646, "name": "COMBINING LATIN LETTER SMALL CAPITAL L", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7647, "name": "COMBINING LATIN LETTER SMALL CAPITAL M", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7648, "name": "COMBINING LATIN SMALL LETTER N", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7649, "name": "COMBINING LATIN LETTER SMALL CAPITAL N", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7650, "name": "COMBINING LATIN LETTER SMALL CAPITAL R", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7651, "name": "COMBINING LATIN SMALL LETTER R ROTUNDA", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7652, "name": "COMBINING LATIN SMALL LETTER S", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7653, "name": "COMBINING LATIN SMALL LETTER LONG S", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7654, "name": "COMBINING LATIN SMALL LETTER Z", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7655, "name": "COMBINING LATIN SMALL LETTER ALPHA", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7656, "name": "COMBINING LATIN SMALL LETTER B", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7657, "name": "COMBINING LATIN SMALL LETTER BETA", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7658, "name": "COMBINING LATIN SMALL LETTER SCHWA", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7659, "name": "COMBINING LATIN SMALL LETTER F", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    {
+      "code": 7660,
+      "name": "COMBINING LATIN SMALL LETTER L WITH DOUBLE MIDDLE TILDE",
+      "cat": "Mn",
+      "comb": 230,
+      "bidi": "NSM",
+    },
+    {
+      "code": 7661,
+      "name": "COMBINING LATIN SMALL LETTER O WITH LIGHT CENTRALIZATION STROKE",
+      "cat": "Mn",
+      "comb": 230,
+      "bidi": "NSM",
+    },
+    { "code": 7662, "name": "COMBINING LATIN SMALL LETTER P", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7663, "name": "COMBINING LATIN SMALL LETTER ESH", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    {
+      "code": 7664,
+      "name": "COMBINING LATIN SMALL LETTER U WITH LIGHT CENTRALIZATION STROKE",
+      "cat": "Mn",
+      "comb": 230,
+      "bidi": "NSM",
+    },
+    { "code": 7665, "name": "COMBINING LATIN SMALL LETTER W", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7666, "name": "COMBINING LATIN SMALL LETTER A WITH DIAERESIS", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7667, "name": "COMBINING LATIN SMALL LETTER O WITH DIAERESIS", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7668, "name": "COMBINING LATIN SMALL LETTER U WITH DIAERESIS", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7669, "name": "COMBINING UP TACK ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7670, "name": "COMBINING KAVYKA ABOVE RIGHT", "cat": "Mn", "comb": 232, "bidi": "NSM" },
+    { "code": 7671, "name": "COMBINING KAVYKA ABOVE LEFT", "cat": "Mn", "comb": 228, "bidi": "NSM" },
+    { "code": 7672, "name": "COMBINING DOT ABOVE LEFT", "cat": "Mn", "comb": 228, "bidi": "NSM" },
+    { "code": 7673, "name": "COMBINING WIDE INVERTED BRIDGE BELOW", "cat": "Mn", "comb": 220, "bidi": "NSM" },
+    { "code": 7674, "name": "COMBINING DOT BELOW LEFT", "cat": "Mn", "comb": 218, "bidi": "NSM" },
+    { "code": 7675, "name": "COMBINING DELETION MARK", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 7676, "name": "COMBINING DOUBLE INVERTED BREVE BELOW", "cat": "Mn", "comb": 233, "bidi": "NSM" },
+    { "code": 7677, "name": "COMBINING ALMOST EQUAL TO BELOW", "cat": "Mn", "comb": 220, "bidi": "NSM" },
+    { "code": 7678, "name": "COMBINING LEFT ARROWHEAD ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    {
+      "code": 7679,
+      "name": "COMBINING RIGHT ARROWHEAD AND DOWN ARROWHEAD BELOW",
+      "cat": "Mn",
+      "comb": 220,
+      "bidi": "NSM",
+    },
+  ],
+};

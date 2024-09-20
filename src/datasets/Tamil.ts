@@ -1,0 +1,93 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Tamil**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **2944**
+ *
+ * _End Code:_ **3071**
+ *
+ * _Total Characters:_ **72**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Tamil,
+  startCode: 2944,
+  endCode: 3071,
+  characters: [
+    { "code": 2946, "name": "TAMIL SIGN ANUSVARA", "cat": "Mn", "bidi": "NSM" },
+    { "code": 2947, "name": "TAMIL SIGN VISARGA", "cat": "Lo" },
+    { "code": 2949, "name": "TAMIL LETTER A", "cat": "Lo" },
+    { "code": 2950, "name": "TAMIL LETTER AA", "cat": "Lo" },
+    { "code": 2951, "name": "TAMIL LETTER I", "cat": "Lo" },
+    { "code": 2952, "name": "TAMIL LETTER II", "cat": "Lo" },
+    { "code": 2953, "name": "TAMIL LETTER U", "cat": "Lo" },
+    { "code": 2954, "name": "TAMIL LETTER UU", "cat": "Lo" },
+    { "code": 2958, "name": "TAMIL LETTER E", "cat": "Lo" },
+    { "code": 2959, "name": "TAMIL LETTER EE", "cat": "Lo" },
+    { "code": 2960, "name": "TAMIL LETTER AI", "cat": "Lo" },
+    { "code": 2962, "name": "TAMIL LETTER O", "cat": "Lo" },
+    { "code": 2963, "name": "TAMIL LETTER OO", "cat": "Lo" },
+    { "code": 2964, "name": "TAMIL LETTER AU", "cat": "Lo", "decomp": [2962, 3031] },
+    { "code": 2965, "name": "TAMIL LETTER KA", "cat": "Lo" },
+    { "code": 2969, "name": "TAMIL LETTER NGA", "cat": "Lo" },
+    { "code": 2970, "name": "TAMIL LETTER CA", "cat": "Lo" },
+    { "code": 2972, "name": "TAMIL LETTER JA", "cat": "Lo" },
+    { "code": 2974, "name": "TAMIL LETTER NYA", "cat": "Lo" },
+    { "code": 2975, "name": "TAMIL LETTER TTA", "cat": "Lo" },
+    { "code": 2979, "name": "TAMIL LETTER NNA", "cat": "Lo" },
+    { "code": 2980, "name": "TAMIL LETTER TA", "cat": "Lo" },
+    { "code": 2984, "name": "TAMIL LETTER NA", "cat": "Lo" },
+    { "code": 2985, "name": "TAMIL LETTER NNNA", "cat": "Lo" },
+    { "code": 2986, "name": "TAMIL LETTER PA", "cat": "Lo" },
+    { "code": 2990, "name": "TAMIL LETTER MA", "cat": "Lo" },
+    { "code": 2991, "name": "TAMIL LETTER YA", "cat": "Lo" },
+    { "code": 2992, "name": "TAMIL LETTER RA", "cat": "Lo" },
+    { "code": 2993, "name": "TAMIL LETTER RRA", "cat": "Lo" },
+    { "code": 2994, "name": "TAMIL LETTER LA", "cat": "Lo" },
+    { "code": 2995, "name": "TAMIL LETTER LLA", "cat": "Lo" },
+    { "code": 2996, "name": "TAMIL LETTER LLLA", "cat": "Lo" },
+    { "code": 2997, "name": "TAMIL LETTER VA", "cat": "Lo" },
+    { "code": 2998, "name": "TAMIL LETTER SHA", "cat": "Lo" },
+    { "code": 2999, "name": "TAMIL LETTER SSA", "cat": "Lo" },
+    { "code": 3000, "name": "TAMIL LETTER SA", "cat": "Lo" },
+    { "code": 3001, "name": "TAMIL LETTER HA", "cat": "Lo" },
+    { "code": 3006, "name": "TAMIL VOWEL SIGN AA", "cat": "Mc" },
+    { "code": 3007, "name": "TAMIL VOWEL SIGN I", "cat": "Mc" },
+    { "code": 3008, "name": "TAMIL VOWEL SIGN II", "cat": "Mn", "bidi": "NSM" },
+    { "code": 3009, "name": "TAMIL VOWEL SIGN U", "cat": "Mc" },
+    { "code": 3010, "name": "TAMIL VOWEL SIGN UU", "cat": "Mc" },
+    { "code": 3014, "name": "TAMIL VOWEL SIGN E", "cat": "Mc" },
+    { "code": 3015, "name": "TAMIL VOWEL SIGN EE", "cat": "Mc" },
+    { "code": 3016, "name": "TAMIL VOWEL SIGN AI", "cat": "Mc" },
+    { "code": 3018, "name": "TAMIL VOWEL SIGN O", "cat": "Mc", "decomp": [3014, 3006] },
+    { "code": 3019, "name": "TAMIL VOWEL SIGN OO", "cat": "Mc", "decomp": [3015, 3006] },
+    { "code": 3020, "name": "TAMIL VOWEL SIGN AU", "cat": "Mc", "decomp": [3014, 3031] },
+    { "code": 3021, "name": "TAMIL SIGN VIRAMA", "cat": "Mn", "comb": 9, "bidi": "NSM" },
+    { "code": 3024, "name": "TAMIL OM", "cat": "Lo" },
+    { "code": 3031, "name": "TAMIL AU LENGTH MARK", "cat": "Mc" },
+    { "code": 3046, "name": "TAMIL DIGIT ZERO", "cat": "Nd", "num": "0" },
+    { "code": 3047, "name": "TAMIL DIGIT ONE", "cat": "Nd", "num": "1" },
+    { "code": 3048, "name": "TAMIL DIGIT TWO", "cat": "Nd", "num": "2" },
+    { "code": 3049, "name": "TAMIL DIGIT THREE", "cat": "Nd", "num": "3" },
+    { "code": 3050, "name": "TAMIL DIGIT FOUR", "cat": "Nd", "num": "4" },
+    { "code": 3051, "name": "TAMIL DIGIT FIVE", "cat": "Nd", "num": "5" },
+    { "code": 3052, "name": "TAMIL DIGIT SIX", "cat": "Nd", "num": "6" },
+    { "code": 3053, "name": "TAMIL DIGIT SEVEN", "cat": "Nd", "num": "7" },
+    { "code": 3054, "name": "TAMIL DIGIT EIGHT", "cat": "Nd", "num": "8" },
+    { "code": 3055, "name": "TAMIL DIGIT NINE", "cat": "Nd", "num": "9" },
+    { "code": 3056, "name": "TAMIL NUMBER TEN", "cat": "No", "num": "10" },
+    { "code": 3057, "name": "TAMIL NUMBER ONE HUNDRED", "cat": "No", "num": "100" },
+    { "code": 3058, "name": "TAMIL NUMBER ONE THOUSAND", "cat": "No", "num": "1000" },
+    { "code": 3059, "name": "TAMIL DAY SIGN", "cat": "So", "bidi": "ON" },
+    { "code": 3060, "name": "TAMIL MONTH SIGN", "cat": "So", "bidi": "ON" },
+    { "code": 3061, "name": "TAMIL YEAR SIGN", "cat": "So", "bidi": "ON" },
+    { "code": 3062, "name": "TAMIL DEBIT SIGN", "cat": "So", "bidi": "ON" },
+    { "code": 3063, "name": "TAMIL CREDIT SIGN", "cat": "So", "bidi": "ON" },
+    { "code": 3064, "name": "TAMIL AS ABOVE SIGN", "cat": "So", "bidi": "ON" },
+    { "code": 3065, "name": "TAMIL RUPEE SIGN", "cat": "Sc", "bidi": "ET" },
+    { "code": 3066, "name": "TAMIL NUMBER SIGN", "cat": "So", "bidi": "ON" },
+  ],
+};

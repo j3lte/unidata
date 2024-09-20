@@ -1,0 +1,91 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Vithkuqi**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **66928**
+ *
+ * _End Code:_ **67007**
+ *
+ * _Total Characters:_ **70**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Vithkuqi,
+  startCode: 66928,
+  endCode: 67007,
+  characters: [
+    { "code": 66928, "name": "VITHKUQI CAPITAL LETTER A", "cat": "Lu", "lower": 66967 },
+    { "code": 66929, "name": "VITHKUQI CAPITAL LETTER BBE", "cat": "Lu", "lower": 66968 },
+    { "code": 66930, "name": "VITHKUQI CAPITAL LETTER BE", "cat": "Lu", "lower": 66969 },
+    { "code": 66931, "name": "VITHKUQI CAPITAL LETTER CE", "cat": "Lu", "lower": 66970 },
+    { "code": 66932, "name": "VITHKUQI CAPITAL LETTER CHE", "cat": "Lu", "lower": 66971 },
+    { "code": 66933, "name": "VITHKUQI CAPITAL LETTER DE", "cat": "Lu", "lower": 66972 },
+    { "code": 66934, "name": "VITHKUQI CAPITAL LETTER DHE", "cat": "Lu", "lower": 66973 },
+    { "code": 66935, "name": "VITHKUQI CAPITAL LETTER EI", "cat": "Lu", "lower": 66974 },
+    { "code": 66936, "name": "VITHKUQI CAPITAL LETTER E", "cat": "Lu", "lower": 66975 },
+    { "code": 66937, "name": "VITHKUQI CAPITAL LETTER FE", "cat": "Lu", "lower": 66976 },
+    { "code": 66938, "name": "VITHKUQI CAPITAL LETTER GA", "cat": "Lu", "lower": 66977 },
+    { "code": 66940, "name": "VITHKUQI CAPITAL LETTER HA", "cat": "Lu", "lower": 66979 },
+    { "code": 66941, "name": "VITHKUQI CAPITAL LETTER HHA", "cat": "Lu", "lower": 66980 },
+    { "code": 66942, "name": "VITHKUQI CAPITAL LETTER I", "cat": "Lu", "lower": 66981 },
+    { "code": 66943, "name": "VITHKUQI CAPITAL LETTER IJE", "cat": "Lu", "lower": 66982 },
+    { "code": 66944, "name": "VITHKUQI CAPITAL LETTER JE", "cat": "Lu", "lower": 66983 },
+    { "code": 66945, "name": "VITHKUQI CAPITAL LETTER KA", "cat": "Lu", "lower": 66984 },
+    { "code": 66946, "name": "VITHKUQI CAPITAL LETTER LA", "cat": "Lu", "lower": 66985 },
+    { "code": 66947, "name": "VITHKUQI CAPITAL LETTER LLA", "cat": "Lu", "lower": 66986 },
+    { "code": 66948, "name": "VITHKUQI CAPITAL LETTER ME", "cat": "Lu", "lower": 66987 },
+    { "code": 66949, "name": "VITHKUQI CAPITAL LETTER NE", "cat": "Lu", "lower": 66988 },
+    { "code": 66950, "name": "VITHKUQI CAPITAL LETTER NJE", "cat": "Lu", "lower": 66989 },
+    { "code": 66951, "name": "VITHKUQI CAPITAL LETTER O", "cat": "Lu", "lower": 66990 },
+    { "code": 66952, "name": "VITHKUQI CAPITAL LETTER PE", "cat": "Lu", "lower": 66991 },
+    { "code": 66953, "name": "VITHKUQI CAPITAL LETTER QA", "cat": "Lu", "lower": 66992 },
+    { "code": 66954, "name": "VITHKUQI CAPITAL LETTER RE", "cat": "Lu", "lower": 66993 },
+    { "code": 66956, "name": "VITHKUQI CAPITAL LETTER SE", "cat": "Lu", "lower": 66995 },
+    { "code": 66957, "name": "VITHKUQI CAPITAL LETTER SHE", "cat": "Lu", "lower": 66996 },
+    { "code": 66958, "name": "VITHKUQI CAPITAL LETTER TE", "cat": "Lu", "lower": 66997 },
+    { "code": 66959, "name": "VITHKUQI CAPITAL LETTER THE", "cat": "Lu", "lower": 66998 },
+    { "code": 66960, "name": "VITHKUQI CAPITAL LETTER U", "cat": "Lu", "lower": 66999 },
+    { "code": 66961, "name": "VITHKUQI CAPITAL LETTER VE", "cat": "Lu", "lower": 67000 },
+    { "code": 66962, "name": "VITHKUQI CAPITAL LETTER XE", "cat": "Lu", "lower": 67001 },
+    { "code": 66964, "name": "VITHKUQI CAPITAL LETTER Y", "cat": "Lu", "lower": 67003 },
+    { "code": 66965, "name": "VITHKUQI CAPITAL LETTER ZE", "cat": "Lu", "lower": 67004 },
+    { "code": 66967, "name": "VITHKUQI SMALL LETTER A", "cat": "Ll", "upper": 66928, "title": 66928 },
+    { "code": 66968, "name": "VITHKUQI SMALL LETTER BBE", "cat": "Ll", "upper": 66929, "title": 66929 },
+    { "code": 66969, "name": "VITHKUQI SMALL LETTER BE", "cat": "Ll", "upper": 66930, "title": 66930 },
+    { "code": 66970, "name": "VITHKUQI SMALL LETTER CE", "cat": "Ll", "upper": 66931, "title": 66931 },
+    { "code": 66971, "name": "VITHKUQI SMALL LETTER CHE", "cat": "Ll", "upper": 66932, "title": 66932 },
+    { "code": 66972, "name": "VITHKUQI SMALL LETTER DE", "cat": "Ll", "upper": 66933, "title": 66933 },
+    { "code": 66973, "name": "VITHKUQI SMALL LETTER DHE", "cat": "Ll", "upper": 66934, "title": 66934 },
+    { "code": 66974, "name": "VITHKUQI SMALL LETTER EI", "cat": "Ll", "upper": 66935, "title": 66935 },
+    { "code": 66975, "name": "VITHKUQI SMALL LETTER E", "cat": "Ll", "upper": 66936, "title": 66936 },
+    { "code": 66976, "name": "VITHKUQI SMALL LETTER FE", "cat": "Ll", "upper": 66937, "title": 66937 },
+    { "code": 66977, "name": "VITHKUQI SMALL LETTER GA", "cat": "Ll", "upper": 66938, "title": 66938 },
+    { "code": 66979, "name": "VITHKUQI SMALL LETTER HA", "cat": "Ll", "upper": 66940, "title": 66940 },
+    { "code": 66980, "name": "VITHKUQI SMALL LETTER HHA", "cat": "Ll", "upper": 66941, "title": 66941 },
+    { "code": 66981, "name": "VITHKUQI SMALL LETTER I", "cat": "Ll", "upper": 66942, "title": 66942 },
+    { "code": 66982, "name": "VITHKUQI SMALL LETTER IJE", "cat": "Ll", "upper": 66943, "title": 66943 },
+    { "code": 66983, "name": "VITHKUQI SMALL LETTER JE", "cat": "Ll", "upper": 66944, "title": 66944 },
+    { "code": 66984, "name": "VITHKUQI SMALL LETTER KA", "cat": "Ll", "upper": 66945, "title": 66945 },
+    { "code": 66985, "name": "VITHKUQI SMALL LETTER LA", "cat": "Ll", "upper": 66946, "title": 66946 },
+    { "code": 66986, "name": "VITHKUQI SMALL LETTER LLA", "cat": "Ll", "upper": 66947, "title": 66947 },
+    { "code": 66987, "name": "VITHKUQI SMALL LETTER ME", "cat": "Ll", "upper": 66948, "title": 66948 },
+    { "code": 66988, "name": "VITHKUQI SMALL LETTER NE", "cat": "Ll", "upper": 66949, "title": 66949 },
+    { "code": 66989, "name": "VITHKUQI SMALL LETTER NJE", "cat": "Ll", "upper": 66950, "title": 66950 },
+    { "code": 66990, "name": "VITHKUQI SMALL LETTER O", "cat": "Ll", "upper": 66951, "title": 66951 },
+    { "code": 66991, "name": "VITHKUQI SMALL LETTER PE", "cat": "Ll", "upper": 66952, "title": 66952 },
+    { "code": 66992, "name": "VITHKUQI SMALL LETTER QA", "cat": "Ll", "upper": 66953, "title": 66953 },
+    { "code": 66993, "name": "VITHKUQI SMALL LETTER RE", "cat": "Ll", "upper": 66954, "title": 66954 },
+    { "code": 66995, "name": "VITHKUQI SMALL LETTER SE", "cat": "Ll", "upper": 66956, "title": 66956 },
+    { "code": 66996, "name": "VITHKUQI SMALL LETTER SHE", "cat": "Ll", "upper": 66957, "title": 66957 },
+    { "code": 66997, "name": "VITHKUQI SMALL LETTER TE", "cat": "Ll", "upper": 66958, "title": 66958 },
+    { "code": 66998, "name": "VITHKUQI SMALL LETTER THE", "cat": "Ll", "upper": 66959, "title": 66959 },
+    { "code": 66999, "name": "VITHKUQI SMALL LETTER U", "cat": "Ll", "upper": 66960, "title": 66960 },
+    { "code": 67000, "name": "VITHKUQI SMALL LETTER VE", "cat": "Ll", "upper": 66961, "title": 66961 },
+    { "code": 67001, "name": "VITHKUQI SMALL LETTER XE", "cat": "Ll", "upper": 66962, "title": 66962 },
+    { "code": 67003, "name": "VITHKUQI SMALL LETTER Y", "cat": "Ll", "upper": 66964, "title": 66964 },
+    { "code": 67004, "name": "VITHKUQI SMALL LETTER ZE", "cat": "Ll", "upper": 66965, "title": 66965 },
+  ],
+};

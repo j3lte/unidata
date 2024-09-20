@@ -1,0 +1,93 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Dives Akuru**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **71936**
+ *
+ * _End Code:_ **72031**
+ *
+ * _Total Characters:_ **72**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Dives_Akuru,
+  startCode: 71936,
+  endCode: 72031,
+  characters: [
+    { "code": 71936, "name": "DIVES AKURU LETTER A", "cat": "Lo" },
+    { "code": 71937, "name": "DIVES AKURU LETTER AA", "cat": "Lo" },
+    { "code": 71938, "name": "DIVES AKURU LETTER I", "cat": "Lo" },
+    { "code": 71939, "name": "DIVES AKURU LETTER II", "cat": "Lo" },
+    { "code": 71940, "name": "DIVES AKURU LETTER U", "cat": "Lo" },
+    { "code": 71941, "name": "DIVES AKURU LETTER UU", "cat": "Lo" },
+    { "code": 71942, "name": "DIVES AKURU LETTER E", "cat": "Lo" },
+    { "code": 71945, "name": "DIVES AKURU LETTER O", "cat": "Lo" },
+    { "code": 71948, "name": "DIVES AKURU LETTER KA", "cat": "Lo" },
+    { "code": 71949, "name": "DIVES AKURU LETTER KHA", "cat": "Lo" },
+    { "code": 71950, "name": "DIVES AKURU LETTER GA", "cat": "Lo" },
+    { "code": 71951, "name": "DIVES AKURU LETTER GHA", "cat": "Lo" },
+    { "code": 71952, "name": "DIVES AKURU LETTER NGA", "cat": "Lo" },
+    { "code": 71953, "name": "DIVES AKURU LETTER CA", "cat": "Lo" },
+    { "code": 71954, "name": "DIVES AKURU LETTER CHA", "cat": "Lo" },
+    { "code": 71955, "name": "DIVES AKURU LETTER JA", "cat": "Lo" },
+    { "code": 71957, "name": "DIVES AKURU LETTER NYA", "cat": "Lo" },
+    { "code": 71958, "name": "DIVES AKURU LETTER TTA", "cat": "Lo" },
+    { "code": 71960, "name": "DIVES AKURU LETTER DDA", "cat": "Lo" },
+    { "code": 71961, "name": "DIVES AKURU LETTER DDHA", "cat": "Lo" },
+    { "code": 71962, "name": "DIVES AKURU LETTER NNA", "cat": "Lo" },
+    { "code": 71963, "name": "DIVES AKURU LETTER TA", "cat": "Lo" },
+    { "code": 71964, "name": "DIVES AKURU LETTER THA", "cat": "Lo" },
+    { "code": 71965, "name": "DIVES AKURU LETTER DA", "cat": "Lo" },
+    { "code": 71966, "name": "DIVES AKURU LETTER DHA", "cat": "Lo" },
+    { "code": 71967, "name": "DIVES AKURU LETTER NA", "cat": "Lo" },
+    { "code": 71968, "name": "DIVES AKURU LETTER PA", "cat": "Lo" },
+    { "code": 71969, "name": "DIVES AKURU LETTER PHA", "cat": "Lo" },
+    { "code": 71970, "name": "DIVES AKURU LETTER BA", "cat": "Lo" },
+    { "code": 71971, "name": "DIVES AKURU LETTER BHA", "cat": "Lo" },
+    { "code": 71972, "name": "DIVES AKURU LETTER MA", "cat": "Lo" },
+    { "code": 71973, "name": "DIVES AKURU LETTER YA", "cat": "Lo" },
+    { "code": 71974, "name": "DIVES AKURU LETTER YYA", "cat": "Lo" },
+    { "code": 71975, "name": "DIVES AKURU LETTER RA", "cat": "Lo" },
+    { "code": 71976, "name": "DIVES AKURU LETTER LA", "cat": "Lo" },
+    { "code": 71977, "name": "DIVES AKURU LETTER VA", "cat": "Lo" },
+    { "code": 71978, "name": "DIVES AKURU LETTER SHA", "cat": "Lo" },
+    { "code": 71979, "name": "DIVES AKURU LETTER SSA", "cat": "Lo" },
+    { "code": 71980, "name": "DIVES AKURU LETTER SA", "cat": "Lo" },
+    { "code": 71981, "name": "DIVES AKURU LETTER HA", "cat": "Lo" },
+    { "code": 71982, "name": "DIVES AKURU LETTER LLA", "cat": "Lo" },
+    { "code": 71983, "name": "DIVES AKURU LETTER ZA", "cat": "Lo" },
+    { "code": 71984, "name": "DIVES AKURU VOWEL SIGN AA", "cat": "Mc" },
+    { "code": 71985, "name": "DIVES AKURU VOWEL SIGN I", "cat": "Mc" },
+    { "code": 71986, "name": "DIVES AKURU VOWEL SIGN II", "cat": "Mc" },
+    { "code": 71987, "name": "DIVES AKURU VOWEL SIGN U", "cat": "Mc" },
+    { "code": 71988, "name": "DIVES AKURU VOWEL SIGN UU", "cat": "Mc" },
+    { "code": 71989, "name": "DIVES AKURU VOWEL SIGN E", "cat": "Mc" },
+    { "code": 71991, "name": "DIVES AKURU VOWEL SIGN AI", "cat": "Mc" },
+    { "code": 71992, "name": "DIVES AKURU VOWEL SIGN O", "cat": "Mc", "decomp": [71989, 71984] },
+    { "code": 71995, "name": "DIVES AKURU SIGN ANUSVARA", "cat": "Mn", "bidi": "NSM" },
+    { "code": 71996, "name": "DIVES AKURU SIGN CANDRABINDU", "cat": "Mn", "bidi": "NSM" },
+    { "code": 71997, "name": "DIVES AKURU SIGN HALANTA", "cat": "Mc", "comb": 9 },
+    { "code": 71998, "name": "DIVES AKURU VIRAMA", "cat": "Mn", "comb": 9, "bidi": "NSM" },
+    { "code": 71999, "name": "DIVES AKURU PREFIXED NASAL SIGN", "cat": "Lo" },
+    { "code": 72000, "name": "DIVES AKURU MEDIAL YA", "cat": "Mc" },
+    { "code": 72001, "name": "DIVES AKURU INITIAL RA", "cat": "Lo" },
+    { "code": 72002, "name": "DIVES AKURU MEDIAL RA", "cat": "Mc" },
+    { "code": 72003, "name": "DIVES AKURU SIGN NUKTA", "cat": "Mn", "comb": 7, "bidi": "NSM" },
+    { "code": 72004, "name": "DIVES AKURU DOUBLE DANDA", "cat": "Po" },
+    { "code": 72005, "name": "DIVES AKURU GAP FILLER", "cat": "Po" },
+    { "code": 72006, "name": "DIVES AKURU END OF TEXT MARK", "cat": "Po" },
+    { "code": 72016, "name": "DIVES AKURU DIGIT ZERO", "cat": "Nd", "num": "0" },
+    { "code": 72017, "name": "DIVES AKURU DIGIT ONE", "cat": "Nd", "num": "1" },
+    { "code": 72018, "name": "DIVES AKURU DIGIT TWO", "cat": "Nd", "num": "2" },
+    { "code": 72019, "name": "DIVES AKURU DIGIT THREE", "cat": "Nd", "num": "3" },
+    { "code": 72020, "name": "DIVES AKURU DIGIT FOUR", "cat": "Nd", "num": "4" },
+    { "code": 72021, "name": "DIVES AKURU DIGIT FIVE", "cat": "Nd", "num": "5" },
+    { "code": 72022, "name": "DIVES AKURU DIGIT SIX", "cat": "Nd", "num": "6" },
+    { "code": 72023, "name": "DIVES AKURU DIGIT SEVEN", "cat": "Nd", "num": "7" },
+    { "code": 72024, "name": "DIVES AKURU DIGIT EIGHT", "cat": "Nd", "num": "8" },
+    { "code": 72025, "name": "DIVES AKURU DIGIT NINE", "cat": "Nd", "num": "9" },
+  ],
+};

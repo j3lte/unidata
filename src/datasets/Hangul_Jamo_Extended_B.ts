@@ -1,0 +1,93 @@
+import type { CharacterSet } from "../types.ts";
+import { CharacterSetType } from "../enums.ts";
+
+/**
+ * _Unicode Dataset:_ **Hangul Jamo Extended-B**
+ *
+ * _Unicode Version:_ **16.0.0**
+ *
+ * _Start Code:_ **55216**
+ *
+ * _End Code:_ **55295**
+ *
+ * _Total Characters:_ **72**
+ */
+export const dataSet: CharacterSet = {
+  blockName: CharacterSetType.Hangul_Jamo_Extended_B,
+  startCode: 55216,
+  endCode: 55295,
+  characters: [
+    { "code": 55216, "name": "HANGUL JUNGSEONG O-YEO", "cat": "Lo" },
+    { "code": 55217, "name": "HANGUL JUNGSEONG O-O-I", "cat": "Lo" },
+    { "code": 55218, "name": "HANGUL JUNGSEONG YO-A", "cat": "Lo" },
+    { "code": 55219, "name": "HANGUL JUNGSEONG YO-AE", "cat": "Lo" },
+    { "code": 55220, "name": "HANGUL JUNGSEONG YO-EO", "cat": "Lo" },
+    { "code": 55221, "name": "HANGUL JUNGSEONG U-YEO", "cat": "Lo" },
+    { "code": 55222, "name": "HANGUL JUNGSEONG U-I-I", "cat": "Lo" },
+    { "code": 55223, "name": "HANGUL JUNGSEONG YU-AE", "cat": "Lo" },
+    { "code": 55224, "name": "HANGUL JUNGSEONG YU-O", "cat": "Lo" },
+    { "code": 55225, "name": "HANGUL JUNGSEONG EU-A", "cat": "Lo" },
+    { "code": 55226, "name": "HANGUL JUNGSEONG EU-EO", "cat": "Lo" },
+    { "code": 55227, "name": "HANGUL JUNGSEONG EU-E", "cat": "Lo" },
+    { "code": 55228, "name": "HANGUL JUNGSEONG EU-O", "cat": "Lo" },
+    { "code": 55229, "name": "HANGUL JUNGSEONG I-YA-O", "cat": "Lo" },
+    { "code": 55230, "name": "HANGUL JUNGSEONG I-YAE", "cat": "Lo" },
+    { "code": 55231, "name": "HANGUL JUNGSEONG I-YEO", "cat": "Lo" },
+    { "code": 55232, "name": "HANGUL JUNGSEONG I-YE", "cat": "Lo" },
+    { "code": 55233, "name": "HANGUL JUNGSEONG I-O-I", "cat": "Lo" },
+    { "code": 55234, "name": "HANGUL JUNGSEONG I-YO", "cat": "Lo" },
+    { "code": 55235, "name": "HANGUL JUNGSEONG I-YU", "cat": "Lo" },
+    { "code": 55236, "name": "HANGUL JUNGSEONG I-I", "cat": "Lo" },
+    { "code": 55237, "name": "HANGUL JUNGSEONG ARAEA-A", "cat": "Lo" },
+    { "code": 55238, "name": "HANGUL JUNGSEONG ARAEA-E", "cat": "Lo" },
+    { "code": 55243, "name": "HANGUL JONGSEONG NIEUN-RIEUL", "cat": "Lo" },
+    { "code": 55244, "name": "HANGUL JONGSEONG NIEUN-CHIEUCH", "cat": "Lo" },
+    { "code": 55245, "name": "HANGUL JONGSEONG SSANGTIKEUT", "cat": "Lo" },
+    { "code": 55246, "name": "HANGUL JONGSEONG SSANGTIKEUT-PIEUP", "cat": "Lo" },
+    { "code": 55247, "name": "HANGUL JONGSEONG TIKEUT-PIEUP", "cat": "Lo" },
+    { "code": 55248, "name": "HANGUL JONGSEONG TIKEUT-SIOS", "cat": "Lo" },
+    { "code": 55249, "name": "HANGUL JONGSEONG TIKEUT-SIOS-KIYEOK", "cat": "Lo" },
+    { "code": 55250, "name": "HANGUL JONGSEONG TIKEUT-CIEUC", "cat": "Lo" },
+    { "code": 55251, "name": "HANGUL JONGSEONG TIKEUT-CHIEUCH", "cat": "Lo" },
+    { "code": 55252, "name": "HANGUL JONGSEONG TIKEUT-THIEUTH", "cat": "Lo" },
+    { "code": 55253, "name": "HANGUL JONGSEONG RIEUL-SSANGKIYEOK", "cat": "Lo" },
+    { "code": 55254, "name": "HANGUL JONGSEONG RIEUL-KIYEOK-HIEUH", "cat": "Lo" },
+    { "code": 55255, "name": "HANGUL JONGSEONG SSANGRIEUL-KHIEUKH", "cat": "Lo" },
+    { "code": 55256, "name": "HANGUL JONGSEONG RIEUL-MIEUM-HIEUH", "cat": "Lo" },
+    { "code": 55257, "name": "HANGUL JONGSEONG RIEUL-PIEUP-TIKEUT", "cat": "Lo" },
+    { "code": 55258, "name": "HANGUL JONGSEONG RIEUL-PIEUP-PHIEUPH", "cat": "Lo" },
+    { "code": 55259, "name": "HANGUL JONGSEONG RIEUL-YESIEUNG", "cat": "Lo" },
+    { "code": 55260, "name": "HANGUL JONGSEONG RIEUL-YEORINHIEUH-HIEUH", "cat": "Lo" },
+    { "code": 55261, "name": "HANGUL JONGSEONG KAPYEOUNRIEUL", "cat": "Lo" },
+    { "code": 55262, "name": "HANGUL JONGSEONG MIEUM-NIEUN", "cat": "Lo" },
+    { "code": 55263, "name": "HANGUL JONGSEONG MIEUM-SSANGNIEUN", "cat": "Lo" },
+    { "code": 55264, "name": "HANGUL JONGSEONG SSANGMIEUM", "cat": "Lo" },
+    { "code": 55265, "name": "HANGUL JONGSEONG MIEUM-PIEUP-SIOS", "cat": "Lo" },
+    { "code": 55266, "name": "HANGUL JONGSEONG MIEUM-CIEUC", "cat": "Lo" },
+    { "code": 55267, "name": "HANGUL JONGSEONG PIEUP-TIKEUT", "cat": "Lo" },
+    { "code": 55268, "name": "HANGUL JONGSEONG PIEUP-RIEUL-PHIEUPH", "cat": "Lo" },
+    { "code": 55269, "name": "HANGUL JONGSEONG PIEUP-MIEUM", "cat": "Lo" },
+    { "code": 55270, "name": "HANGUL JONGSEONG SSANGPIEUP", "cat": "Lo" },
+    { "code": 55271, "name": "HANGUL JONGSEONG PIEUP-SIOS-TIKEUT", "cat": "Lo" },
+    { "code": 55272, "name": "HANGUL JONGSEONG PIEUP-CIEUC", "cat": "Lo" },
+    { "code": 55273, "name": "HANGUL JONGSEONG PIEUP-CHIEUCH", "cat": "Lo" },
+    { "code": 55274, "name": "HANGUL JONGSEONG SIOS-MIEUM", "cat": "Lo" },
+    { "code": 55275, "name": "HANGUL JONGSEONG SIOS-KAPYEOUNPIEUP", "cat": "Lo" },
+    { "code": 55276, "name": "HANGUL JONGSEONG SSANGSIOS-KIYEOK", "cat": "Lo" },
+    { "code": 55277, "name": "HANGUL JONGSEONG SSANGSIOS-TIKEUT", "cat": "Lo" },
+    { "code": 55278, "name": "HANGUL JONGSEONG SIOS-PANSIOS", "cat": "Lo" },
+    { "code": 55279, "name": "HANGUL JONGSEONG SIOS-CIEUC", "cat": "Lo" },
+    { "code": 55280, "name": "HANGUL JONGSEONG SIOS-CHIEUCH", "cat": "Lo" },
+    { "code": 55281, "name": "HANGUL JONGSEONG SIOS-THIEUTH", "cat": "Lo" },
+    { "code": 55282, "name": "HANGUL JONGSEONG SIOS-HIEUH", "cat": "Lo" },
+    { "code": 55283, "name": "HANGUL JONGSEONG PANSIOS-PIEUP", "cat": "Lo" },
+    { "code": 55284, "name": "HANGUL JONGSEONG PANSIOS-KAPYEOUNPIEUP", "cat": "Lo" },
+    { "code": 55285, "name": "HANGUL JONGSEONG YESIEUNG-MIEUM", "cat": "Lo" },
+    { "code": 55286, "name": "HANGUL JONGSEONG YESIEUNG-HIEUH", "cat": "Lo" },
+    { "code": 55287, "name": "HANGUL JONGSEONG CIEUC-PIEUP", "cat": "Lo" },
+    { "code": 55288, "name": "HANGUL JONGSEONG CIEUC-SSANGPIEUP", "cat": "Lo" },
+    { "code": 55289, "name": "HANGUL JONGSEONG SSANGCIEUC", "cat": "Lo" },
+    { "code": 55290, "name": "HANGUL JONGSEONG PHIEUPH-SIOS", "cat": "Lo" },
+    { "code": 55291, "name": "HANGUL JONGSEONG PHIEUPH-THIEUTH", "cat": "Lo" },
+  ],
+};
