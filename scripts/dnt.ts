@@ -9,9 +9,14 @@ await build({
   shims: {},
   package: {
     // package.json properties
-    name: "@j3lte/unidata",
+    name: "unidata16",
     version: Deno.args[0] || pkg.version,
-    description: "Your package.",
+    description: "This library provides a collection of Unicode data for various characters.",
+    author: {
+      name: "Jelte Lagendijk",
+      email: "jwlagendijk@gmail.com",
+    },
+    keywords: ["unicode", "data", "characters"],
     license: "MIT",
     repository: {
       type: "git",

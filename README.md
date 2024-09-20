@@ -9,10 +9,20 @@ This library provides a collection of Unicode data for various characters.
 
 > This library uses Unicode version 16.0.0
 
+## Installation
+
+> Main package is released on JSR, see [here](https://jsr.io/@j3lte/unidata)
+
+### NPM
+
+```bash
+npm install unidata16
+```
+
 ## Usage
 
 ```typescript
-import { CharacterSetType, getCharacters } from "@j3lte/unidata";
+import { CharacterSetType, getCharacters } from "@j3lte/unidata"; // or "unidata16" if you installed via NPM
 
 const characters = getCharacters(CharacterSetType.Alchemical_Symbols);
 
