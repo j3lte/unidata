@@ -9,6 +9,16 @@ This library provides a collection of Unicode data for various characters.
 
 > This library uses Unicode version 16.0.0
 
+## Usage
+
+```typescript
+import { CharacterSetType, getCharacters } from "@j3lte/unidata";
+
+const characters = getCharacters(CharacterSetType.Alchemical_Symbols);
+
+console.log(characters);
+```
+
 ## Acknowledgements
 
 - This library is based on the excellent Node.js library [unidata](https://github.com/chbrown/unidata)

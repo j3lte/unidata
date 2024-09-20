@@ -1,3 +1,8 @@
+/**
+ * Enum for the type of the character set.
+ *
+ * See [Character Code Charts](https://www.unicode.org/charts/) for more information.
+ */
 export enum CharacterSetType {
   Basic_Latin = "Basic Latin",
   Latin_1_Supplement = "Latin-1 Supplement",

@@ -65,7 +65,12 @@ const runVersion = async (UNICODE_VERSION: string) => {
 
   await Deno.writeTextFile(
     resolve(SRC_DIR, "enums.ts"),
-    `export enum CharacterSetType {
+    `/**
+ * Enum for the type of the character set.
+ *
+ * See [Character Code Charts](https://www.unicode.org/charts/) for more information.
+ */
+export enum CharacterSetType {
 ${blocksEnums}
 }`,
   );
