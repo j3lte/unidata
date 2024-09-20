@@ -32,15 +32,23 @@ export type Character = {
 };
 
 /**
- * Character set data
+ * Character base data
  */
-export type CharacterSet = {
+export type CharacterBaseSet = {
   /** block name */
   blockName: CharacterSetType;
   /** start code */
   startCode: number;
   /** end code */
   endCode: number;
+  /** characters */
+  characters: Character[];
+};
+
+/**
+ * Character set data
+ */
+export type CharacterSet = CharacterBaseSet & {
   /** characters */
   characters: Character[];
 };

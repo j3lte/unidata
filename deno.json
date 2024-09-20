@@ -8,6 +8,7 @@
     "generate": "deno run -A --lock deno.dev.lock scripts/generate.ts",
     "test": "deno test -A",
     "prep": "deno fmt && deno lint",
+    "dnt": "deno run -A --lock deno.dev.lock scripts/dnt.ts",
     "publish:test": "deno publish --dry-run --allow-dirty"
   },
   "fmt": {
