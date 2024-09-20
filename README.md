@@ -2,6 +2,8 @@
 
 [![JSR](https://jsr.io/badges/@j3lte/unidata)](https://jsr.io/@j3lte/unidata)
 [![GitHub Release](https://img.shields.io/github/v/release/j3lte/unidata)](https://github.com/j3lte/unidata/releases/latest)
+[![NPM Version](https://img.shields.io/npm/v/unidata16)](https://www.npmjs.com/package/unidata16)
+[![License](https://img.shields.io/github/license/j3lte/unidata)](https://jsr.io/@j3lte/unidata/LICENSE)
 
 ## Overview
 
