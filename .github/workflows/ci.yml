@@ -14,7 +14,7 @@ jobs:
       - name: Install Deno
         uses: denoland/setup-deno@v1
         with:
-          deno-version: v1.x
+          deno-version: v2.x
 
       - name: Lint
         run: deno lint
@@ -43,7 +43,7 @@ jobs:
       - name: Install Deno
         uses: denoland/setup-deno@v1
         with:
-          deno-version: v1.x
+          deno-version: v2.x
 
       - name: update version
         run: deno run -A ./scripts/update_version.ts ${{steps.get_tag_version.outputs.TAG_VERSION}}
@@ -60,7 +60,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: "18.x"
+          node-version: "22.x"
           registry-url: "https://registry.npmjs.org"
 
       - name: npm build
