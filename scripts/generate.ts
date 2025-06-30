@@ -1,5 +1,5 @@
-import { resolve } from "jsr:@std/path@^1.0.6";
-import { extract } from "jsr:@quentinadam/zip@^0.1.1";
+import { resolve } from "@std/path";
+import { extract } from "@quentinadam/zip";
 import { exists, getBlocks, getCharacters } from "./utils/mod.ts";
 
 const runVersion = async (UNICODE_VERSION: string) => {
