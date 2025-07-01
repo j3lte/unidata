@@ -5,7 +5,7 @@
     ".": "./src/mod.ts"
   },
   "tasks": {
-    "generate": "deno run -A --lock deno.dev.lock scripts/generate.ts",
+    "generate": "deno run -A --lock deno.dev.lock scripts/generate.ts && deno task prep",
     "test": "deno test -A",
     "prep": "deno fmt && deno lint",
     "dnt": "deno run -A --lock deno.dev.lock scripts/dnt.ts",
@@ -20,7 +20,7 @@
   },
   "imports": {
     "@deno/dnt": "jsr:@deno/dnt@^0.42.1",
-    "@quentinadam/zip": "jsr:@quentinadam/zip@^0.1.6",
+    "@quentinadam/zip": "jsr:@quentinadam/zip@0.1.1",
     "@std/path": "jsr:@std/path@^1.1.0"
   },
   "publish": {
