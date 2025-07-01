@@ -151,6 +151,12 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 - `CharacterSet`: Complete character set with metadata ([doc](https://jsr.io/@j3lte/unidata/doc/~/CharacterSet))
 - `CharacterSetType`: Enum of all available Unicode blocks ([doc](https://jsr.io/@j3lte/unidata/doc/~/CharacterSetType))
 
+## 📊 Character Sets
+
+<!-- START CharacterSets -->
+
+<!-- END CharacterSets -->
+
 ## 🎯 Use Cases
 
 - **Internationalization**: Support for multiple languages and scripts

@@ -1,6 +1,6 @@
 import { resolve } from "@std/path";
 import { extract } from "@quentinadam/zip";
-import { exists, getBlocks, getCharacters } from "./utils/mod.ts";
+import { exists, getBlocks, getCharacters, updateText } from "./utils/mod.ts";
 
 const runVersion = async (UNICODE_VERSION: string) => {
   const UNICODE_URL = `https://www.unicode.org/Public/zipped/${UNICODE_VERSION}/UCD.zip`;
@@ -189,6 +189,39 @@ ${
   const modFile = await Deno.readTextFile(resolve(SRC_DIR, "mod.ts"));
   const newModFile = modFile.replace(/UNICODE_VERSION = "[\d.]+";/, `UNICODE_VERSION = "${UNICODE_VERSION}";`);
   await Deno.writeTextFile(resolve(SRC_DIR, "mod.ts"), newModFile);
+
+  // Generate Markdown table for README.md
+  const tableHeader =
+    `| Name | Start Code | End Code | Total Characters |\n|------|------------|----------|------------------|`;
+  const tableRows = blocks
+    .map((block) => {
+      const blockCharacters = characters.filter((char) => char.code >= block.startCode && char.code <= block.endCode);
+      return {
+        name: block.blockName,
+        startCode: `U+${block.startCode.toString(16).toUpperCase().padStart(4, "0")}`,
+        endCode: `U+${block.endCode.toString(16).toUpperCase().padStart(4, "0")}`,
+        total: blockCharacters.length,
+      };
+    })
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map((row) => `| ${row.name} | ${row.startCode} | ${row.endCode} | ${row.total} |`)
+    .join("\n");
+  const table = `${tableHeader}\n${tableRows}`;
+
+  // Read README.md
+  const readmePath = resolve(import.meta.dirname!, "../README.md");
+  const readmeText = await Deno.readTextFile(readmePath);
+  const { updatedText, hasChanges } = updateText(
+    "CharacterSets",
+    readmeText,
+    table,
+  );
+  if (hasChanges) {
+    await Deno.writeTextFile(readmePath, updatedText);
+    console.log("README.md CharacterSets table updated.");
+  } else {
+    console.log("README.md CharacterSets table is up to date.");
+  }
 };
 
 await runVersion("16.0.0");
