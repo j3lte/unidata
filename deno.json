@@ -5,7 +5,7 @@
     ".": "./src/mod.ts"
   },
   "tasks": {
-    "generate": "deno run -A --lock deno.dev.lock scripts/generate.ts && deno task prep",
+    "generate": "deno run -A --lock deno.dev.lock scripts/generate.ts",
     "test": "deno test -A",
     "prep": "deno fmt && deno lint",
     "dnt": "deno run -A --lock deno.dev.lock scripts/dnt.ts",
