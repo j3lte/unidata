@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Combining Diacritical Marks Extended**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **6832**
  *
  * _End Code:_ **6911**
  *
- * _Total Characters:_ **31**
+ * _Total Characters:_ **58**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Combining_Diacritical_Marks_Extended,
@@ -48,5 +48,32 @@ export const dataSet: CharacterSet = {
     { "code": 6860, "name": "COMBINING LATIN SMALL LETTER INSULAR G", "cat": "Mn", "comb": 230, "bidi": "NSM" },
     { "code": 6861, "name": "COMBINING LATIN SMALL LETTER INSULAR R", "cat": "Mn", "comb": 230, "bidi": "NSM" },
     { "code": 6862, "name": "COMBINING LATIN SMALL LETTER INSULAR T", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6863, "name": "COMBINING DOUBLE CARON", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6864, "name": "COMBINING VERTICAL-LINE-ACUTE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6865, "name": "COMBINING GRAVE-VERTICAL-LINE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6866, "name": "COMBINING VERTICAL-LINE-GRAVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6867, "name": "COMBINING ACUTE-VERTICAL-LINE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6868, "name": "COMBINING VERTICAL-LINE-MACRON", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6869, "name": "COMBINING MACRON-VERTICAL-LINE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6870, "name": "COMBINING VERTICAL-LINE-ACUTE-GRAVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6871, "name": "COMBINING VERTICAL-LINE-GRAVE-ACUTE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6872, "name": "COMBINING MACRON-ACUTE-GRAVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6873, "name": "COMBINING SHARP SIGN", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6874, "name": "COMBINING FLAT SIGN", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6875, "name": "COMBINING DOWN TACK ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6876, "name": "COMBINING DIAERESIS WITH RAISED LEFT DOT", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6877, "name": "COMBINING DOT-AND-RING BELOW", "cat": "Mn", "comb": 220, "bidi": "NSM" },
+    { "code": 6880, "name": "COMBINING LEFT TACK ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6881, "name": "COMBINING RIGHT TACK ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6882, "name": "COMBINING MINUS SIGN ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6883, "name": "COMBINING INVERTED BRIDGE ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6884, "name": "COMBINING SQUARE ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6885, "name": "COMBINING SEAGULL ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6886, "name": "COMBINING DOUBLE ARCH BELOW", "cat": "Mn", "comb": 220, "bidi": "NSM" },
+    { "code": 6887, "name": "COMBINING DOUBLE ARCH ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6888, "name": "COMBINING EQUALS SIGN ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6889, "name": "COMBINING LEFT ANGLE CENTRED ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6890, "name": "COMBINING UPWARDS ARROW ABOVE", "cat": "Mn", "comb": 230, "bidi": "NSM" },
+    { "code": 6891, "name": "COMBINING DOUBLE RIGHTWARDS ARROW ABOVE", "cat": "Mn", "comb": 234, "bidi": "NSM" },
   ],
 };

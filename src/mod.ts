@@ -32,4 +32,4 @@ export * from "./methods.ts";
 /**
  * Unicode version
  */
-export const UNICODE_VERSION = "16.0.0";
+export const UNICODE_VERSION = "17.0.0";

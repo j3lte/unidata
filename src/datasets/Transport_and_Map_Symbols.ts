@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Transport and Map Symbols**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **128640**
  *
  * _End Code:_ **128767**
  *
- * _Total Characters:_ **118**
+ * _Total Characters:_ **119**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Transport_and_Map_Symbols,
@@ -105,6 +105,7 @@ export const dataSet: CharacterSet = {
     { "code": 128725, "name": "HINDU TEMPLE", "cat": "So", "bidi": "ON" },
     { "code": 128726, "name": "HUT", "cat": "So", "bidi": "ON" },
     { "code": 128727, "name": "ELEVATOR", "cat": "So", "bidi": "ON" },
+    { "code": 128728, "name": "LANDSLIDE", "cat": "So", "bidi": "ON" },
     { "code": 128732, "name": "WIRELESS", "cat": "So", "bidi": "ON" },
     { "code": 128733, "name": "PLAYGROUND SLIDE", "cat": "So", "bidi": "ON" },
     { "code": 128734, "name": "WHEEL", "cat": "So", "bidi": "ON" },

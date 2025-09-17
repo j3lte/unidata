@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Miscellaneous Symbols and Arrows**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **11008**
  *
  * _End Code:_ **11263**
  *
- * _Total Characters:_ **253**
+ * _Total Characters:_ **254**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Miscellaneous_Symbols_and_Arrows,
@@ -205,6 +205,7 @@ export const dataSet: CharacterSet = {
     { "code": 11155, "name": "NEWLINE RIGHT", "cat": "So", "bidi": "ON" },
     { "code": 11156, "name": "FOUR CORNER ARROWS CIRCLING ANTICLOCKWISE", "cat": "So", "bidi": "ON" },
     { "code": 11157, "name": "RIGHTWARDS BLACK ARROW", "cat": "So", "bidi": "ON" },
+    { "code": 11158, "name": "EQUALS SIGN WITH INFINITY ABOVE", "cat": "So", "bidi": "ON" },
     { "code": 11159, "name": "SYMBOL FOR TYPE A ELECTRONICS", "cat": "So", "bidi": "ON" },
     { "code": 11160, "name": "THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD", "cat": "So", "bidi": "ON" },
     { "code": 11161, "name": "THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD", "cat": "So", "bidi": "ON" },

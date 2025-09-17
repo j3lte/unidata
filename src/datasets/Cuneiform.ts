@@ -4,7 +4,7 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Cuneiform**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **73728**
  *
@@ -73,8 +73,8 @@ export const dataSet: CharacterSet = {
     { "code": 73781, "name": "CUNEIFORM SIGN ARAD TIMES KUR", "cat": "Lo" },
     { "code": 73782, "name": "CUNEIFORM SIGN ARKAB", "cat": "Lo" },
     { "code": 73783, "name": "CUNEIFORM SIGN ASAL2", "cat": "Lo" },
-    { "code": 73784, "name": "CUNEIFORM SIGN ASH", "cat": "Lo" },
-    { "code": 73785, "name": "CUNEIFORM SIGN ASH ZIDA TENU", "cat": "Lo" },
+    { "code": 73784, "name": "CUNEIFORM SIGN ASH", "cat": "Lo", "num": "1" },
+    { "code": 73785, "name": "CUNEIFORM SIGN ASH ZIDA TENU", "cat": "Lo", "num": "1" },
     { "code": 73786, "name": "CUNEIFORM SIGN ASH KABA TENU", "cat": "Lo" },
     { "code": 73787, "name": "CUNEIFORM SIGN ASH OVER ASH TUG2 OVER TUG2 TUG2 OVER TUG2 PAP", "cat": "Lo" },
     { "code": 73788, "name": "CUNEIFORM SIGN ASH OVER ASH OVER ASH", "cat": "Lo" },
@@ -138,7 +138,7 @@ export const dataSet: CharacterSet = {
     { "code": 73846, "name": "CUNEIFORM SIGN DIM2", "cat": "Lo" },
     { "code": 73847, "name": "CUNEIFORM SIGN DIN", "cat": "Lo" },
     { "code": 73848, "name": "CUNEIFORM SIGN DIN KASKAL U GUNU DISH", "cat": "Lo" },
-    { "code": 73849, "name": "CUNEIFORM SIGN DISH", "cat": "Lo" },
+    { "code": 73849, "name": "CUNEIFORM SIGN DISH", "cat": "Lo", "num": "1" },
     { "code": 73850, "name": "CUNEIFORM SIGN DU", "cat": "Lo" },
     { "code": 73851, "name": "CUNEIFORM SIGN DU OVER DU", "cat": "Lo" },
     { "code": 73852, "name": "CUNEIFORM SIGN DU GUNU", "cat": "Lo" },
@@ -567,12 +567,12 @@ export const dataSet: CharacterSet = {
     { "code": 74275, "name": "CUNEIFORM SIGN MA2", "cat": "Lo" },
     { "code": 74276, "name": "CUNEIFORM SIGN MAH", "cat": "Lo" },
     { "code": 74277, "name": "CUNEIFORM SIGN MAR", "cat": "Lo" },
-    { "code": 74278, "name": "CUNEIFORM SIGN MASH", "cat": "Lo" },
+    { "code": 74278, "name": "CUNEIFORM SIGN MASH", "cat": "Lo", "num": "1/2" },
     { "code": 74279, "name": "CUNEIFORM SIGN MASH2", "cat": "Lo" },
     { "code": 74280, "name": "CUNEIFORM SIGN ME", "cat": "Lo" },
     { "code": 74281, "name": "CUNEIFORM SIGN MES", "cat": "Lo" },
     { "code": 74282, "name": "CUNEIFORM SIGN MI", "cat": "Lo" },
-    { "code": 74283, "name": "CUNEIFORM SIGN MIN", "cat": "Lo" },
+    { "code": 74283, "name": "CUNEIFORM SIGN MIN", "cat": "Lo", "num": "2" },
     { "code": 74284, "name": "CUNEIFORM SIGN MU", "cat": "Lo" },
     { "code": 74285, "name": "CUNEIFORM SIGN MU OVER MU", "cat": "Lo" },
     { "code": 74286, "name": "CUNEIFORM SIGN MUG", "cat": "Lo" },
@@ -796,9 +796,9 @@ export const dataSet: CharacterSet = {
     { "code": 74504, "name": "CUNEIFORM SIGN TUM", "cat": "Lo" },
     { "code": 74505, "name": "CUNEIFORM SIGN TUR", "cat": "Lo" },
     { "code": 74506, "name": "CUNEIFORM SIGN TUR OVER TUR ZA OVER ZA", "cat": "Lo" },
-    { "code": 74507, "name": "CUNEIFORM SIGN U", "cat": "Lo" },
+    { "code": 74507, "name": "CUNEIFORM SIGN U", "cat": "Lo", "num": "1" },
     { "code": 74508, "name": "CUNEIFORM SIGN U GUD", "cat": "Lo" },
-    { "code": 74509, "name": "CUNEIFORM SIGN U U U", "cat": "Lo" },
+    { "code": 74509, "name": "CUNEIFORM SIGN U U U", "cat": "Lo", "num": "3" },
     { "code": 74510, "name": "CUNEIFORM SIGN U OVER U PA OVER PA GAR OVER GAR", "cat": "Lo" },
     { "code": 74511, "name": "CUNEIFORM SIGN U OVER U SUR OVER SUR", "cat": "Lo" },
     { "code": 74512, "name": "CUNEIFORM SIGN U OVER U U REVERSED OVER U REVERSED", "cat": "Lo" },
@@ -938,6 +938,6 @@ export const dataSet: CharacterSet = {
     { "code": 74646, "name": "CUNEIFORM SIGN SAG TIMES IGI GUNU", "cat": "Lo" },
     { "code": 74647, "name": "CUNEIFORM SIGN TI2", "cat": "Lo" },
     { "code": 74648, "name": "CUNEIFORM SIGN UM TIMES ME", "cat": "Lo" },
-    { "code": 74649, "name": "CUNEIFORM SIGN U U", "cat": "Lo" },
+    { "code": 74649, "name": "CUNEIFORM SIGN U U", "cat": "Lo", "num": "2" },
   ],
 };

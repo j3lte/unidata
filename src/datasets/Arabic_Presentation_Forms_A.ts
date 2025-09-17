@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Arabic Presentation Forms-A**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **64336**
  *
  * _End Code:_ **65023**
  *
- * _Total Characters:_ **631**
+ * _Total Characters:_ **656**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Arabic_Presentation_Forms_A,
@@ -818,6 +818,22 @@ export const dataSet: CharacterSet = {
     { "code": 64448, "name": "ARABIC SYMBOL SMALL TAH ABOVE", "cat": "Sk", "bidi": "AL" },
     { "code": 64449, "name": "ARABIC SYMBOL SMALL TAH BELOW", "cat": "Sk", "bidi": "AL" },
     { "code": 64450, "name": "ARABIC SYMBOL WASLA ABOVE", "cat": "Sk", "bidi": "AL" },
+    { "code": 64451, "name": "ARABIC LIGATURE JALLA WA-ALAA", "cat": "So", "bidi": "ON" },
+    { "code": 64452, "name": "ARABIC LIGATURE DAAMAT BARAKAATUHUM", "cat": "So", "bidi": "ON" },
+    { "code": 64453, "name": "ARABIC LIGATURE RAHMATU ALLAAHI TAAALAA ALAYH", "cat": "So", "bidi": "ON" },
+    { "code": 64454, "name": "ARABIC LIGATURE RAHMATU ALLAAHI ALAYHIM", "cat": "So", "bidi": "ON" },
+    { "code": 64455, "name": "ARABIC LIGATURE RAHMATU ALLAAHI ALAYHIMAA", "cat": "So", "bidi": "ON" },
+    { "code": 64456, "name": "ARABIC LIGATURE RAHIMAHUM ALLAAHU TAAALAA", "cat": "So", "bidi": "ON" },
+    { "code": 64457, "name": "ARABIC LIGATURE RAHIMAHUMAA ALLAAH", "cat": "So", "bidi": "ON" },
+    { "code": 64458, "name": "ARABIC LIGATURE RAHIMAHUMAA ALLAAHU TAAALAA", "cat": "So", "bidi": "ON" },
+    { "code": 64459, "name": "ARABIC LIGATURE RADI ALLAAHU TAAALAA ANHUM", "cat": "So", "bidi": "ON" },
+    { "code": 64460, "name": "ARABIC LIGATURE HAFIZAHU ALLAAH", "cat": "So", "bidi": "ON" },
+    { "code": 64461, "name": "ARABIC LIGATURE HAFIZAHU ALLAAHU TAAALAA", "cat": "So", "bidi": "ON" },
+    { "code": 64462, "name": "ARABIC LIGATURE HAFIZAHUM ALLAAHU TAAALAA", "cat": "So", "bidi": "ON" },
+    { "code": 64463, "name": "ARABIC LIGATURE HAFIZAHUMAA ALLAAHU TAAALAA", "cat": "So", "bidi": "ON" },
+    { "code": 64464, "name": "ARABIC LIGATURE SALLALLAAHU TAAALAA ALAYHI WA-SALLAM", "cat": "So", "bidi": "ON" },
+    { "code": 64465, "name": "ARABIC LIGATURE AJJAL ALLAAHU FARAJAHU ASH-SHAREEF", "cat": "So", "bidi": "ON" },
+    { "code": 64466, "name": "ARABIC LIGATURE ALAYHI AR-RAHMAH", "cat": "So", "bidi": "ON" },
     {
       "code": 64467,
       "name": "ARABIC LETTER NG ISOLATED FORM",
@@ -4252,6 +4268,8 @@ export const dataSet: CharacterSet = {
       "decomp": [1605, 1582, 1605],
       "decompType": "initial",
     },
+    { "code": 64912, "name": "ARABIC LIGATURE RAHMATU ALLAAHI ALAYH", "cat": "So", "bidi": "ON" },
+    { "code": 64913, "name": "ARABIC LIGATURE RAHMATU ALLAAHI ALAYHAA", "cat": "So", "bidi": "ON" },
     {
       "code": 64914,
       "name": "ARABIC LIGATURE MEEM WITH JEEM WITH KHAH INITIAL FORM",
@@ -4684,6 +4702,13 @@ export const dataSet: CharacterSet = {
       "decomp": [1606, 1580, 1610],
       "decompType": "final",
     },
+    { "code": 64968, "name": "ARABIC LIGATURE RAHIMAHU ALLAAH TAAALAA", "cat": "So", "bidi": "ON" },
+    { "code": 64969, "name": "ARABIC LIGATURE RADI ALLAAHU TAAALAA ANH", "cat": "So", "bidi": "ON" },
+    { "code": 64970, "name": "ARABIC LIGATURE RADI ALLAAHU TAAALAA ANHAA", "cat": "So", "bidi": "ON" },
+    { "code": 64971, "name": "ARABIC LIGATURE RADI ALLAAHU TAAALAA ANHUMAA", "cat": "So", "bidi": "ON" },
+    { "code": 64972, "name": "ARABIC LIGATURE SALLALLAHU ALAYHI WA-ALAA AALIHEE WA-SALLAM", "cat": "So", "bidi": "ON" },
+    { "code": 64973, "name": "ARABIC LIGATURE AJJAL ALLAAHU TAAALAA FARAJAHU ASH-SHAREEF", "cat": "So", "bidi": "ON" },
+    { "code": 64974, "name": "ARABIC LIGATURE KARRAMA ALLAAHU WAJHAH", "cat": "So", "bidi": "ON" },
     { "code": 64975, "name": "ARABIC LIGATURE SALAAMUHU ALAYNAA", "cat": "So", "bidi": "ON" },
     {
       "code": 65008,

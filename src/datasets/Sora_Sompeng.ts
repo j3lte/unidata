@@ -4,7 +4,7 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Sora Sompeng**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **69840**
  *

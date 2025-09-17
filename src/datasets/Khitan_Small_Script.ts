@@ -4,7 +4,7 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Khitan Small Script**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **101120**
  *

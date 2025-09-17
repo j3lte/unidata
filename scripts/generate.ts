@@ -3,7 +3,7 @@ import { extract } from "@quentinadam/zip";
 import { exists, getBlocks, getCharacters, updateText } from "./utils/mod.ts";
 
 const runVersion = async (UNICODE_VERSION: string) => {
-  const UNICODE_URL = `https://www.unicode.org/Public/zipped/${UNICODE_VERSION}/UCD.zip`;
+  const UNICODE_URL = `https://www.unicode.org/Public/${UNICODE_VERSION}/ucd/UCD.zip`;
   const OUTPUT_DIR = resolve(import.meta.dirname!, `../data/${UNICODE_VERSION}`);
 
   if (!await exists(OUTPUT_DIR)) {
@@ -224,4 +224,4 @@ ${
   }
 };
 
-await runVersion("16.0.0");
+await runVersion("17.0.0");

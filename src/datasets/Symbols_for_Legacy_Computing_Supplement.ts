@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Symbols for Legacy Computing Supplement**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **117760**
  *
  * _End Code:_ **118463**
  *
- * _Total Characters:_ **686**
+ * _Total Characters:_ **695**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Symbols_for_Legacy_Computing_Supplement,
@@ -352,6 +352,9 @@ export const dataSet: CharacterSet = {
       "decompType": "font",
       "num": "9",
     },
+    { "code": 118010, "name": "SNAKE SYMBOL", "cat": "So", "bidi": "ON" },
+    { "code": 118011, "name": "FLYING SAUCER SYMBOL", "cat": "So", "bidi": "ON" },
+    { "code": 118012, "name": "NOSE SYMBOL", "cat": "So", "bidi": "ON" },
     { "code": 118016, "name": "BLOCK OCTANT-3", "cat": "So", "bidi": "ON" },
     { "code": 118017, "name": "BLOCK OCTANT-23", "cat": "So", "bidi": "ON" },
     { "code": 118018, "name": "BLOCK OCTANT-123", "cat": "So", "bidi": "ON" },
@@ -798,5 +801,11 @@ export const dataSet: CharacterSet = {
     { "code": 118449, "name": "KEYHOLE", "cat": "So", "bidi": "ON" },
     { "code": 118450, "name": "OLD PERSONAL COMPUTER WITH MONITOR IN PORTRAIT ORIENTATION", "cat": "So", "bidi": "ON" },
     { "code": 118451, "name": "BLACK RIGHT TRIANGLE CARET", "cat": "So", "bidi": "ON" },
+    { "code": 118458, "name": "FRAGILE SYMBOL", "cat": "So", "bidi": "ON" },
+    { "code": 118459, "name": "OFFICE BUILDING SYMBOL", "cat": "So", "bidi": "ON" },
+    { "code": 118460, "name": "TREE SYMBOL", "cat": "So", "bidi": "ON" },
+    { "code": 118461, "name": "APPLE SYMBOL", "cat": "So", "bidi": "ON" },
+    { "code": 118462, "name": "CHERRY SYMBOL", "cat": "So", "bidi": "ON" },
+    { "code": 118463, "name": "STRAWBERRY SYMBOL", "cat": "So", "bidi": "ON" },
   ],
 };

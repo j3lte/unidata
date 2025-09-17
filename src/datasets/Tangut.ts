@@ -4,7 +4,7 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Tangut**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **94208**
  *
@@ -18,6 +18,6 @@ export const dataSet: CharacterSet = {
   endCode: 100351,
   characters: [
     { "code": 94208, "name": "<Tangut Ideograph, First>", "cat": "Lo" },
-    { "code": 100343, "name": "<Tangut Ideograph, Last>", "cat": "Lo" },
+    { "code": 100351, "name": "<Tangut Ideograph, Last>", "cat": "Lo" },
   ],
 };

@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Telugu**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **3072**
  *
  * _End Code:_ **3199**
  *
- * _Total Characters:_ **100**
+ * _Total Characters:_ **101**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Telugu,
@@ -93,6 +93,7 @@ export const dataSet: CharacterSet = {
     { "code": 3160, "name": "TELUGU LETTER TSA", "cat": "Lo" },
     { "code": 3161, "name": "TELUGU LETTER DZA", "cat": "Lo" },
     { "code": 3162, "name": "TELUGU LETTER RRRA", "cat": "Lo" },
+    { "code": 3164, "name": "TELUGU ARCHAIC SHRII", "cat": "Lo" },
     { "code": 3165, "name": "TELUGU LETTER NAKAARA POLLU", "cat": "Lo" },
     { "code": 3168, "name": "TELUGU LETTER VOCALIC RR", "cat": "Lo" },
     { "code": 3169, "name": "TELUGU LETTER VOCALIC LL", "cat": "Lo" },

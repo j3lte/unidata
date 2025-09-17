@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Chess Symbols**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **129536**
  *
  * _End Code:_ **129647**
  *
- * _Total Characters:_ **98**
+ * _Total Characters:_ **102**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Chess_Symbols,
@@ -111,6 +111,10 @@ export const dataSet: CharacterSet = {
     { "code": 129617, "name": "BLACK CHESS KNIGHT-QUEEN", "cat": "So", "bidi": "ON" },
     { "code": 129618, "name": "BLACK CHESS KNIGHT-ROOK", "cat": "So", "bidi": "ON" },
     { "code": 129619, "name": "BLACK CHESS KNIGHT-BISHOP", "cat": "So", "bidi": "ON" },
+    { "code": 129620, "name": "WHITE CHESS FERZ", "cat": "So", "bidi": "ON" },
+    { "code": 129621, "name": "WHITE CHESS ALFIL", "cat": "So", "bidi": "ON" },
+    { "code": 129622, "name": "BLACK CHESS FERZ", "cat": "So", "bidi": "ON" },
+    { "code": 129623, "name": "BLACK CHESS ALFIL", "cat": "So", "bidi": "ON" },
     { "code": 129632, "name": "XIANGQI RED GENERAL", "cat": "So", "bidi": "ON" },
     { "code": 129633, "name": "XIANGQI RED MANDARIN", "cat": "So", "bidi": "ON" },
     { "code": 129634, "name": "XIANGQI RED ELEPHANT", "cat": "So", "bidi": "ON" },

@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Symbols and Pictographs Extended-A**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **129648**
  *
  * _End Code:_ **129791**
  *
- * _Total Characters:_ **114**
+ * _Total Characters:_ **120**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Symbols_and_Pictographs_Extended_A,
@@ -40,6 +40,8 @@ export const dataSet: CharacterSet = {
     { "code": 129671, "name": "MARACAS", "cat": "So", "bidi": "ON" },
     { "code": 129672, "name": "FLUTE", "cat": "So", "bidi": "ON" },
     { "code": 129673, "name": "HARP", "cat": "So", "bidi": "ON" },
+    { "code": 129674, "name": "TROMBONE", "cat": "So", "bidi": "ON" },
+    { "code": 129678, "name": "TREASURE CHEST", "cat": "So", "bidi": "ON" },
     { "code": 129679, "name": "SHOVEL", "cat": "So", "bidi": "ON" },
     { "code": 129680, "name": "RINGED PLANET", "cat": "So", "bidi": "ON" },
     { "code": 129681, "name": "CHAIR", "cat": "So", "bidi": "ON" },
@@ -96,6 +98,8 @@ export const dataSet: CharacterSet = {
     { "code": 129732, "name": "PREGNANT PERSON", "cat": "So", "bidi": "ON" },
     { "code": 129733, "name": "PERSON WITH CROWN", "cat": "So", "bidi": "ON" },
     { "code": 129734, "name": "FINGERPRINT", "cat": "So", "bidi": "ON" },
+    { "code": 129736, "name": "HAIRY CREATURE", "cat": "So", "bidi": "ON" },
+    { "code": 129741, "name": "ORCA", "cat": "So", "bidi": "ON" },
     { "code": 129742, "name": "MOOSE", "cat": "So", "bidi": "ON" },
     { "code": 129743, "name": "DONKEY", "cat": "So", "bidi": "ON" },
     { "code": 129744, "name": "BLUEBERRIES", "cat": "So", "bidi": "ON" },
@@ -122,6 +126,8 @@ export const dataSet: CharacterSet = {
     { "code": 129767, "name": "BUBBLES", "cat": "So", "bidi": "ON" },
     { "code": 129768, "name": "SHAKING FACE", "cat": "So", "bidi": "ON" },
     { "code": 129769, "name": "FACE WITH BAGS UNDER EYES", "cat": "So", "bidi": "ON" },
+    { "code": 129770, "name": "DISTORTED FACE", "cat": "So", "bidi": "ON" },
+    { "code": 129775, "name": "FIGHT CLOUD", "cat": "So", "bidi": "ON" },
     { "code": 129776, "name": "HAND WITH INDEX FINGER AND THUMB CROSSED", "cat": "So", "bidi": "ON" },
     { "code": 129777, "name": "RIGHTWARDS HAND", "cat": "So", "bidi": "ON" },
     { "code": 129778, "name": "LEFTWARDS HAND", "cat": "So", "bidi": "ON" },

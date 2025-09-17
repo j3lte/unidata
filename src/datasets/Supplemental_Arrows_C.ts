@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Supplemental Arrows-C**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **129024**
  *
  * _End Code:_ **129279**
  *
- * _Total Characters:_ **162**
+ * _Total Characters:_ **171**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Supplemental_Arrows_C,
@@ -179,5 +179,14 @@ export const dataSet: CharacterSet = {
     { "code": 129211, "name": "SOUTH WEST ARROW FROM BAR", "cat": "So", "bidi": "ON" },
     { "code": 129216, "name": "LEFTWARDS ARROW FROM DOWNWARDS ARROW", "cat": "So", "bidi": "ON" },
     { "code": 129217, "name": "RIGHTWARDS ARROW FROM DOWNWARDS ARROW", "cat": "So", "bidi": "ON" },
+    { "code": 129232, "name": "LONG RIGHTWARDS ARROW OVER LONG LEFTWARDS ARROW", "cat": "Sm", "bidi": "ON" },
+    { "code": 129233, "name": "LONG RIGHTWARDS HARPOON OVER LONG LEFTWARDS HARPOON", "cat": "Sm", "bidi": "ON" },
+    { "code": 129234, "name": "LONG RIGHTWARDS HARPOON ABOVE SHORT LEFTWARDS HARPOON", "cat": "Sm", "bidi": "ON" },
+    { "code": 129235, "name": "SHORT RIGHTWARDS HARPOON ABOVE LONG LEFTWARDS HARPOON", "cat": "Sm", "bidi": "ON" },
+    { "code": 129236, "name": "LONG LEFTWARDS HARPOON ABOVE SHORT RIGHTWARDS HARPOON", "cat": "Sm", "bidi": "ON" },
+    { "code": 129237, "name": "SHORT LEFTWARDS HARPOON ABOVE LONG RIGHTWARDS HARPOON", "cat": "Sm", "bidi": "ON" },
+    { "code": 129238, "name": "LONG RIGHTWARDS ARROW THROUGH X", "cat": "Sm", "bidi": "ON" },
+    { "code": 129239, "name": "LONG RIGHTWARDS ARROW WITH DOUBLE SLASH", "cat": "Sm", "bidi": "ON" },
+    { "code": 129240, "name": "LONG LEFT RIGHT ARROW WITH DEPENDENT LOBE", "cat": "Sm", "bidi": "ON" },
   ],
 };

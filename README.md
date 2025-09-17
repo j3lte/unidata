@@ -6,11 +6,11 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/unidata16)](https://www.npmjs.com/package/unidata16)
 [![License](https://img.shields.io/github/license/j3lte/unidata)](https://github.com/j3lte/unidata/blob/main/LICENSE)
 
-A comprehensive Unicode data library for Deno and Node.js, providing access to the latest Unicode 16.0.0 character sets and metadata.
+A comprehensive Unicode data library for Deno and Node.js, providing access to the latest Unicode 17.0.0 character sets and metadata.
 
 ## ✨ Features
 
-- **Latest Unicode Support**: Based on [Unicode Standard 16.0.0](https://www.unicode.org/versions/Unicode16.0.0/)
+- **Latest Unicode Support**: Based on [Unicode Standard 17.0.0](https://www.unicode.org/versions/Unicode17.0.0/)
 - **Complete Character Sets**: Access to all 400+ Unicode blocks
 - **Rich Metadata**: Character codes, names, categories, and properties
 - **TypeScript Support**: Full type definitions included
@@ -126,7 +126,7 @@ const combiningChars = getCharacters(CharacterSetType.Combining_Diacritical_Mark
 
 ## 📚 Available Character Sets
 
-The library provides access to all Unicode 16.0.0 blocks, including:
+The library provides access to all Unicode 17.0.0 blocks, including:
 
 - **Scripts**: Latin, Greek, Cyrillic, Arabic, Chinese, Japanese, Korean, and many more
 - **Symbols**: Mathematical operators, arrows, currency symbols, geometric shapes
@@ -143,7 +143,7 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 - `getCharacters(type)`: Retrieve characters from specified Unicode blocks ([doc](https://jsr.io/@j3lte/unidata/doc/~/getCharacters))
 - `getCharacterSet(type)`: Get complete character set with metadata ([doc](https://jsr.io/@j3lte/unidata/doc/~/getCharacterSet))
 - `getCharacterBaseSet(type)`: Get basic block information ([doc](https://jsr.io/@j3lte/unidata/doc/~/getCharacterBaseSet))
-- `UNICODE_VERSION`: Current Unicode version (16.0.0)
+- `UNICODE_VERSION`: Current Unicode version (17.0.0) per 2025-09-09
 
 ### Types
 
@@ -159,7 +159,7 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Adlam | U+1E900 | U+1E95F | 88 |
 | Aegean Numbers | U+10100 | U+1013F | 57 |
 | Ahom | U+11700 | U+1174F | 65 |
-| Alchemical Symbols | U+1F700 | U+1F77F | 124 |
+| Alchemical Symbols | U+1F700 | U+1F77F | 128 |
 | Alphabetic Presentation Forms | U+FB00 | U+FB4F | 58 |
 | Anatolian Hieroglyphs | U+14400 | U+1467F | 583 |
 | Ancient Greek Musical Notation | U+1D200 | U+1D24F | 70 |
@@ -167,10 +167,10 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Ancient Symbols | U+10190 | U+101CF | 14 |
 | Arabic | U+0600 | U+06FF | 256 |
 | Arabic Extended-A | U+08A0 | U+08FF | 96 |
-| Arabic Extended-B | U+0870 | U+089F | 42 |
-| Arabic Extended-C | U+10EC0 | U+10EFF | 7 |
+| Arabic Extended-B | U+0870 | U+089F | 43 |
+| Arabic Extended-C | U+10EC0 | U+10EFF | 21 |
 | Arabic Mathematical Alphabetic Symbols | U+1EE00 | U+1EEFF | 143 |
-| Arabic Presentation Forms-A | U+FB50 | U+FDFF | 631 |
+| Arabic Presentation Forms-A | U+FB50 | U+FDFF | 656 |
 | Arabic Presentation Forms-B | U+FE70 | U+FEFF | 141 |
 | Arabic Supplement | U+0750 | U+077F | 48 |
 | Armenian | U+0530 | U+058F | 91 |
@@ -183,6 +183,7 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Bassa Vah | U+16AD0 | U+16AFF | 36 |
 | Batak | U+1BC0 | U+1BFF | 56 |
 | Bengali | U+0980 | U+09FF | 96 |
+| Beria Erfe | U+16EA0 | U+16EDF | 50 |
 | Bhaiksuki | U+11C00 | U+11C6F | 97 |
 | Block Elements | U+2580 | U+259F | 32 |
 | Bopomofo | U+3100 | U+312F | 43 |
@@ -199,7 +200,7 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Cham | U+AA00 | U+AA5F | 83 |
 | Cherokee | U+13A0 | U+13FF | 92 |
 | Cherokee Supplement | U+AB70 | U+ABBF | 80 |
-| Chess Symbols | U+1FA00 | U+1FA6F | 98 |
+| Chess Symbols | U+1FA00 | U+1FA6F | 102 |
 | Chorasmian | U+10FB0 | U+10FDF | 28 |
 | CJK Compatibility | U+3300 | U+33FF | 256 |
 | CJK Compatibility Forms | U+FE30 | U+FE4F | 32 |
@@ -218,8 +219,9 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | CJK Unified Ideographs Extension G | U+30000 | U+3134F | 2 |
 | CJK Unified Ideographs Extension H | U+31350 | U+323AF | 2 |
 | CJK Unified Ideographs Extension I | U+2EBF0 | U+2EE5F | 2 |
+| CJK Unified Ideographs Extension J | U+323B0 | U+3347F | 2 |
 | Combining Diacritical Marks | U+0300 | U+036F | 112 |
-| Combining Diacritical Marks Extended | U+1AB0 | U+1AFF | 31 |
+| Combining Diacritical Marks Extended | U+1AB0 | U+1AFF | 58 |
 | Combining Diacritical Marks for Symbols | U+20D0 | U+20FF | 33 |
 | Combining Diacritical Marks Supplement | U+1DC0 | U+1DFF | 64 |
 | Combining Half Marks | U+FE20 | U+FE2F | 16 |
@@ -230,7 +232,7 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Counting Rod Numerals | U+1D360 | U+1D37F | 25 |
 | Cuneiform | U+12000 | U+123FF | 922 |
 | Cuneiform Numbers and Punctuation | U+12400 | U+1247F | 116 |
-| Currency Symbols | U+20A0 | U+20CF | 33 |
+| Currency Symbols | U+20A0 | U+20CF | 34 |
 | Cypriot Syllabary | U+10800 | U+1083F | 55 |
 | Cypro-Minoan | U+12F90 | U+12FFF | 99 |
 | Cyrillic | U+0400 | U+04FF | 256 |
@@ -295,7 +297,7 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | High Surrogates | U+D800 | U+DB7F | 2 |
 | Hiragana | U+3040 | U+309F | 93 |
 | Ideographic Description Characters | U+2FF0 | U+2FFF | 16 |
-| Ideographic Symbols and Punctuation | U+16FE0 | U+16FFF | 7 |
+| Ideographic Symbols and Punctuation | U+16FE0 | U+16FFF | 12 |
 | Imperial Aramaic | U+10840 | U+1085F | 31 |
 | Indic Siyaq Numbers | U+1EC70 | U+1ECBF | 68 |
 | Inscriptional Pahlavi | U+10B60 | U+10B7F | 27 |
@@ -309,7 +311,7 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Kana Supplement | U+1B000 | U+1B0FF | 256 |
 | Kanbun | U+3190 | U+319F | 16 |
 | Kangxi Radicals | U+2F00 | U+2FDF | 214 |
-| Kannada | U+0C80 | U+0CFF | 91 |
+| Kannada | U+0C80 | U+0CFF | 92 |
 | Katakana | U+30A0 | U+30FF | 96 |
 | Katakana Phonetic Extensions | U+31F0 | U+31FF | 16 |
 | Kawi | U+11F00 | U+11F5F | 87 |
@@ -326,7 +328,7 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Latin Extended-A | U+0100 | U+017F | 128 |
 | Latin Extended-B | U+0180 | U+024F | 208 |
 | Latin Extended-C | U+2C60 | U+2C7F | 32 |
-| Latin Extended-D | U+A720 | U+A7FF | 199 |
+| Latin Extended-D | U+A720 | U+A7FF | 204 |
 | Latin Extended-E | U+AB30 | U+AB6F | 60 |
 | Latin Extended-F | U+10780 | U+107BF | 57 |
 | Latin Extended-G | U+1DF00 | U+1DFFF | 37 |
@@ -363,8 +365,9 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Miscellaneous Mathematical Symbols-A | U+27C0 | U+27EF | 48 |
 | Miscellaneous Mathematical Symbols-B | U+2980 | U+29FF | 128 |
 | Miscellaneous Symbols | U+2600 | U+26FF | 256 |
-| Miscellaneous Symbols and Arrows | U+2B00 | U+2BFF | 253 |
+| Miscellaneous Symbols and Arrows | U+2B00 | U+2BFF | 254 |
 | Miscellaneous Symbols and Pictographs | U+1F300 | U+1F5FF | 768 |
+| Miscellaneous Symbols Supplement | U+1CEC0 | U+1CEFF | 34 |
 | Miscellaneous Technical | U+2300 | U+23FF | 256 |
 | Modi | U+11600 | U+1165F | 79 |
 | Modifier Tone Letters | U+A700 | U+A71F | 32 |
@@ -421,9 +424,11 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Samaritan | U+0800 | U+083F | 61 |
 | Saurashtra | U+A880 | U+A8DF | 82 |
 | Sharada | U+11180 | U+111DF | 96 |
+| Sharada Supplement | U+11B60 | U+11B7F | 8 |
 | Shavian | U+10450 | U+1047F | 48 |
 | Shorthand Format Controls | U+1BCA0 | U+1BCAF | 4 |
 | Siddham | U+11580 | U+115FF | 92 |
+| Sidetic | U+10940 | U+1095F | 26 |
 | Sinhala | U+0D80 | U+0DFF | 91 |
 | Sinhala Archaic Numbers | U+111E0 | U+111FF | 20 |
 | Small Form Variants | U+FE50 | U+FE6F | 26 |
@@ -439,7 +444,7 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Superscripts and Subscripts | U+2070 | U+209F | 42 |
 | Supplemental Arrows-A | U+27F0 | U+27FF | 16 |
 | Supplemental Arrows-B | U+2900 | U+297F | 128 |
-| Supplemental Arrows-C | U+1F800 | U+1F8FF | 162 |
+| Supplemental Arrows-C | U+1F800 | U+1F8FF | 171 |
 | Supplemental Mathematical Operators | U+2A00 | U+2AFF | 256 |
 | Supplemental Punctuation | U+2E00 | U+2E7F | 94 |
 | Supplemental Symbols and Pictographs | U+1F900 | U+1F9FF | 256 |
@@ -447,9 +452,9 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Supplementary Private Use Area-B | U+100000 | U+10FFFF | 2 |
 | Sutton SignWriting | U+1D800 | U+1DAAF | 672 |
 | Syloti Nagri | U+A800 | U+A82F | 45 |
-| Symbols and Pictographs Extended-A | U+1FA70 | U+1FAFF | 114 |
-| Symbols for Legacy Computing | U+1FB00 | U+1FBFF | 249 |
-| Symbols for Legacy Computing Supplement | U+1CC00 | U+1CEBF | 686 |
+| Symbols and Pictographs Extended-A | U+1FA70 | U+1FAFF | 120 |
+| Symbols for Legacy Computing | U+1FB00 | U+1FBFF | 250 |
+| Symbols for Legacy Computing Supplement | U+1CC00 | U+1CEBF | 695 |
 | Syriac | U+0700 | U+074F | 77 |
 | Syriac Supplement | U+0860 | U+086F | 11 |
 | Tagalog | U+1700 | U+171F | 23 |
@@ -459,22 +464,25 @@ For a complete list, see the [`CharacterSetType` enum](https://jsr.io/@j3lte/uni
 | Tai Tham | U+1A20 | U+1AAF | 127 |
 | Tai Viet | U+AA80 | U+AADF | 72 |
 | Tai Xuan Jing Symbols | U+1D300 | U+1D35F | 87 |
+| Tai Yo | U+1E6C0 | U+1E6FF | 55 |
 | Takri | U+11680 | U+116CF | 68 |
 | Tamil | U+0B80 | U+0BFF | 72 |
 | Tamil Supplement | U+11FC0 | U+11FFF | 51 |
 | Tangsa | U+16A70 | U+16ACF | 89 |
 | Tangut | U+17000 | U+187FF | 2 |
 | Tangut Components | U+18800 | U+18AFF | 768 |
+| Tangut Components Supplement | U+18D80 | U+18DFF | 115 |
 | Tangut Supplement | U+18D00 | U+18D7F | 2 |
-| Telugu | U+0C00 | U+0C7F | 100 |
+| Telugu | U+0C00 | U+0C7F | 101 |
 | Thaana | U+0780 | U+07BF | 50 |
 | Thai | U+0E00 | U+0E7F | 87 |
 | Tibetan | U+0F00 | U+0FFF | 211 |
 | Tifinagh | U+2D30 | U+2D7F | 59 |
 | Tirhuta | U+11480 | U+114DF | 82 |
 | Todhri | U+105C0 | U+105FF | 52 |
+| Tolong Siki | U+11DB0 | U+11DEF | 54 |
 | Toto | U+1E290 | U+1E2BF | 31 |
-| Transport and Map Symbols | U+1F680 | U+1F6FF | 118 |
+| Transport and Map Symbols | U+1F680 | U+1F6FF | 119 |
 | Tulu-Tigalari | U+11380 | U+113FF | 80 |
 | Ugaritic | U+10380 | U+1039F | 31 |
 | Unified Canadian Aboriginal Syllabics | U+1400 | U+167F | 640 |
@@ -515,4 +523,4 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ## 🙏 Acknowledgements
 
-This library is inspired by the excellent Node.js library [unidata](https://github.com/chbrown/unidata) by Christopher Brown. The big difference is that his library is based Unicode version __13.0.0__, while this library is based on Unicode version __16.0.0__.
+This library is inspired by the excellent Node.js library [unidata](https://github.com/chbrown/unidata) by Christopher Brown. The big difference is that his library is based Unicode version __13.0.0__, while this library is based on Unicode version __17.0.0__.

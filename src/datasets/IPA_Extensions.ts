@@ -4,7 +4,7 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **IPA Extensions**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **592**
  *
@@ -282,7 +282,7 @@ export const dataSet: CharacterSet = {
     {
       "code": 661,
       "name": "LATIN LETTER PHARYNGEAL VOICED FRICATIVE",
-      "cat": "Ll",
+      "cat": "Lo",
       "oldName": "LATIN LETTER REVERSED GLOTTAL STOP",
     },
     { "code": 662, "name": "LATIN LETTER INVERTED GLOTTAL STOP", "cat": "Ll" },

@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Arabic Extended-B**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **2160**
  *
  * _End Code:_ **2207**
  *
- * _Total Characters:_ **42**
+ * _Total Characters:_ **43**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Arabic_Extended_B,
@@ -68,6 +68,7 @@ export const dataSet: CharacterSet = {
     { "code": 2188, "name": "ARABIC LETTER TAH WITH THREE DOTS BELOW", "cat": "Lo", "bidi": "AL" },
     { "code": 2189, "name": "ARABIC LETTER KEHEH WITH TWO DOTS VERTICALLY BELOW", "cat": "Lo", "bidi": "AL" },
     { "code": 2190, "name": "ARABIC VERTICAL TAIL", "cat": "Lo", "bidi": "AL" },
+    { "code": 2191, "name": "ARABIC LETTER NOON WITH RING ABOVE", "cat": "Lo", "bidi": "AL" },
     { "code": 2192, "name": "ARABIC POUND MARK ABOVE", "cat": "Cf", "bidi": "AN" },
     { "code": 2193, "name": "ARABIC PIASTRE MARK ABOVE", "cat": "Cf", "bidi": "AN" },
     { "code": 2199, "name": "ARABIC PEPET", "cat": "Mn", "comb": 230, "bidi": "NSM" },

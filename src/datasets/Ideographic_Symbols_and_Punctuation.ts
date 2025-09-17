@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Ideographic Symbols and Punctuation**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **94176**
  *
  * _End Code:_ **94207**
  *
- * _Total Characters:_ **7**
+ * _Total Characters:_ **12**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Ideographic_Symbols_and_Punctuation,
@@ -24,5 +24,10 @@ export const dataSet: CharacterSet = {
     { "code": 94180, "name": "KHITAN SMALL SCRIPT FILLER", "cat": "Mn", "bidi": "NSM" },
     { "code": 94192, "name": "VIETNAMESE ALTERNATE READING MARK CA", "cat": "Mc", "comb": 6 },
     { "code": 94193, "name": "VIETNAMESE ALTERNATE READING MARK NHAY", "cat": "Mc", "comb": 6 },
+    { "code": 94194, "name": "CHINESE SMALL SIMPLIFIED ER", "cat": "Lm" },
+    { "code": 94195, "name": "CHINESE SMALL TRADITIONAL ER", "cat": "Lm" },
+    { "code": 94196, "name": "YANGQIN SIGN SLOW ONE BEAT", "cat": "Nl", "num": "1" },
+    { "code": 94197, "name": "YANGQIN SIGN SLOW THREE HALF BEATS", "cat": "Nl", "num": "3/2" },
+    { "code": 94198, "name": "YANGQIN SIGN SLOW TWO BEATS", "cat": "Nl", "num": "2" },
   ],
 };

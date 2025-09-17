@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Currency Symbols**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **8352**
  *
  * _End Code:_ **8399**
  *
- * _Total Characters:_ **33**
+ * _Total Characters:_ **34**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Currency_Symbols,
@@ -50,5 +50,6 @@ export const dataSet: CharacterSet = {
     { "code": 8382, "name": "LARI SIGN", "cat": "Sc", "bidi": "ET" },
     { "code": 8383, "name": "BITCOIN SIGN", "cat": "Sc", "bidi": "ET" },
     { "code": 8384, "name": "SOM SIGN", "cat": "Sc", "bidi": "ET" },
+    { "code": 8385, "name": "SAUDI RIYAL SIGN", "cat": "Sc", "bidi": "ET" },
   ],
 };

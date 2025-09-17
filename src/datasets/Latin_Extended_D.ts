@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Latin Extended-D**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **42784**
  *
  * _End Code:_ **43007**
  *
- * _Total Characters:_ **199**
+ * _Total Characters:_ **204**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Latin_Extended_D,
@@ -233,10 +233,20 @@ export const dataSet: CharacterSet = {
     { "code": 42955, "name": "LATIN CAPITAL LETTER RAMS HORN", "cat": "Lu", "lower": 612 },
     { "code": 42956, "name": "LATIN CAPITAL LETTER S WITH DIAGONAL STROKE", "cat": "Lu", "lower": 42957 },
     { "code": 42957, "name": "LATIN SMALL LETTER S WITH DIAGONAL STROKE", "cat": "Ll", "upper": 42956, "title": 42956 },
+    { "code": 42958, "name": "LATIN CAPITAL LETTER PHARYNGEAL VOICED FRICATIVE", "cat": "Lu", "lower": 42959 },
+    {
+      "code": 42959,
+      "name": "LATIN SMALL LETTER PHARYNGEAL VOICED FRICATIVE",
+      "cat": "Ll",
+      "upper": 42958,
+      "title": 42958,
+    },
     { "code": 42960, "name": "LATIN CAPITAL LETTER CLOSED INSULAR G", "cat": "Lu", "lower": 42961 },
     { "code": 42961, "name": "LATIN SMALL LETTER CLOSED INSULAR G", "cat": "Ll", "upper": 42960, "title": 42960 },
-    { "code": 42963, "name": "LATIN SMALL LETTER DOUBLE THORN", "cat": "Ll" },
-    { "code": 42965, "name": "LATIN SMALL LETTER DOUBLE WYNN", "cat": "Ll" },
+    { "code": 42962, "name": "LATIN CAPITAL LETTER DOUBLE THORN", "cat": "Lu", "lower": 42963 },
+    { "code": 42963, "name": "LATIN SMALL LETTER DOUBLE THORN", "cat": "Ll", "upper": 42962, "title": 42962 },
+    { "code": 42964, "name": "LATIN CAPITAL LETTER DOUBLE WYNN", "cat": "Lu", "lower": 42965 },
+    { "code": 42965, "name": "LATIN SMALL LETTER DOUBLE WYNN", "cat": "Ll", "upper": 42964, "title": 42964 },
     { "code": 42966, "name": "LATIN CAPITAL LETTER MIDDLE SCOTS S", "cat": "Lu", "lower": 42967 },
     { "code": 42967, "name": "LATIN SMALL LETTER MIDDLE SCOTS S", "cat": "Ll", "upper": 42966, "title": 42966 },
     { "code": 42968, "name": "LATIN CAPITAL LETTER SIGMOID S", "cat": "Lu", "lower": 42969 },
@@ -244,6 +254,7 @@ export const dataSet: CharacterSet = {
     { "code": 42970, "name": "LATIN CAPITAL LETTER LAMBDA", "cat": "Lu", "lower": 42971 },
     { "code": 42971, "name": "LATIN SMALL LETTER LAMBDA", "cat": "Ll", "upper": 42970, "title": 42970 },
     { "code": 42972, "name": "LATIN CAPITAL LETTER LAMBDA WITH STROKE", "cat": "Lu", "lower": 411 },
+    { "code": 42993, "name": "MODIFIER LETTER CAPITAL S", "cat": "Lm", "decomp": [83], "decompType": "super" },
     { "code": 42994, "name": "MODIFIER LETTER CAPITAL C", "cat": "Lm", "decomp": [67], "decompType": "super" },
     { "code": 42995, "name": "MODIFIER LETTER CAPITAL F", "cat": "Lm", "decomp": [70], "decompType": "super" },
     { "code": 42996, "name": "MODIFIER LETTER CAPITAL Q", "cat": "Lm", "decomp": [81], "decompType": "super" },

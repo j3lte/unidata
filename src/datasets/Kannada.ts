@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Kannada**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **3200**
  *
  * _End Code:_ **3327**
  *
- * _Total Characters:_ **91**
+ * _Total Characters:_ **92**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Kannada,
@@ -89,6 +89,7 @@ export const dataSet: CharacterSet = {
     { "code": 3277, "name": "KANNADA SIGN VIRAMA", "cat": "Mn", "comb": 9, "bidi": "NSM" },
     { "code": 3285, "name": "KANNADA LENGTH MARK", "cat": "Mc" },
     { "code": 3286, "name": "KANNADA AI LENGTH MARK", "cat": "Mc" },
+    { "code": 3292, "name": "KANNADA ARCHAIC SHRII", "cat": "Lo" },
     { "code": 3293, "name": "KANNADA LETTER NAKAARA POLLU", "cat": "Lo" },
     { "code": 3294, "name": "KANNADA LETTER FA", "cat": "Lo" },
     { "code": 3296, "name": "KANNADA LETTER VOCALIC RR", "cat": "Lo" },

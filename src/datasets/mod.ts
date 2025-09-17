@@ -193,6 +193,7 @@ import { dataSet as Nabataean } from "./Nabataean.ts";
 import { dataSet as Hatran } from "./Hatran.ts";
 import { dataSet as Phoenician } from "./Phoenician.ts";
 import { dataSet as Lydian } from "./Lydian.ts";
+import { dataSet as Sidetic } from "./Sidetic.ts";
 import { dataSet as Meroitic_Hieroglyphs } from "./Meroitic_Hieroglyphs.ts";
 import { dataSet as Meroitic_Cursive } from "./Meroitic_Cursive.ts";
 import { dataSet as Kharoshthi } from "./Kharoshthi.ts";
@@ -244,11 +245,13 @@ import { dataSet as Soyombo } from "./Soyombo.ts";
 import { dataSet as Unified_Canadian_Aboriginal_Syllabics_Extended_A } from "./Unified_Canadian_Aboriginal_Syllabics_Extended_A.ts";
 import { dataSet as Pau_Cin_Hau } from "./Pau_Cin_Hau.ts";
 import { dataSet as Devanagari_Extended_A } from "./Devanagari_Extended_A.ts";
+import { dataSet as Sharada_Supplement } from "./Sharada_Supplement.ts";
 import { dataSet as Sunuwar } from "./Sunuwar.ts";
 import { dataSet as Bhaiksuki } from "./Bhaiksuki.ts";
 import { dataSet as Marchen } from "./Marchen.ts";
 import { dataSet as Masaram_Gondi } from "./Masaram_Gondi.ts";
 import { dataSet as Gunjala_Gondi } from "./Gunjala_Gondi.ts";
+import { dataSet as Tolong_Siki } from "./Tolong_Siki.ts";
 import { dataSet as Makasar } from "./Makasar.ts";
 import { dataSet as Kawi } from "./Kawi.ts";
 import { dataSet as Lisu_Supplement } from "./Lisu_Supplement.ts";
@@ -269,12 +272,14 @@ import { dataSet as Bassa_Vah } from "./Bassa_Vah.ts";
 import { dataSet as Pahawh_Hmong } from "./Pahawh_Hmong.ts";
 import { dataSet as Kirat_Rai } from "./Kirat_Rai.ts";
 import { dataSet as Medefaidrin } from "./Medefaidrin.ts";
+import { dataSet as Beria_Erfe } from "./Beria_Erfe.ts";
 import { dataSet as Miao } from "./Miao.ts";
 import { dataSet as Ideographic_Symbols_and_Punctuation } from "./Ideographic_Symbols_and_Punctuation.ts";
 import { dataSet as Tangut } from "./Tangut.ts";
 import { dataSet as Tangut_Components } from "./Tangut_Components.ts";
 import { dataSet as Khitan_Small_Script } from "./Khitan_Small_Script.ts";
 import { dataSet as Tangut_Supplement } from "./Tangut_Supplement.ts";
+import { dataSet as Tangut_Components_Supplement } from "./Tangut_Components_Supplement.ts";
 import { dataSet as Kana_Extended_B } from "./Kana_Extended_B.ts";
 import { dataSet as Kana_Supplement } from "./Kana_Supplement.ts";
 import { dataSet as Kana_Extended_A } from "./Kana_Extended_A.ts";
@@ -283,6 +288,7 @@ import { dataSet as Nushu } from "./Nushu.ts";
 import { dataSet as Duployan } from "./Duployan.ts";
 import { dataSet as Shorthand_Format_Controls } from "./Shorthand_Format_Controls.ts";
 import { dataSet as Symbols_for_Legacy_Computing_Supplement } from "./Symbols_for_Legacy_Computing_Supplement.ts";
+import { dataSet as Miscellaneous_Symbols_Supplement } from "./Miscellaneous_Symbols_Supplement.ts";
 import { dataSet as Znamenny_Musical_Notation } from "./Znamenny_Musical_Notation.ts";
 import { dataSet as Byzantine_Musical_Symbols } from "./Byzantine_Musical_Symbols.ts";
 import { dataSet as Musical_Symbols } from "./Musical_Symbols.ts";
@@ -301,6 +307,7 @@ import { dataSet as Toto } from "./Toto.ts";
 import { dataSet as Wancho } from "./Wancho.ts";
 import { dataSet as Nag_Mundari } from "./Nag_Mundari.ts";
 import { dataSet as Ol_Onal } from "./Ol_Onal.ts";
+import { dataSet as Tai_Yo } from "./Tai_Yo.ts";
 import { dataSet as Ethiopic_Extended_B } from "./Ethiopic_Extended_B.ts";
 import { dataSet as Mende_Kikakui } from "./Mende_Kikakui.ts";
 import { dataSet as Adlam } from "./Adlam.ts";
@@ -332,6 +339,7 @@ import { dataSet as CJK_Unified_Ideographs_Extension_I } from "./CJK_Unified_Ide
 import { dataSet as CJK_Compatibility_Ideographs_Supplement } from "./CJK_Compatibility_Ideographs_Supplement.ts";
 import { dataSet as CJK_Unified_Ideographs_Extension_G } from "./CJK_Unified_Ideographs_Extension_G.ts";
 import { dataSet as CJK_Unified_Ideographs_Extension_H } from "./CJK_Unified_Ideographs_Extension_H.ts";
+import { dataSet as CJK_Unified_Ideographs_Extension_J } from "./CJK_Unified_Ideographs_Extension_J.ts";
 import { dataSet as Tags } from "./Tags.ts";
 import { dataSet as Variation_Selectors_Supplement } from "./Variation_Selectors_Supplement.ts";
 import { dataSet as Supplementary_Private_Use_Area_A } from "./Supplementary_Private_Use_Area_A.ts";
@@ -365,6 +373,7 @@ export {
   Bassa_Vah,
   Batak,
   Bengali,
+  Beria_Erfe,
   Bhaiksuki,
   Block_Elements,
   Bopomofo,
@@ -400,6 +409,7 @@ export {
   CJK_Unified_Ideographs_Extension_G,
   CJK_Unified_Ideographs_Extension_H,
   CJK_Unified_Ideographs_Extension_I,
+  CJK_Unified_Ideographs_Extension_J,
   Combining_Diacritical_Marks,
   Combining_Diacritical_Marks_Extended,
   Combining_Diacritical_Marks_for_Symbols,
@@ -547,6 +557,7 @@ export {
   Miscellaneous_Symbols,
   Miscellaneous_Symbols_and_Arrows,
   Miscellaneous_Symbols_and_Pictographs,
+  Miscellaneous_Symbols_Supplement,
   Miscellaneous_Technical,
   Modi,
   Modifier_Tone_Letters,
@@ -603,9 +614,11 @@ export {
   Samaritan,
   Saurashtra,
   Sharada,
+  Sharada_Supplement,
   Shavian,
   Shorthand_Format_Controls,
   Siddham,
+  Sidetic,
   Sinhala,
   Sinhala_Archaic_Numbers,
   Small_Form_Variants,
@@ -641,12 +654,14 @@ export {
   Tai_Tham,
   Tai_Viet,
   Tai_Xuan_Jing_Symbols,
+  Tai_Yo,
   Takri,
   Tamil,
   Tamil_Supplement,
   Tangsa,
   Tangut,
   Tangut_Components,
+  Tangut_Components_Supplement,
   Tangut_Supplement,
   Telugu,
   Thaana,
@@ -655,6 +670,7 @@ export {
   Tifinagh,
   Tirhuta,
   Todhri,
+  Tolong_Siki,
   Toto,
   Transport_and_Map_Symbols,
   Tulu_Tigalari,

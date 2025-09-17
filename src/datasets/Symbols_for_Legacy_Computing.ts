@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Symbols for Legacy Computing**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **129792**
  *
  * _End Code:_ **130047**
  *
- * _Total Characters:_ **249**
+ * _Total Characters:_ **250**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Symbols_for_Legacy_Computing,
@@ -576,5 +576,6 @@ export const dataSet: CharacterSet = {
       "decompType": "font",
       "num": "9",
     },
+    { "code": 130042, "name": "ALARM BELL SYMBOL", "cat": "So", "bidi": "ON" },
   ],
 };

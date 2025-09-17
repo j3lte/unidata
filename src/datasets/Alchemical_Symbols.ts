@@ -4,13 +4,13 @@ import { CharacterSetType } from "../enums.ts";
 /**
  * _Unicode Dataset:_ **Alchemical Symbols**
  *
- * _Unicode Version:_ **16.0.0**
+ * _Unicode Version:_ **17.0.0**
  *
  * _Start Code:_ **128768**
  *
  * _End Code:_ **128895**
  *
- * _Total Characters:_ **124**
+ * _Total Characters:_ **128**
  */
 export const dataSet: CharacterSet = {
   blockName: CharacterSetType.Alchemical_Symbols,
@@ -136,6 +136,10 @@ export const dataSet: CharacterSet = {
     { "code": 128884, "name": "LOT OF FORTUNE", "cat": "So", "bidi": "ON" },
     { "code": 128885, "name": "OCCULTATION", "cat": "So", "bidi": "ON" },
     { "code": 128886, "name": "LUNAR ECLIPSE", "cat": "So", "bidi": "ON" },
+    { "code": 128887, "name": "VESTA FORM TWO", "cat": "So", "bidi": "ON" },
+    { "code": 128888, "name": "ASTRAEA FORM TWO", "cat": "So", "bidi": "ON" },
+    { "code": 128889, "name": "HYGIEA FORM TWO", "cat": "So", "bidi": "ON" },
+    { "code": 128890, "name": "PARTHENOPE FORM TWO", "cat": "So", "bidi": "ON" },
     { "code": 128891, "name": "HAUMEA", "cat": "So", "bidi": "ON" },
     { "code": 128892, "name": "MAKEMAKE", "cat": "So", "bidi": "ON" },
     { "code": 128893, "name": "GONGGONG", "cat": "So", "bidi": "ON" },
