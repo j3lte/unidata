@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Indic Siyaq Numbers**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER ONE",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "1",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER TWO",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "2",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "3",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "4",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER FIVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "5",
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER SIX",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "6",
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER SEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "7",
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER EIGHT",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "8",
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER NINE",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "9",
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER TEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "10",
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER TWENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "20",
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER THIRTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "30",
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER FORTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "40",
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER FIFTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "50",
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER SIXTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "60",
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER SEVENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "70",
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER EIGHTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "80",
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER NINETY",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "90",
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER ONE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "100",
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER TWO HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "200",
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER THREE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "300",
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER FOUR HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "400",
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER FIVE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "500",
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER SIX HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "600",
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER SEVEN HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "700",
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER EIGHT HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "800",
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER NINE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "900",
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER ONE THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "1000",
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER TWO THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "2000",
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER THREE THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "3000",
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER FOUR THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "4000",
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER FIVE THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "5000",
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER SIX THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "6000",
     },
     {
@@ -253,6 +286,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER SEVEN THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "7000",
     },
     {
@@ -260,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER EIGHT THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "8000",
     },
     {
@@ -267,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER NINE THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "9000",
     },
     {
@@ -274,6 +310,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER TEN THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "10000",
     },
     {
@@ -281,6 +318,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER TWENTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "20000",
     },
     {
@@ -288,6 +326,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER THIRTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "30000",
     },
     {
@@ -295,6 +334,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER FORTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "40000",
     },
     {
@@ -302,6 +342,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER FIFTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "50000",
     },
     {
@@ -309,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER SIXTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "60000",
     },
     {
@@ -316,6 +358,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER SEVENTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "70000",
     },
     {
@@ -323,6 +366,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER EIGHTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "80000",
     },
     {
@@ -330,6 +374,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER NINETY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "90000",
     },
     {
@@ -337,6 +382,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER LAKH",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "100000",
     },
     {
@@ -344,6 +390,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER LAKHAN",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "200000",
     },
     {
@@ -351,6 +398,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ LAKH MARK",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "100000",
     },
     {
@@ -358,6 +406,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER KAROR",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "10000000",
     },
     {
@@ -365,6 +414,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER KARORAN",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "20000000",
     },
     {
@@ -372,6 +422,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER PREFIXED ONE",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "1",
     },
     {
@@ -379,6 +430,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER PREFIXED TWO",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "2",
     },
     {
@@ -386,6 +438,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER PREFIXED THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "3",
     },
     {
@@ -393,6 +446,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER PREFIXED FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "4",
     },
     {
@@ -400,6 +454,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER PREFIXED FIVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "5",
     },
     {
@@ -407,6 +462,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER PREFIXED SIX",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "6",
     },
     {
@@ -414,6 +470,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER PREFIXED SEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "7",
     },
     {
@@ -421,6 +478,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER PREFIXED EIGHT",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "8",
     },
     {
@@ -428,14 +486,22 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER PREFIXED NINE",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "9",
     },
-    { code: 126124, name: "INDIC SIYAQ PLACEHOLDER", cat: Category.Other_Symbol, bidi: BidiClass.Arabic_Letter },
+    {
+      code: 126124,
+      name: "INDIC SIYAQ PLACEHOLDER",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
+    },
     {
       code: 126125,
       name: "INDIC SIYAQ FRACTION ONE QUARTER",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "1/4",
     },
     {
@@ -443,6 +509,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ FRACTION ONE HALF",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "1/2",
     },
     {
@@ -450,14 +517,22 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ FRACTION THREE QUARTERS",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "3/4",
     },
-    { code: 126128, name: "INDIC SIYAQ RUPEE MARK", cat: Category.Currency_Symbol, bidi: BidiClass.Arabic_Letter },
+    {
+      code: 126128,
+      name: "INDIC SIYAQ RUPEE MARK",
+      cat: Category.Currency_Symbol,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
+    },
     {
       code: 126129,
       name: "INDIC SIYAQ NUMBER ALTERNATE ONE",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "1",
     },
     {
@@ -465,6 +540,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER ALTERNATE TWO",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "2",
     },
     {
@@ -472,6 +548,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ NUMBER ALTERNATE TEN THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "10000",
     },
     {
@@ -479,6 +556,7 @@ export const dataSet: CharacterSet = {
       name: "INDIC SIYAQ ALTERNATE LAKH MARK",
       cat: Category.Other_Number,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V11_0,
       num: "100000",
     },
   ],

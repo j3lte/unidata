@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Latin Extended-C**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER L WITH DOUBLE BAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       lower: 11361,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER L WITH DOUBLE BAR",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       upper: 11360,
       title: 11360,
     },
@@ -37,6 +39,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER L WITH MIDDLE TILDE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       lower: 619,
     },
     {
@@ -44,6 +47,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER P WITH STROKE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       lower: 7549,
     },
     {
@@ -51,6 +55,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER R WITH TAIL",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       lower: 637,
     },
     {
@@ -58,6 +63,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER A WITH STROKE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       upper: 570,
       title: 570,
     },
@@ -66,6 +72,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER T WITH DIAGONAL STROKE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       upper: 574,
       title: 574,
     },
@@ -74,6 +81,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER H WITH DESCENDER",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       lower: 11368,
     },
     {
@@ -81,6 +89,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER H WITH DESCENDER",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       upper: 11367,
       title: 11367,
     },
@@ -89,6 +98,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER K WITH DESCENDER",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       lower: 11370,
     },
     {
@@ -96,6 +106,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER K WITH DESCENDER",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       upper: 11369,
       title: 11369,
     },
@@ -104,6 +115,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER Z WITH DESCENDER",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       lower: 11372,
     },
     {
@@ -111,6 +123,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER Z WITH DESCENDER",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       upper: 11371,
       title: 11371,
     },
@@ -119,6 +132,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER ALPHA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 593,
     },
     {
@@ -126,6 +140,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER M WITH HOOK",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 625,
     },
     {
@@ -133,6 +148,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER TURNED A",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 592,
     },
     {
@@ -140,6 +156,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER TURNED ALPHA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       lower: 594,
     },
     {
@@ -147,12 +164,14 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER V WITH RIGHT HOOK",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
     },
     {
       code: 11378,
       name: "LATIN CAPITAL LETTER W WITH HOOK",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 11379,
     },
     {
@@ -160,6 +179,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER W WITH HOOK",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       upper: 11378,
       title: 11378,
     },
@@ -168,12 +188,14 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER V WITH CURL",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
     },
     {
       code: 11381,
       name: "LATIN CAPITAL LETTER HALF H",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       lower: 11382,
     },
     {
@@ -181,6 +203,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER HALF H",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       upper: 11381,
       title: 11381,
     },
@@ -189,36 +212,42 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LETTER TAILLESS PHI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
     },
     {
       code: 11384,
       name: "LATIN SMALL LETTER E WITH NOTCH",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
     },
     {
       code: 11385,
       name: "LATIN SMALL LETTER TURNED R WITH TAIL",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
     },
     {
       code: 11386,
       name: "LATIN SMALL LETTER O WITH LOW RING INSIDE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
     },
     {
       code: 11387,
       name: "LATIN LETTER SMALL CAPITAL TURNED E",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
     },
     {
       code: 11388,
       name: "LATIN SUBSCRIPT SMALL LETTER J",
       cat: Category.Modifier_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       decomp: [106],
       decompType: "sub",
     },
@@ -227,6 +256,7 @@ export const dataSet: CharacterSet = {
       name: "MODIFIER LETTER CAPITAL V",
       cat: Category.Modifier_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       decomp: [86],
       decompType: "super",
     },
@@ -235,6 +265,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER S WITH SWASH TAIL",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       lower: 575,
     },
     {
@@ -242,6 +273,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN CAPITAL LETTER Z WITH SWASH TAIL",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       lower: 576,
     },
   ],

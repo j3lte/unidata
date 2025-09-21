@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Kaktovik Numerals**
@@ -22,15 +22,31 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL ZERO",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "0",
     },
-    { code: 119489, name: "KAKTOVIK NUMERAL ONE", cat: Category.Other_Number, bidi: BidiClass.Left_To_Right, num: "1" },
-    { code: 119490, name: "KAKTOVIK NUMERAL TWO", cat: Category.Other_Number, bidi: BidiClass.Left_To_Right, num: "2" },
+    {
+      code: 119489,
+      name: "KAKTOVIK NUMERAL ONE",
+      cat: Category.Other_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
+      num: "1",
+    },
+    {
+      code: 119490,
+      name: "KAKTOVIK NUMERAL TWO",
+      cat: Category.Other_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
+      num: "2",
+    },
     {
       code: 119491,
       name: "KAKTOVIK NUMERAL THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "3",
     },
     {
@@ -38,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "4",
     },
     {
@@ -45,14 +62,23 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL FIVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "5",
     },
-    { code: 119494, name: "KAKTOVIK NUMERAL SIX", cat: Category.Other_Number, bidi: BidiClass.Left_To_Right, num: "6" },
+    {
+      code: 119494,
+      name: "KAKTOVIK NUMERAL SIX",
+      cat: Category.Other_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
+      num: "6",
+    },
     {
       code: 119495,
       name: "KAKTOVIK NUMERAL SEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "7",
     },
     {
@@ -60,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL EIGHT",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "8",
     },
     {
@@ -67,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL NINE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "9",
     },
     {
@@ -74,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL TEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "10",
     },
     {
@@ -81,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL ELEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "11",
     },
     {
@@ -88,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL TWELVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "12",
     },
     {
@@ -95,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL THIRTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "13",
     },
     {
@@ -102,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL FOURTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "14",
     },
     {
@@ -109,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL FIFTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "15",
     },
     {
@@ -116,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL SIXTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "16",
     },
     {
@@ -123,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL SEVENTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "17",
     },
     {
@@ -130,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL EIGHTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "18",
     },
     {
@@ -137,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "KAKTOVIK NUMERAL NINETEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
       num: "19",
     },
   ],

@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **CJK Compatibility Ideographs Supplement**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F800",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20029],
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F801",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20024],
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F802",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20033],
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F803",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [131362],
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F804",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20320],
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F805",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20398],
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F806",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20411],
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F807",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20482],
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F808",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20602],
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F809",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20633],
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F80A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20711],
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F80B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20687],
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F80C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [13470],
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F80D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [132666],
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F80E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20813],
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F80F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20820],
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F810",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20836],
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F811",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20855],
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F812",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [132380],
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F813",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [13497],
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F814",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20839],
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F815",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20877],
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F816",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [132427],
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F817",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20887],
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F818",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20900],
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F819",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20172],
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F81A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20908],
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F81B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20917],
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F81C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [168415],
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F81D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20981],
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F81E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20995],
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F81F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [13535],
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F820",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21051],
     },
     {
@@ -253,6 +286,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F821",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21062],
     },
     {
@@ -260,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F822",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21106],
     },
     {
@@ -267,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F823",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21111],
     },
     {
@@ -274,6 +310,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F824",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [13589],
     },
     {
@@ -281,6 +318,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F825",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21191],
     },
     {
@@ -288,6 +326,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F826",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21193],
     },
     {
@@ -295,6 +334,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F827",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21220],
     },
     {
@@ -302,6 +342,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F828",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21242],
     },
     {
@@ -309,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F829",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21253],
     },
     {
@@ -316,6 +358,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F82A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21254],
     },
     {
@@ -323,6 +366,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F82B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21271],
     },
     {
@@ -330,6 +374,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F82C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21321],
     },
     {
@@ -337,6 +382,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F82D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21329],
     },
     {
@@ -344,6 +390,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F82E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21338],
     },
     {
@@ -351,6 +398,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F82F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21363],
     },
     {
@@ -358,6 +406,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F830",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21373],
     },
     {
@@ -365,6 +414,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F831",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21375],
     },
     {
@@ -372,6 +422,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F832",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21375],
     },
     {
@@ -379,6 +430,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F833",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21375],
     },
     {
@@ -386,6 +438,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F834",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [133676],
     },
     {
@@ -393,6 +446,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F835",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28784],
     },
     {
@@ -400,6 +454,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F836",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21450],
     },
     {
@@ -407,6 +462,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F837",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21471],
     },
     {
@@ -414,6 +470,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F838",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [133987],
     },
     {
@@ -421,6 +478,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F839",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21483],
     },
     {
@@ -428,6 +486,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F83A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21489],
     },
     {
@@ -435,6 +494,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F83B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21510],
     },
     {
@@ -442,6 +502,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F83C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21662],
     },
     {
@@ -449,6 +510,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F83D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21560],
     },
     {
@@ -456,6 +518,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F83E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21576],
     },
     {
@@ -463,6 +526,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F83F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21608],
     },
     {
@@ -470,6 +534,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F840",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21666],
     },
     {
@@ -477,6 +542,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F841",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21750],
     },
     {
@@ -484,6 +550,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F842",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21776],
     },
     {
@@ -491,6 +558,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F843",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21843],
     },
     {
@@ -498,6 +566,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F844",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21859],
     },
     {
@@ -505,6 +574,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F845",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21892],
     },
     {
@@ -512,6 +582,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F846",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21892],
     },
     {
@@ -519,6 +590,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F847",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21913],
     },
     {
@@ -526,6 +598,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F848",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21931],
     },
     {
@@ -533,6 +606,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F849",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21939],
     },
     {
@@ -540,6 +614,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F84A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21954],
     },
     {
@@ -547,6 +622,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F84B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22294],
     },
     {
@@ -554,6 +630,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F84C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22022],
     },
     {
@@ -561,6 +638,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F84D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22295],
     },
     {
@@ -568,6 +646,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F84E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22097],
     },
     {
@@ -575,6 +654,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F84F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22132],
     },
     {
@@ -582,6 +662,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F850",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20999],
     },
     {
@@ -589,6 +670,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F851",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22766],
     },
     {
@@ -596,6 +678,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F852",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22478],
     },
     {
@@ -603,6 +686,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F853",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22516],
     },
     {
@@ -610,6 +694,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F854",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22541],
     },
     {
@@ -617,6 +702,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F855",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22411],
     },
     {
@@ -624,6 +710,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F856",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22578],
     },
     {
@@ -631,6 +718,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F857",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22577],
     },
     {
@@ -638,6 +726,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F858",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22700],
     },
     {
@@ -645,6 +734,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F859",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [136420],
     },
     {
@@ -652,6 +742,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F85A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22770],
     },
     {
@@ -659,6 +750,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F85B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22775],
     },
     {
@@ -666,6 +758,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F85C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22790],
     },
     {
@@ -673,6 +766,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F85D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22810],
     },
     {
@@ -680,6 +774,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F85E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22818],
     },
     {
@@ -687,6 +782,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F85F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [22882],
     },
     {
@@ -694,6 +790,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F860",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [136872],
     },
     {
@@ -701,6 +798,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F861",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [136938],
     },
     {
@@ -708,6 +806,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F862",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23020],
     },
     {
@@ -715,6 +814,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F863",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23067],
     },
     {
@@ -722,6 +822,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F864",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23079],
     },
     {
@@ -729,6 +830,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F865",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23000],
     },
     {
@@ -736,6 +838,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F866",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23142],
     },
     {
@@ -743,6 +846,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F867",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14062],
     },
     {
@@ -750,6 +854,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F868",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14076],
     },
     {
@@ -757,6 +862,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F869",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23304],
     },
     {
@@ -764,6 +870,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F86A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23358],
     },
     {
@@ -771,6 +878,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F86B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23358],
     },
     {
@@ -778,6 +886,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F86C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [137672],
     },
     {
@@ -785,6 +894,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F86D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23491],
     },
     {
@@ -792,6 +902,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F86E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23512],
     },
     {
@@ -799,6 +910,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F86F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23527],
     },
     {
@@ -806,6 +918,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F870",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23539],
     },
     {
@@ -813,6 +926,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F871",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [138008],
     },
     {
@@ -820,6 +934,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F872",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23551],
     },
     {
@@ -827,6 +942,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F873",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23558],
     },
     {
@@ -834,6 +950,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F874",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24403],
     },
     {
@@ -841,6 +958,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F875",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23586],
     },
     {
@@ -848,6 +966,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F876",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14209],
     },
     {
@@ -855,6 +974,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F877",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23648],
     },
     {
@@ -862,6 +982,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F878",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23662],
     },
     {
@@ -869,6 +990,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F879",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23744],
     },
     {
@@ -876,6 +998,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F87A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23693],
     },
     {
@@ -883,6 +1006,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F87B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [138724],
     },
     {
@@ -890,6 +1014,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F87C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23875],
     },
     {
@@ -897,6 +1022,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F87D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [138726],
     },
     {
@@ -904,6 +1030,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F87E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23918],
     },
     {
@@ -911,6 +1038,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F87F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23915],
     },
     {
@@ -918,6 +1046,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F880",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23932],
     },
     {
@@ -925,6 +1054,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F881",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24033],
     },
     {
@@ -932,6 +1062,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F882",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24034],
     },
     {
@@ -939,6 +1070,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F883",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14383],
     },
     {
@@ -946,6 +1078,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F884",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24061],
     },
     {
@@ -953,6 +1086,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F885",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24104],
     },
     {
@@ -960,6 +1094,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F886",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24125],
     },
     {
@@ -967,6 +1102,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F887",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24169],
     },
     {
@@ -974,6 +1110,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F888",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14434],
     },
     {
@@ -981,6 +1118,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F889",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [139651],
     },
     {
@@ -988,6 +1126,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F88A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14460],
     },
     {
@@ -995,6 +1134,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F88B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24240],
     },
     {
@@ -1002,6 +1142,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F88C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24243],
     },
     {
@@ -1009,6 +1150,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F88D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24246],
     },
     {
@@ -1016,6 +1158,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F88E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24266],
     },
     {
@@ -1023,6 +1166,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F88F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [172946],
     },
     {
@@ -1030,6 +1174,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F890",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24318],
       num: "9",
     },
@@ -1038,6 +1183,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F891",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [140081],
     },
     {
@@ -1045,6 +1191,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F892",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [140081],
     },
     {
@@ -1052,6 +1199,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F893",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33281],
     },
     {
@@ -1059,6 +1207,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F894",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24354],
     },
     {
@@ -1066,6 +1215,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F895",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24354],
     },
     {
@@ -1073,6 +1223,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F896",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14535],
     },
     {
@@ -1080,6 +1231,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F897",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [144056],
     },
     {
@@ -1087,6 +1239,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F898",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [156122],
     },
     {
@@ -1094,6 +1247,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F899",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24418],
     },
     {
@@ -1101,6 +1255,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F89A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24427],
     },
     {
@@ -1108,6 +1263,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F89B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14563],
     },
     {
@@ -1115,6 +1271,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F89C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24474],
     },
     {
@@ -1122,6 +1279,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F89D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24525],
     },
     {
@@ -1129,6 +1287,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F89E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24535],
     },
     {
@@ -1136,6 +1295,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F89F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24569],
     },
     {
@@ -1143,6 +1303,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8A0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24705],
     },
     {
@@ -1150,6 +1311,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8A1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14650],
     },
     {
@@ -1157,6 +1319,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8A2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14620],
     },
     {
@@ -1164,6 +1327,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8A3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24724],
     },
     {
@@ -1171,6 +1335,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8A4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [141012],
     },
     {
@@ -1178,6 +1343,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8A5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24775],
     },
     {
@@ -1185,6 +1351,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8A6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24904],
     },
     {
@@ -1192,6 +1359,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8A7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24908],
     },
     {
@@ -1199,6 +1367,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8A8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24910],
     },
     {
@@ -1206,6 +1375,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8A9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24908],
     },
     {
@@ -1213,6 +1383,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8AA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24954],
     },
     {
@@ -1220,6 +1391,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8AB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24974],
     },
     {
@@ -1227,6 +1399,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8AC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25010],
     },
     {
@@ -1234,6 +1407,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8AD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [24996],
     },
     {
@@ -1241,6 +1415,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8AE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25007],
     },
     {
@@ -1248,6 +1423,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8AF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25054],
     },
     {
@@ -1255,6 +1431,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8B0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25074],
     },
     {
@@ -1262,6 +1439,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8B1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25078],
     },
     {
@@ -1269,6 +1447,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8B2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25104],
     },
     {
@@ -1276,6 +1455,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8B3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25115],
     },
     {
@@ -1283,6 +1463,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8B4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25181],
     },
     {
@@ -1290,6 +1471,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8B5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25265],
     },
     {
@@ -1297,6 +1479,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8B6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25300],
     },
     {
@@ -1304,6 +1487,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8B7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25424],
     },
     {
@@ -1311,6 +1495,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8B8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [142092],
     },
     {
@@ -1318,6 +1503,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8B9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25405],
     },
     {
@@ -1325,6 +1511,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8BA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25340],
     },
     {
@@ -1332,6 +1519,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8BB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25448],
     },
     {
@@ -1339,6 +1527,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8BC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25475],
     },
     {
@@ -1346,6 +1535,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8BD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25572],
     },
     {
@@ -1353,6 +1543,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8BE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [142321],
     },
     {
@@ -1360,6 +1551,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8BF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25634],
     },
     {
@@ -1367,6 +1559,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8C0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25541],
     },
     {
@@ -1374,6 +1567,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8C1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25513],
     },
     {
@@ -1381,6 +1575,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8C2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14894],
     },
     {
@@ -1388,6 +1583,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8C3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25705],
     },
     {
@@ -1395,6 +1591,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8C4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25726],
     },
     {
@@ -1402,6 +1599,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8C5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25757],
     },
     {
@@ -1409,6 +1607,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8C6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25719],
     },
     {
@@ -1416,6 +1615,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8C7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [14956],
     },
     {
@@ -1423,6 +1623,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8C8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25935],
     },
     {
@@ -1430,6 +1631,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8C9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [25964],
     },
     {
@@ -1437,6 +1639,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8CA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [143370],
     },
     {
@@ -1444,6 +1647,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8CB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26083],
     },
     {
@@ -1451,6 +1655,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8CC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26360],
     },
     {
@@ -1458,6 +1663,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8CD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26185],
     },
     {
@@ -1465,6 +1671,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8CE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [15129],
     },
     {
@@ -1472,6 +1679,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8CF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26257],
     },
     {
@@ -1479,6 +1687,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8D0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [15112],
     },
     {
@@ -1486,6 +1695,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8D1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [15076],
     },
     {
@@ -1493,6 +1703,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8D2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20882],
     },
     {
@@ -1500,6 +1711,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8D3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [20885],
     },
     {
@@ -1507,6 +1719,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8D4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26368],
     },
     {
@@ -1514,6 +1727,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8D5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26268],
     },
     {
@@ -1521,6 +1735,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8D6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32941],
     },
     {
@@ -1528,6 +1743,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8D7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17369],
     },
     {
@@ -1535,6 +1751,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8D8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26391],
     },
     {
@@ -1542,6 +1759,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8D9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26395],
     },
     {
@@ -1549,6 +1767,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8DA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26401],
     },
     {
@@ -1556,6 +1775,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8DB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26462],
     },
     {
@@ -1563,6 +1783,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8DC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26451],
     },
     {
@@ -1570,6 +1791,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8DD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [144323],
     },
     {
@@ -1577,6 +1799,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8DE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [15177],
     },
     {
@@ -1584,6 +1807,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8DF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26618],
     },
     {
@@ -1591,6 +1815,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8E0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26501],
     },
     {
@@ -1598,6 +1823,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8E1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26706],
     },
     {
@@ -1605,6 +1831,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8E2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26757],
     },
     {
@@ -1612,6 +1839,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8E3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [144493],
     },
     {
@@ -1619,6 +1847,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8E4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26766],
     },
     {
@@ -1626,6 +1855,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8E5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26655],
     },
     {
@@ -1633,6 +1863,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8E6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26900],
     },
     {
@@ -1640,6 +1871,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8E7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [15261],
     },
     {
@@ -1647,6 +1879,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8E8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [26946],
     },
     {
@@ -1654,6 +1887,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8E9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27043],
     },
     {
@@ -1661,6 +1895,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8EA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27114],
     },
     {
@@ -1668,6 +1903,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8EB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27304],
     },
     {
@@ -1675,6 +1911,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8EC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [145059],
     },
     {
@@ -1682,6 +1919,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8ED",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27355],
     },
     {
@@ -1689,6 +1927,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8EE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [15384],
     },
     {
@@ -1696,6 +1935,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8EF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27425],
     },
     {
@@ -1703,6 +1943,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8F0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [145575],
     },
     {
@@ -1710,6 +1951,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8F1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27476],
     },
     {
@@ -1717,6 +1959,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8F2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [15438],
     },
     {
@@ -1724,6 +1967,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8F3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27506],
     },
     {
@@ -1731,6 +1975,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8F4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27551],
     },
     {
@@ -1738,6 +1983,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8F5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27578],
     },
     {
@@ -1745,6 +1991,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8F6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27579],
     },
     {
@@ -1752,6 +1999,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8F7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [146061],
     },
     {
@@ -1759,6 +2007,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8F8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [138507],
     },
     {
@@ -1766,6 +2015,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8F9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [146170],
     },
     {
@@ -1773,6 +2023,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8FA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27726],
     },
     {
@@ -1780,6 +2031,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8FB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [146620],
     },
     {
@@ -1787,6 +2039,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8FC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27839],
     },
     {
@@ -1794,6 +2047,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8FD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27853],
     },
     {
@@ -1801,6 +2055,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8FE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27751],
     },
     {
@@ -1808,6 +2063,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F8FF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27926],
     },
     {
@@ -1815,6 +2071,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F900",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27966],
     },
     {
@@ -1822,6 +2079,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F901",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28023],
     },
     {
@@ -1829,6 +2087,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F902",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27969],
     },
     {
@@ -1836,6 +2095,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F903",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28009],
     },
     {
@@ -1843,6 +2103,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F904",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28024],
     },
     {
@@ -1850,6 +2111,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F905",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28037],
     },
     {
@@ -1857,6 +2119,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F906",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [146718],
     },
     {
@@ -1864,6 +2127,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F907",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [27956],
     },
     {
@@ -1871,6 +2135,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F908",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28207],
     },
     {
@@ -1878,6 +2143,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F909",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28270],
     },
     {
@@ -1885,6 +2151,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F90A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [15667],
     },
     {
@@ -1892,6 +2159,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F90B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28363],
     },
     {
@@ -1899,6 +2167,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F90C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28359],
     },
     {
@@ -1906,6 +2175,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F90D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [147153],
     },
     {
@@ -1913,6 +2183,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F90E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28153],
     },
     {
@@ -1920,6 +2191,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F90F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28526],
     },
     {
@@ -1927,6 +2199,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F910",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [147294],
     },
     {
@@ -1934,6 +2207,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F911",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [147342],
     },
     {
@@ -1941,6 +2215,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F912",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28614],
     },
     {
@@ -1948,6 +2223,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F913",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28729],
     },
     {
@@ -1955,6 +2231,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F914",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28702],
     },
     {
@@ -1962,6 +2239,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F915",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28699],
     },
     {
@@ -1969,6 +2247,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F916",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [15766],
     },
     {
@@ -1976,6 +2255,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F917",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28746],
     },
     {
@@ -1983,6 +2263,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F918",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28797],
     },
     {
@@ -1990,6 +2271,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F919",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28791],
     },
     {
@@ -1997,6 +2279,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F91A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28845],
     },
     {
@@ -2004,6 +2287,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F91B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [132389],
     },
     {
@@ -2011,6 +2295,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F91C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [28997],
     },
     {
@@ -2018,6 +2303,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F91D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [148067],
     },
     {
@@ -2025,6 +2311,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F91E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29084],
     },
     {
@@ -2032,6 +2319,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F91F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [148395],
     },
     {
@@ -2039,6 +2327,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F920",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29224],
     },
     {
@@ -2046,6 +2335,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F921",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29237],
     },
     {
@@ -2053,6 +2343,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F922",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29264],
     },
     {
@@ -2060,6 +2351,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F923",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [149000],
     },
     {
@@ -2067,6 +2359,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F924",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29312],
     },
     {
@@ -2074,6 +2367,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F925",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29333],
     },
     {
@@ -2081,6 +2375,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F926",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [149301],
     },
     {
@@ -2088,6 +2383,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F927",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [149524],
     },
     {
@@ -2095,6 +2391,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F928",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29562],
     },
     {
@@ -2102,6 +2399,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F929",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29579],
     },
     {
@@ -2109,6 +2407,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F92A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16044],
     },
     {
@@ -2116,6 +2415,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F92B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29605],
     },
     {
@@ -2123,6 +2423,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F92C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16056],
     },
     {
@@ -2130,6 +2431,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F92D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16056],
     },
     {
@@ -2137,6 +2439,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F92E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29767],
     },
     {
@@ -2144,6 +2447,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F92F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29788],
     },
     {
@@ -2151,6 +2455,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F930",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29809],
     },
     {
@@ -2158,6 +2463,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F931",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29829],
     },
     {
@@ -2165,6 +2471,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F932",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29898],
     },
     {
@@ -2172,6 +2479,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F933",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16155],
     },
     {
@@ -2179,6 +2487,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F934",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [29988],
     },
     {
@@ -2186,6 +2495,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F935",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [150582],
     },
     {
@@ -2193,6 +2503,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F936",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30014],
     },
     {
@@ -2200,6 +2511,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F937",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [150674],
     },
     {
@@ -2207,6 +2519,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F938",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30064],
     },
     {
@@ -2214,6 +2527,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F939",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [139679],
     },
     {
@@ -2221,6 +2535,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F93A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30224],
     },
     {
@@ -2228,6 +2543,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F93B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [151457],
     },
     {
@@ -2235,6 +2551,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F93C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [151480],
     },
     {
@@ -2242,6 +2559,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F93D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [151620],
     },
     {
@@ -2249,6 +2567,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F93E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16380],
     },
     {
@@ -2256,6 +2575,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F93F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16392],
     },
     {
@@ -2263,6 +2583,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F940",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30452],
     },
     {
@@ -2270,6 +2591,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F941",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [151795],
     },
     {
@@ -2277,6 +2599,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F942",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [151794],
     },
     {
@@ -2284,6 +2607,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F943",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [151833],
     },
     {
@@ -2291,6 +2615,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F944",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [151859],
     },
     {
@@ -2298,6 +2623,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F945",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30494],
     },
     {
@@ -2305,6 +2631,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F946",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30495],
     },
     {
@@ -2312,6 +2639,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F947",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30495],
     },
     {
@@ -2319,6 +2647,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F948",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30538],
     },
     {
@@ -2326,6 +2655,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F949",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16441],
     },
     {
@@ -2333,6 +2663,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F94A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30603],
     },
     {
@@ -2340,6 +2671,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F94B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16454],
     },
     {
@@ -2347,6 +2679,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F94C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16534],
     },
     {
@@ -2354,6 +2687,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F94D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [152605],
     },
     {
@@ -2361,6 +2695,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F94E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30798],
     },
     {
@@ -2368,6 +2703,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F94F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30860],
     },
     {
@@ -2375,6 +2711,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F950",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [30924],
     },
     {
@@ -2382,6 +2719,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F951",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16611],
     },
     {
@@ -2389,6 +2727,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F952",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [153126],
     },
     {
@@ -2396,6 +2735,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F953",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31062],
     },
     {
@@ -2403,6 +2743,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F954",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [153242],
     },
     {
@@ -2410,6 +2751,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F955",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [153285],
     },
     {
@@ -2417,6 +2759,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F956",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31119],
     },
     {
@@ -2424,6 +2767,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F957",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31211],
     },
     {
@@ -2431,6 +2775,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F958",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16687],
     },
     {
@@ -2438,6 +2783,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F959",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31296],
     },
     {
@@ -2445,6 +2791,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F95A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31306],
     },
     {
@@ -2452,6 +2799,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F95B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31311],
     },
     {
@@ -2459,6 +2807,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F95C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [153980],
     },
     {
@@ -2466,6 +2815,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F95D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [154279],
     },
     {
@@ -2473,6 +2823,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F95E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [154279],
     },
     {
@@ -2480,6 +2831,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F95F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31470],
     },
     {
@@ -2487,6 +2839,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F960",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16898],
     },
     {
@@ -2494,6 +2847,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F961",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [154539],
     },
     {
@@ -2501,6 +2855,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F962",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31686],
     },
     {
@@ -2508,6 +2863,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F963",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31689],
     },
     {
@@ -2515,6 +2871,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F964",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [16935],
     },
     {
@@ -2522,6 +2879,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F965",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [154752],
     },
     {
@@ -2529,6 +2887,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F966",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31954],
     },
     {
@@ -2536,6 +2895,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F967",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17056],
     },
     {
@@ -2543,6 +2903,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F968",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31976],
     },
     {
@@ -2550,6 +2911,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F969",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [31971],
     },
     {
@@ -2557,6 +2919,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F96A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32000],
     },
     {
@@ -2564,6 +2927,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F96B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [155526],
     },
     {
@@ -2571,6 +2935,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F96C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32099],
     },
     {
@@ -2578,6 +2943,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F96D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17153],
     },
     {
@@ -2585,6 +2951,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F96E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32199],
     },
     {
@@ -2592,6 +2959,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F96F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32258],
     },
     {
@@ -2599,6 +2967,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F970",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32325],
     },
     {
@@ -2606,6 +2975,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F971",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17204],
     },
     {
@@ -2613,6 +2983,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F972",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [156200],
     },
     {
@@ -2620,6 +2991,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F973",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [156231],
     },
     {
@@ -2627,6 +2999,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F974",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17241],
     },
     {
@@ -2634,6 +3007,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F975",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [156377],
     },
     {
@@ -2641,6 +3015,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F976",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32634],
     },
     {
@@ -2648,6 +3023,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F977",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [156478],
     },
     {
@@ -2655,6 +3031,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F978",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32661],
     },
     {
@@ -2662,6 +3039,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F979",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32762],
     },
     {
@@ -2669,6 +3047,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F97A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32773],
     },
     {
@@ -2676,6 +3055,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F97B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [156890],
     },
     {
@@ -2683,6 +3063,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F97C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [156963],
     },
     {
@@ -2690,6 +3071,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F97D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32864],
     },
     {
@@ -2697,6 +3079,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F97E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [157096],
     },
     {
@@ -2704,6 +3087,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F97F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32880],
     },
     {
@@ -2711,6 +3095,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F980",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [144223],
     },
     {
@@ -2718,6 +3103,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F981",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17365],
     },
     {
@@ -2725,6 +3111,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F982",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [32946],
     },
     {
@@ -2732,6 +3119,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F983",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33027],
     },
     {
@@ -2739,6 +3127,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F984",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17419],
     },
     {
@@ -2746,6 +3135,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F985",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33086],
     },
     {
@@ -2753,6 +3143,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F986",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23221],
     },
     {
@@ -2760,6 +3151,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F987",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [157607],
     },
     {
@@ -2767,6 +3159,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F988",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [157621],
     },
     {
@@ -2774,6 +3167,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F989",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [144275],
     },
     {
@@ -2781,6 +3175,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F98A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [144284],
     },
     {
@@ -2788,6 +3183,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F98B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33281],
     },
     {
@@ -2795,6 +3191,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F98C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33284],
     },
     {
@@ -2802,6 +3199,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F98D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [36766],
     },
     {
@@ -2809,6 +3207,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F98E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17515],
     },
     {
@@ -2816,6 +3215,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F98F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33425],
     },
     {
@@ -2823,6 +3223,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F990",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33419],
     },
     {
@@ -2830,6 +3231,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F991",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33437],
     },
     {
@@ -2837,6 +3239,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F992",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [21171],
     },
     {
@@ -2844,6 +3247,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F993",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33457],
     },
     {
@@ -2851,6 +3255,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F994",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33459],
     },
     {
@@ -2858,6 +3263,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F995",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33469],
     },
     {
@@ -2865,6 +3271,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F996",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33510],
     },
     {
@@ -2872,6 +3279,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F997",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [158524],
     },
     {
@@ -2879,6 +3287,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F998",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33509],
     },
     {
@@ -2886,6 +3295,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F999",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33565],
     },
     {
@@ -2893,6 +3303,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F99A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33635],
     },
     {
@@ -2900,6 +3311,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F99B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33709],
     },
     {
@@ -2907,6 +3319,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F99C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33571],
     },
     {
@@ -2914,6 +3327,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F99D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33725],
     },
     {
@@ -2921,6 +3335,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F99E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33767],
     },
     {
@@ -2928,6 +3343,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F99F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33879],
     },
     {
@@ -2935,6 +3351,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9A0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33619],
     },
     {
@@ -2942,6 +3359,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9A1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33738],
     },
     {
@@ -2949,6 +3367,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9A2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33740],
     },
     {
@@ -2956,6 +3375,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9A3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [33756],
     },
     {
@@ -2963,6 +3383,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9A4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [158774],
     },
     {
@@ -2970,6 +3391,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9A5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [159083],
     },
     {
@@ -2977,6 +3399,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9A6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [158933],
     },
     {
@@ -2984,6 +3407,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9A7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17707],
     },
     {
@@ -2991,6 +3415,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9A8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34033],
     },
     {
@@ -2998,6 +3423,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9A9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34035],
     },
     {
@@ -3005,6 +3431,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9AA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34070],
     },
     {
@@ -3012,6 +3439,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9AB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [160714],
     },
     {
@@ -3019,6 +3447,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9AC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34148],
     },
     {
@@ -3026,6 +3455,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9AD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [159532],
     },
     {
@@ -3033,6 +3463,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9AE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17757],
     },
     {
@@ -3040,6 +3471,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9AF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17761],
     },
     {
@@ -3047,6 +3479,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9B0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [159665],
     },
     {
@@ -3054,6 +3487,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9B1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [159954],
     },
     {
@@ -3061,6 +3495,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9B2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17771],
     },
     {
@@ -3068,6 +3503,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9B3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34384],
     },
     {
@@ -3075,6 +3511,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9B4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34396],
     },
     {
@@ -3082,6 +3519,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9B5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34407],
     },
     {
@@ -3089,6 +3527,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9B6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34409],
     },
     {
@@ -3096,6 +3535,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9B7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34473],
     },
     {
@@ -3103,6 +3543,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9B8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34440],
     },
     {
@@ -3110,6 +3551,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9B9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34574],
     },
     {
@@ -3117,6 +3559,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9BA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34530],
     },
     {
@@ -3124,6 +3567,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9BB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34681],
     },
     {
@@ -3131,6 +3575,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9BC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34600],
     },
     {
@@ -3138,6 +3583,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9BD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34667],
     },
     {
@@ -3145,6 +3591,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9BE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34694],
     },
     {
@@ -3152,6 +3599,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9BF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17879],
     },
     {
@@ -3159,6 +3607,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9C0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34785],
     },
     {
@@ -3166,6 +3615,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9C1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34817],
     },
     {
@@ -3173,6 +3623,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9C2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17913],
     },
     {
@@ -3180,6 +3631,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9C3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34912],
     },
     {
@@ -3187,6 +3639,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9C4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [34915],
     },
     {
@@ -3194,6 +3647,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9C5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [161383],
     },
     {
@@ -3201,6 +3655,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9C6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [35031],
     },
     {
@@ -3208,6 +3663,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9C7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [35038],
     },
     {
@@ -3215,6 +3671,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9C8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [17973],
     },
     {
@@ -3222,6 +3679,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9C9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [35066],
     },
     {
@@ -3229,6 +3687,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9CA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [13499],
     },
     {
@@ -3236,6 +3695,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9CB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [161966],
     },
     {
@@ -3243,6 +3703,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9CC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [162150],
     },
     {
@@ -3250,6 +3711,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9CD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [18110],
     },
     {
@@ -3257,6 +3719,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9CE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [18119],
     },
     {
@@ -3264,6 +3727,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9CF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [35488],
     },
     {
@@ -3271,6 +3735,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9D0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [35565],
     },
     {
@@ -3278,6 +3743,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9D1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [35722],
     },
     {
@@ -3285,6 +3751,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9D2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [35925],
     },
     {
@@ -3292,6 +3759,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9D3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [162984],
     },
     {
@@ -3299,6 +3767,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9D4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [36011],
     },
     {
@@ -3306,6 +3775,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9D5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [36033],
     },
     {
@@ -3313,6 +3783,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9D6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [36123],
     },
     {
@@ -3320,6 +3791,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9D7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [36215],
     },
     {
@@ -3327,6 +3799,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9D8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [163631],
     },
     {
@@ -3334,6 +3807,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9D9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [133124],
     },
     {
@@ -3341,6 +3815,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9DA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [36299],
     },
     {
@@ -3348,6 +3823,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9DB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [36284],
     },
     {
@@ -3355,6 +3831,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9DC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [36336],
     },
     {
@@ -3362,6 +3839,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9DD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [133342],
     },
     {
@@ -3369,6 +3847,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9DE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [36564],
     },
     {
@@ -3376,6 +3855,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9DF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [36664],
     },
     {
@@ -3383,6 +3863,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9E0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [165330],
     },
     {
@@ -3390,6 +3871,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9E1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [165357],
     },
     {
@@ -3397,6 +3879,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9E2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [37012],
     },
     {
@@ -3404,6 +3887,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9E3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [37105],
     },
     {
@@ -3411,6 +3895,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9E4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [37137],
     },
     {
@@ -3418,6 +3903,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9E5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [165678],
     },
     {
@@ -3425,6 +3911,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9E6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [37147],
     },
     {
@@ -3432,6 +3919,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9E7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [37432],
     },
     {
@@ -3439,6 +3927,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9E8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [37591],
     },
     {
@@ -3446,6 +3935,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9E9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [37592],
     },
     {
@@ -3453,6 +3943,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9EA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [37500],
     },
     {
@@ -3460,6 +3951,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9EB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [37881],
     },
     {
@@ -3467,6 +3959,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9EC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [37909],
     },
     {
@@ -3474,6 +3967,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9ED",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [166906],
     },
     {
@@ -3481,6 +3975,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9EE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [38283],
     },
     {
@@ -3488,6 +3983,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9EF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [18837],
     },
     {
@@ -3495,6 +3991,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9F0",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [38327],
     },
     {
@@ -3502,6 +3999,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9F1",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [167287],
     },
     {
@@ -3509,6 +4007,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9F2",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [18918],
     },
     {
@@ -3516,6 +4015,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9F3",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [38595],
     },
     {
@@ -3523,6 +4023,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9F4",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [23986],
     },
     {
@@ -3530,6 +4031,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9F5",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [38691],
     },
     {
@@ -3537,6 +4039,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9F6",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [168261],
     },
     {
@@ -3544,6 +4047,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9F7",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [168474],
     },
     {
@@ -3551,6 +4055,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9F8",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [19054],
     },
     {
@@ -3558,6 +4063,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9F9",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [19062],
     },
     {
@@ -3565,6 +4071,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9FA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [38880],
     },
     {
@@ -3572,6 +4079,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9FB",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [168970],
     },
     {
@@ -3579,6 +4087,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9FC",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [19122],
     },
     {
@@ -3586,6 +4095,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9FD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [169110],
     },
     {
@@ -3593,6 +4103,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9FE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [38923],
     },
     {
@@ -3600,6 +4111,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2F9FF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [38923],
     },
     {
@@ -3607,6 +4119,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA00",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [38953],
     },
     {
@@ -3614,6 +4127,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA01",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [169398],
     },
     {
@@ -3621,6 +4135,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA02",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [39138],
     },
     {
@@ -3628,6 +4143,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA03",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [19251],
     },
     {
@@ -3635,6 +4151,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA04",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [39209],
     },
     {
@@ -3642,6 +4159,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA05",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [39335],
     },
     {
@@ -3649,6 +4167,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA06",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [39362],
     },
     {
@@ -3656,6 +4175,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA07",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [39422],
     },
     {
@@ -3663,6 +4183,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA08",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [19406],
     },
     {
@@ -3670,6 +4191,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA09",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [170800],
     },
     {
@@ -3677,6 +4199,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA0A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [39698],
     },
     {
@@ -3684,6 +4207,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA0B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [40000],
     },
     {
@@ -3691,6 +4215,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA0C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [40189],
     },
     {
@@ -3698,6 +4223,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA0D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [19662],
     },
     {
@@ -3705,6 +4231,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA0E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [19693],
     },
     {
@@ -3712,6 +4239,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA0F",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [40295],
     },
     {
@@ -3719,6 +4247,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA10",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [172238],
     },
     {
@@ -3726,6 +4255,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA11",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [19704],
     },
     {
@@ -3733,6 +4263,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA12",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [172293],
     },
     {
@@ -3740,6 +4271,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA13",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [172558],
     },
     {
@@ -3747,6 +4279,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA14",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [172689],
     },
     {
@@ -3754,6 +4287,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA15",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [40635],
     },
     {
@@ -3761,6 +4295,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA16",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [19798],
     },
     {
@@ -3768,6 +4303,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA17",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [40697],
     },
     {
@@ -3775,6 +4311,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA18",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [40702],
     },
     {
@@ -3782,6 +4319,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA19",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [40709],
     },
     {
@@ -3789,6 +4327,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA1A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [40719],
     },
     {
@@ -3796,6 +4335,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA1B",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [40726],
     },
     {
@@ -3803,6 +4343,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA1C",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [40763],
     },
     {
@@ -3810,6 +4351,7 @@ export const dataSet: CharacterSet = {
       name: "CJK COMPATIBILITY IDEOGRAPH-2FA1D",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_1,
       decomp: [173568],
     },
   ],

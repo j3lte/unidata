@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Coptic Epact Numbers**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT THOUSANDS MARK",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT DIGIT ONE",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "1",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT DIGIT TWO",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "2",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT DIGIT THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "3",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT DIGIT FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "4",
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT DIGIT FIVE",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "5",
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT DIGIT SIX",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "6",
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT DIGIT SEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "7",
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT DIGIT EIGHT",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "8",
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT DIGIT NINE",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "9",
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER TEN",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "10",
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER TWENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "20",
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER THIRTY",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "30",
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER FORTY",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "40",
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER FIFTY",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "50",
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER SIXTY",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "60",
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER SEVENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "70",
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER EIGHTY",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "80",
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER NINETY",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "90",
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER ONE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "100",
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER TWO HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "200",
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER THREE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "300",
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER FOUR HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "400",
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER FIVE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "500",
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER SIX HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "600",
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER SEVEN HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "700",
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER EIGHT HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "800",
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "COPTIC EPACT NUMBER NINE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.European_Number,
+      age: Age.V7_0,
       num: "900",
     },
   ],

@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Vedic Extensions**
@@ -22,22 +22,38 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE KARSHANA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 230,
     },
-    { code: 7377, name: "VEDIC TONE SHARA", cat: Category.Nonspacing_Mark, bidi: BidiClass.Nonspacing_Mark, comb: 230 },
+    {
+      code: 7377,
+      name: "VEDIC TONE SHARA",
+      cat: Category.Nonspacing_Mark,
+      bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
+      comb: 230,
+    },
     {
       code: 7378,
       name: "VEDIC TONE PRENKHA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 230,
     },
-    { code: 7379, name: "VEDIC SIGN NIHSHVASA", cat: Category.Other_Punctuation, bidi: BidiClass.Left_To_Right },
+    {
+      code: 7379,
+      name: "VEDIC SIGN NIHSHVASA",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
+    },
     {
       code: 7380,
       name: "VEDIC SIGN YAJURVEDIC MIDLINE SVARITA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 1,
     },
     {
@@ -45,6 +61,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE YAJURVEDIC AGGRAVATED INDEPENDENT SVARITA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 220,
     },
     {
@@ -52,6 +69,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE YAJURVEDIC INDEPENDENT SVARITA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 220,
     },
     {
@@ -59,6 +77,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 220,
     },
     {
@@ -66,6 +85,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE CANDRA BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 220,
     },
     {
@@ -73,6 +93,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 220,
     },
     {
@@ -80,6 +101,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE DOUBLE SVARITA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 230,
     },
     {
@@ -87,6 +109,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE TRIPLE SVARITA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 230,
     },
     {
@@ -94,6 +117,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE KATHAKA ANUDATTA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 220,
     },
     {
@@ -101,6 +125,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE DOT BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 220,
     },
     {
@@ -108,6 +133,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE TWO DOTS BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 220,
     },
     {
@@ -115,6 +141,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE THREE DOTS BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 220,
     },
     {
@@ -122,6 +149,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE RIGVEDIC KASHMIRI INDEPENDENT SVARITA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 230,
     },
     {
@@ -129,12 +157,14 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA",
       cat: Category.Spacing_Mark,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
     },
     {
       code: 7394,
       name: "VEDIC SIGN VISARGA SVARITA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 1,
     },
     {
@@ -142,6 +172,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC SIGN VISARGA UDATTA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 1,
     },
     {
@@ -149,6 +180,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC SIGN REVERSED VISARGA UDATTA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 1,
     },
     {
@@ -156,6 +188,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC SIGN VISARGA ANUDATTA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 1,
     },
     {
@@ -163,6 +196,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC SIGN REVERSED VISARGA ANUDATTA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 1,
     },
     {
@@ -170,6 +204,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC SIGN VISARGA UDATTA WITH TAIL",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 1,
     },
     {
@@ -177,22 +212,43 @@ export const dataSet: CharacterSet = {
       name: "VEDIC SIGN VISARGA ANUDATTA WITH TAIL",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 1,
     },
-    { code: 7401, name: "VEDIC SIGN ANUSVARA ANTARGOMUKHA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 7402, name: "VEDIC SIGN ANUSVARA BAHIRGOMUKHA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 7403, name: "VEDIC SIGN ANUSVARA VAMAGOMUKHA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
+    {
+      code: 7401,
+      name: "VEDIC SIGN ANUSVARA ANTARGOMUKHA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
+    },
+    {
+      code: 7402,
+      name: "VEDIC SIGN ANUSVARA BAHIRGOMUKHA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
+    },
+    {
+      code: 7403,
+      name: "VEDIC SIGN ANUSVARA VAMAGOMUKHA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
+    },
     {
       code: 7404,
       name: "VEDIC SIGN ANUSVARA VAMAGOMUKHA WITH TAIL",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
     },
     {
       code: 7405,
       name: "VEDIC SIGN TIRYAK",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_2,
       comb: 220,
     },
     {
@@ -200,32 +256,78 @@ export const dataSet: CharacterSet = {
       name: "VEDIC SIGN HEXIFORM LONG ANUSVARA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
     },
-    { code: 7407, name: "VEDIC SIGN LONG ANUSVARA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 7408, name: "VEDIC SIGN RTHANG LONG ANUSVARA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
+    {
+      code: 7407,
+      name: "VEDIC SIGN LONG ANUSVARA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
+    },
+    {
+      code: 7408,
+      name: "VEDIC SIGN RTHANG LONG ANUSVARA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
+    },
     {
       code: 7409,
       name: "VEDIC SIGN ANUSVARA UBHAYATO MUKHA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
     },
-    { code: 7410, name: "VEDIC SIGN ARDHAVISARGA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 7411, name: "VEDIC SIGN ROTATED ARDHAVISARGA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
+    {
+      code: 7410,
+      name: "VEDIC SIGN ARDHAVISARGA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
+    },
+    {
+      code: 7411,
+      name: "VEDIC SIGN ROTATED ARDHAVISARGA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V6_1,
+    },
     {
       code: 7412,
       name: "VEDIC TONE CANDRA ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
-    { code: 7413, name: "VEDIC SIGN JIHVAMULIYA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 7414, name: "VEDIC SIGN UPADHMANIYA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 7415, name: "VEDIC SIGN ATIKRAMA", cat: Category.Spacing_Mark, bidi: BidiClass.Left_To_Right },
+    {
+      code: 7413,
+      name: "VEDIC SIGN JIHVAMULIYA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V6_1,
+    },
+    {
+      code: 7414,
+      name: "VEDIC SIGN UPADHMANIYA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V6_1,
+    },
+    {
+      code: 7415,
+      name: "VEDIC SIGN ATIKRAMA",
+      cat: Category.Spacing_Mark,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V10_0,
+    },
     {
       code: 7416,
       name: "VEDIC TONE RING ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 230,
     },
     {
@@ -233,6 +335,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC TONE DOUBLE RING ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 230,
     },
     {
@@ -240,6 +343,7 @@ export const dataSet: CharacterSet = {
       name: "VEDIC SIGN DOUBLE ANUSVARA ANTARGOMUKHA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V12_0,
     },
   ],
 };

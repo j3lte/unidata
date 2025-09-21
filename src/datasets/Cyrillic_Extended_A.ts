@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Cyrillic Extended-A**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER BE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER VE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER GHE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER DE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER ZHE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER ZE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER KA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER EL",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER EM",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER EN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER O",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER PE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER ER",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER ES",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER TE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER HA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER TSE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER CHE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER SHA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER SHCHA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER FITA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER ES-TE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER A",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER IE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER DJERV",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER MONOGRAPH UK",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER YAT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER YU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER IOTIFIED A",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER LITTLE YUS",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER BIG YUS",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC LETTER IOTIFIED BIG YUS",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
   ],

@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Alphabetic Presentation Forms**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LIGATURE FF",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [102, 102],
       decompType: "compat",
     },
@@ -30,6 +31,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LIGATURE FI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [102, 105],
       decompType: "compat",
     },
@@ -38,6 +40,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LIGATURE FL",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [102, 108],
       decompType: "compat",
     },
@@ -46,6 +49,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LIGATURE FFI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [102, 102, 105],
       decompType: "compat",
     },
@@ -54,6 +58,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LIGATURE FFL",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [102, 102, 108],
       decompType: "compat",
     },
@@ -62,6 +67,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LIGATURE LONG S T",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [383, 116],
       decompType: "compat",
     },
@@ -70,6 +76,7 @@ export const dataSet: CharacterSet = {
       name: "LATIN SMALL LIGATURE ST",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [115, 116],
       decompType: "compat",
     },
@@ -78,6 +85,7 @@ export const dataSet: CharacterSet = {
       name: "ARMENIAN SMALL LIGATURE MEN NOW",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [1396, 1398],
       decompType: "compat",
     },
@@ -86,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "ARMENIAN SMALL LIGATURE MEN ECH",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [1396, 1381],
       decompType: "compat",
     },
@@ -94,6 +103,7 @@ export const dataSet: CharacterSet = {
       name: "ARMENIAN SMALL LIGATURE MEN INI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [1396, 1387],
       decompType: "compat",
     },
@@ -102,6 +112,7 @@ export const dataSet: CharacterSet = {
       name: "ARMENIAN SMALL LIGATURE VEW NOW",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [1406, 1398],
       decompType: "compat",
     },
@@ -110,6 +121,7 @@ export const dataSet: CharacterSet = {
       name: "ARMENIAN SMALL LIGATURE MEN XEH",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [1396, 1389],
       decompType: "compat",
     },
@@ -118,6 +130,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER YOD WITH HIRIQ",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V3_0,
       decomp: [1497, 1460],
     },
     {
@@ -125,6 +138,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT JUDEO-SPANISH VARIKA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 26,
       oldName: "HEBREW POINT VARIKA",
     },
@@ -133,6 +147,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LIGATURE YIDDISH YOD YOD PATAH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1522, 1463],
     },
     {
@@ -140,6 +155,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER ALTERNATIVE AYIN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1506],
       decompType: "font",
     },
@@ -148,6 +164,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER WIDE ALEF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1488],
       decompType: "font",
     },
@@ -156,6 +173,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER WIDE DALET",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1491],
       decompType: "font",
     },
@@ -164,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER WIDE HE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1492],
       decompType: "font",
     },
@@ -172,6 +191,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER WIDE KAF",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1499],
       decompType: "font",
     },
@@ -180,6 +200,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER WIDE LAMED",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1500],
       decompType: "font",
     },
@@ -188,6 +209,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER WIDE FINAL MEM",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1501],
       decompType: "font",
     },
@@ -196,6 +218,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER WIDE RESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1512],
       decompType: "font",
     },
@@ -204,6 +227,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER WIDE TAV",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1514],
       decompType: "font",
     },
@@ -212,6 +236,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER ALTERNATIVE PLUS SIGN",
       cat: Category.Math_Symbol,
       bidi: BidiClass.European_Separator,
+      age: Age.V1_1,
       decomp: [43],
       decompType: "font",
     },
@@ -220,6 +245,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER SHIN WITH SHIN DOT",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1513, 1473],
     },
     {
@@ -227,6 +253,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER SHIN WITH SIN DOT",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1513, 1474],
     },
     {
@@ -234,6 +261,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER SHIN WITH DAGESH AND SHIN DOT",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [64329, 1473],
     },
     {
@@ -241,6 +269,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER SHIN WITH DAGESH AND SIN DOT",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [64329, 1474],
     },
     {
@@ -248,6 +277,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER ALEF WITH PATAH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1488, 1463],
     },
     {
@@ -255,6 +285,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER ALEF WITH QAMATS",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1488, 1464],
     },
     {
@@ -262,6 +293,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER ALEF WITH MAPIQ",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1488, 1468],
     },
     {
@@ -269,6 +301,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER BET WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1489, 1468],
     },
     {
@@ -276,6 +309,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER GIMEL WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1490, 1468],
     },
     {
@@ -283,6 +317,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER DALET WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1491, 1468],
     },
     {
@@ -290,6 +325,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER HE WITH MAPIQ",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1492, 1468],
     },
     {
@@ -297,6 +333,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER VAV WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1493, 1468],
     },
     {
@@ -304,6 +341,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER ZAYIN WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1494, 1468],
     },
     {
@@ -311,6 +349,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER TET WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1496, 1468],
     },
     {
@@ -318,6 +357,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER YOD WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1497, 1468],
     },
     {
@@ -325,6 +365,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER FINAL KAF WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1498, 1468],
     },
     {
@@ -332,6 +373,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER KAF WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1499, 1468],
     },
     {
@@ -339,6 +381,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER LAMED WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1500, 1468],
     },
     {
@@ -346,6 +389,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER MEM WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1502, 1468],
     },
     {
@@ -353,6 +397,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER NUN WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1504, 1468],
     },
     {
@@ -360,6 +405,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER SAMEKH WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1505, 1468],
     },
     {
@@ -367,6 +413,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER FINAL PE WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1507, 1468],
     },
     {
@@ -374,6 +421,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER PE WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1508, 1468],
     },
     {
@@ -381,6 +429,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER TSADI WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1510, 1468],
     },
     {
@@ -388,6 +437,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER QOF WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1511, 1468],
     },
     {
@@ -395,6 +445,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER RESH WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1512, 1468],
     },
     {
@@ -402,6 +453,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER SHIN WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1513, 1468],
     },
     {
@@ -409,6 +461,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER TAV WITH DAGESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1514, 1468],
     },
     {
@@ -416,6 +469,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER VAV WITH HOLAM",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1493, 1465],
     },
     {
@@ -423,6 +477,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER BET WITH RAFE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1489, 1471],
     },
     {
@@ -430,6 +485,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER KAF WITH RAFE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1499, 1471],
     },
     {
@@ -437,6 +493,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LETTER PE WITH RAFE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1508, 1471],
     },
     {
@@ -444,6 +501,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LIGATURE ALEF LAMED",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       decomp: [1488, 1500],
       decompType: "compat",
     },

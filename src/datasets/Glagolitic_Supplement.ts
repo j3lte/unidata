@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Glagolitic Supplement**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER AZU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER BUKY",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER VEDE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER GLAGOLI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER DOBRO",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER YESTU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER ZHIVETE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER ZEMLJA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER IZHE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER INITIAL IZHE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER I",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER DJERVI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER KAKO",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER LJUDIJE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER MYSLITE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER NASHI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER ONU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER POKOJI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER RITSI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER SLOVO",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER TVRIDO",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER UKU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER FRITU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER HERU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER SHTA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER TSI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER CHRIVI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER SHA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER YERU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER YERI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER YATI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER YU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER SMALL YUS",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -253,6 +286,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER YO",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -260,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER IOTATED SMALL YUS",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -267,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER BIG YUS",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -274,6 +310,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER IOTATED BIG YUS",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -281,6 +318,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GLAGOLITIC LETTER FITA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
   ],

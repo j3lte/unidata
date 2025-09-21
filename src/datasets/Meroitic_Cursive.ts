@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Meroitic Cursive**
@@ -17,40 +17,180 @@ export const dataSet: CharacterSet = {
   startCode: 68000,
   endCode: 68095,
   characters: [
-    { code: 68000, name: "MEROITIC CURSIVE LETTER A", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68001, name: "MEROITIC CURSIVE LETTER E", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68002, name: "MEROITIC CURSIVE LETTER I", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68003, name: "MEROITIC CURSIVE LETTER O", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68004, name: "MEROITIC CURSIVE LETTER YA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68005, name: "MEROITIC CURSIVE LETTER WA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68006, name: "MEROITIC CURSIVE LETTER BA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68007, name: "MEROITIC CURSIVE LETTER PA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68008, name: "MEROITIC CURSIVE LETTER MA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68009, name: "MEROITIC CURSIVE LETTER NA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68010, name: "MEROITIC CURSIVE LETTER NE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68011, name: "MEROITIC CURSIVE LETTER RA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68012, name: "MEROITIC CURSIVE LETTER LA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68013, name: "MEROITIC CURSIVE LETTER KHA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68014, name: "MEROITIC CURSIVE LETTER HHA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68015, name: "MEROITIC CURSIVE LETTER SA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
+    {
+      code: 68000,
+      name: "MEROITIC CURSIVE LETTER A",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68001,
+      name: "MEROITIC CURSIVE LETTER E",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68002,
+      name: "MEROITIC CURSIVE LETTER I",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68003,
+      name: "MEROITIC CURSIVE LETTER O",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68004,
+      name: "MEROITIC CURSIVE LETTER YA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68005,
+      name: "MEROITIC CURSIVE LETTER WA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68006,
+      name: "MEROITIC CURSIVE LETTER BA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68007,
+      name: "MEROITIC CURSIVE LETTER PA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68008,
+      name: "MEROITIC CURSIVE LETTER MA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68009,
+      name: "MEROITIC CURSIVE LETTER NA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68010,
+      name: "MEROITIC CURSIVE LETTER NE",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68011,
+      name: "MEROITIC CURSIVE LETTER RA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68012,
+      name: "MEROITIC CURSIVE LETTER LA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68013,
+      name: "MEROITIC CURSIVE LETTER KHA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68014,
+      name: "MEROITIC CURSIVE LETTER HHA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68015,
+      name: "MEROITIC CURSIVE LETTER SA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
     {
       code: 68016,
       name: "MEROITIC CURSIVE LETTER ARCHAIC SA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
     },
-    { code: 68017, name: "MEROITIC CURSIVE LETTER SE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68018, name: "MEROITIC CURSIVE LETTER KA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68019, name: "MEROITIC CURSIVE LETTER QA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68020, name: "MEROITIC CURSIVE LETTER TA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68021, name: "MEROITIC CURSIVE LETTER TE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68022, name: "MEROITIC CURSIVE LETTER TO", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68023, name: "MEROITIC CURSIVE LETTER DA", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
+    {
+      code: 68017,
+      name: "MEROITIC CURSIVE LETTER SE",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68018,
+      name: "MEROITIC CURSIVE LETTER KA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68019,
+      name: "MEROITIC CURSIVE LETTER QA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68020,
+      name: "MEROITIC CURSIVE LETTER TA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68021,
+      name: "MEROITIC CURSIVE LETTER TE",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68022,
+      name: "MEROITIC CURSIVE LETTER TO",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68023,
+      name: "MEROITIC CURSIVE LETTER DA",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
     {
       code: 68028,
       name: "MEROITIC CURSIVE FRACTION ELEVEN TWELFTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "11/12",
     },
     {
@@ -58,15 +198,29 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION ONE HALF",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "1/2",
     },
-    { code: 68030, name: "MEROITIC CURSIVE LOGOGRAM RMT", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 68031, name: "MEROITIC CURSIVE LOGOGRAM IMN", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
+    {
+      code: 68030,
+      name: "MEROITIC CURSIVE LOGOGRAM RMT",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
+    {
+      code: 68031,
+      name: "MEROITIC CURSIVE LOGOGRAM IMN",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V6_1,
+    },
     {
       code: 68032,
       name: "MEROITIC CURSIVE NUMBER ONE",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "1",
     },
     {
@@ -74,6 +228,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER TWO",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "2",
     },
     {
@@ -81,6 +236,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "3",
     },
     {
@@ -88,6 +244,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "4",
     },
     {
@@ -95,6 +252,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FIVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "5",
     },
     {
@@ -102,6 +260,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SIX",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "6",
     },
     {
@@ -109,6 +268,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "7",
     },
     {
@@ -116,6 +276,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER EIGHT",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "8",
     },
     {
@@ -123,6 +284,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER NINE",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "9",
     },
     {
@@ -130,6 +292,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER TEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "10",
     },
     {
@@ -137,6 +300,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER TWENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "20",
     },
     {
@@ -144,6 +308,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER THIRTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "30",
     },
     {
@@ -151,6 +316,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FORTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "40",
     },
     {
@@ -158,6 +324,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FIFTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "50",
     },
     {
@@ -165,6 +332,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SIXTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "60",
     },
     {
@@ -172,6 +340,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SEVENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "70",
     },
     {
@@ -179,6 +348,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER ONE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "100",
     },
     {
@@ -186,6 +356,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER TWO HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "200",
     },
     {
@@ -193,6 +364,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER THREE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "300",
     },
     {
@@ -200,6 +372,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FOUR HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "400",
     },
     {
@@ -207,6 +380,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FIVE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "500",
     },
     {
@@ -214,6 +388,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SIX HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "600",
     },
     {
@@ -221,6 +396,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SEVEN HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "700",
     },
     {
@@ -228,6 +404,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER EIGHT HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "800",
     },
     {
@@ -235,6 +412,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER NINE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "900",
     },
     {
@@ -242,6 +420,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER ONE THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "1000",
     },
     {
@@ -249,6 +428,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER TWO THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "2000",
     },
     {
@@ -256,6 +436,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER THREE THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "3000",
     },
     {
@@ -263,6 +444,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FOUR THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "4000",
     },
     {
@@ -270,6 +452,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FIVE THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "5000",
     },
     {
@@ -277,6 +460,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SIX THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "6000",
     },
     {
@@ -284,6 +468,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SEVEN THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "7000",
     },
     {
@@ -291,6 +476,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER EIGHT THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "8000",
     },
     {
@@ -298,6 +484,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER NINE THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "9000",
     },
     {
@@ -305,6 +492,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER TEN THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "10000",
     },
     {
@@ -312,6 +500,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER TWENTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "20000",
     },
     {
@@ -319,6 +508,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER THIRTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "30000",
     },
     {
@@ -326,6 +516,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FORTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "40000",
     },
     {
@@ -333,6 +524,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FIFTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "50000",
     },
     {
@@ -340,6 +532,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SIXTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "60000",
     },
     {
@@ -347,6 +540,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SEVENTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "70000",
     },
     {
@@ -354,6 +548,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER EIGHTY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "80000",
     },
     {
@@ -361,6 +556,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER NINETY THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "90000",
     },
     {
@@ -368,6 +564,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER ONE HUNDRED THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "100000",
     },
     {
@@ -375,6 +572,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER TWO HUNDRED THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "200000",
     },
     {
@@ -382,6 +580,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER THREE HUNDRED THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "300000",
     },
     {
@@ -389,6 +588,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FOUR HUNDRED THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "400000",
     },
     {
@@ -396,6 +596,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER FIVE HUNDRED THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "500000",
     },
     {
@@ -403,6 +604,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SIX HUNDRED THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "600000",
     },
     {
@@ -410,6 +612,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER SEVEN HUNDRED THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "700000",
     },
     {
@@ -417,6 +620,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER EIGHT HUNDRED THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "800000",
     },
     {
@@ -424,6 +628,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE NUMBER NINE HUNDRED THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "900000",
     },
     {
@@ -431,6 +636,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION ONE TWELFTH",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "1/12",
     },
     {
@@ -438,6 +644,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION TWO TWELFTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "2/12",
     },
     {
@@ -445,6 +652,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION THREE TWELFTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "3/12",
     },
     {
@@ -452,6 +660,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION FOUR TWELFTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "4/12",
     },
     {
@@ -459,6 +668,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION FIVE TWELFTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "5/12",
     },
     {
@@ -466,6 +676,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION SIX TWELFTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "6/12",
     },
     {
@@ -473,6 +684,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION SEVEN TWELFTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "7/12",
     },
     {
@@ -480,6 +692,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION EIGHT TWELFTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "8/12",
     },
     {
@@ -487,6 +700,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION NINE TWELFTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "9/12",
     },
     {
@@ -494,6 +708,7 @@ export const dataSet: CharacterSet = {
       name: "MEROITIC CURSIVE FRACTION TEN TWELFTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V8_0,
       num: "10/12",
     },
   ],

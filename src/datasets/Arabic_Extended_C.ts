@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Arabic Extended-C**
@@ -22,91 +22,112 @@ export const dataSet: CharacterSet = {
       name: "ARABIC LETTER DAL WITH TWO DOTS VERTICALLY BELOW",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V16_0,
     },
     {
       code: 69315,
       name: "ARABIC LETTER TAH WITH TWO DOTS VERTICALLY BELOW",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V16_0,
     },
     {
       code: 69316,
       name: "ARABIC LETTER KAF WITH TWO DOTS VERTICALLY BELOW",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V16_0,
     },
     {
       code: 69317,
       name: "ARABIC SMALL YEH BARREE WITH TWO DOTS BELOW",
       cat: Category.Modifier_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V17_0,
     },
-    { code: 69318, name: "ARABIC LETTER THIN NOON", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
+    {
+      code: 69318,
+      name: "ARABIC LETTER THIN NOON",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V17_0,
+    },
     {
       code: 69319,
       name: "ARABIC LETTER YEH WITH FOUR DOTS BELOW",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V17_0,
     },
     {
       code: 69328,
       name: "ARABIC BIBLICAL END OF VERSE",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V17_0,
     },
     {
       code: 69329,
       name: "ARABIC LIGATURE ALAYHAA AS-SALAATU WAS-SALAAM",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V17_0,
     },
     {
       code: 69330,
       name: "ARABIC LIGATURE ALAYHIM AS-SALAATU WAS-SALAAM",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V17_0,
     },
     {
       code: 69331,
       name: "ARABIC LIGATURE ALAYHIMAA AS-SALAATU WAS-SALAAM",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V17_0,
     },
     {
       code: 69332,
       name: "ARABIC LIGATURE QADDASA ALLAAHU SIRRAH",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V17_0,
     },
     {
       code: 69333,
       name: "ARABIC LIGATURE QUDDISA SIRRUHUM",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V17_0,
     },
     {
       code: 69334,
       name: "ARABIC LIGATURE QUDDISA SIRRUHUMAA",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V17_0,
     },
     {
       code: 69335,
       name: "ARABIC LIGATURE QUDDISAT ASRAARUHUM",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V17_0,
     },
     {
       code: 69336,
       name: "ARABIC LIGATURE NAWWARA ALLAAHU MARQADAH",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V17_0,
     },
     {
       code: 69370,
       name: "ARABIC DOUBLE VERTICAL BAR BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 220,
     },
     {
@@ -114,6 +135,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL LOW NOON",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 220,
     },
     {
@@ -121,12 +143,14 @@ export const dataSet: CharacterSet = {
       name: "ARABIC COMBINING ALEF OVERLAY",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V16_0,
     },
     {
       code: 69373,
       name: "ARABIC SMALL LOW WORD SAKTA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V15_0,
       comb: 220,
     },
     {
@@ -134,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL LOW WORD QASR",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V15_0,
       comb: 220,
     },
     {
@@ -141,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL LOW WORD MADDA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V15_0,
       comb: 220,
     },
   ],

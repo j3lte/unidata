@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Ancient Greek Numbers**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC ONE QUARTER",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "1/4",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC ONE HALF",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "1/2",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC ONE DRACHMA",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "1",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIVE",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "5",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIFTY",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "50",
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIVE HUNDRED",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "500",
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIVE THOUSAND",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "5000",
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIFTY THOUSAND",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "50000",
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIVE TALENTS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "5",
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC TEN TALENTS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "10",
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIFTY TALENTS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "50",
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC ONE HUNDRED TALENTS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "100",
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIVE HUNDRED TALENTS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "500",
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC ONE THOUSAND TALENTS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "1000",
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIVE THOUSAND TALENTS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "5000",
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIVE STATERS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "5",
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC TEN STATERS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "10",
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIFTY STATERS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "50",
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC ONE HUNDRED STATERS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "100",
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIVE HUNDRED STATERS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "500",
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC ONE THOUSAND STATERS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "1000",
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC TEN THOUSAND STATERS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "10000",
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC FIFTY THOUSAND STATERS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "50000",
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC ATTIC TEN MNAS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "10",
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC HERAEUM ONE PLETHRON",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "1",
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC THESPIAN ONE",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "1",
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC HERMIONIAN ONE",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "1",
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC EPIDAUREAN TWO",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "2",
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC THESPIAN TWO",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "2",
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC CYRENAIC TWO DRACHMAS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "2",
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC EPIDAUREAN TWO DRACHMAS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "2",
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC TROEZENIAN FIVE",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "5",
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC TROEZENIAN TEN",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "10",
     },
     {
@@ -253,6 +286,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC TROEZENIAN TEN ALTERNATE FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "10",
     },
     {
@@ -260,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC HERMIONIAN TEN",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "10",
     },
     {
@@ -267,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC MESSENIAN TEN",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "10",
     },
     {
@@ -274,6 +310,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC THESPIAN TEN",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "10",
     },
     {
@@ -281,6 +318,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC THESPIAN THIRTY",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "30",
     },
     {
@@ -288,6 +326,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC TROEZENIAN FIFTY",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "50",
     },
     {
@@ -295,6 +334,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC TROEZENIAN FIFTY ALTERNATE FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "50",
     },
     {
@@ -302,6 +342,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC HERMIONIAN FIFTY",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "50",
     },
     {
@@ -309,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC THESPIAN FIFTY",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "50",
     },
     {
@@ -316,6 +358,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC THESPIAN ONE HUNDRED",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "100",
     },
     {
@@ -323,6 +366,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC THESPIAN THREE HUNDRED",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "300",
     },
     {
@@ -330,6 +374,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC EPIDAUREAN FIVE HUNDRED",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "500",
     },
     {
@@ -337,6 +382,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC TROEZENIAN FIVE HUNDRED",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "500",
     },
     {
@@ -344,6 +390,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC THESPIAN FIVE HUNDRED",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "500",
     },
     {
@@ -351,6 +398,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC CARYSTIAN FIVE HUNDRED",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "500",
     },
     {
@@ -358,6 +406,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC NAXIAN FIVE HUNDRED",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "500",
     },
     {
@@ -365,6 +414,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC THESPIAN ONE THOUSAND",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "1000",
     },
     {
@@ -372,6 +422,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC THESPIAN FIVE THOUSAND",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "5000",
     },
     {
@@ -379,6 +430,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC DELPHIC FIVE MNAS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "5",
     },
     {
@@ -386,14 +438,23 @@ export const dataSet: CharacterSet = {
       name: "GREEK ACROPHONIC STRATIAN FIFTY MNAS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "50",
     },
-    { code: 65909, name: "GREEK ONE HALF SIGN", cat: Category.Other_Number, bidi: BidiClass.Other_Neutral, num: "1/2" },
+    {
+      code: 65909,
+      name: "GREEK ONE HALF SIGN",
+      cat: Category.Other_Number,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+      num: "1/2",
+    },
     {
       code: 65910,
       name: "GREEK ONE HALF SIGN ALTERNATE FORM",
       cat: Category.Other_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "1/2",
     },
     {
@@ -401,6 +462,7 @@ export const dataSet: CharacterSet = {
       name: "GREEK TWO THIRDS SIGN",
       cat: Category.Other_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "2/3",
     },
     {
@@ -408,35 +470,140 @@ export const dataSet: CharacterSet = {
       name: "GREEK THREE QUARTERS SIGN",
       cat: Category.Other_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       num: "3/4",
     },
-    { code: 65913, name: "GREEK YEAR SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65914, name: "GREEK TALENT SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65915, name: "GREEK DRACHMA SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65916, name: "GREEK OBOL SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65917, name: "GREEK TWO OBOLS SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65918, name: "GREEK THREE OBOLS SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65919, name: "GREEK FOUR OBOLS SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65920, name: "GREEK FIVE OBOLS SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65921, name: "GREEK METRETES SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65922, name: "GREEK KYATHOS BASE SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65923, name: "GREEK LITRA SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65924, name: "GREEK OUNKIA SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65925, name: "GREEK XESTES SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65926, name: "GREEK ARTABE SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65927, name: "GREEK AROURA SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65928, name: "GREEK GRAMMA SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65929, name: "GREEK TRYBLION BASE SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65930, name: "GREEK ZERO SIGN", cat: Category.Other_Number, bidi: BidiClass.Other_Neutral, num: "0" },
+    { code: 65913, name: "GREEK YEAR SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V4_1 },
+    {
+      code: 65914,
+      name: "GREEK TALENT SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65915,
+      name: "GREEK DRACHMA SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    { code: 65916, name: "GREEK OBOL SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V4_1 },
+    {
+      code: 65917,
+      name: "GREEK TWO OBOLS SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65918,
+      name: "GREEK THREE OBOLS SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65919,
+      name: "GREEK FOUR OBOLS SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65920,
+      name: "GREEK FIVE OBOLS SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65921,
+      name: "GREEK METRETES SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65922,
+      name: "GREEK KYATHOS BASE SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    { code: 65923, name: "GREEK LITRA SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V4_1 },
+    {
+      code: 65924,
+      name: "GREEK OUNKIA SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65925,
+      name: "GREEK XESTES SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65926,
+      name: "GREEK ARTABE SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65927,
+      name: "GREEK AROURA SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65928,
+      name: "GREEK GRAMMA SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65929,
+      name: "GREEK TRYBLION BASE SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+    },
+    {
+      code: 65930,
+      name: "GREEK ZERO SIGN",
+      cat: Category.Other_Number,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
+      num: "0",
+    },
     {
       code: 65931,
       name: "GREEK ONE QUARTER SIGN",
       cat: Category.Other_Number,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V7_0,
       num: "1/4",
     },
-    { code: 65932, name: "GREEK SINUSOID SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 65933, name: "GREEK INDICTION SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Left_To_Right },
-    { code: 65934, name: "NOMISMA SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Left_To_Right },
+    {
+      code: 65932,
+      name: "GREEK SINUSOID SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V7_0,
+    },
+    {
+      code: 65933,
+      name: "GREEK INDICTION SIGN",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V9_0,
+    },
+    { code: 65934, name: "NOMISMA SIGN", cat: Category.Other_Symbol, bidi: BidiClass.Left_To_Right, age: Age.V9_0 },
   ],
 };

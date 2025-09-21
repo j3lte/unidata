@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Ideographic Description Characters**
@@ -22,96 +22,112 @@ export const dataSet: CharacterSet = {
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12273,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12274,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO MIDDLE AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12275,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO MIDDLE AND BELOW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12276,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12277,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12278,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM BELOW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12279,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12280,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12281,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12282,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12283,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 12284,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V15_1,
     },
     {
       code: 12285,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V15_1,
     },
     {
       code: 12286,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER HORIZONTAL REFLECTION",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V15_1,
     },
     {
       code: 12287,
       name: "IDEOGRAPHIC DESCRIPTION CHARACTER ROTATION",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V15_1,
     },
   ],
 };

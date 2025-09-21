@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Small Kana Extension**
@@ -17,14 +17,68 @@ export const dataSet: CharacterSet = {
   startCode: 110896,
   endCode: 110959,
   characters: [
-    { code: 110898, name: "HIRAGANA LETTER SMALL KO", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 110928, name: "HIRAGANA LETTER SMALL WI", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 110929, name: "HIRAGANA LETTER SMALL WE", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 110930, name: "HIRAGANA LETTER SMALL WO", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 110933, name: "KATAKANA LETTER SMALL KO", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 110948, name: "KATAKANA LETTER SMALL WI", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 110949, name: "KATAKANA LETTER SMALL WE", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 110950, name: "KATAKANA LETTER SMALL WO", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
-    { code: 110951, name: "KATAKANA LETTER SMALL N", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
+    {
+      code: 110898,
+      name: "HIRAGANA LETTER SMALL KO",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
+    },
+    {
+      code: 110928,
+      name: "HIRAGANA LETTER SMALL WI",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V12_0,
+    },
+    {
+      code: 110929,
+      name: "HIRAGANA LETTER SMALL WE",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V12_0,
+    },
+    {
+      code: 110930,
+      name: "HIRAGANA LETTER SMALL WO",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V12_0,
+    },
+    {
+      code: 110933,
+      name: "KATAKANA LETTER SMALL KO",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V15_0,
+    },
+    {
+      code: 110948,
+      name: "KATAKANA LETTER SMALL WI",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V12_0,
+    },
+    {
+      code: 110949,
+      name: "KATAKANA LETTER SMALL WE",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V12_0,
+    },
+    {
+      code: 110950,
+      name: "KATAKANA LETTER SMALL WO",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V12_0,
+    },
+    {
+      code: 110951,
+      name: "KATAKANA LETTER SMALL N",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V12_0,
+    },
   ],
 };

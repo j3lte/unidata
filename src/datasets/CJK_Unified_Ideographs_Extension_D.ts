@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **CJK Unified Ideographs Extension D**
@@ -22,12 +22,14 @@ export const dataSet: CharacterSet = {
       name: "<CJK Ideograph Extension D, First>",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V6_0,
     },
     {
       code: 178205,
       name: "<CJK Ideograph Extension D, Last>",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V6_0,
     },
   ],
 };

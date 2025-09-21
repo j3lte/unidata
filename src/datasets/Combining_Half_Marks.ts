@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Combining Half Marks**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LIGATURE LEFT HALF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 230,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LIGATURE RIGHT HALF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 230,
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLE TILDE LEFT HALF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 230,
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLE TILDE RIGHT HALF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 230,
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING MACRON LEFT HALF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING MACRON RIGHT HALF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CONJOINING MACRON",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_1,
       comb: 230,
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LIGATURE LEFT HALF BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LIGATURE RIGHT HALF BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING TILDE LEFT HALF BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING TILDE RIGHT HALF BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING MACRON LEFT HALF BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING MACRON RIGHT HALF BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CONJOINING MACRON BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC TITLO LEFT HALF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V8_0,
       comb: 230,
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING CYRILLIC TITLO RIGHT HALF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V8_0,
       comb: 230,
     },
   ],

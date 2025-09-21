@@ -428,3 +428,41 @@ export enum BidiClass {
   Segment_Separator = "S",
   White_Space = "WS",
 }
+
+/**
+ * Character Age of the character.
+ *
+ * The Age property indicates the first version in which a particular Unicode character was assigned.
+ *
+ * See [Character Age](https://www.unicode.org/reports/tr44/tr44-36.html#Character_Age) for more information.
+ */
+export enum Age {
+  V1_1 = "1.1",
+  V2_0 = "2.0",
+  V2_1 = "2.1",
+  V3_0 = "3.0",
+  V3_1 = "3.1",
+  V3_2 = "3.2",
+  V4_0 = "4.0",
+  V4_1 = "4.1",
+  V5_0 = "5.0",
+  V5_1 = "5.1",
+  V5_2 = "5.2",
+  V6_0 = "6.0",
+  V6_1 = "6.1",
+  V6_2 = "6.2",
+  V6_3 = "6.3",
+  V7_0 = "7.0",
+  V8_0 = "8.0",
+  V9_0 = "9.0",
+  V10_0 = "10.0",
+  V11_0 = "11.0",
+  V12_0 = "12.0",
+  V12_1 = "12.1",
+  V13_0 = "13.0",
+  V14_0 = "14.0",
+  V15_0 = "15.0",
+  V15_1 = "15.1",
+  V16_0 = "16.0",
+  V17_0 = "17.0",
+}

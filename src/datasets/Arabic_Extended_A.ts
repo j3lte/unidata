@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Arabic Extended-A**
@@ -22,178 +22,301 @@ export const dataSet: CharacterSet = {
       name: "ARABIC LETTER BEH WITH SMALL V BELOW",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
     },
     {
       code: 2209,
       name: "ARABIC LETTER BEH WITH HAMZA ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V7_0,
     },
     {
       code: 2210,
       name: "ARABIC LETTER JEEM WITH TWO DOTS ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
     },
     {
       code: 2211,
       name: "ARABIC LETTER TAH WITH TWO DOTS ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
     },
     {
       code: 2212,
       name: "ARABIC LETTER FEH WITH DOT BELOW AND THREE DOTS ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
     },
-    { code: 2213, name: "ARABIC LETTER QAF WITH DOT BELOW", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
+    {
+      code: 2213,
+      name: "ARABIC LETTER QAF WITH DOT BELOW",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
+    },
     {
       code: 2214,
       name: "ARABIC LETTER LAM WITH DOUBLE BAR",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
     },
     {
       code: 2215,
       name: "ARABIC LETTER MEEM WITH THREE DOTS ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
     },
     {
       code: 2216,
       name: "ARABIC LETTER YEH WITH TWO DOTS BELOW AND HAMZA ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
     },
     {
       code: 2217,
       name: "ARABIC LETTER YEH WITH TWO DOTS BELOW AND DOT ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
     },
-    { code: 2218, name: "ARABIC LETTER REH WITH LOOP", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
+    {
+      code: 2218,
+      name: "ARABIC LETTER REH WITH LOOP",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
+    },
     {
       code: 2219,
       name: "ARABIC LETTER WAW WITH DOT WITHIN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
     },
-    { code: 2220, name: "ARABIC LETTER ROHINGYA YEH", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
-    { code: 2221, name: "ARABIC LETTER LOW ALEF", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
+    {
+      code: 2220,
+      name: "ARABIC LETTER ROHINGYA YEH",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V6_1,
+    },
+    {
+      code: 2221,
+      name: "ARABIC LETTER LOW ALEF",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V7_0,
+    },
     {
       code: 2222,
       name: "ARABIC LETTER DAL WITH THREE DOTS BELOW",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V7_0,
     },
     {
       code: 2223,
       name: "ARABIC LETTER SAD WITH THREE DOTS BELOW",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V7_0,
     },
     {
       code: 2224,
       name: "ARABIC LETTER GAF WITH INVERTED STROKE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V7_0,
     },
-    { code: 2225, name: "ARABIC LETTER STRAIGHT WAW", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
+    {
+      code: 2225,
+      name: "ARABIC LETTER STRAIGHT WAW",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V7_0,
+    },
     {
       code: 2226,
       name: "ARABIC LETTER ZAIN WITH INVERTED V ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V7_0,
     },
     {
       code: 2227,
       name: "ARABIC LETTER AIN WITH THREE DOTS BELOW",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V8_0,
     },
-    { code: 2228, name: "ARABIC LETTER KAF WITH DOT BELOW", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
+    {
+      code: 2228,
+      name: "ARABIC LETTER KAF WITH DOT BELOW",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V8_0,
+    },
     {
       code: 2229,
       name: "ARABIC LETTER QAF WITH DOT BELOW AND NO DOTS ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V14_0,
     },
     {
       code: 2230,
       name: "ARABIC LETTER BEH WITH SMALL MEEM ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V9_0,
     },
     {
       code: 2231,
       name: "ARABIC LETTER PEH WITH SMALL MEEM ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V9_0,
     },
     {
       code: 2232,
       name: "ARABIC LETTER TEH WITH SMALL TEH ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V9_0,
     },
     {
       code: 2233,
       name: "ARABIC LETTER REH WITH SMALL NOON ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V9_0,
     },
     {
       code: 2234,
       name: "ARABIC LETTER YEH WITH TWO DOTS BELOW AND SMALL NOON ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V9_0,
     },
-    { code: 2235, name: "ARABIC LETTER AFRICAN FEH", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
-    { code: 2236, name: "ARABIC LETTER AFRICAN QAF", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
-    { code: 2237, name: "ARABIC LETTER AFRICAN NOON", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
-    { code: 2238, name: "ARABIC LETTER PEH WITH SMALL V", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
-    { code: 2239, name: "ARABIC LETTER TEH WITH SMALL V", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
-    { code: 2240, name: "ARABIC LETTER TTEH WITH SMALL V", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
-    { code: 2241, name: "ARABIC LETTER TCHEH WITH SMALL V", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
-    { code: 2242, name: "ARABIC LETTER KEHEH WITH SMALL V", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
+    {
+      code: 2235,
+      name: "ARABIC LETTER AFRICAN FEH",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V9_0,
+    },
+    {
+      code: 2236,
+      name: "ARABIC LETTER AFRICAN QAF",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V9_0,
+    },
+    {
+      code: 2237,
+      name: "ARABIC LETTER AFRICAN NOON",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V9_0,
+    },
+    {
+      code: 2238,
+      name: "ARABIC LETTER PEH WITH SMALL V",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V13_0,
+    },
+    {
+      code: 2239,
+      name: "ARABIC LETTER TEH WITH SMALL V",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V13_0,
+    },
+    {
+      code: 2240,
+      name: "ARABIC LETTER TTEH WITH SMALL V",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V13_0,
+    },
+    {
+      code: 2241,
+      name: "ARABIC LETTER TCHEH WITH SMALL V",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V13_0,
+    },
+    {
+      code: 2242,
+      name: "ARABIC LETTER KEHEH WITH SMALL V",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V13_0,
+    },
     {
       code: 2243,
       name: "ARABIC LETTER GHAIN WITH THREE DOTS ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V13_0,
     },
     {
       code: 2244,
       name: "ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V13_0,
     },
     {
       code: 2245,
       name: "ARABIC LETTER JEEM WITH THREE DOTS ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V13_0,
     },
     {
       code: 2246,
       name: "ARABIC LETTER JEEM WITH THREE DOTS BELOW",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V13_0,
     },
     {
       code: 2247,
       name: "ARABIC LETTER LAM WITH SMALL ARABIC LETTER TAH ABOVE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Arabic_Letter,
+      age: Age.V13_0,
     },
-    { code: 2248, name: "ARABIC LETTER GRAF", cat: Category.Other_Letter, bidi: BidiClass.Arabic_Letter },
-    { code: 2249, name: "ARABIC SMALL FARSI YEH", cat: Category.Modifier_Letter, bidi: BidiClass.Arabic_Letter },
+    {
+      code: 2248,
+      name: "ARABIC LETTER GRAF",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V14_0,
+    },
+    {
+      code: 2249,
+      name: "ARABIC SMALL FARSI YEH",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Arabic_Letter,
+      age: Age.V14_0,
+    },
     {
       code: 2250,
       name: "ARABIC SMALL HIGH FARSI YEH",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -201,6 +324,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH YEH BARREE WITH TWO DOTS BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -208,6 +332,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH WORD SAH",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -215,6 +340,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH ZAH",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -222,6 +348,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC LARGE ROUND DOT ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -229,6 +356,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC LARGE ROUND DOT BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 220,
     },
     {
@@ -236,6 +364,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SUKUN BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 220,
     },
     {
@@ -243,6 +372,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC LARGE CIRCLE BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 220,
     },
     {
@@ -250,6 +380,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC LARGE ROUND DOT INSIDE CIRCLE BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 220,
     },
     {
@@ -257,6 +388,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL LOW WAW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V11_0,
       comb: 220,
     },
     {
@@ -264,6 +396,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH WORD AR-RUB",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -271,6 +404,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH SAD",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -278,6 +412,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH AIN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -285,6 +420,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH QAF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -292,6 +428,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH NOON WITH KASRA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -299,6 +436,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL LOW NOON WITH KASRA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -306,6 +444,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH WORD ATH-THALATHA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -313,6 +452,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH WORD AS-SAJDA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -320,6 +460,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH WORD AN-NISF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -327,6 +468,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH WORD SAKTA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -334,6 +476,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH WORD QIF",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -341,6 +484,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH WORD WAQFA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -348,6 +492,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH FOOTNOTE MARKER",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
     {
@@ -355,14 +500,22 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH SIGN SAFHA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V9_0,
       comb: 230,
     },
-    { code: 2274, name: "ARABIC DISPUTED END OF AYAH", cat: Category.Format, bidi: BidiClass.Arabic_Number },
+    {
+      code: 2274,
+      name: "ARABIC DISPUTED END OF AYAH",
+      cat: Category.Format,
+      bidi: BidiClass.Arabic_Number,
+      age: Age.V9_0,
+    },
     {
       code: 2275,
       name: "ARABIC TURNED DAMMA BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V8_0,
       comb: 220,
     },
     {
@@ -370,6 +523,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC CURLY FATHA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -377,6 +531,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC CURLY DAMMA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -384,6 +539,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC CURLY KASRA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 220,
     },
     {
@@ -391,6 +547,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC CURLY FATHATAN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -398,6 +555,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC CURLY DAMMATAN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -405,6 +563,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC CURLY KASRATAN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 220,
     },
     {
@@ -412,6 +571,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC TONE ONE DOT ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -419,6 +579,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC TONE TWO DOTS ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -426,6 +587,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC TONE LOOP ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -433,6 +595,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC TONE ONE DOT BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 220,
     },
     {
@@ -440,6 +603,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC TONE TWO DOTS BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 220,
     },
     {
@@ -447,6 +611,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC TONE LOOP BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 220,
     },
     {
@@ -454,6 +619,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC OPEN FATHATAN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 27,
     },
     {
@@ -461,6 +627,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC OPEN DAMMATAN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 28,
     },
     {
@@ -468,6 +635,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC OPEN KASRATAN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 29,
     },
     {
@@ -475,6 +643,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC SMALL HIGH WAW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -482,6 +651,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC FATHA WITH RING",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -489,6 +659,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC FATHA WITH DOT ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -496,6 +667,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC KASRA WITH DOT BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 220,
     },
     {
@@ -503,6 +675,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC LEFT ARROWHEAD ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -510,6 +683,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC RIGHT ARROWHEAD ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -517,6 +691,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC LEFT ARROWHEAD BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 220,
     },
     {
@@ -524,6 +699,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC RIGHT ARROWHEAD BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 220,
     },
     {
@@ -531,6 +707,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC DOUBLE RIGHT ARROWHEAD ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -538,6 +715,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC DOUBLE RIGHT ARROWHEAD ABOVE WITH DOT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -545,6 +723,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC RIGHT ARROWHEAD ABOVE WITH DOT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -552,6 +731,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC DAMMA WITH DOT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V6_1,
       comb: 230,
     },
     {
@@ -559,6 +739,7 @@ export const dataSet: CharacterSet = {
       name: "ARABIC MARK SIDEWAYS NOON GHUNNA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 230,
     },
   ],

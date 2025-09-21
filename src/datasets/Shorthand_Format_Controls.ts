@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Shorthand Format Controls**
@@ -17,14 +17,33 @@ export const dataSet: CharacterSet = {
   startCode: 113824,
   endCode: 113839,
   characters: [
-    { code: 113824, name: "SHORTHAND FORMAT LETTER OVERLAP", cat: Category.Format, bidi: BidiClass.Boundary_Neutral },
+    {
+      code: 113824,
+      name: "SHORTHAND FORMAT LETTER OVERLAP",
+      cat: Category.Format,
+      bidi: BidiClass.Boundary_Neutral,
+      age: Age.V7_0,
+    },
     {
       code: 113825,
       name: "SHORTHAND FORMAT CONTINUING OVERLAP",
       cat: Category.Format,
       bidi: BidiClass.Boundary_Neutral,
+      age: Age.V7_0,
     },
-    { code: 113826, name: "SHORTHAND FORMAT DOWN STEP", cat: Category.Format, bidi: BidiClass.Boundary_Neutral },
-    { code: 113827, name: "SHORTHAND FORMAT UP STEP", cat: Category.Format, bidi: BidiClass.Boundary_Neutral },
+    {
+      code: 113826,
+      name: "SHORTHAND FORMAT DOWN STEP",
+      cat: Category.Format,
+      bidi: BidiClass.Boundary_Neutral,
+      age: Age.V7_0,
+    },
+    {
+      code: 113827,
+      name: "SHORTHAND FORMAT UP STEP",
+      cat: Category.Format,
+      bidi: BidiClass.Boundary_Neutral,
+      age: Age.V7_0,
+    },
   ],
 };

@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Medefaidrin**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER M",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93792,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER S",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93793,
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER V",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93794,
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER W",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93795,
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER ATIU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93796,
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER Z",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93797,
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER KP",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93798,
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER P",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93799,
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER T",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93800,
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER G",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93801,
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER F",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93802,
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER I",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93803,
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER K",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93804,
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER A",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93805,
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER J",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93806,
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER E",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93807,
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER B",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93808,
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER C",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93809,
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER U",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93810,
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER YU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93811,
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER L",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93812,
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER Q",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93813,
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER HP",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93814,
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER NY",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93815,
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER X",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93816,
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER D",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93817,
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER OE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93818,
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER N",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93819,
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER R",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93820,
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER O",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93821,
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER AI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93822,
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN CAPITAL LETTER Y",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 93823,
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER M",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93760,
       title: 93760,
     },
@@ -254,6 +287,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER S",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93761,
       title: 93761,
     },
@@ -262,6 +296,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER V",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93762,
       title: 93762,
     },
@@ -270,6 +305,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER W",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93763,
       title: 93763,
     },
@@ -278,6 +314,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER ATIU",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93764,
       title: 93764,
     },
@@ -286,6 +323,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER Z",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93765,
       title: 93765,
     },
@@ -294,6 +332,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER KP",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93766,
       title: 93766,
     },
@@ -302,6 +341,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER P",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93767,
       title: 93767,
     },
@@ -310,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER T",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93768,
       title: 93768,
     },
@@ -318,6 +359,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER G",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93769,
       title: 93769,
     },
@@ -326,6 +368,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER F",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93770,
       title: 93770,
     },
@@ -334,6 +377,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER I",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93771,
       title: 93771,
     },
@@ -342,6 +386,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER K",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93772,
       title: 93772,
     },
@@ -350,6 +395,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER A",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93773,
       title: 93773,
     },
@@ -358,6 +404,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER J",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93774,
       title: 93774,
     },
@@ -366,6 +413,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER E",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93775,
       title: 93775,
     },
@@ -374,6 +422,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER B",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93776,
       title: 93776,
     },
@@ -382,6 +431,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER C",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93777,
       title: 93777,
     },
@@ -390,6 +440,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER U",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93778,
       title: 93778,
     },
@@ -398,6 +449,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER YU",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93779,
       title: 93779,
     },
@@ -406,6 +458,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER L",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93780,
       title: 93780,
     },
@@ -414,6 +467,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER Q",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93781,
       title: 93781,
     },
@@ -422,6 +476,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER HP",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93782,
       title: 93782,
     },
@@ -430,6 +485,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER NY",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93783,
       title: 93783,
     },
@@ -438,6 +494,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER X",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93784,
       title: 93784,
     },
@@ -446,6 +503,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER D",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93785,
       title: 93785,
     },
@@ -454,6 +512,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER OE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93786,
       title: 93786,
     },
@@ -462,6 +521,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER N",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93787,
       title: 93787,
     },
@@ -470,6 +530,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER R",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93788,
       title: 93788,
     },
@@ -478,6 +539,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER O",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93789,
       title: 93789,
     },
@@ -486,6 +548,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER AI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93790,
       title: 93790,
     },
@@ -494,6 +557,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN SMALL LETTER Y",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       upper: 93791,
       title: 93791,
     },
@@ -502,15 +566,31 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN DIGIT ZERO",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "0",
     },
-    { code: 93825, name: "MEDEFAIDRIN DIGIT ONE", cat: Category.Other_Number, bidi: BidiClass.Left_To_Right, num: "1" },
-    { code: 93826, name: "MEDEFAIDRIN DIGIT TWO", cat: Category.Other_Number, bidi: BidiClass.Left_To_Right, num: "2" },
+    {
+      code: 93825,
+      name: "MEDEFAIDRIN DIGIT ONE",
+      cat: Category.Other_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
+      num: "1",
+    },
+    {
+      code: 93826,
+      name: "MEDEFAIDRIN DIGIT TWO",
+      cat: Category.Other_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
+      num: "2",
+    },
     {
       code: 93827,
       name: "MEDEFAIDRIN DIGIT THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "3",
     },
     {
@@ -518,6 +598,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN DIGIT FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "4",
     },
     {
@@ -525,14 +606,23 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN DIGIT FIVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "5",
     },
-    { code: 93830, name: "MEDEFAIDRIN DIGIT SIX", cat: Category.Other_Number, bidi: BidiClass.Left_To_Right, num: "6" },
+    {
+      code: 93830,
+      name: "MEDEFAIDRIN DIGIT SIX",
+      cat: Category.Other_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
+      num: "6",
+    },
     {
       code: 93831,
       name: "MEDEFAIDRIN DIGIT SEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "7",
     },
     {
@@ -540,6 +630,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN DIGIT EIGHT",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "8",
     },
     {
@@ -547,6 +638,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN DIGIT NINE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "9",
     },
     {
@@ -554,6 +646,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN NUMBER TEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "10",
     },
     {
@@ -561,6 +654,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN NUMBER ELEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "11",
     },
     {
@@ -568,6 +662,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN NUMBER TWELVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "12",
     },
     {
@@ -575,6 +670,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN NUMBER THIRTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "13",
     },
     {
@@ -582,6 +678,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN NUMBER FOURTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "14",
     },
     {
@@ -589,6 +686,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN NUMBER FIFTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "15",
     },
     {
@@ -596,6 +694,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN NUMBER SIXTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "16",
     },
     {
@@ -603,6 +702,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN NUMBER SEVENTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "17",
     },
     {
@@ -610,6 +710,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN NUMBER EIGHTEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "18",
     },
     {
@@ -617,6 +718,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN NUMBER NINETEEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "19",
     },
     {
@@ -624,6 +726,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN DIGIT ONE ALTERNATE FORM",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "1",
     },
     {
@@ -631,6 +734,7 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN DIGIT TWO ALTERNATE FORM",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "2",
     },
     {
@@ -638,11 +742,36 @@ export const dataSet: CharacterSet = {
       name: "MEDEFAIDRIN DIGIT THREE ALTERNATE FORM",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "3",
     },
-    { code: 93847, name: "MEDEFAIDRIN COMMA", cat: Category.Other_Punctuation, bidi: BidiClass.Left_To_Right },
-    { code: 93848, name: "MEDEFAIDRIN FULL STOP", cat: Category.Other_Punctuation, bidi: BidiClass.Left_To_Right },
-    { code: 93849, name: "MEDEFAIDRIN SYMBOL AIVA", cat: Category.Other_Punctuation, bidi: BidiClass.Left_To_Right },
-    { code: 93850, name: "MEDEFAIDRIN EXCLAMATION OH", cat: Category.Other_Punctuation, bidi: BidiClass.Left_To_Right },
+    {
+      code: 93847,
+      name: "MEDEFAIDRIN COMMA",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
+    },
+    {
+      code: 93848,
+      name: "MEDEFAIDRIN FULL STOP",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
+    },
+    {
+      code: 93849,
+      name: "MEDEFAIDRIN SYMBOL AIVA",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
+    },
+    {
+      code: 93850,
+      name: "MEDEFAIDRIN EXCLAMATION OH",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
+    },
   ],
 };

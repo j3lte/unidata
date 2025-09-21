@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Thai**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER KO KAI",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER KO KAI",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER KHO KHAI",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER KHO KHAI",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER KHO KHUAT",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER KHO KHUAT",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER KHO KHWAI",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER KHO KHWAI",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER KHO KHON",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER KHO KHON",
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER KHO RAKHANG",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER KHO RAKHANG",
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER NGO NGU",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER NGO NGU",
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER CHO CHAN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER CHO CHAN",
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER CHO CHING",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER CHO CHING",
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER CHO CHANG",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER CHO CHANG",
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SO SO",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER SO SO",
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER CHO CHOE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER CHO CHOE",
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER YO YING",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER YO YING",
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER DO CHADA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER DO CHADA",
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER TO PATAK",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER TO PATAK",
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER THO THAN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER THO THAN",
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER THO NANGMONTHO",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER THO NANGMONTHO",
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER THO PHUTHAO",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER THO PHUTHAO",
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER NO NEN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER NO NEN",
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER DO DEK",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER DO DEK",
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER TO TAO",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER TO TAO",
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER THO THUNG",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER THO THUNG",
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER THO THAHAN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER THO THAHAN",
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER THO THONG",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER THO THONG",
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER NO NU",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER NO NU",
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER BO BAIMAI",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER BO BAIMAI",
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER PO PLA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER PO PLA",
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER PHO PHUNG",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER PHO PHUNG",
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER FO FA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER FO FA",
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER PHO PHAN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER PHO PHAN",
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER FO FAN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER FO FAN",
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER PHO SAMPHAO",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER PHO SAMPHAO",
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER MO MA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER MO MA",
     },
     {
@@ -253,6 +286,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER YO YAK",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER YO YAK",
     },
     {
@@ -260,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER RO RUA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER RO RUA",
     },
     {
@@ -267,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER RU",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER RU",
     },
     {
@@ -274,6 +310,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER LO LING",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER LO LING",
     },
     {
@@ -281,6 +318,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER LU",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER LU",
     },
     {
@@ -288,6 +326,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER WO WAEN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER WO WAEN",
     },
     {
@@ -295,6 +334,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SO SALA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER SO SALA",
     },
     {
@@ -302,6 +342,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SO RUSI",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER SO RUSI",
     },
     {
@@ -309,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SO SUA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER SO SUA",
     },
     {
@@ -316,6 +358,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER HO HIP",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER HO HIP",
     },
     {
@@ -323,6 +366,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER LO CHULA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER LO CHULA",
     },
     {
@@ -330,6 +374,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER O ANG",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER O ANG",
     },
     {
@@ -337,6 +382,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER HO NOKHUK",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LETTER HO NOK HUK",
     },
     {
@@ -344,6 +390,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER PAIYANNOI",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI PAI YAN NOI",
     },
     {
@@ -351,6 +398,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA A",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA A",
     },
     {
@@ -358,6 +406,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER MAI HAN-AKAT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN MAI HAN-AKAT",
     },
     {
@@ -365,6 +414,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA AA",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA AA",
     },
     {
@@ -372,6 +422,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA AM",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       decomp: [3661, 3634],
       decompType: "compat",
       oldName: "THAI VOWEL SIGN SARA AM",
@@ -381,6 +432,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA I",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA I",
     },
     {
@@ -388,6 +440,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA II",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA II",
     },
     {
@@ -395,6 +448,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA UE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA UE",
     },
     {
@@ -402,6 +456,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA UEE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA UEE",
     },
     {
@@ -409,6 +464,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA U",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 103,
       oldName: "THAI VOWEL SIGN SARA U",
     },
@@ -417,6 +473,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA UU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 103,
       oldName: "THAI VOWEL SIGN SARA UU",
     },
@@ -425,6 +482,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER PHINTHU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 9,
       oldName: "THAI VOWEL SIGN PHINTHU",
     },
@@ -433,6 +491,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CURRENCY SYMBOL BAHT",
       cat: Category.Currency_Symbol,
       bidi: BidiClass.European_Terminator,
+      age: Age.V1_1,
       oldName: "THAI BAHT SIGN",
     },
     {
@@ -440,6 +499,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA E",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA E",
     },
     {
@@ -447,6 +507,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA AE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA AE",
     },
     {
@@ -454,6 +515,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA O",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA O",
     },
     {
@@ -461,6 +523,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA AI MAIMUAN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA MAI MUAN",
     },
     {
@@ -468,6 +531,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER SARA AI MAIMALAI",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN SARA MAI MALAI",
     },
     {
@@ -475,6 +539,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER LAKKHANGYAO",
       cat: Category.Other_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI LAK KHANG YAO",
     },
     {
@@ -482,6 +547,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER MAIYAMOK",
       cat: Category.Modifier_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI MAI YAMOK",
     },
     {
@@ -489,6 +555,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER MAITAIKHU",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       oldName: "THAI VOWEL SIGN MAI TAI KHU",
     },
     {
@@ -496,6 +563,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER MAI EK",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 107,
       oldName: "THAI TONE MAI EK",
     },
@@ -504,6 +572,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER MAI THO",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 107,
       oldName: "THAI TONE MAI THO",
     },
@@ -512,6 +581,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER MAI TRI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 107,
       oldName: "THAI TONE MAI TRI",
     },
@@ -520,6 +590,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER MAI CHATTAWA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 107,
       oldName: "THAI TONE MAI CHATTAWA",
     },
@@ -528,6 +599,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER THANTHAKHAT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       oldName: "THAI THANTHAKHAT",
     },
     {
@@ -535,6 +607,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER NIKHAHIT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       oldName: "THAI NIKKHAHIT",
     },
     {
@@ -542,6 +615,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER YAMAKKAN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       oldName: "THAI YAMAKKAN",
     },
     {
@@ -549,23 +623,95 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER FONGMAN",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI FONGMAN",
     },
-    { code: 3664, name: "THAI DIGIT ZERO", cat: Category.Decimal_Number, bidi: BidiClass.Left_To_Right, num: "0" },
-    { code: 3665, name: "THAI DIGIT ONE", cat: Category.Decimal_Number, bidi: BidiClass.Left_To_Right, num: "1" },
-    { code: 3666, name: "THAI DIGIT TWO", cat: Category.Decimal_Number, bidi: BidiClass.Left_To_Right, num: "2" },
-    { code: 3667, name: "THAI DIGIT THREE", cat: Category.Decimal_Number, bidi: BidiClass.Left_To_Right, num: "3" },
-    { code: 3668, name: "THAI DIGIT FOUR", cat: Category.Decimal_Number, bidi: BidiClass.Left_To_Right, num: "4" },
-    { code: 3669, name: "THAI DIGIT FIVE", cat: Category.Decimal_Number, bidi: BidiClass.Left_To_Right, num: "5" },
-    { code: 3670, name: "THAI DIGIT SIX", cat: Category.Decimal_Number, bidi: BidiClass.Left_To_Right, num: "6" },
-    { code: 3671, name: "THAI DIGIT SEVEN", cat: Category.Decimal_Number, bidi: BidiClass.Left_To_Right, num: "7" },
-    { code: 3672, name: "THAI DIGIT EIGHT", cat: Category.Decimal_Number, bidi: BidiClass.Left_To_Right, num: "8" },
-    { code: 3673, name: "THAI DIGIT NINE", cat: Category.Decimal_Number, bidi: BidiClass.Left_To_Right, num: "9" },
+    {
+      code: 3664,
+      name: "THAI DIGIT ZERO",
+      cat: Category.Decimal_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
+      num: "0",
+    },
+    {
+      code: 3665,
+      name: "THAI DIGIT ONE",
+      cat: Category.Decimal_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
+      num: "1",
+    },
+    {
+      code: 3666,
+      name: "THAI DIGIT TWO",
+      cat: Category.Decimal_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
+      num: "2",
+    },
+    {
+      code: 3667,
+      name: "THAI DIGIT THREE",
+      cat: Category.Decimal_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
+      num: "3",
+    },
+    {
+      code: 3668,
+      name: "THAI DIGIT FOUR",
+      cat: Category.Decimal_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
+      num: "4",
+    },
+    {
+      code: 3669,
+      name: "THAI DIGIT FIVE",
+      cat: Category.Decimal_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
+      num: "5",
+    },
+    {
+      code: 3670,
+      name: "THAI DIGIT SIX",
+      cat: Category.Decimal_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
+      num: "6",
+    },
+    {
+      code: 3671,
+      name: "THAI DIGIT SEVEN",
+      cat: Category.Decimal_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
+      num: "7",
+    },
+    {
+      code: 3672,
+      name: "THAI DIGIT EIGHT",
+      cat: Category.Decimal_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
+      num: "8",
+    },
+    {
+      code: 3673,
+      name: "THAI DIGIT NINE",
+      cat: Category.Decimal_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
+      num: "9",
+    },
     {
       code: 3674,
       name: "THAI CHARACTER ANGKHANKHU",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI ANGKHANKHU",
     },
     {
@@ -573,6 +719,7 @@ export const dataSet: CharacterSet = {
       name: "THAI CHARACTER KHOMUT",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V1_1,
       oldName: "THAI KHOMUT",
     },
   ],

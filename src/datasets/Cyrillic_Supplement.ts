@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Cyrillic Supplement**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER KOMI DE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       lower: 1281,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER KOMI DE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       upper: 1280,
       title: 1280,
     },
@@ -37,6 +39,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER KOMI DJE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       lower: 1283,
     },
     {
@@ -44,6 +47,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER KOMI DJE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       upper: 1282,
       title: 1282,
     },
@@ -52,6 +56,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER KOMI ZJE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       lower: 1285,
     },
     {
@@ -59,6 +64,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER KOMI ZJE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       upper: 1284,
       title: 1284,
     },
@@ -67,6 +73,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER KOMI DZJE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       lower: 1287,
     },
     {
@@ -74,6 +81,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER KOMI DZJE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       upper: 1286,
       title: 1286,
     },
@@ -82,6 +90,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER KOMI LJE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       lower: 1289,
     },
     {
@@ -89,6 +98,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER KOMI LJE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       upper: 1288,
       title: 1288,
     },
@@ -97,6 +107,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER KOMI NJE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       lower: 1291,
     },
     {
@@ -104,6 +115,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER KOMI NJE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       upper: 1290,
       title: 1290,
     },
@@ -112,6 +124,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER KOMI SJE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       lower: 1293,
     },
     {
@@ -119,6 +132,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER KOMI SJE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       upper: 1292,
       title: 1292,
     },
@@ -127,6 +141,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER KOMI TJE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       lower: 1295,
     },
     {
@@ -134,6 +149,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER KOMI TJE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_2,
       upper: 1294,
       title: 1294,
     },
@@ -142,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER REVERSED ZE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       lower: 1297,
     },
     {
@@ -149,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER REVERSED ZE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       upper: 1296,
       title: 1296,
     },
@@ -157,6 +175,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER EL WITH HOOK",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       lower: 1299,
     },
     {
@@ -164,6 +183,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER EL WITH HOOK",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       upper: 1298,
       title: 1298,
     },
@@ -172,6 +192,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER LHA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 1301,
     },
     {
@@ -179,6 +200,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER LHA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       upper: 1300,
       title: 1300,
     },
@@ -187,6 +209,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER RHA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 1303,
     },
     {
@@ -194,6 +217,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER RHA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       upper: 1302,
       title: 1302,
     },
@@ -202,6 +226,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER YAE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 1305,
     },
     {
@@ -209,6 +234,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER YAE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       upper: 1304,
       title: 1304,
     },
@@ -217,6 +243,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER QA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 1307,
     },
     {
@@ -224,6 +251,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER QA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       upper: 1306,
       title: 1306,
     },
@@ -232,6 +260,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER WE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 1309,
     },
     {
@@ -239,6 +268,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER WE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       upper: 1308,
       title: 1308,
     },
@@ -247,6 +277,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER ALEUT KA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 1311,
     },
     {
@@ -254,6 +285,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER ALEUT KA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       upper: 1310,
       title: 1310,
     },
@@ -262,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER EL WITH MIDDLE HOOK",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 1313,
     },
     {
@@ -269,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER EL WITH MIDDLE HOOK",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       upper: 1312,
       title: 1312,
     },
@@ -277,6 +311,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER EN WITH MIDDLE HOOK",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       lower: 1315,
     },
     {
@@ -284,6 +319,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER EN WITH MIDDLE HOOK",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_1,
       upper: 1314,
       title: 1314,
     },
@@ -292,6 +328,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER PE WITH DESCENDER",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       lower: 1317,
     },
     {
@@ -299,6 +336,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER PE WITH DESCENDER",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       upper: 1316,
       title: 1316,
     },
@@ -307,6 +345,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER SHHA WITH DESCENDER",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V6_0,
       lower: 1319,
     },
     {
@@ -314,6 +353,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER SHHA WITH DESCENDER",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V6_0,
       upper: 1318,
       title: 1318,
     },
@@ -322,6 +362,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER EN WITH LEFT HOOK",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 1321,
     },
     {
@@ -329,6 +370,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER EN WITH LEFT HOOK",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 1320,
       title: 1320,
     },
@@ -337,6 +379,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER DZZHE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 1323,
     },
     {
@@ -344,6 +387,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER DZZHE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 1322,
       title: 1322,
     },
@@ -352,6 +396,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER DCHE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 1325,
     },
     {
@@ -359,6 +404,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER DCHE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 1324,
       title: 1324,
     },
@@ -367,6 +413,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER EL WITH DESCENDER",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 1327,
     },
     {
@@ -374,6 +421,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER EL WITH DESCENDER",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 1326,
       title: 1326,
     },

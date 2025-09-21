@@ -1,7 +1,13 @@
-type PropertyValueAliasReturn = {
+export type PropertyValueAliasReturn = {
   categories: [string, string][];
   bidi: [string, string][];
+  ages: [string, string][];
 };
+
+const sorted = (props: string[][]): [string, string][] =>
+  props.sort((a, b) => a[2].localeCompare(b[2])).map((
+    [, abbreviation, value],
+  ) => [value, abbreviation]);
 
 export const getPropertyValueAliases = (txt: string): PropertyValueAliasReturn => {
   const aliases = txt
@@ -15,13 +21,15 @@ export const getPropertyValueAliases = (txt: string): PropertyValueAliasReturn =
 
   const categories = aliases.filter((props) => props.length > 2 && props[0] === "gc");
   const bidi = aliases.filter((props) => props.length > 2 && props[0] === "bc");
+  const ages: [string, string][] = aliases.filter((props) =>
+    props.length > 2 && props[0] === "age" && props[2] !== "Unassigned"
+  ).map((
+    [, value, name],
+  ) => [name, value]);
 
   return {
-    categories: categories.sort((a, b) => a[2].localeCompare(b[2])).map((
-      [, abbreviation, category],
-    ) => [category, abbreviation]),
-    bidi: bidi.sort((a, b) => a[2].localeCompare(b[2])).map((
-      [, abbreviation, bidi],
-    ) => [bidi, abbreviation]),
+    categories: sorted(categories),
+    bidi: sorted(bidi),
+    ages,
   };
 };

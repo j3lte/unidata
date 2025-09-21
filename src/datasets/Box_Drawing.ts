@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Box Drawing**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT HORIZONTAL",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY HORIZONTAL",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT VERTICAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT VERTICAL",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY VERTICAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY VERTICAL",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT TRIPLE DASH HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT TRIPLE DASH HORIZONTAL",
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY TRIPLE DASH HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY TRIPLE DASH HORIZONTAL",
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT TRIPLE DASH VERTICAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT TRIPLE DASH VERTICAL",
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY TRIPLE DASH VERTICAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY TRIPLE DASH VERTICAL",
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT QUADRUPLE DASH HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT QUADRUPLE DASH HORIZONTAL",
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY QUADRUPLE DASH HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY QUADRUPLE DASH HORIZONTAL",
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT QUADRUPLE DASH VERTICAL",
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY QUADRUPLE DASH VERTICAL",
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT DOWN AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT DOWN AND RIGHT",
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN LIGHT AND RIGHT HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN LIGHT AND RIGHT HEAVY",
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN HEAVY AND RIGHT LIGHT",
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY DOWN AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY DOWN AND RIGHT",
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT DOWN AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT DOWN AND LEFT",
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN LIGHT AND LEFT HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN LIGHT AND LEFT HEAVY",
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN HEAVY AND LEFT LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN HEAVY AND LEFT LIGHT",
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY DOWN AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY DOWN AND LEFT",
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT UP AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT UP AND RIGHT",
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP LIGHT AND RIGHT HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP LIGHT AND RIGHT HEAVY",
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP HEAVY AND RIGHT LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP HEAVY AND RIGHT LIGHT",
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY UP AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY UP AND RIGHT",
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT UP AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT UP AND LEFT",
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP LIGHT AND LEFT HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP LIGHT AND LEFT HEAVY",
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP HEAVY AND LEFT LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP HEAVY AND LEFT LIGHT",
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY UP AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY UP AND LEFT",
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT VERTICAL AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT VERTICAL AND RIGHT",
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL LIGHT AND RIGHT HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL LIGHT AND RIGHT HEAVY",
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP HEAVY AND RIGHT DOWN LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP HEAVY AND RIGHT DOWN LIGHT",
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN HEAVY AND RIGHT UP LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN HEAVY AND RIGHT UP LIGHT",
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL HEAVY AND RIGHT LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL HEAVY AND RIGHT LIGHT",
     },
     {
@@ -253,6 +286,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN LIGHT AND RIGHT UP HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN LIGHT AND RIGHT UP HEAVY",
     },
     {
@@ -260,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP LIGHT AND RIGHT DOWN HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP LIGHT AND RIGHT DOWN HEAVY",
     },
     {
@@ -267,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY VERTICAL AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY VERTICAL AND RIGHT",
     },
     {
@@ -274,6 +310,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT VERTICAL AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT VERTICAL AND LEFT",
     },
     {
@@ -281,6 +318,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL LIGHT AND LEFT HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL LIGHT AND LEFT HEAVY",
     },
     {
@@ -288,6 +326,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP HEAVY AND LEFT DOWN LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP HEAVY AND LEFT DOWN LIGHT",
     },
     {
@@ -295,6 +334,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN HEAVY AND LEFT UP LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN HEAVY AND LEFT UP LIGHT",
     },
     {
@@ -302,6 +342,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL HEAVY AND LEFT LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL HEAVY AND LEFT LIGHT",
     },
     {
@@ -309,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN LIGHT AND LEFT UP HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN LIGHT AND LEFT UP HEAVY",
     },
     {
@@ -316,6 +358,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP LIGHT AND LEFT DOWN HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP LIGHT AND LEFT DOWN HEAVY",
     },
     {
@@ -323,6 +366,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY VERTICAL AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY VERTICAL AND LEFT",
     },
     {
@@ -330,6 +374,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT DOWN AND HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT DOWN AND HORIZONTAL",
     },
     {
@@ -337,6 +382,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LEFT HEAVY AND RIGHT DOWN LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LEFT HEAVY AND RIGHT DOWN LIGHT",
     },
     {
@@ -344,6 +390,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS RIGHT HEAVY AND LEFT DOWN LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS RIGHT HEAVY AND LEFT DOWN LIGHT",
     },
     {
@@ -351,6 +398,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN LIGHT AND HORIZONTAL HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN LIGHT AND HORIZONTAL HEAVY",
     },
     {
@@ -358,6 +406,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN HEAVY AND HORIZONTAL LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN HEAVY AND HORIZONTAL LIGHT",
     },
     {
@@ -365,6 +414,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS RIGHT LIGHT AND LEFT DOWN HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS RIGHT LIGHT AND LEFT DOWN HEAVY",
     },
     {
@@ -372,6 +422,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LEFT LIGHT AND RIGHT DOWN HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LEFT LIGHT AND RIGHT DOWN HEAVY",
     },
     {
@@ -379,6 +430,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY DOWN AND HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY DOWN AND HORIZONTAL",
     },
     {
@@ -386,6 +438,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT UP AND HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT UP AND HORIZONTAL",
     },
     {
@@ -393,6 +446,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LEFT HEAVY AND RIGHT UP LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LEFT HEAVY AND RIGHT UP LIGHT",
     },
     {
@@ -400,6 +454,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS RIGHT HEAVY AND LEFT UP LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS RIGHT HEAVY AND LEFT UP LIGHT",
     },
     {
@@ -407,6 +462,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP LIGHT AND HORIZONTAL HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP LIGHT AND HORIZONTAL HEAVY",
     },
     {
@@ -414,6 +470,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP HEAVY AND HORIZONTAL LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP HEAVY AND HORIZONTAL LIGHT",
     },
     {
@@ -421,6 +478,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS RIGHT LIGHT AND LEFT UP HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS RIGHT LIGHT AND LEFT UP HEAVY",
     },
     {
@@ -428,6 +486,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LEFT LIGHT AND RIGHT UP HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LEFT LIGHT AND RIGHT UP HEAVY",
     },
     {
@@ -435,6 +494,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY UP AND HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY UP AND HORIZONTAL",
     },
     {
@@ -442,6 +502,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT VERTICAL AND HORIZONTAL",
     },
     {
@@ -449,6 +510,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LEFT HEAVY AND RIGHT VERTICAL LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LEFT HEAVY AND RIGHT VERTICAL LIGHT",
     },
     {
@@ -456,6 +518,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS RIGHT HEAVY AND LEFT VERTICAL LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS RIGHT HEAVY AND LEFT VERTICAL LIGHT",
     },
     {
@@ -463,6 +526,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL LIGHT AND HORIZONTAL HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL LIGHT AND HORIZONTAL HEAVY",
     },
     {
@@ -470,6 +534,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP HEAVY AND DOWN HORIZONTAL LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP HEAVY AND DOWN HORIZONTAL LIGHT",
     },
     {
@@ -477,6 +542,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN HEAVY AND UP HORIZONTAL LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN HEAVY AND UP HORIZONTAL LIGHT",
     },
     {
@@ -484,6 +550,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL HEAVY AND HORIZONTAL LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL HEAVY AND HORIZONTAL LIGHT",
     },
     {
@@ -491,6 +558,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LEFT UP HEAVY AND RIGHT DOWN LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LEFT UP HEAVY AND RIGHT DOWN LIGHT",
     },
     {
@@ -498,6 +566,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS RIGHT UP HEAVY AND LEFT DOWN LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS RIGHT UP HEAVY AND LEFT DOWN LIGHT",
     },
     {
@@ -505,6 +574,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LEFT DOWN HEAVY AND RIGHT UP LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LEFT DOWN HEAVY AND RIGHT UP LIGHT",
     },
     {
@@ -512,6 +582,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS RIGHT DOWN HEAVY AND LEFT UP LIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS RIGHT DOWN HEAVY AND LEFT UP LIGHT",
     },
     {
@@ -519,6 +590,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN LIGHT AND UP HORIZONTAL HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN LIGHT AND UP HORIZONTAL HEAVY",
     },
     {
@@ -526,6 +598,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP LIGHT AND DOWN HORIZONTAL HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP LIGHT AND DOWN HORIZONTAL HEAVY",
     },
     {
@@ -533,6 +606,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS RIGHT LIGHT AND LEFT VERTICAL HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS RIGHT LIGHT AND LEFT VERTICAL HEAVY",
     },
     {
@@ -540,6 +614,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LEFT LIGHT AND RIGHT VERTICAL HEAVY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LEFT LIGHT AND RIGHT VERTICAL HEAVY",
     },
     {
@@ -547,6 +622,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY VERTICAL AND HORIZONTAL",
     },
     {
@@ -554,6 +630,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT DOUBLE DASH HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT DOUBLE DASH HORIZONTAL",
     },
     {
@@ -561,6 +638,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY DOUBLE DASH HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY DOUBLE DASH HORIZONTAL",
     },
     {
@@ -568,6 +646,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT DOUBLE DASH VERTICAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT DOUBLE DASH VERTICAL",
     },
     {
@@ -575,6 +654,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY DOUBLE DASH VERTICAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY DOUBLE DASH VERTICAL",
     },
     {
@@ -582,6 +662,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE HORIZONTAL",
     },
     {
@@ -589,6 +670,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE VERTICAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE VERTICAL",
     },
     {
@@ -596,6 +678,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN SINGLE AND RIGHT DOUBLE",
     },
     {
@@ -603,6 +686,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN DOUBLE AND RIGHT SINGLE",
     },
     {
@@ -610,6 +694,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE DOWN AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE DOWN AND RIGHT",
     },
     {
@@ -617,6 +702,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN SINGLE AND LEFT DOUBLE",
     },
     {
@@ -624,6 +710,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN DOUBLE AND LEFT SINGLE",
     },
     {
@@ -631,6 +718,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE DOWN AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE DOWN AND LEFT",
     },
     {
@@ -638,6 +726,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP SINGLE AND RIGHT DOUBLE",
     },
     {
@@ -645,6 +734,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP DOUBLE AND RIGHT SINGLE",
     },
     {
@@ -652,6 +742,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE UP AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE UP AND RIGHT",
     },
     {
@@ -659,6 +750,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP SINGLE AND LEFT DOUBLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP SINGLE AND LEFT DOUBLE",
     },
     {
@@ -666,6 +758,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP DOUBLE AND LEFT SINGLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP DOUBLE AND LEFT SINGLE",
     },
     {
@@ -673,6 +766,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE UP AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE UP AND LEFT",
     },
     {
@@ -680,6 +774,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL SINGLE AND RIGHT DOUBLE",
     },
     {
@@ -687,6 +782,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL DOUBLE AND RIGHT SINGLE",
     },
     {
@@ -694,6 +790,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE VERTICAL AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE VERTICAL AND RIGHT",
     },
     {
@@ -701,6 +798,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL SINGLE AND LEFT DOUBLE",
     },
     {
@@ -708,6 +806,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL DOUBLE AND LEFT SINGLE",
     },
     {
@@ -715,6 +814,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE VERTICAL AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE VERTICAL AND LEFT",
     },
     {
@@ -722,6 +822,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN SINGLE AND HORIZONTAL DOUBLE",
     },
     {
@@ -729,6 +830,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOWN DOUBLE AND HORIZONTAL SINGLE",
     },
     {
@@ -736,6 +838,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE DOWN AND HORIZONTAL",
     },
     {
@@ -743,6 +846,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP SINGLE AND HORIZONTAL DOUBLE",
     },
     {
@@ -750,6 +854,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS UP DOUBLE AND HORIZONTAL SINGLE",
     },
     {
@@ -757,6 +862,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE UP AND HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE UP AND HORIZONTAL",
     },
     {
@@ -764,6 +870,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL SINGLE AND HORIZONTAL DOUBLE",
     },
     {
@@ -771,6 +878,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS VERTICAL DOUBLE AND HORIZONTAL SINGLE",
     },
     {
@@ -778,6 +886,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS DOUBLE VERTICAL AND HORIZONTAL",
     },
     {
@@ -785,6 +894,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT ARC DOWN AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT ARC DOWN AND RIGHT",
     },
     {
@@ -792,6 +902,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT ARC DOWN AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT ARC DOWN AND LEFT",
     },
     {
@@ -799,6 +910,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT ARC UP AND LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT ARC UP AND LEFT",
     },
     {
@@ -806,6 +918,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT ARC UP AND RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT ARC UP AND RIGHT",
     },
     {
@@ -813,6 +926,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT",
     },
     {
@@ -820,6 +934,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT",
     },
     {
@@ -827,6 +942,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT DIAGONAL CROSS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT DIAGONAL CROSS",
     },
     {
@@ -834,6 +950,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT LEFT",
     },
     {
@@ -841,6 +958,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT UP",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT UP",
     },
     {
@@ -848,6 +966,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT RIGHT",
     },
     {
@@ -855,6 +974,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT DOWN",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT DOWN",
     },
     {
@@ -862,6 +982,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY LEFT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY LEFT",
     },
     {
@@ -869,6 +990,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY UP",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY UP",
     },
     {
@@ -876,6 +998,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY RIGHT",
     },
     {
@@ -883,6 +1006,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY DOWN",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY DOWN",
     },
     {
@@ -890,6 +1014,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT LEFT AND HEAVY RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT LEFT AND HEAVY RIGHT",
     },
     {
@@ -897,6 +1022,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS LIGHT UP AND HEAVY DOWN",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS LIGHT UP AND HEAVY DOWN",
     },
     {
@@ -904,6 +1030,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY LEFT AND LIGHT RIGHT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY LEFT AND LIGHT RIGHT",
     },
     {
@@ -911,6 +1038,7 @@ export const dataSet: CharacterSet = {
       name: "BOX DRAWINGS HEAVY UP AND LIGHT DOWN",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "FORMS HEAVY UP AND LIGHT DOWN",
     },
   ],

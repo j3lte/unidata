@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Beria Erfe**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER ARKAB",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93883,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER BASIGNA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93884,
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER DARBAI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93885,
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER EH",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93886,
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER FITKO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93887,
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER GOWAY",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93888,
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER HIRDEABO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93889,
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER I",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93890,
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER DJAI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93891,
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER KOBO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93892,
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER LAKKO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93893,
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER MERI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93894,
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER NINI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93895,
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER GNA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93896,
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER NGAY",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93897,
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER OI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93898,
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER PI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93899,
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER ERIGO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93900,
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER ERIGO TAMURA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93901,
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER SERI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93902,
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER SHEP",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93903,
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER TATASOUE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93904,
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER UI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93905,
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER WASSE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93906,
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE CAPITAL LETTER AY",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       lower: 93907,
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER ARKAB",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93856,
       title: 93856,
     },
@@ -205,6 +231,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER BASIGNA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93857,
       title: 93857,
     },
@@ -213,6 +240,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER DARBAI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93858,
       title: 93858,
     },
@@ -221,6 +249,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER EH",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93859,
       title: 93859,
     },
@@ -229,6 +258,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER FITKO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93860,
       title: 93860,
     },
@@ -237,6 +267,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER GOWAY",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93861,
       title: 93861,
     },
@@ -245,6 +276,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER HIRDEABO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93862,
       title: 93862,
     },
@@ -253,6 +285,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER I",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93863,
       title: 93863,
     },
@@ -261,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER DJAI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93864,
       title: 93864,
     },
@@ -269,6 +303,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER KOBO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93865,
       title: 93865,
     },
@@ -277,6 +312,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER LAKKO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93866,
       title: 93866,
     },
@@ -285,6 +321,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER MERI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93867,
       title: 93867,
     },
@@ -293,6 +330,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER NINI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93868,
       title: 93868,
     },
@@ -301,6 +339,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER GNA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93869,
       title: 93869,
     },
@@ -309,6 +348,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER NGAY",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93870,
       title: 93870,
     },
@@ -317,6 +357,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER OI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93871,
       title: 93871,
     },
@@ -325,6 +366,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER PI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93872,
       title: 93872,
     },
@@ -333,6 +375,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER ERIGO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93873,
       title: 93873,
     },
@@ -341,6 +384,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER ERIGO TAMURA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93874,
       title: 93874,
     },
@@ -349,6 +393,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER SERI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93875,
       title: 93875,
     },
@@ -357,6 +402,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER SHEP",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93876,
       title: 93876,
     },
@@ -365,6 +411,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER TATASOUE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93877,
       title: 93877,
     },
@@ -373,6 +420,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER UI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93878,
       title: 93878,
     },
@@ -381,6 +429,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER WASSE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93879,
       title: 93879,
     },
@@ -389,6 +438,7 @@ export const dataSet: CharacterSet = {
       name: "BERIA ERFE SMALL LETTER AY",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V17_0,
       upper: 93880,
       title: 93880,
     },

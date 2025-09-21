@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Combining Diacritical Marks Extended**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLED CIRCUMFLEX ACCENT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 230,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DIAERESIS-RING",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 230,
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING INFINITY",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 230,
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOWNWARDS ARROW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 230,
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING TRIPLE DOT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 230,
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING X-X BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING WIGGLY LINE BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING OPEN MARK BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLE OPEN MARK BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LIGHT CENTRALIZATION STROKE BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING STRONG CENTRALIZATION STROKE BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING PARENTHESES ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 230,
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLE PARENTHESES ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 230,
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING PARENTHESES BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
       comb: 220,
     },
     {
@@ -120,12 +134,14 @@ export const dataSet: CharacterSet = {
       name: "COMBINING PARENTHESES OVERLAY",
       cat: Category.Enclosing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V7_0,
     },
     {
       code: 6847,
       name: "COMBINING LATIN SMALL LETTER W BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V13_0,
       comb: 220,
     },
     {
@@ -133,6 +149,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LATIN SMALL LETTER TURNED W BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V13_0,
       comb: 220,
     },
     {
@@ -140,6 +157,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LEFT PARENTHESIS ABOVE LEFT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -147,6 +165,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING RIGHT PARENTHESIS ABOVE RIGHT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -154,6 +173,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LEFT PARENTHESIS BELOW LEFT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 220,
     },
     {
@@ -161,6 +181,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING RIGHT PARENTHESIS BELOW RIGHT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 220,
     },
     {
@@ -168,6 +189,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING SQUARE BRACKETS ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -175,6 +197,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING NUMBER SIGN ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -182,6 +205,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING INVERTED DOUBLE ARCH ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -189,6 +213,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING PLUS SIGN ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -196,6 +221,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLE PLUS SIGN ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -203,6 +229,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLE PLUS SIGN BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 220,
     },
     {
@@ -210,6 +237,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING TRIPLE ACUTE ACCENT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -217,6 +245,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LATIN SMALL LETTER INSULAR G",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -224,6 +253,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LATIN SMALL LETTER INSULAR R",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -231,6 +261,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LATIN SMALL LETTER INSULAR T",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V14_0,
       comb: 230,
     },
     {
@@ -238,6 +269,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLE CARON",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -245,6 +277,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING VERTICAL-LINE-ACUTE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -252,6 +285,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING GRAVE-VERTICAL-LINE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -259,6 +293,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING VERTICAL-LINE-GRAVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -266,6 +301,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING ACUTE-VERTICAL-LINE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -273,6 +309,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING VERTICAL-LINE-MACRON",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -280,6 +317,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING MACRON-VERTICAL-LINE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -287,6 +325,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING VERTICAL-LINE-ACUTE-GRAVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -294,6 +333,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING VERTICAL-LINE-GRAVE-ACUTE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -301,6 +341,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING MACRON-ACUTE-GRAVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -308,6 +349,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING SHARP SIGN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -315,6 +357,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING FLAT SIGN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -322,6 +365,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOWN TACK ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -329,6 +373,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DIAERESIS WITH RAISED LEFT DOT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -336,6 +381,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOT-AND-RING BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 220,
     },
     {
@@ -343,6 +389,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LEFT TACK ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -350,6 +397,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING RIGHT TACK ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -357,6 +405,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING MINUS SIGN ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -364,6 +413,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING INVERTED BRIDGE ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -371,6 +421,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING SQUARE ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -378,6 +429,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING SEAGULL ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -385,6 +437,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLE ARCH BELOW",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 220,
     },
     {
@@ -392,6 +445,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLE ARCH ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -399,6 +453,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING EQUALS SIGN ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -406,6 +461,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING LEFT ANGLE CENTRED ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -413,6 +469,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING UPWARDS ARROW ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 230,
     },
     {
@@ -420,6 +477,7 @@ export const dataSet: CharacterSet = {
       name: "COMBINING DOUBLE RIGHTWARDS ARROW ABOVE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V17_0,
       comb: 234,
     },
   ],

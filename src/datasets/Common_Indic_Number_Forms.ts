@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Common Indic Number Forms**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "NORTH INDIC FRACTION ONE QUARTER",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       num: "1/4",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "NORTH INDIC FRACTION ONE HALF",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       num: "1/2",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "NORTH INDIC FRACTION THREE QUARTERS",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       num: "3/4",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "NORTH INDIC FRACTION ONE SIXTEENTH",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       num: "1/16",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "NORTH INDIC FRACTION ONE EIGHTH",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       num: "1/8",
     },
     {
@@ -57,11 +62,36 @@ export const dataSet: CharacterSet = {
       name: "NORTH INDIC FRACTION THREE SIXTEENTHS",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
       num: "3/16",
     },
-    { code: 43062, name: "NORTH INDIC QUARTER MARK", cat: Category.Other_Symbol, bidi: BidiClass.Left_To_Right },
-    { code: 43063, name: "NORTH INDIC PLACEHOLDER MARK", cat: Category.Other_Symbol, bidi: BidiClass.Left_To_Right },
-    { code: 43064, name: "NORTH INDIC RUPEE MARK", cat: Category.Currency_Symbol, bidi: BidiClass.European_Terminator },
-    { code: 43065, name: "NORTH INDIC QUANTITY MARK", cat: Category.Other_Symbol, bidi: BidiClass.European_Terminator },
+    {
+      code: 43062,
+      name: "NORTH INDIC QUARTER MARK",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
+    },
+    {
+      code: 43063,
+      name: "NORTH INDIC PLACEHOLDER MARK",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V5_2,
+    },
+    {
+      code: 43064,
+      name: "NORTH INDIC RUPEE MARK",
+      cat: Category.Currency_Symbol,
+      bidi: BidiClass.European_Terminator,
+      age: Age.V5_2,
+    },
+    {
+      code: 43065,
+      name: "NORTH INDIC QUANTITY MARK",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.European_Terminator,
+      age: Age.V5_2,
+    },
   ],
 };

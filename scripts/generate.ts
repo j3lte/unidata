@@ -5,6 +5,7 @@ import { getBlocks } from "./utils/blocks.ts";
 import { getCharacters } from "./utils/character.ts";
 import { stringifyCharacter } from "./utils/character.ts";
 import { getPropertyValueAliases } from "./utils/propertyValues.ts";
+import { getDerivedAges } from "./utils/age.ts";
 
 const runVersion = async (UNICODE_VERSION: string) => {
   const UNICODE_URL = `https://www.unicode.org/Public/${UNICODE_VERSION}/ucd/UCD.zip`;
@@ -45,7 +46,7 @@ const runVersion = async (UNICODE_VERSION: string) => {
 
   for (const file of files) {
     const dest = resolve(OUTPUT_DIR, file.name);
-    if (!["Blocks.txt", "UnicodeData.txt", "PropertyValueAliases.txt"].includes(file.name)) {
+    if (!["Blocks.txt", "UnicodeData.txt", "PropertyValueAliases.txt", "DerivedAge.txt"].includes(file.name)) {
       continue;
     }
     if (file.data.length === 0) {
@@ -62,6 +63,10 @@ const runVersion = async (UNICODE_VERSION: string) => {
   console.log("Generating property value aliases...");
   const propertyValueAliasesTxt = await Deno.readTextFile(resolve(OUTPUT_DIR, "PropertyValueAliases.txt"));
   const propertyValueAliases = getPropertyValueAliases(propertyValueAliasesTxt);
+
+  console.log("Derive age...");
+  const derivedAgeTxt = await Deno.readTextFile(resolve(OUTPUT_DIR, "DerivedAge.txt"));
+  const derivedAges = getDerivedAges(derivedAgeTxt);
 
   console.log("Generating blocks...");
 
@@ -107,6 +112,21 @@ ${
       }).join("\n")
     }
 }
+
+/**
+ * Character Age of the character.
+ *
+ * The Age property indicates the first version in which a particular Unicode character was assigned.
+ *
+ * See [Character Age](https://www.unicode.org/reports/tr44/tr44-36.html#Character_Age) for more information.
+ */
+export enum Age {
+${
+      propertyValueAliases.ages.map(([age, abbreviation]) => {
+        return `  ${age} = "${abbreviation}",`;
+      }).join("\n")
+    }
+}
 `,
   );
 
@@ -138,7 +158,7 @@ ${
     await Deno.writeTextFile(
       output,
       `import type { CharacterSet } from "../types.ts";
-import { ${hasBidi ? "BidiClass, " : ""}Category, CharacterSetType } from "../enums.ts";
+import { Age, ${hasBidi ? "BidiClass, " : ", "}Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **${block.blockName}**
@@ -158,7 +178,14 @@ export const dataSet: CharacterSet = {
   characters: [
 ${
         blockCharacters.map((char) => {
-          return `    ${stringifyCharacter(char, propertyValueAliases.categories, propertyValueAliases.bidi)},`;
+          return `    ${
+            stringifyCharacter(char, {
+              categories: propertyValueAliases.categories,
+              bidi: propertyValueAliases.bidi,
+              ages: propertyValueAliases.ages,
+              derivedAges: derivedAges,
+            })
+          },`;
         }).join("\n")
       }
   ]

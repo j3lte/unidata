@@ -22,8 +22,19 @@ export type Character = {
    * See [Bidi Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#Bidi_Class_Values) for more information.
    */
   bidi: BidiClass;
-  /** Decomposition type and mapping */
+  /**
+   * Decomposition Mapping Type
+   *
+   * See [Character Decomposition Mapping](https://www.unicode.org/reports/tr44/tr44-36.html#Character_Decomposition_Mappings) for more information.
+   */
   decompType?: string;
+  /**
+   * Decomposition Mapping
+   *
+   * (Combined with `decompType`)
+   *
+   * See [Character Decomposition Mapping](https://www.unicode.org/reports/tr44/tr44-36.html#Character_Decomposition_Mappings) for more information.
+   */
   decomp?: number[];
   /** Numeric value of character (may be a fraction, so it not unevaluated) */
   num?: string;
@@ -37,6 +48,14 @@ export type Character = {
   lower?: number;
   /** Simple titlecase mapping */
   title?: number;
+  /**
+   * Character Age
+   *
+   * The Age property indicates the first version in which a particular Unicode character was assigned.
+   *
+   * See [Character Age](https://www.unicode.org/reports/tr44/tr44-36.html#Character_Age) for more information.
+   */
+  age: string;
 };
 
 /**

@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Warang Citi**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER NGAA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71872,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER A",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71873,
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER WI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71874,
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER YU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71875,
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER YA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71876,
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER YO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71877,
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER II",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71878,
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER UU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71879,
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER E",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71880,
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER O",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71881,
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER ANG",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71882,
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER GA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71883,
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER KO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71884,
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER ENY",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71885,
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER YUJ",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71886,
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER UC",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71887,
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER ENN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71888,
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER ODD",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71889,
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER TTE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71890,
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER NUNG",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71891,
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER DA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71892,
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER AT",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71893,
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER AM",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71894,
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER BU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71895,
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER PU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71896,
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER HIYO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71897,
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER HOLO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71898,
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER HORR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71899,
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER HAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71900,
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER SSUU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71901,
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER SII",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71902,
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI CAPITAL LETTER VIYO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       lower: 71903,
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER NGAA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71840,
       title: 71840,
     },
@@ -254,6 +287,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER A",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71841,
       title: 71841,
     },
@@ -262,6 +296,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER WI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71842,
       title: 71842,
     },
@@ -270,6 +305,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER YU",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71843,
       title: 71843,
     },
@@ -278,6 +314,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER YA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71844,
       title: 71844,
     },
@@ -286,6 +323,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER YO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71845,
       title: 71845,
     },
@@ -294,6 +332,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER II",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71846,
       title: 71846,
     },
@@ -302,6 +341,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER UU",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71847,
       title: 71847,
     },
@@ -310,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER E",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71848,
       title: 71848,
     },
@@ -318,6 +359,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER O",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71849,
       title: 71849,
     },
@@ -326,6 +368,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER ANG",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71850,
       title: 71850,
     },
@@ -334,6 +377,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER GA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71851,
       title: 71851,
     },
@@ -342,6 +386,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER KO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71852,
       title: 71852,
     },
@@ -350,6 +395,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER ENY",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71853,
       title: 71853,
     },
@@ -358,6 +404,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER YUJ",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71854,
       title: 71854,
     },
@@ -366,6 +413,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER UC",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71855,
       title: 71855,
     },
@@ -374,6 +422,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER ENN",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71856,
       title: 71856,
     },
@@ -382,6 +431,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER ODD",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71857,
       title: 71857,
     },
@@ -390,6 +440,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER TTE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71858,
       title: 71858,
     },
@@ -398,6 +449,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER NUNG",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71859,
       title: 71859,
     },
@@ -406,6 +458,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER DA",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71860,
       title: 71860,
     },
@@ -414,6 +467,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER AT",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71861,
       title: 71861,
     },
@@ -422,6 +476,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER AM",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71862,
       title: 71862,
     },
@@ -430,6 +485,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER BU",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71863,
       title: 71863,
     },
@@ -438,6 +494,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER PU",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71864,
       title: 71864,
     },
@@ -446,6 +503,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER HIYO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71865,
       title: 71865,
     },
@@ -454,6 +512,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER HOLO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71866,
       title: 71866,
     },
@@ -462,6 +521,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER HORR",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71867,
       title: 71867,
     },
@@ -470,6 +530,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER HAR",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71868,
       title: 71868,
     },
@@ -478,6 +539,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER SSUU",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71869,
       title: 71869,
     },
@@ -486,6 +548,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER SII",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71870,
       title: 71870,
     },
@@ -494,6 +557,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI SMALL LETTER VIYO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       upper: 71871,
       title: 71871,
     },
@@ -502,6 +566,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI DIGIT ZERO",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "0",
     },
     {
@@ -509,6 +574,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI DIGIT ONE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "1",
     },
     {
@@ -516,6 +582,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI DIGIT TWO",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "2",
     },
     {
@@ -523,6 +590,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI DIGIT THREE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "3",
     },
     {
@@ -530,6 +598,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI DIGIT FOUR",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "4",
     },
     {
@@ -537,6 +606,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI DIGIT FIVE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "5",
     },
     {
@@ -544,6 +614,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI DIGIT SIX",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "6",
     },
     {
@@ -551,6 +622,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI DIGIT SEVEN",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "7",
     },
     {
@@ -558,6 +630,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI DIGIT EIGHT",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "8",
     },
     {
@@ -565,6 +638,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI DIGIT NINE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "9",
     },
     {
@@ -572,6 +646,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI NUMBER TEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "10",
     },
     {
@@ -579,6 +654,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI NUMBER TWENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "20",
     },
     {
@@ -586,6 +662,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI NUMBER THIRTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "30",
     },
     {
@@ -593,6 +670,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI NUMBER FORTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "40",
     },
     {
@@ -600,6 +678,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI NUMBER FIFTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "50",
     },
     {
@@ -607,6 +686,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI NUMBER SIXTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "60",
     },
     {
@@ -614,6 +694,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI NUMBER SEVENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "70",
     },
     {
@@ -621,6 +702,7 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI NUMBER EIGHTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "80",
     },
     {
@@ -628,8 +710,9 @@ export const dataSet: CharacterSet = {
       name: "WARANG CITI NUMBER NINETY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "90",
     },
-    { code: 71935, name: "WARANG CITI OM", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
+    { code: 71935, name: "WARANG CITI OM", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right, age: Age.V7_0 },
   ],
 };

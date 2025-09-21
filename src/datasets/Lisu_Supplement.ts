@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Lisu Supplement**
@@ -17,6 +17,6 @@ export const dataSet: CharacterSet = {
   startCode: 73648,
   endCode: 73663,
   characters: [
-    { code: 73648, name: "LISU LETTER YHA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
+    { code: 73648, name: "LISU LETTER YHA", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right, age: Age.V13_0 },
   ],
 };

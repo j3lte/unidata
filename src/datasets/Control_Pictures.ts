@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Control Pictures**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR NULL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR NULL",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR START OF HEADING",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR START OF HEADING",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR START OF TEXT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR START OF TEXT",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR END OF TEXT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR END OF TEXT",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR END OF TRANSMISSION",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR END OF TRANSMISSION",
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR ENQUIRY",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR ENQUIRY",
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR ACKNOWLEDGE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR ACKNOWLEDGE",
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR BELL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR BELL",
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR BACKSPACE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR BACKSPACE",
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR HORIZONTAL TABULATION",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR HORIZONTAL TABULATION",
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR LINE FEED",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR LINE FEED",
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR VERTICAL TABULATION",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR VERTICAL TABULATION",
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR FORM FEED",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR FORM FEED",
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR CARRIAGE RETURN",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR CARRIAGE RETURN",
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR SHIFT OUT",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR SHIFT OUT",
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR SHIFT IN",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR SHIFT IN",
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR DATA LINK ESCAPE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR DATA LINK ESCAPE",
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR DEVICE CONTROL ONE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR DEVICE CONTROL ONE",
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR DEVICE CONTROL TWO",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR DEVICE CONTROL TWO",
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR DEVICE CONTROL THREE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR DEVICE CONTROL THREE",
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR DEVICE CONTROL FOUR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR DEVICE CONTROL FOUR",
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR NEGATIVE ACKNOWLEDGE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR NEGATIVE ACKNOWLEDGE",
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR SYNCHRONOUS IDLE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR SYNCHRONOUS IDLE",
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR END OF TRANSMISSION BLOCK",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR END OF TRANSMISSION BLOCK",
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR CANCEL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR CANCEL",
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR END OF MEDIUM",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR END OF MEDIUM",
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR SUBSTITUTE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR SUBSTITUTE",
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR ESCAPE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR ESCAPE",
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR FILE SEPARATOR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR FILE SEPARATOR",
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR GROUP SEPARATOR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR GROUP SEPARATOR",
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR RECORD SEPARATOR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR RECORD SEPARATOR",
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR UNIT SEPARATOR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR UNIT SEPARATOR",
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR SPACE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR SPACE",
     },
     {
@@ -253,36 +286,60 @@ export const dataSet: CharacterSet = {
       name: "SYMBOL FOR DELETE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR DELETE",
     },
-    { code: 9250, name: "BLANK SYMBOL", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral, oldName: "BLANK" },
-    { code: 9251, name: "OPEN BOX", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 9250,
+      name: "BLANK SYMBOL",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
+      oldName: "BLANK",
+    },
+    { code: 9251, name: "OPEN BOX", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
     {
       code: 9252,
       name: "SYMBOL FOR NEWLINE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "GRAPHIC FOR NEWLINE",
     },
-    { code: 9253, name: "SYMBOL FOR DELETE FORM TWO", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 9254, name: "SYMBOL FOR SUBSTITUTE FORM TWO", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 9253,
+      name: "SYMBOL FOR DELETE FORM TWO",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
+    },
+    {
+      code: 9254,
+      name: "SYMBOL FOR SUBSTITUTE FORM TWO",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
+    },
     {
       code: 9255,
       name: "SYMBOL FOR DELETE SQUARE CHECKER BOARD FORM",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V16_0,
     },
     {
       code: 9256,
       name: "SYMBOL FOR DELETE RECTANGULAR CHECKER BOARD FORM",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V16_0,
     },
     {
       code: 9257,
       name: "SYMBOL FOR DELETE MEDIUM SHADE FORM",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V16_0,
     },
   ],
 };

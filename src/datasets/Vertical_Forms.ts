@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Vertical Forms**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "PRESENTATION FORM FOR VERTICAL COMMA",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       decomp: [44],
       decompType: "vertical",
     },
@@ -30,6 +31,7 @@ export const dataSet: CharacterSet = {
       name: "PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC COMMA",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       decomp: [12289],
       decompType: "vertical",
     },
@@ -38,6 +40,7 @@ export const dataSet: CharacterSet = {
       name: "PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC FULL STOP",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       decomp: [12290],
       decompType: "vertical",
     },
@@ -46,6 +49,7 @@ export const dataSet: CharacterSet = {
       name: "PRESENTATION FORM FOR VERTICAL COLON",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       decomp: [58],
       decompType: "vertical",
     },
@@ -54,6 +58,7 @@ export const dataSet: CharacterSet = {
       name: "PRESENTATION FORM FOR VERTICAL SEMICOLON",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       decomp: [59],
       decompType: "vertical",
     },
@@ -62,6 +67,7 @@ export const dataSet: CharacterSet = {
       name: "PRESENTATION FORM FOR VERTICAL EXCLAMATION MARK",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       decomp: [33],
       decompType: "vertical",
     },
@@ -70,6 +76,7 @@ export const dataSet: CharacterSet = {
       name: "PRESENTATION FORM FOR VERTICAL QUESTION MARK",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       decomp: [63],
       decompType: "vertical",
     },
@@ -78,6 +85,7 @@ export const dataSet: CharacterSet = {
       name: "PRESENTATION FORM FOR VERTICAL LEFT WHITE LENTICULAR BRACKET",
       cat: Category.Open_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       decomp: [12310],
       decompType: "vertical",
     },
@@ -86,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRAKCET",
       cat: Category.Close_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       decomp: [12311],
       decompType: "vertical",
     },
@@ -94,6 +103,7 @@ export const dataSet: CharacterSet = {
       name: "PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V4_1,
       decomp: [8230],
       decompType: "vertical",
     },

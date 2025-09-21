@@ -1,3 +1,6 @@
+import { type DerivedAge, getDerivedAge } from "./age.ts";
+import type { PropertyValueAliasReturn } from "./propertyValues.ts";
+
 interface Character {
   code: number;
   name: string;
@@ -12,6 +15,7 @@ interface Character {
   upper?: number;
   lower?: number;
   title?: number;
+  age: string;
 }
 
 export const getCharacters = (txt: string) =>
@@ -24,7 +28,23 @@ export const getCharacters = (txt: string) =>
       //   [6] => numDecimal
       //   [7] => numDigit
       //   [11] => isoComment
-      const [code, name, cat, comb, bidi, decomp, , , num, bidiMirror, oldName, , upper, lower, title] = line.split(
+      const [
+        code,
+        name,
+        cat,
+        comb,
+        bidi,
+        decomp,
+        _decimal,
+        _digit,
+        num,
+        bidiMirror,
+        oldName,
+        _isoComment,
+        upper,
+        lower,
+        title,
+      ] = line.split(
         ";",
       );
       // initialize the character with required fields
@@ -37,6 +57,8 @@ export const getCharacters = (txt: string) =>
         cat: cat,
         // bidi is a string
         bidi: bidi.trim().toUpperCase(),
+        // age is a string
+        age: "",
       };
       if (!character.bidi) {
         console.error(`No bidi class found for ${name}, code: ${code}`);
@@ -82,7 +104,11 @@ export const getCharacters = (txt: string) =>
       return character;
     });
 
-export const stringifyCharacter = (character: Character, categories: [string, string][], bidi: [string, string][]) => {
+export const stringifyCharacter = (
+  character: Character,
+  opts: PropertyValueAliasReturn & { derivedAges: DerivedAge[] },
+) => {
+  const { categories, bidi, derivedAges, ages } = opts;
   const category = categories.find(([, abbreviation]) => abbreviation === character.cat);
   let catString = "";
   if (category) {
@@ -97,10 +123,26 @@ export const stringifyCharacter = (character: Character, categories: [string, st
     bidiString = `BidiClass.${bidiCategory[0]}`;
     character.bidi = bidiString;
   }
+  const age = getDerivedAge(derivedAges, character.code);
+  if (!age) {
+    throw new Error(`Age not found for character ${character.code}`);
+  }
+  const ageCategory = ages.find(([, version]) => version === age);
+  let ageString = "";
+  if (ageCategory) {
+    ageString = `Age.${ageCategory[0]}`;
+    character.age = ageString;
+  } else {
+    throw new Error(`Age ${age} not found in ages`);
+  }
   const base = JSON.stringify(character);
   const cleaned = base.replace(/"(\w+)":/g, "$1: ").replace(`"${catString}"`, catString).replace(
+    `"${ageString}"`,
+    ageString,
+  ).replace(
     `"${bidiString}"`,
     bidiString,
   );
+
   return cleaned;
 };

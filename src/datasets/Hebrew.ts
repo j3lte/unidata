@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Hebrew**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT ETNAHTA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 220,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT SEGOL",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT SHALSHELET",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT ZAQEF QATAN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT ZAQEF GADOL",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT TIPEHA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 220,
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT REVIA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT ZARQA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT PASHTA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT YETIV",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 222,
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT TEVIR",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 220,
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT GERESH",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT GERESH MUQDAM",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT GERSHAYIM",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT QARNEY PARA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT TELISHA GEDOLA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT PAZER",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT ATNAH HAFUKH",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V4_1,
       comb: 220,
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT MUNAH",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 220,
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT MAHAPAKH",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 220,
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT MERKHA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 220,
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT MERKHA KEFULA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 220,
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT DARGA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 220,
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT QADMA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT TELISHA QETANA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT YERAH BEN YOMO",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 220,
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT OLE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT ILUY",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT DEHI",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 222,
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW ACCENT ZINOR",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 228,
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW MARK MASORA CIRCLE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT SHEVA",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 10,
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT HATAF SEGOL",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 11,
     },
     {
@@ -253,6 +286,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT HATAF PATAH",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 12,
     },
     {
@@ -260,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT HATAF QAMATS",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 13,
     },
     {
@@ -267,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT HIRIQ",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 14,
     },
     {
@@ -274,6 +310,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT TSERE",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 15,
     },
     {
@@ -281,6 +318,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT SEGOL",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 16,
     },
     {
@@ -288,6 +326,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT PATAH",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 17,
     },
     {
@@ -295,6 +334,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT QAMATS",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 18,
     },
     {
@@ -302,6 +342,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT HOLAM",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 19,
     },
     {
@@ -309,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT HOLAM HASER FOR VAV",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V5_0,
       comb: 19,
     },
     {
@@ -316,6 +358,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT QUBUTS",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 20,
     },
     {
@@ -323,6 +366,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT DAGESH OR MAPIQ",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 21,
       oldName: "HEBREW POINT DAGESH",
     },
@@ -331,15 +375,30 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT METEG",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 22,
     },
-    { code: 1470, name: "HEBREW PUNCTUATION MAQAF", cat: Category.Dash_Punctuation, bidi: BidiClass.Right_To_Left },
-    { code: 1471, name: "HEBREW POINT RAFE", cat: Category.Nonspacing_Mark, bidi: BidiClass.Nonspacing_Mark, comb: 23 },
+    {
+      code: 1470,
+      name: "HEBREW PUNCTUATION MAQAF",
+      cat: Category.Dash_Punctuation,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    {
+      code: 1471,
+      name: "HEBREW POINT RAFE",
+      cat: Category.Nonspacing_Mark,
+      bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
+      comb: 23,
+    },
     {
       code: 1472,
       name: "HEBREW PUNCTUATION PASEQ",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       oldName: "HEBREW POINT PASEQ",
     },
     {
@@ -347,6 +406,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT SHIN DOT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 24,
     },
     {
@@ -354,6 +414,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW POINT SIN DOT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V1_1,
       comb: 25,
     },
     {
@@ -361,12 +422,14 @@ export const dataSet: CharacterSet = {
       name: "HEBREW PUNCTUATION SOF PASUQ",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
     },
     {
       code: 1476,
       name: "HEBREW MARK UPPER DOT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V2_0,
       comb: 230,
     },
     {
@@ -374,6 +437,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW MARK LOWER DOT",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V4_1,
       comb: 220,
     },
     {
@@ -381,47 +445,146 @@ export const dataSet: CharacterSet = {
       name: "HEBREW PUNCTUATION NUN HAFUKHA",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V4_1,
     },
     {
       code: 1479,
       name: "HEBREW POINT QAMATS QATAN",
       cat: Category.Nonspacing_Mark,
       bidi: BidiClass.Nonspacing_Mark,
+      age: Age.V4_1,
       comb: 18,
     },
-    { code: 1488, name: "HEBREW LETTER ALEF", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1489, name: "HEBREW LETTER BET", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1490, name: "HEBREW LETTER GIMEL", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1491, name: "HEBREW LETTER DALET", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1492, name: "HEBREW LETTER HE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1493, name: "HEBREW LETTER VAV", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1494, name: "HEBREW LETTER ZAYIN", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1495, name: "HEBREW LETTER HET", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1496, name: "HEBREW LETTER TET", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1497, name: "HEBREW LETTER YOD", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1498, name: "HEBREW LETTER FINAL KAF", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1499, name: "HEBREW LETTER KAF", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1500, name: "HEBREW LETTER LAMED", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1501, name: "HEBREW LETTER FINAL MEM", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1502, name: "HEBREW LETTER MEM", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1503, name: "HEBREW LETTER FINAL NUN", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1504, name: "HEBREW LETTER NUN", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1505, name: "HEBREW LETTER SAMEKH", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1506, name: "HEBREW LETTER AYIN", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1507, name: "HEBREW LETTER FINAL PE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1508, name: "HEBREW LETTER PE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1509, name: "HEBREW LETTER FINAL TSADI", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1510, name: "HEBREW LETTER TSADI", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1511, name: "HEBREW LETTER QOF", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1512, name: "HEBREW LETTER RESH", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1513, name: "HEBREW LETTER SHIN", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1514, name: "HEBREW LETTER TAV", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
-    { code: 1519, name: "HEBREW YOD TRIANGLE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
+    {
+      code: 1488,
+      name: "HEBREW LETTER ALEF",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    { code: 1489, name: "HEBREW LETTER BET", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    {
+      code: 1490,
+      name: "HEBREW LETTER GIMEL",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    {
+      code: 1491,
+      name: "HEBREW LETTER DALET",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    { code: 1492, name: "HEBREW LETTER HE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    { code: 1493, name: "HEBREW LETTER VAV", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    {
+      code: 1494,
+      name: "HEBREW LETTER ZAYIN",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    { code: 1495, name: "HEBREW LETTER HET", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    { code: 1496, name: "HEBREW LETTER TET", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    { code: 1497, name: "HEBREW LETTER YOD", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    {
+      code: 1498,
+      name: "HEBREW LETTER FINAL KAF",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    { code: 1499, name: "HEBREW LETTER KAF", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    {
+      code: 1500,
+      name: "HEBREW LETTER LAMED",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    {
+      code: 1501,
+      name: "HEBREW LETTER FINAL MEM",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    { code: 1502, name: "HEBREW LETTER MEM", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    {
+      code: 1503,
+      name: "HEBREW LETTER FINAL NUN",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    { code: 1504, name: "HEBREW LETTER NUN", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    {
+      code: 1505,
+      name: "HEBREW LETTER SAMEKH",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    {
+      code: 1506,
+      name: "HEBREW LETTER AYIN",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    {
+      code: 1507,
+      name: "HEBREW LETTER FINAL PE",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    { code: 1508, name: "HEBREW LETTER PE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    {
+      code: 1509,
+      name: "HEBREW LETTER FINAL TSADI",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    {
+      code: 1510,
+      name: "HEBREW LETTER TSADI",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    { code: 1511, name: "HEBREW LETTER QOF", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    {
+      code: 1512,
+      name: "HEBREW LETTER RESH",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    {
+      code: 1513,
+      name: "HEBREW LETTER SHIN",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
+    { code: 1514, name: "HEBREW LETTER TAV", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left, age: Age.V1_1 },
+    {
+      code: 1519,
+      name: "HEBREW YOD TRIANGLE",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V11_0,
+    },
     {
       code: 1520,
       name: "HEBREW LIGATURE YIDDISH DOUBLE VAV",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       oldName: "HEBREW LETTER DOUBLE VAV",
     },
     {
@@ -429,6 +592,7 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LIGATURE YIDDISH VAV YOD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       oldName: "HEBREW LETTER VAV YOD",
     },
     {
@@ -436,14 +600,22 @@ export const dataSet: CharacterSet = {
       name: "HEBREW LIGATURE YIDDISH DOUBLE YOD",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
       oldName: "HEBREW LETTER DOUBLE YOD",
     },
-    { code: 1523, name: "HEBREW PUNCTUATION GERESH", cat: Category.Other_Punctuation, bidi: BidiClass.Right_To_Left },
+    {
+      code: 1523,
+      name: "HEBREW PUNCTUATION GERESH",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
+    },
     {
       code: 1524,
       name: "HEBREW PUNCTUATION GERSHAYIM",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V1_1,
     },
   ],
 };

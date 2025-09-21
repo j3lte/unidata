@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Georgian Extended**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER AN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4304,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER BAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4305,
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER GAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4306,
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER DON",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4307,
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER EN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4308,
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER VIN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4309,
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER ZEN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4310,
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER TAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4311,
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER IN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4312,
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER KAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4313,
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER LAS",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4314,
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER MAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4315,
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER NAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4316,
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER ON",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4317,
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER PAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4318,
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER ZHAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4319,
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER RAE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4320,
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER SAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4321,
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER TAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4322,
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER UN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4323,
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER PHAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4324,
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER KHAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4325,
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER GHAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4326,
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER QAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4327,
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER SHIN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4328,
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER CHIN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4329,
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER CAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4330,
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER JIL",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4331,
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER CIL",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4332,
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER CHAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4333,
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER XAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4334,
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER JHAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4335,
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER HAE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4336,
     },
     {
@@ -253,6 +286,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER HE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4337,
     },
     {
@@ -260,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER HIE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4338,
     },
     {
@@ -267,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER WE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4339,
     },
     {
@@ -274,6 +310,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER HAR",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4340,
     },
     {
@@ -281,6 +318,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER HOE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4341,
     },
     {
@@ -288,6 +326,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER FI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4342,
     },
     {
@@ -295,6 +334,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER YN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4343,
     },
     {
@@ -302,6 +342,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER ELIFI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4344,
     },
     {
@@ -309,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER TURNED GAN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4345,
     },
     {
@@ -316,6 +358,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER AIN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4346,
     },
     {
@@ -323,6 +366,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER AEN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4349,
     },
     {
@@ -330,6 +374,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER HARD SIGN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4350,
     },
     {
@@ -337,6 +382,7 @@ export const dataSet: CharacterSet = {
       name: "GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       lower: 4351,
     },
   ],

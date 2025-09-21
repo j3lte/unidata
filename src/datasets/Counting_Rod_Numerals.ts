@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Counting Rod Numerals**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD UNIT DIGIT ONE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD UNIT DIGIT TWO",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD UNIT DIGIT THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD UNIT DIGIT FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD UNIT DIGIT FIVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD UNIT DIGIT SIX",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "6",
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD UNIT DIGIT SEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "7",
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD UNIT DIGIT EIGHT",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "8",
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD UNIT DIGIT NINE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "9",
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD TENS DIGIT ONE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "10",
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD TENS DIGIT TWO",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "20",
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD TENS DIGIT THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "30",
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD TENS DIGIT FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "40",
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD TENS DIGIT FIVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "50",
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD TENS DIGIT SIX",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "60",
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD TENS DIGIT SEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "70",
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD TENS DIGIT EIGHT",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "80",
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "COUNTING ROD TENS DIGIT NINE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "90",
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "IDEOGRAPHIC TALLY MARK ONE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "1",
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "IDEOGRAPHIC TALLY MARK TWO",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "2",
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "IDEOGRAPHIC TALLY MARK THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "3",
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "IDEOGRAPHIC TALLY MARK FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "4",
     },
     {
@@ -176,9 +198,24 @@ export const dataSet: CharacterSet = {
       name: "IDEOGRAPHIC TALLY MARK FIVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
       num: "5",
     },
-    { code: 119671, name: "TALLY MARK ONE", cat: Category.Other_Number, bidi: BidiClass.Left_To_Right, num: "1" },
-    { code: 119672, name: "TALLY MARK FIVE", cat: Category.Other_Number, bidi: BidiClass.Left_To_Right, num: "5" },
+    {
+      code: 119671,
+      name: "TALLY MARK ONE",
+      cat: Category.Other_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
+      num: "1",
+    },
+    {
+      code: 119672,
+      name: "TALLY MARK FIVE",
+      cat: Category.Other_Number,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V11_0,
+      num: "5",
+    },
   ],
 };

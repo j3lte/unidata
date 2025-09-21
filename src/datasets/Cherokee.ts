@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Cherokee**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER A",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43888,
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER E",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43889,
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER I",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43890,
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER O",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43891,
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER U",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43892,
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER V",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43893,
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER GA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43894,
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER KA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43895,
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER GE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43896,
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER GI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43897,
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER GO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43898,
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER GU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43899,
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER GV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43900,
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER HA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43901,
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER HE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43902,
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER HI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43903,
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER HO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43904,
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER HU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43905,
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER HV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43906,
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER LA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43907,
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER LE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43908,
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER LI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43909,
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER LO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43910,
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER LU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43911,
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER LV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43912,
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER MA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43913,
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER ME",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43914,
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER MI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43915,
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER MO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43916,
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER MU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43917,
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER NA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43918,
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER HNA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43919,
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER NAH",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43920,
     },
     {
@@ -253,6 +286,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER NE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43921,
     },
     {
@@ -260,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER NI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43922,
     },
     {
@@ -267,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER NO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43923,
     },
     {
@@ -274,6 +310,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER NU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43924,
     },
     {
@@ -281,6 +318,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER NV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43925,
     },
     {
@@ -288,6 +326,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER QUA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43926,
     },
     {
@@ -295,6 +334,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER QUE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43927,
     },
     {
@@ -302,6 +342,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER QUI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43928,
     },
     {
@@ -309,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER QUO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43929,
     },
     {
@@ -316,6 +358,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER QUU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43930,
     },
     {
@@ -323,6 +366,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER QUV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43931,
     },
     {
@@ -330,6 +374,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER SA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43932,
     },
     {
@@ -337,6 +382,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER S",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43933,
     },
     {
@@ -344,6 +390,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER SE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43934,
     },
     {
@@ -351,6 +398,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER SI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43935,
     },
     {
@@ -358,6 +406,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER SO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43936,
     },
     {
@@ -365,6 +414,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER SU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43937,
     },
     {
@@ -372,6 +422,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER SV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43938,
     },
     {
@@ -379,6 +430,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER DA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43939,
     },
     {
@@ -386,6 +438,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43940,
     },
     {
@@ -393,6 +446,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER DE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43941,
     },
     {
@@ -400,6 +454,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43942,
     },
     {
@@ -407,6 +462,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER DI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43943,
     },
     {
@@ -414,6 +470,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43944,
     },
     {
@@ -421,6 +478,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER DO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43945,
     },
     {
@@ -428,6 +486,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER DU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43946,
     },
     {
@@ -435,6 +494,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER DV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43947,
     },
     {
@@ -442,6 +502,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER DLA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43948,
     },
     {
@@ -449,6 +510,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TLA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43949,
     },
     {
@@ -456,6 +518,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TLE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43950,
     },
     {
@@ -463,6 +526,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TLI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43951,
     },
     {
@@ -470,6 +534,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TLO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43952,
     },
     {
@@ -477,6 +542,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TLU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43953,
     },
     {
@@ -484,6 +550,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TLV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43954,
     },
     {
@@ -491,6 +558,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TSA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43955,
     },
     {
@@ -498,6 +566,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TSE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43956,
     },
     {
@@ -505,6 +574,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TSI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43957,
     },
     {
@@ -512,6 +582,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TSO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43958,
     },
     {
@@ -519,6 +590,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TSU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43959,
     },
     {
@@ -526,6 +598,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER TSV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43960,
     },
     {
@@ -533,6 +606,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER WA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43961,
     },
     {
@@ -540,6 +614,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER WE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43962,
     },
     {
@@ -547,6 +622,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER WI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43963,
     },
     {
@@ -554,6 +630,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER WO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43964,
     },
     {
@@ -561,6 +638,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER WU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43965,
     },
     {
@@ -568,6 +646,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER WV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43966,
     },
     {
@@ -575,6 +654,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER YA",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 43967,
     },
     {
@@ -582,6 +662,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER YE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 5112,
     },
     {
@@ -589,6 +670,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER YI",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 5113,
     },
     {
@@ -596,6 +678,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER YO",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 5114,
     },
     {
@@ -603,6 +686,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER YU",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 5115,
     },
     {
@@ -610,6 +694,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER YV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V3_0,
       lower: 5116,
     },
     {
@@ -617,6 +702,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE LETTER MV",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V8_0,
       lower: 5117,
     },
     {
@@ -624,6 +710,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE SMALL LETTER YE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V8_0,
       upper: 5104,
       title: 5104,
     },
@@ -632,6 +719,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE SMALL LETTER YI",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V8_0,
       upper: 5105,
       title: 5105,
     },
@@ -640,6 +728,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE SMALL LETTER YO",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V8_0,
       upper: 5106,
       title: 5106,
     },
@@ -648,6 +737,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE SMALL LETTER YU",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V8_0,
       upper: 5107,
       title: 5107,
     },
@@ -656,6 +746,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE SMALL LETTER YV",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V8_0,
       upper: 5108,
       title: 5108,
     },
@@ -664,6 +755,7 @@ export const dataSet: CharacterSet = {
       name: "CHEROKEE SMALL LETTER MV",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V8_0,
       upper: 5109,
       title: 5109,
     },

@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Supplementary Private Use Area-B**
@@ -17,7 +17,19 @@ export const dataSet: CharacterSet = {
   startCode: 1048576,
   endCode: 1114111,
   characters: [
-    { code: 1048576, name: "<Plane 16 Private Use, First>", cat: Category.Private_Use, bidi: BidiClass.Left_To_Right },
-    { code: 1114109, name: "<Plane 16 Private Use, Last>", cat: Category.Private_Use, bidi: BidiClass.Left_To_Right },
+    {
+      code: 1048576,
+      name: "<Plane 16 Private Use, First>",
+      cat: Category.Private_Use,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V2_0,
+    },
+    {
+      code: 1114109,
+      name: "<Plane 16 Private Use, Last>",
+      cat: Category.Private_Use,
+      bidi: BidiClass.Left_To_Right,
+      age: Age.V2_0,
+    },
   ],
 };

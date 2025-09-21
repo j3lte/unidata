@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Cyrillic Extended-C**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER ROUNDED VE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V9_0,
       upper: 1042,
       title: 1042,
     },
@@ -30,6 +31,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER LONG-LEGGED DE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V9_0,
       upper: 1044,
       title: 1044,
     },
@@ -38,6 +40,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER NARROW O",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V9_0,
       upper: 1054,
       title: 1054,
     },
@@ -46,6 +49,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER WIDE ES",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V9_0,
       upper: 1057,
       title: 1057,
     },
@@ -54,6 +58,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER TALL TE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V9_0,
       upper: 1058,
       title: 1058,
     },
@@ -62,6 +67,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER THREE-LEGGED TE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V9_0,
       upper: 1058,
       title: 1058,
     },
@@ -70,6 +76,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER TALL HARD SIGN",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V9_0,
       upper: 1066,
       title: 1066,
     },
@@ -78,6 +85,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER TALL YAT",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V9_0,
       upper: 1122,
       title: 1122,
     },
@@ -86,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER UNBLENDED UK",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V9_0,
       upper: 42570,
       title: 42570,
     },
@@ -94,6 +103,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC CAPITAL LETTER TJE",
       cat: Category.Uppercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       lower: 7306,
     },
     {
@@ -101,6 +111,7 @@ export const dataSet: CharacterSet = {
       name: "CYRILLIC SMALL LETTER TJE",
       cat: Category.Lowercase_Letter,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       upper: 7305,
       title: 7305,
     },

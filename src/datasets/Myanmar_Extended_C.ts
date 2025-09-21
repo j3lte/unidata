@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Myanmar Extended-C**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR PAO DIGIT ZERO",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "0",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR PAO DIGIT ONE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "1",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR PAO DIGIT TWO",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "2",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR PAO DIGIT THREE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "3",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR PAO DIGIT FOUR",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "4",
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR PAO DIGIT FIVE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "5",
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR PAO DIGIT SIX",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "6",
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR PAO DIGIT SEVEN",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "7",
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR PAO DIGIT EIGHT",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "8",
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR PAO DIGIT NINE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "9",
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR EASTERN PWO KAREN DIGIT ZERO",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "0",
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR EASTERN PWO KAREN DIGIT ONE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "1",
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR EASTERN PWO KAREN DIGIT TWO",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "2",
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR EASTERN PWO KAREN DIGIT THREE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "3",
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR EASTERN PWO KAREN DIGIT FOUR",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "4",
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR EASTERN PWO KAREN DIGIT FIVE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "5",
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR EASTERN PWO KAREN DIGIT SIX",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "6",
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR EASTERN PWO KAREN DIGIT SEVEN",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "7",
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR EASTERN PWO KAREN DIGIT EIGHT",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "8",
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "MYANMAR EASTERN PWO KAREN DIGIT NINE",
       cat: Category.Decimal_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V16_0,
       num: "9",
     },
   ],

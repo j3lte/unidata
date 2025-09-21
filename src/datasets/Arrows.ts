@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Arrows**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS ARROW",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT ARROW",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS ARROW",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP ARROW",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS ARROW",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT ARROW",
     },
     {
@@ -43,15 +46,17 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS ARROW",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN ARROW",
     },
-    { code: 8596, name: "LEFT RIGHT ARROW", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 8597, name: "UP DOWN ARROW", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 8596, name: "LEFT RIGHT ARROW", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
+    { code: 8597, name: "UP DOWN ARROW", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
     {
       code: 8598,
       name: "NORTH WEST ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UPPER LEFT ARROW",
     },
     {
@@ -59,6 +64,7 @@ export const dataSet: CharacterSet = {
       name: "NORTH EAST ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UPPER RIGHT ARROW",
     },
     {
@@ -66,6 +72,7 @@ export const dataSet: CharacterSet = {
       name: "SOUTH EAST ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LOWER RIGHT ARROW",
     },
     {
@@ -73,6 +80,7 @@ export const dataSet: CharacterSet = {
       name: "SOUTH WEST ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LOWER LEFT ARROW",
     },
     {
@@ -80,6 +88,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS ARROW WITH STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       decomp: [8592, 824],
       oldName: "LEFT ARROW WITH STROKE",
     },
@@ -88,6 +97,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS ARROW WITH STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       decomp: [8594, 824],
       oldName: "RIGHT ARROW WITH STROKE",
     },
@@ -96,6 +106,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS WAVE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT WAVE ARROW",
     },
     {
@@ -103,6 +114,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS WAVE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT WAVE ARROW",
     },
     {
@@ -110,6 +122,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS TWO HEADED ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT TWO HEADED ARROW",
     },
     {
@@ -117,6 +130,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS TWO HEADED ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP TWO HEADED ARROW",
     },
     {
@@ -124,6 +138,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS TWO HEADED ARROW",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT TWO HEADED ARROW",
     },
     {
@@ -131,6 +146,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS TWO HEADED ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN TWO HEADED ARROW",
     },
     {
@@ -138,6 +154,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS ARROW WITH TAIL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT ARROW WITH TAIL",
     },
     {
@@ -145,6 +162,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS ARROW WITH TAIL",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT ARROW WITH TAIL",
     },
     {
@@ -152,6 +170,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS ARROW FROM BAR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT ARROW FROM BAR",
     },
     {
@@ -159,6 +178,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS ARROW FROM BAR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP ARROW FROM BAR",
     },
     {
@@ -166,6 +186,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS ARROW FROM BAR",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT ARROW FROM BAR",
     },
     {
@@ -173,14 +194,22 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS ARROW FROM BAR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN ARROW FROM BAR",
     },
-    { code: 8616, name: "UP DOWN ARROW WITH BASE", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 8616,
+      name: "UP DOWN ARROW WITH BASE",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
+    },
     {
       code: 8617,
       name: "LEFTWARDS ARROW WITH HOOK",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT ARROW WITH HOOK",
     },
     {
@@ -188,6 +217,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS ARROW WITH HOOK",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT ARROW WITH HOOK",
     },
     {
@@ -195,6 +225,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS ARROW WITH LOOP",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT ARROW WITH LOOP",
     },
     {
@@ -202,14 +233,22 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS ARROW WITH LOOP",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT ARROW WITH LOOP",
     },
-    { code: 8621, name: "LEFT RIGHT WAVE ARROW", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 8621,
+      name: "LEFT RIGHT WAVE ARROW",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
+    },
     {
       code: 8622,
       name: "LEFT RIGHT ARROW WITH STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       decomp: [8596, 824],
     },
     {
@@ -217,6 +256,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS ZIGZAG ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN ZIGZAG ARROW",
     },
     {
@@ -224,6 +264,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS ARROW WITH TIP LEFTWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP ARROW WITH TIP LEFT",
     },
     {
@@ -231,6 +272,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS ARROW WITH TIP RIGHTWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP ARROW WITH TIP RIGHT",
     },
     {
@@ -238,6 +280,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS ARROW WITH TIP LEFTWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN ARROW WITH TIP LEFT",
     },
     {
@@ -245,6 +288,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS ARROW WITH TIP RIGHTWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN ARROW WITH TIP RIGHT",
     },
     {
@@ -252,6 +296,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS ARROW WITH CORNER DOWNWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT ARROW WITH CORNER DOWN",
     },
     {
@@ -259,6 +304,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS ARROW WITH CORNER LEFTWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN ARROW WITH CORNER LEFT",
     },
     {
@@ -266,13 +312,21 @@ export const dataSet: CharacterSet = {
       name: "ANTICLOCKWISE TOP SEMICIRCLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
     },
-    { code: 8631, name: "CLOCKWISE TOP SEMICIRCLE ARROW", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 8631,
+      name: "CLOCKWISE TOP SEMICIRCLE ARROW",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
+    },
     {
       code: 8632,
       name: "NORTH WEST ARROW TO LONG BAR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UPPER LEFT ARROW TO LONG BAR",
     },
     {
@@ -280,15 +334,29 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT ARROW TO BAR OVER RIGHT ARROW TO BAR",
     },
-    { code: 8634, name: "ANTICLOCKWISE OPEN CIRCLE ARROW", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 8635, name: "CLOCKWISE OPEN CIRCLE ARROW", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 8634,
+      name: "ANTICLOCKWISE OPEN CIRCLE ARROW",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
+    },
+    {
+      code: 8635,
+      name: "CLOCKWISE OPEN CIRCLE ARROW",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
+    },
     {
       code: 8636,
       name: "LEFTWARDS HARPOON WITH BARB UPWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT HARPOON WITH BARB UP",
     },
     {
@@ -296,6 +364,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS HARPOON WITH BARB DOWNWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT HARPOON WITH BARB DOWN",
     },
     {
@@ -303,6 +372,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS HARPOON WITH BARB RIGHTWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP HARPOON WITH BARB RIGHT",
     },
     {
@@ -310,6 +380,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS HARPOON WITH BARB LEFTWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP HARPOON WITH BARB LEFT",
     },
     {
@@ -317,6 +388,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS HARPOON WITH BARB UPWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT HARPOON WITH BARB UP",
     },
     {
@@ -324,6 +396,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS HARPOON WITH BARB DOWNWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT HARPOON WITH BARB DOWN",
     },
     {
@@ -331,6 +404,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS HARPOON WITH BARB RIGHTWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN HARPOON WITH BARB RIGHT",
     },
     {
@@ -338,6 +412,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS HARPOON WITH BARB LEFTWARDS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN HARPOON WITH BARB LEFT",
     },
     {
@@ -345,6 +420,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS ARROW OVER LEFTWARDS ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT ARROW OVER LEFT ARROW",
     },
     {
@@ -352,6 +428,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP ARROW LEFT OF DOWN ARROW",
     },
     {
@@ -359,6 +436,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS ARROW OVER RIGHTWARDS ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT ARROW OVER RIGHT ARROW",
     },
     {
@@ -366,6 +444,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS PAIRED ARROWS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT PAIRED ARROWS",
     },
     {
@@ -373,6 +452,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS PAIRED ARROWS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP PAIRED ARROWS",
     },
     {
@@ -380,6 +460,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS PAIRED ARROWS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT PAIRED ARROWS",
     },
     {
@@ -387,6 +468,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS PAIRED ARROWS",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN PAIRED ARROWS",
     },
     {
@@ -394,6 +476,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT HARPOON OVER RIGHT HARPOON",
     },
     {
@@ -401,6 +484,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT HARPOON OVER LEFT HARPOON",
     },
     {
@@ -408,6 +492,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS DOUBLE ARROW WITH STROKE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       decomp: [8656, 824],
       oldName: "LEFT DOUBLE ARROW WITH STROKE",
     },
@@ -416,6 +501,7 @@ export const dataSet: CharacterSet = {
       name: "LEFT RIGHT DOUBLE ARROW WITH STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       decomp: [8660, 824],
     },
     {
@@ -423,6 +509,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS DOUBLE ARROW WITH STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       decomp: [8658, 824],
       oldName: "RIGHT DOUBLE ARROW WITH STROKE",
     },
@@ -431,6 +518,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS DOUBLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT DOUBLE ARROW",
     },
     {
@@ -438,6 +526,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS DOUBLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP DOUBLE ARROW",
     },
     {
@@ -445,6 +534,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS DOUBLE ARROW",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT DOUBLE ARROW",
     },
     {
@@ -452,15 +542,29 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS DOUBLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN DOUBLE ARROW",
     },
-    { code: 8660, name: "LEFT RIGHT DOUBLE ARROW", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 8661, name: "UP DOWN DOUBLE ARROW", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 8660,
+      name: "LEFT RIGHT DOUBLE ARROW",
+      cat: Category.Math_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
+    },
+    {
+      code: 8661,
+      name: "UP DOWN DOUBLE ARROW",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
+    },
     {
       code: 8662,
       name: "NORTH WEST DOUBLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UPPER LEFT DOUBLE ARROW",
     },
     {
@@ -468,6 +572,7 @@ export const dataSet: CharacterSet = {
       name: "NORTH EAST DOUBLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UPPER RIGHT DOUBLE ARROW",
     },
     {
@@ -475,6 +580,7 @@ export const dataSet: CharacterSet = {
       name: "SOUTH EAST DOUBLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LOWER RIGHT DOUBLE ARROW",
     },
     {
@@ -482,6 +588,7 @@ export const dataSet: CharacterSet = {
       name: "SOUTH WEST DOUBLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LOWER LEFT DOUBLE ARROW",
     },
     {
@@ -489,6 +596,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS TRIPLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT TRIPLE ARROW",
     },
     {
@@ -496,6 +604,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS TRIPLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT TRIPLE ARROW",
     },
     {
@@ -503,6 +612,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS SQUIGGLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT SQUIGGLE ARROW",
     },
     {
@@ -510,6 +620,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS SQUIGGLE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT SQUIGGLE ARROW",
     },
     {
@@ -517,6 +628,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS ARROW WITH DOUBLE STROKE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP ARROW WITH DOUBLE STROKE",
     },
     {
@@ -524,6 +636,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS ARROW WITH DOUBLE STROKE",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN ARROW WITH DOUBLE STROKE",
     },
     {
@@ -531,6 +644,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS DASHED ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT DASHED ARROW",
     },
     {
@@ -538,6 +652,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS DASHED ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "UP DASHED ARROW",
     },
     {
@@ -545,6 +660,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS DASHED ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT DASHED ARROW",
     },
     {
@@ -552,6 +668,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS DASHED ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "DOWN DASHED ARROW",
     },
     {
@@ -559,6 +676,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS ARROW TO BAR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "LEFT ARROW TO BAR",
     },
     {
@@ -566,6 +684,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS ARROW TO BAR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "RIGHT ARROW TO BAR",
     },
     {
@@ -573,6 +692,7 @@ export const dataSet: CharacterSet = {
       name: "LEFTWARDS WHITE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "WHITE LEFT ARROW",
     },
     {
@@ -580,6 +700,7 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS WHITE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "WHITE UP ARROW",
     },
     {
@@ -587,6 +708,7 @@ export const dataSet: CharacterSet = {
       name: "RIGHTWARDS WHITE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "WHITE RIGHT ARROW",
     },
     {
@@ -594,6 +716,7 @@ export const dataSet: CharacterSet = {
       name: "DOWNWARDS WHITE ARROW",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "WHITE DOWN ARROW",
     },
     {
@@ -601,78 +724,155 @@ export const dataSet: CharacterSet = {
       name: "UPWARDS WHITE ARROW FROM BAR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V1_1,
       oldName: "WHITE UP ARROW FROM BAR",
     },
-    { code: 8683, name: "UPWARDS WHITE ARROW ON PEDESTAL", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 8683,
+      name: "UPWARDS WHITE ARROW ON PEDESTAL",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
+    },
     {
       code: 8684,
       name: "UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
     {
       code: 8685,
       name: "UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
-    { code: 8686, name: "UPWARDS WHITE DOUBLE ARROW", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 8686,
+      name: "UPWARDS WHITE DOUBLE ARROW",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
+    },
     {
       code: 8687,
       name: "UPWARDS WHITE DOUBLE ARROW ON PEDESTAL",
       cat: Category.Other_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
     },
-    { code: 8688, name: "RIGHTWARDS WHITE ARROW FROM WALL", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 8689, name: "NORTH WEST ARROW TO CORNER", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 8690, name: "SOUTH EAST ARROW TO CORNER", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 8691, name: "UP DOWN WHITE ARROW", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 8692, name: "RIGHT ARROW WITH SMALL CIRCLE", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 8688,
+      name: "RIGHTWARDS WHITE ARROW FROM WALL",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
+    },
+    {
+      code: 8689,
+      name: "NORTH WEST ARROW TO CORNER",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
+    },
+    {
+      code: 8690,
+      name: "SOUTH EAST ARROW TO CORNER",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
+    },
+    {
+      code: 8691,
+      name: "UP DOWN WHITE ARROW",
+      cat: Category.Other_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_0,
+    },
+    {
+      code: 8692,
+      name: "RIGHT ARROW WITH SMALL CIRCLE",
+      cat: Category.Math_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
+    },
     {
       code: 8693,
       name: "DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
     },
-    { code: 8694, name: "THREE RIGHTWARDS ARROWS", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 8694,
+      name: "THREE RIGHTWARDS ARROWS",
+      cat: Category.Math_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
+    },
     {
       code: 8695,
       name: "LEFTWARDS ARROW WITH VERTICAL STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
     },
     {
       code: 8696,
       name: "RIGHTWARDS ARROW WITH VERTICAL STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
     },
     {
       code: 8697,
       name: "LEFT RIGHT ARROW WITH VERTICAL STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
     },
     {
       code: 8698,
       name: "LEFTWARDS ARROW WITH DOUBLE VERTICAL STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
     },
     {
       code: 8699,
       name: "RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
     },
     {
       code: 8700,
       name: "LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE",
       cat: Category.Math_Symbol,
       bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
     },
-    { code: 8701, name: "LEFTWARDS OPEN-HEADED ARROW", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 8702, name: "RIGHTWARDS OPEN-HEADED ARROW", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral },
-    { code: 8703, name: "LEFT RIGHT OPEN-HEADED ARROW", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral },
+    {
+      code: 8701,
+      name: "LEFTWARDS OPEN-HEADED ARROW",
+      cat: Category.Math_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
+    },
+    {
+      code: 8702,
+      name: "RIGHTWARDS OPEN-HEADED ARROW",
+      cat: Category.Math_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
+    },
+    {
+      code: 8703,
+      name: "LEFT RIGHT OPEN-HEADED ARROW",
+      cat: Category.Math_Symbol,
+      bidi: BidiClass.Other_Neutral,
+      age: Age.V3_2,
+    },
   ],
 };

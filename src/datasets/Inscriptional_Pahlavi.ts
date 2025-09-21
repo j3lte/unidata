@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Inscriptional Pahlavi**
@@ -22,110 +22,140 @@ export const dataSet: CharacterSet = {
       name: "INSCRIPTIONAL PAHLAVI LETTER ALEPH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68449,
       name: "INSCRIPTIONAL PAHLAVI LETTER BETH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68450,
       name: "INSCRIPTIONAL PAHLAVI LETTER GIMEL",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68451,
       name: "INSCRIPTIONAL PAHLAVI LETTER DALETH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
-    { code: 68452, name: "INSCRIPTIONAL PAHLAVI LETTER HE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
+    {
+      code: 68452,
+      name: "INSCRIPTIONAL PAHLAVI LETTER HE",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
+    },
     {
       code: 68453,
       name: "INSCRIPTIONAL PAHLAVI LETTER WAW-AYIN-RESH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68454,
       name: "INSCRIPTIONAL PAHLAVI LETTER ZAYIN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68455,
       name: "INSCRIPTIONAL PAHLAVI LETTER HETH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68456,
       name: "INSCRIPTIONAL PAHLAVI LETTER TETH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68457,
       name: "INSCRIPTIONAL PAHLAVI LETTER YODH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68458,
       name: "INSCRIPTIONAL PAHLAVI LETTER KAPH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68459,
       name: "INSCRIPTIONAL PAHLAVI LETTER LAMEDH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68460,
       name: "INSCRIPTIONAL PAHLAVI LETTER MEM-QOPH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68461,
       name: "INSCRIPTIONAL PAHLAVI LETTER NUN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68462,
       name: "INSCRIPTIONAL PAHLAVI LETTER SAMEKH",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
-    { code: 68463, name: "INSCRIPTIONAL PAHLAVI LETTER PE", cat: Category.Other_Letter, bidi: BidiClass.Right_To_Left },
+    {
+      code: 68463,
+      name: "INSCRIPTIONAL PAHLAVI LETTER PE",
+      cat: Category.Other_Letter,
+      bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
+    },
     {
       code: 68464,
       name: "INSCRIPTIONAL PAHLAVI LETTER SADHE",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68465,
       name: "INSCRIPTIONAL PAHLAVI LETTER SHIN",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68466,
       name: "INSCRIPTIONAL PAHLAVI LETTER TAW",
       cat: Category.Other_Letter,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
     },
     {
       code: 68472,
       name: "INSCRIPTIONAL PAHLAVI NUMBER ONE",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
       num: "1",
     },
     {
@@ -133,6 +163,7 @@ export const dataSet: CharacterSet = {
       name: "INSCRIPTIONAL PAHLAVI NUMBER TWO",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
       num: "2",
     },
     {
@@ -140,6 +171,7 @@ export const dataSet: CharacterSet = {
       name: "INSCRIPTIONAL PAHLAVI NUMBER THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
       num: "3",
     },
     {
@@ -147,6 +179,7 @@ export const dataSet: CharacterSet = {
       name: "INSCRIPTIONAL PAHLAVI NUMBER FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
       num: "4",
     },
     {
@@ -154,6 +187,7 @@ export const dataSet: CharacterSet = {
       name: "INSCRIPTIONAL PAHLAVI NUMBER TEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
       num: "10",
     },
     {
@@ -161,6 +195,7 @@ export const dataSet: CharacterSet = {
       name: "INSCRIPTIONAL PAHLAVI NUMBER TWENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
       num: "20",
     },
     {
@@ -168,6 +203,7 @@ export const dataSet: CharacterSet = {
       name: "INSCRIPTIONAL PAHLAVI NUMBER ONE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
       num: "100",
     },
     {
@@ -175,6 +211,7 @@ export const dataSet: CharacterSet = {
       name: "INSCRIPTIONAL PAHLAVI NUMBER ONE THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Right_To_Left,
+      age: Age.V5_2,
       num: "1000",
     },
   ],

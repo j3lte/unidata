@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Sinhala Archaic Numbers**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC DIGIT ONE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "1",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC DIGIT TWO",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "2",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC DIGIT THREE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "3",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC DIGIT FOUR",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "4",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC DIGIT FIVE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "5",
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC DIGIT SIX",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "6",
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC DIGIT SEVEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "7",
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC DIGIT EIGHT",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "8",
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC DIGIT NINE",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "9",
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER TEN",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "10",
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER TWENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "20",
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER THIRTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "30",
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER FORTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "40",
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER FIFTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "50",
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER SIXTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "60",
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER SEVENTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "70",
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER EIGHTY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "80",
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER NINETY",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "90",
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER ONE HUNDRED",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "100",
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "SINHALA ARCHAIC NUMBER ONE THOUSAND",
       cat: Category.Other_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "1000",
     },
   ],

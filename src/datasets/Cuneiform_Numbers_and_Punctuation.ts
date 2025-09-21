@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { BidiClass, Category, CharacterSetType } from "../enums.ts";
+import { Age, BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Cuneiform Numbers and Punctuation**
@@ -22,6 +22,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO ASH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -29,6 +30,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE ASH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -36,6 +38,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR ASH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -43,6 +46,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE ASH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -50,6 +54,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SIX ASH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "6",
     },
     {
@@ -57,6 +62,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SEVEN ASH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "7",
     },
     {
@@ -64,6 +70,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN EIGHT ASH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "8",
     },
     {
@@ -71,6 +78,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NINE ASH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "9",
     },
     {
@@ -78,6 +86,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -85,6 +94,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -92,6 +102,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -99,6 +110,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SIX DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "6",
     },
     {
@@ -106,6 +118,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SEVEN DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "7",
     },
     {
@@ -113,6 +126,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN EIGHT DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "8",
     },
     {
@@ -120,6 +134,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NINE DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "9",
     },
     {
@@ -127,6 +142,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR U",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -134,6 +150,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE U",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -141,6 +158,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SIX U",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "6",
     },
     {
@@ -148,6 +166,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SEVEN U",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "7",
     },
     {
@@ -155,6 +174,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN EIGHT U",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "8",
     },
     {
@@ -162,6 +182,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NINE U",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "9",
     },
     {
@@ -169,6 +190,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE GESH2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1",
     },
     {
@@ -176,6 +198,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO GESH2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -183,6 +206,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE GESH2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -190,6 +214,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR GESH2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -197,6 +222,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE GESH2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -204,6 +230,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SIX GESH2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "6",
     },
     {
@@ -211,6 +238,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SEVEN GESH2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "7",
     },
     {
@@ -218,6 +246,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN EIGHT GESH2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "8",
     },
     {
@@ -225,6 +254,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NINE GESH2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "9",
     },
     {
@@ -232,6 +262,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE GESHU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1",
     },
     {
@@ -239,6 +270,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO GESHU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -246,6 +278,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE GESHU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -253,6 +286,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR GESHU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -260,6 +294,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE GESHU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -267,6 +302,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO SHAR2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -274,6 +310,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE SHAR2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -281,6 +318,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE SHAR2 VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -288,6 +326,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR SHAR2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -295,6 +334,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE SHAR2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -302,6 +342,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SIX SHAR2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "6",
     },
     {
@@ -309,6 +350,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SEVEN SHAR2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "7",
     },
     {
@@ -316,6 +358,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN EIGHT SHAR2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "8",
     },
     {
@@ -323,6 +366,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NINE SHAR2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "9",
     },
     {
@@ -330,6 +374,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE SHARU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1",
     },
     {
@@ -337,6 +382,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO SHARU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -344,6 +390,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE SHARU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -351,6 +398,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE SHARU VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -358,6 +406,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR SHARU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -365,6 +414,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE SHARU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -372,6 +422,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SHAR2 TIMES GAL PLUS DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "216000",
     },
     {
@@ -379,6 +430,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SHAR2 TIMES GAL PLUS MIN",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "432000",
     },
     {
@@ -386,6 +438,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE BURU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1",
     },
     {
@@ -393,6 +446,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO BURU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -400,6 +454,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE BURU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -407,6 +462,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE BURU VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -414,6 +470,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR BURU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -421,6 +478,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE BURU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -428,6 +486,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE VARIANT FORM ESH16",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -435,6 +494,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE VARIANT FORM ESH21",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -442,6 +502,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR VARIANT FORM LIMMU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -449,6 +510,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR VARIANT FORM LIMMU4",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -456,6 +518,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR VARIANT FORM LIMMU A",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -463,6 +526,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR VARIANT FORM LIMMU B",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -470,6 +534,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SIX VARIANT FORM ASH9",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "6",
     },
     {
@@ -477,6 +542,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SEVEN VARIANT FORM IMIN3",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "7",
     },
     {
@@ -484,6 +550,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SEVEN VARIANT FORM IMIN A",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "7",
     },
     {
@@ -491,6 +558,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SEVEN VARIANT FORM IMIN B",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "7",
     },
     {
@@ -498,6 +566,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN EIGHT VARIANT FORM USSU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "8",
     },
     {
@@ -505,6 +574,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN EIGHT VARIANT FORM USSU3",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "8",
     },
     {
@@ -512,6 +582,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NINE VARIANT FORM ILIMMU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "9",
     },
     {
@@ -519,6 +590,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NINE VARIANT FORM ILIMMU3",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "9",
     },
     {
@@ -526,6 +598,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NINE VARIANT FORM ILIMMU4",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "9",
     },
     {
@@ -533,6 +606,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NINE VARIANT FORM ILIMMU A",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "9",
     },
     {
@@ -540,6 +614,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO ASH TENU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -547,6 +622,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE ASH TENU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -554,6 +630,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR ASH TENU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -561,6 +638,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE ASH TENU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -568,6 +646,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SIX ASH TENU",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "6",
     },
     {
@@ -575,6 +654,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE BAN2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1",
     },
     {
@@ -582,6 +662,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO BAN2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -589,6 +670,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN THREE BAN2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -596,6 +678,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR BAN2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -603,6 +686,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR BAN2 VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "4",
     },
     {
@@ -610,6 +694,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE BAN2",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -617,6 +702,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE BAN2 VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5",
     },
     {
@@ -624,6 +710,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NIGIDAMIN",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -631,6 +718,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NIGIDAESH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "3",
     },
     {
@@ -638,6 +726,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE ESHE3",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1",
     },
     {
@@ -645,6 +734,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO ESHE3",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2",
     },
     {
@@ -652,6 +742,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE THIRD DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1/3",
     },
     {
@@ -659,6 +750,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO THIRDS DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2/3",
     },
     {
@@ -666,6 +758,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE SIXTHS DISH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "5/6",
     },
     {
@@ -673,6 +766,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE THIRD VARIANT FORM A",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1/3",
     },
     {
@@ -680,6 +774,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN TWO THIRDS VARIANT FORM A",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "2/3",
     },
     {
@@ -687,6 +782,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE EIGHTH ASH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1/8",
     },
     {
@@ -694,6 +790,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE QUARTER ASH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1/4",
     },
     {
@@ -701,6 +798,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN OLD ASSYRIAN ONE SIXTH",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1/6",
     },
     {
@@ -708,6 +806,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN OLD ASSYRIAN ONE QUARTER",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
       num: "1/4",
     },
     {
@@ -715,6 +814,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE QUARTER GUR",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "1/4",
     },
     {
@@ -722,6 +822,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ONE HALF GUR",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "1/2",
     },
     {
@@ -729,6 +830,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ELAMITE ONE THIRD",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "1/3",
     },
     {
@@ -736,6 +838,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ELAMITE TWO THIRDS",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "2/3",
     },
     {
@@ -743,6 +846,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ELAMITE FORTY",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "40",
     },
     {
@@ -750,6 +854,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN ELAMITE FIFTY",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "50",
     },
     {
@@ -757,6 +862,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FOUR U VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "4",
     },
     {
@@ -764,6 +870,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN FIVE U VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "5",
     },
     {
@@ -771,6 +878,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SIX U VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "6",
     },
     {
@@ -778,6 +886,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN SEVEN U VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "7",
     },
     {
@@ -785,6 +894,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN EIGHT U VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "8",
     },
     {
@@ -792,6 +902,7 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM NUMERIC SIGN NINE U VARIANT FORM",
       cat: Category.Letter_Number,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
       num: "9",
     },
     {
@@ -799,30 +910,35 @@ export const dataSet: CharacterSet = {
       name: "CUNEIFORM PUNCTUATION SIGN OLD ASSYRIAN WORD DIVIDER",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
     },
     {
       code: 74865,
       name: "CUNEIFORM PUNCTUATION SIGN VERTICAL COLON",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
     },
     {
       code: 74866,
       name: "CUNEIFORM PUNCTUATION SIGN DIAGONAL COLON",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
     },
     {
       code: 74867,
       name: "CUNEIFORM PUNCTUATION SIGN DIAGONAL TRICOLON",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V5_0,
     },
     {
       code: 74868,
       name: "CUNEIFORM PUNCTUATION SIGN DIAGONAL QUADCOLON",
       cat: Category.Other_Punctuation,
       bidi: BidiClass.Left_To_Right,
+      age: Age.V7_0,
     },
   ],
 };
