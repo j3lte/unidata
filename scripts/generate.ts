@@ -1,6 +1,6 @@
 import { resolve } from "@std/path";
 import { extract } from "@quentinadam/zip";
-import { exists, getBlocks, getCharacters, updateText } from "./utils/mod.ts";
+import { exists, getBlocks, getCharacters, stringifyCharacter, updateText } from "./utils/mod.ts";
 
 const runVersion = async (UNICODE_VERSION: string) => {
   const UNICODE_URL = `https://www.unicode.org/Public/${UNICODE_VERSION}/ucd/UCD.zip`;
@@ -122,7 +122,7 @@ export const dataSet: CharacterSet = {
   characters: [
 ${
         blockCharacters.map((char) => {
-          return `    ${JSON.stringify(char)},`;
+          return `    ${stringifyCharacter(char)},`;
         }).join("\n")
       }
   ]

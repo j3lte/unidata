@@ -154,3 +154,10 @@ export const updateText = (
     hasChanges: compared !== 0,
   };
 };
+
+export const stringifyCharacter = (character: Character) => {
+  const base = JSON.stringify(character);
+  // Replace the "" for keys with whitespace
+  const withWhitespace = base.replace(/"(\w+)":/g, "$1: ");
+  return withWhitespace;
+};
