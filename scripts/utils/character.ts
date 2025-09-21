@@ -1,31 +1,3 @@
-export const exists = async (path: string) => {
-  try {
-    await Deno.stat(path);
-    return true;
-  } catch {
-    return false;
-  }
-};
-
-export const getBlocks = (txt: string) =>
-  txt
-    .split(/\n/)
-    .map((line) => line.match(/^([A-F0-9]+)\.\.([A-F0-9]+); (.+)$/))
-    .filter((match) => match !== null)
-    .map((match) => {
-      const [, startCode, endCode, blockName] = match;
-      const enumName = blockName
-        .replace(/[^a-zA-Z0-9]/g, "_")
-        .replace(/_+$/, "")
-        .replace(/^_+/, "");
-      return {
-        enumName: enumName,
-        blockName: blockName,
-        startCode: parseInt(startCode, 16),
-        endCode: parseInt(endCode, 16),
-      };
-    });
-
 interface Character {
   code: number;
   name: string;
@@ -109,55 +81,16 @@ export const getCharacters = (txt: string) =>
       return character;
     });
 
-/**
- * @param blockID {string} block to update (e.g. `<!-- START blockID -->`)
- * @param text {string} text to update
- * @param update {string} text to insert between blockID
- * @returns
- */
-export const updateText = (
-  blockID: string,
-  text: string,
-  update: string,
-): {
-  updatedText: string;
-  hasChanges: boolean;
-} => {
-  const snippetIdentifier = `<!-- START ${blockID} -->`;
-  const startSnippetPos = text.indexOf(snippetIdentifier);
-  const endSnippetPos = text.indexOf(`<!-- END ${blockID} -->`);
-
-  const startSnippet = text.slice(
-    0,
-    startSnippetPos + snippetIdentifier.length,
-  );
-  const endSnippet = text.slice(endSnippetPos);
-
-  const currentText = text.slice(
-    startSnippetPos + snippetIdentifier.length,
-    endSnippetPos,
-  );
-  // console.log(currentText);
-  const updatedText = `${startSnippet}\n${update}\n${endSnippet}`;
-  const compared = currentText.trim().localeCompare(update.trim());
-
-  if (compared === 0) {
-    if (blockID !== "UPDATETIME") {
-      console.log(`No changes detected for ${blockID}`);
-    }
+export const stringifyCharacter = (character: Character, categories: [string, string][]) => {
+  const category = categories.find(([, abbreviation]) => abbreviation === character.cat);
+  let catString = "";
+  if (category) {
+    catString = `Category.${category[0]}`;
+    character.cat = catString;
   } else {
-    console.log(`Changes detected for ${blockID}`);
+    throw new Error(`Category ${character.cat} not found in categories`);
   }
-
-  return {
-    updatedText,
-    hasChanges: compared !== 0,
-  };
-};
-
-export const stringifyCharacter = (character: Character) => {
   const base = JSON.stringify(character);
-  // Replace the "" for keys with whitespace
-  const withWhitespace = base.replace(/"(\w+)":/g, "$1: ");
-  return withWhitespace;
+  const cleaned = base.replace(/"(\w+)":/g, "$1: ").replace(`"${catString}"`, catString);
+  return cleaned;
 };

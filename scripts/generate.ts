@@ -1,6 +1,10 @@
 import { resolve } from "@std/path";
 import { extract } from "@quentinadam/zip";
-import { exists, getBlocks, getCharacters, stringifyCharacter, updateText } from "./utils/mod.ts";
+import { exists, updateText } from "./utils/misc.ts";
+import { getBlocks } from "./utils/blocks.ts";
+import { getCharacters } from "./utils/character.ts";
+import { stringifyCharacter } from "./utils/character.ts";
+import { getPropertyValueAliases } from "./utils/propertyValues.ts";
 
 const runVersion = async (UNICODE_VERSION: string) => {
   const UNICODE_URL = `https://www.unicode.org/Public/${UNICODE_VERSION}/ucd/UCD.zip`;
@@ -41,7 +45,7 @@ const runVersion = async (UNICODE_VERSION: string) => {
 
   for (const file of files) {
     const dest = resolve(OUTPUT_DIR, file.name);
-    if (!["Blocks.txt", "UnicodeData.txt"].includes(file.name)) {
+    if (!["Blocks.txt", "UnicodeData.txt", "PropertyValueAliases.txt"].includes(file.name)) {
       continue;
     }
     if (file.data.length === 0) {
@@ -55,6 +59,10 @@ const runVersion = async (UNICODE_VERSION: string) => {
 
   console.log("Done extracting Unicode data.");
 
+  console.log("Generating property value aliases...");
+  const propertyValueAliasesTxt = await Deno.readTextFile(resolve(OUTPUT_DIR, "PropertyValueAliases.txt"));
+  const propertyValueAliases = getPropertyValueAliases(propertyValueAliasesTxt);
+
   console.log("Generating blocks...");
 
   const blocksTxt = await Deno.readTextFile(resolve(OUTPUT_DIR, "Blocks.txt"));
@@ -66,13 +74,27 @@ const runVersion = async (UNICODE_VERSION: string) => {
   await Deno.writeTextFile(
     resolve(SRC_DIR, "enums.ts"),
     `/**
- * Enum for the type of the character set.
+ * Type of the character set.
  *
  * See [Character Code Charts](https://www.unicode.org/charts/) for more information.
  */
 export enum CharacterSetType {
 ${blocksEnums}
-}`,
+}
+
+/**
+ * General category of the character.
+ *
+ * See [General Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#General_Category_Values) for more information.
+ */
+export enum Category {
+${
+      propertyValueAliases.categories.map(([category, abbreviation]) => {
+        return `  ${category} = "${abbreviation}",`;
+      }).join("\n")
+    }
+}
+`,
   );
 
   console.log("Cleaning up old character data...");
@@ -102,7 +124,7 @@ ${blocksEnums}
     await Deno.writeTextFile(
       output,
       `import type { CharacterSet } from "../types.ts";
-import { CharacterSetType } from "../enums.ts";
+import { Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **${block.blockName}**
@@ -122,7 +144,7 @@ export const dataSet: CharacterSet = {
   characters: [
 ${
         blockCharacters.map((char) => {
-          return `    ${stringifyCharacter(char)},`;
+          return `    ${stringifyCharacter(char, propertyValueAliases.categories)},`;
         }).join("\n")
       }
   ]

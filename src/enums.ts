@@ -1,5 +1,5 @@
 /**
- * Enum for the type of the character set.
+ * Type of the character set.
  *
  * See [Character Code Charts](https://www.unicode.org/charts/) for more information.
  */
@@ -350,4 +350,50 @@ export enum CharacterSetType {
   Variation_Selectors_Supplement = "Variation Selectors Supplement",
   Supplementary_Private_Use_Area_A = "Supplementary Private Use Area-A",
   Supplementary_Private_Use_Area_B = "Supplementary Private Use Area-B",
+}
+
+/**
+ * General category of the character.
+ *
+ * See [General Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#General_Category_Values) for more information.
+ */
+export enum Category {
+  Cased_Letter = "LC",
+  Close_Punctuation = "Pe",
+  Connector_Punctuation = "Pc",
+  Control = "Cc",
+  Currency_Symbol = "Sc",
+  Dash_Punctuation = "Pd",
+  Decimal_Number = "Nd",
+  Enclosing_Mark = "Me",
+  Final_Punctuation = "Pf",
+  Format = "Cf",
+  Initial_Punctuation = "Pi",
+  Letter = "L",
+  Letter_Number = "Nl",
+  Line_Separator = "Zl",
+  Lowercase_Letter = "Ll",
+  Mark = "M",
+  Math_Symbol = "Sm",
+  Modifier_Letter = "Lm",
+  Modifier_Symbol = "Sk",
+  Nonspacing_Mark = "Mn",
+  Number = "N",
+  Open_Punctuation = "Ps",
+  Other = "C",
+  Other_Letter = "Lo",
+  Other_Number = "No",
+  Other_Punctuation = "Po",
+  Other_Symbol = "So",
+  Paragraph_Separator = "Zp",
+  Private_Use = "Co",
+  Punctuation = "P",
+  Separator = "Z",
+  Space_Separator = "Zs",
+  Spacing_Mark = "Mc",
+  Surrogate = "Cs",
+  Symbol = "S",
+  Titlecase_Letter = "Lt",
+  Unassigned = "Cn",
+  Uppercase_Letter = "Lu",
 }

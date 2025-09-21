@@ -1,33 +1,37 @@
-import type { CharacterSetType } from "./enums.ts";
+import type { Category, CharacterSetType } from "./enums.ts";
 
 /**
  * Character data
  */
 export type Character = {
-  /** numeric character code (a non-negative integer) */
+  /** Numeric character code (a non-negative integer) */
   code: number;
-  /** character name (ASCII only) */
+  /** Character name (ASCII only) */
   name: string;
-  /** general category */
-  cat: string;
-  /** canonical combining class (missing if == 0 "not reordered") */
+  /**
+   * General category
+   *
+   * See [General Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#General_Category_Values) for more information.
+   */
+  cat: Category;
+  /** Canonical combining class (missing if == 0 "not reordered") */
   comb?: number;
-  /** bidirectional category (missing if == 'L' "Letter") */
+  /** Bidirectional category (missing if == 'L' "Letter") */
   bidi?: string;
-  /** decomposition type and mapping */
+  /** Decomposition type and mapping */
   decompType?: string;
   decomp?: number[];
-  /** numeric value of character (may be a fraction, so it not unevaluated) */
+  /** Numeric value of character (may be a fraction, so it not unevaluated) */
   num?: string;
-  /** true if character is mirrored in bidirectional text (missing otherwise) */
+  /** True if character is mirrored in bidirectional text (missing otherwise) */
   bidiMirror?: boolean;
   /** Unicode 1.0 name, if it differs from the current name */
   oldName?: string;
-  /** simple uppercase mapping */
+  /** Simple uppercase mapping */
   upper?: number;
-  /** simple lowercase mapping */
+  /** Simple lowercase mapping */
   lower?: number;
-  /** simple titlecase mapping */
+  /** Simple titlecase mapping */
   title?: number;
 };
 
@@ -35,13 +39,13 @@ export type Character = {
  * Character base data
  */
 export type CharacterBaseSet = {
-  /** block name */
+  /** Block name */
   blockName: CharacterSetType;
-  /** start code */
+  /** Start code */
   startCode: number;
-  /** end code */
+  /** End code */
   endCode: number;
-  /** characters */
+  /** Characters */
   characters: Character[];
 };
 
@@ -49,6 +53,6 @@ export type CharacterBaseSet = {
  * Character set data
  */
 export type CharacterSet = CharacterBaseSet & {
-  /** characters */
+  /** Characters */
   characters: Character[];
 };
