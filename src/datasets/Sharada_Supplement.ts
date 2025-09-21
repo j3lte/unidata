@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { CharacterSetType } from "../enums.ts";
+import { BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Sharada Supplement**
@@ -17,13 +17,18 @@ export const dataSet: CharacterSet = {
   startCode: 72544,
   endCode: 72575,
   characters: [
-    { "code": 72544, "name": "SHARADA VOWEL SIGN OE", "cat": "Mn", "bidi": "NSM" },
-    { "code": 72545, "name": "SHARADA VOWEL SIGN OOE", "cat": "Mc" },
-    { "code": 72546, "name": "SHARADA VOWEL SIGN UE", "cat": "Mn", "bidi": "NSM" },
-    { "code": 72547, "name": "SHARADA VOWEL SIGN UUE", "cat": "Mn", "bidi": "NSM" },
-    { "code": 72548, "name": "SHARADA VOWEL SIGN SHORT E", "cat": "Mn", "bidi": "NSM" },
-    { "code": 72549, "name": "SHARADA VOWEL SIGN SHORT O", "cat": "Mc" },
-    { "code": 72550, "name": "SHARADA VOWEL SIGN CANDRA E", "cat": "Mn", "bidi": "NSM" },
-    { "code": 72551, "name": "SHARADA VOWEL SIGN CANDRA O", "cat": "Mc" },
+    { code: 72544, name: "SHARADA VOWEL SIGN OE", cat: Category.Nonspacing_Mark, bidi: BidiClass.Nonspacing_Mark },
+    { code: 72545, name: "SHARADA VOWEL SIGN OOE", cat: Category.Spacing_Mark, bidi: BidiClass.Left_To_Right },
+    { code: 72546, name: "SHARADA VOWEL SIGN UE", cat: Category.Nonspacing_Mark, bidi: BidiClass.Nonspacing_Mark },
+    { code: 72547, name: "SHARADA VOWEL SIGN UUE", cat: Category.Nonspacing_Mark, bidi: BidiClass.Nonspacing_Mark },
+    { code: 72548, name: "SHARADA VOWEL SIGN SHORT E", cat: Category.Nonspacing_Mark, bidi: BidiClass.Nonspacing_Mark },
+    { code: 72549, name: "SHARADA VOWEL SIGN SHORT O", cat: Category.Spacing_Mark, bidi: BidiClass.Left_To_Right },
+    {
+      code: 72550,
+      name: "SHARADA VOWEL SIGN CANDRA E",
+      cat: Category.Nonspacing_Mark,
+      bidi: BidiClass.Nonspacing_Mark,
+    },
+    { code: 72551, name: "SHARADA VOWEL SIGN CANDRA O", cat: Category.Spacing_Mark, bidi: BidiClass.Left_To_Right },
   ],
 };

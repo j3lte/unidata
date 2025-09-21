@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { CharacterSetType } from "../enums.ts";
+import { BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Kana Extended-B**
@@ -17,18 +17,83 @@ export const dataSet: CharacterSet = {
   startCode: 110576,
   endCode: 110591,
   characters: [
-    { "code": 110576, "name": "KATAKANA LETTER MINNAN TONE-2", "cat": "Lm" },
-    { "code": 110577, "name": "KATAKANA LETTER MINNAN TONE-3", "cat": "Lm" },
-    { "code": 110578, "name": "KATAKANA LETTER MINNAN TONE-4", "cat": "Lm" },
-    { "code": 110579, "name": "KATAKANA LETTER MINNAN TONE-5", "cat": "Lm" },
-    { "code": 110581, "name": "KATAKANA LETTER MINNAN TONE-7", "cat": "Lm" },
-    { "code": 110582, "name": "KATAKANA LETTER MINNAN TONE-8", "cat": "Lm" },
-    { "code": 110583, "name": "KATAKANA LETTER MINNAN NASALIZED TONE-1", "cat": "Lm" },
-    { "code": 110584, "name": "KATAKANA LETTER MINNAN NASALIZED TONE-2", "cat": "Lm" },
-    { "code": 110585, "name": "KATAKANA LETTER MINNAN NASALIZED TONE-3", "cat": "Lm" },
-    { "code": 110586, "name": "KATAKANA LETTER MINNAN NASALIZED TONE-4", "cat": "Lm" },
-    { "code": 110587, "name": "KATAKANA LETTER MINNAN NASALIZED TONE-5", "cat": "Lm" },
-    { "code": 110589, "name": "KATAKANA LETTER MINNAN NASALIZED TONE-7", "cat": "Lm" },
-    { "code": 110590, "name": "KATAKANA LETTER MINNAN NASALIZED TONE-8", "cat": "Lm" },
+    {
+      code: 110576,
+      name: "KATAKANA LETTER MINNAN TONE-2",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110577,
+      name: "KATAKANA LETTER MINNAN TONE-3",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110578,
+      name: "KATAKANA LETTER MINNAN TONE-4",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110579,
+      name: "KATAKANA LETTER MINNAN TONE-5",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110581,
+      name: "KATAKANA LETTER MINNAN TONE-7",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110582,
+      name: "KATAKANA LETTER MINNAN TONE-8",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110583,
+      name: "KATAKANA LETTER MINNAN NASALIZED TONE-1",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110584,
+      name: "KATAKANA LETTER MINNAN NASALIZED TONE-2",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110585,
+      name: "KATAKANA LETTER MINNAN NASALIZED TONE-3",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110586,
+      name: "KATAKANA LETTER MINNAN NASALIZED TONE-4",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110587,
+      name: "KATAKANA LETTER MINNAN NASALIZED TONE-5",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110589,
+      name: "KATAKANA LETTER MINNAN NASALIZED TONE-7",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 110590,
+      name: "KATAKANA LETTER MINNAN NASALIZED TONE-8",
+      cat: Category.Modifier_Letter,
+      bidi: BidiClass.Left_To_Right,
+    },
   ],
 };

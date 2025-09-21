@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { CharacterSetType } from "../enums.ts";
+import { BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Tangut**
@@ -17,7 +17,7 @@ export const dataSet: CharacterSet = {
   startCode: 94208,
   endCode: 100351,
   characters: [
-    { "code": 94208, "name": "<Tangut Ideograph, First>", "cat": "Lo" },
-    { "code": 100351, "name": "<Tangut Ideograph, Last>", "cat": "Lo" },
+    { code: 94208, name: "<Tangut Ideograph, First>", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
+    { code: 100351, name: "<Tangut Ideograph, Last>", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
   ],
 };

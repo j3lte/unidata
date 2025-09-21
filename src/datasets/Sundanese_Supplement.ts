@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { CharacterSetType } from "../enums.ts";
+import { BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Sundanese Supplement**
@@ -17,13 +17,53 @@ export const dataSet: CharacterSet = {
   startCode: 7360,
   endCode: 7375,
   characters: [
-    { "code": 7360, "name": "SUNDANESE PUNCTUATION BINDU SURYA", "cat": "Po" },
-    { "code": 7361, "name": "SUNDANESE PUNCTUATION BINDU PANGLONG", "cat": "Po" },
-    { "code": 7362, "name": "SUNDANESE PUNCTUATION BINDU PURNAMA", "cat": "Po" },
-    { "code": 7363, "name": "SUNDANESE PUNCTUATION BINDU CAKRA", "cat": "Po" },
-    { "code": 7364, "name": "SUNDANESE PUNCTUATION BINDU LEU SATANGA", "cat": "Po" },
-    { "code": 7365, "name": "SUNDANESE PUNCTUATION BINDU KA SATANGA", "cat": "Po" },
-    { "code": 7366, "name": "SUNDANESE PUNCTUATION BINDU DA SATANGA", "cat": "Po" },
-    { "code": 7367, "name": "SUNDANESE PUNCTUATION BINDU BA SATANGA", "cat": "Po" },
+    {
+      code: 7360,
+      name: "SUNDANESE PUNCTUATION BINDU SURYA",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 7361,
+      name: "SUNDANESE PUNCTUATION BINDU PANGLONG",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 7362,
+      name: "SUNDANESE PUNCTUATION BINDU PURNAMA",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 7363,
+      name: "SUNDANESE PUNCTUATION BINDU CAKRA",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 7364,
+      name: "SUNDANESE PUNCTUATION BINDU LEU SATANGA",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 7365,
+      name: "SUNDANESE PUNCTUATION BINDU KA SATANGA",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 7366,
+      name: "SUNDANESE PUNCTUATION BINDU DA SATANGA",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 7367,
+      name: "SUNDANESE PUNCTUATION BINDU BA SATANGA",
+      cat: Category.Other_Punctuation,
+      bidi: BidiClass.Left_To_Right,
+    },
   ],
 };

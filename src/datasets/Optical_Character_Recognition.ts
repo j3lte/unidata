@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { CharacterSetType } from "../enums.ts";
+import { BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Optical Character Recognition**
@@ -17,16 +17,16 @@ export const dataSet: CharacterSet = {
   startCode: 9280,
   endCode: 9311,
   characters: [
-    { "code": 9280, "name": "OCR HOOK", "cat": "So", "bidi": "ON" },
-    { "code": 9281, "name": "OCR CHAIR", "cat": "So", "bidi": "ON" },
-    { "code": 9282, "name": "OCR FORK", "cat": "So", "bidi": "ON" },
-    { "code": 9283, "name": "OCR INVERTED FORK", "cat": "So", "bidi": "ON" },
-    { "code": 9284, "name": "OCR BELT BUCKLE", "cat": "So", "bidi": "ON" },
-    { "code": 9285, "name": "OCR BOW TIE", "cat": "So", "bidi": "ON" },
-    { "code": 9286, "name": "OCR BRANCH BANK IDENTIFICATION", "cat": "So", "bidi": "ON" },
-    { "code": 9287, "name": "OCR AMOUNT OF CHECK", "cat": "So", "bidi": "ON" },
-    { "code": 9288, "name": "OCR DASH", "cat": "So", "bidi": "ON" },
-    { "code": 9289, "name": "OCR CUSTOMER ACCOUNT NUMBER", "cat": "So", "bidi": "ON" },
-    { "code": 9290, "name": "OCR DOUBLE BACKSLASH", "cat": "So", "bidi": "ON" },
+    { code: 9280, name: "OCR HOOK", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 9281, name: "OCR CHAIR", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 9282, name: "OCR FORK", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 9283, name: "OCR INVERTED FORK", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 9284, name: "OCR BELT BUCKLE", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 9285, name: "OCR BOW TIE", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 9286, name: "OCR BRANCH BANK IDENTIFICATION", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 9287, name: "OCR AMOUNT OF CHECK", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 9288, name: "OCR DASH", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 9289, name: "OCR CUSTOMER ACCOUNT NUMBER", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
+    { code: 9290, name: "OCR DOUBLE BACKSLASH", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral },
   ],
 };

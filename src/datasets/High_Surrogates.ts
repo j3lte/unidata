@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { CharacterSetType } from "../enums.ts";
+import { BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **High Surrogates**
@@ -17,7 +17,17 @@ export const dataSet: CharacterSet = {
   startCode: 55296,
   endCode: 56191,
   characters: [
-    { "code": 55296, "name": "<Non Private Use High Surrogate, First>", "cat": "Cs" },
-    { "code": 56191, "name": "<Non Private Use High Surrogate, Last>", "cat": "Cs" },
+    {
+      code: 55296,
+      name: "<Non Private Use High Surrogate, First>",
+      cat: Category.Surrogate,
+      bidi: BidiClass.Left_To_Right,
+    },
+    {
+      code: 56191,
+      name: "<Non Private Use High Surrogate, Last>",
+      cat: Category.Surrogate,
+      bidi: BidiClass.Left_To_Right,
+    },
   ],
 };

@@ -1,5 +1,5 @@
 import type { CharacterSet } from "../types.ts";
-import { CharacterSetType } from "../enums.ts";
+import { BidiClass, Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **Hangul Syllables**
@@ -17,7 +17,7 @@ export const dataSet: CharacterSet = {
   startCode: 44032,
   endCode: 55215,
   characters: [
-    { "code": 44032, "name": "<Hangul Syllable, First>", "cat": "Lo" },
-    { "code": 55203, "name": "<Hangul Syllable, Last>", "cat": "Lo" },
+    { code: 44032, name: "<Hangul Syllable, First>", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
+    { code: 55203, name: "<Hangul Syllable, Last>", cat: Category.Other_Letter, bidi: BidiClass.Left_To_Right },
   ],
 };
