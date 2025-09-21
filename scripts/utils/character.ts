@@ -35,14 +35,15 @@ export const getCharacters = (txt: string) =>
         name: name,
         // cat is a string
         cat: cat,
+        // bidi is a string
+        bidi: bidi.trim().toUpperCase(),
       };
+      if (!character.bidi) {
+        console.error(`No bidi class found for ${name}, code: ${code}`);
+      }
       // skip comb if it is '0', which it is in 97% of cases (26,523 / 27,268)
       if (comb !== "0") {
         character.comb = parseInt(comb, 10);
-      }
-      // skip bidi if it is 'L', which it is in 66% of cases (17,936 / 27,268)
-      if (bidi !== "L") {
-        character.bidi = bidi;
       }
       // skip decomp if it is empty, which it is in 79% of cases (21,547 / 27,268)
       if (decomp !== "") {
@@ -81,7 +82,7 @@ export const getCharacters = (txt: string) =>
       return character;
     });
 
-export const stringifyCharacter = (character: Character, categories: [string, string][]) => {
+export const stringifyCharacter = (character: Character, categories: [string, string][], bidi: [string, string][]) => {
   const category = categories.find(([, abbreviation]) => abbreviation === character.cat);
   let catString = "";
   if (category) {
@@ -90,7 +91,16 @@ export const stringifyCharacter = (character: Character, categories: [string, st
   } else {
     throw new Error(`Category ${character.cat} not found in categories`);
   }
+  const bidiCategory = character.bidi ? bidi.find(([, abbreviation]) => abbreviation === character.bidi) : null;
+  let bidiString = character.bidi ? `BidiCategory.${character.bidi}` : "";
+  if (bidiCategory) {
+    bidiString = `BidiClass.${bidiCategory[0]}`;
+    character.bidi = bidiString;
+  }
   const base = JSON.stringify(character);
-  const cleaned = base.replace(/"(\w+)":/g, "$1: ").replace(`"${catString}"`, catString);
+  const cleaned = base.replace(/"(\w+)":/g, "$1: ").replace(`"${catString}"`, catString).replace(
+    `"${bidiString}"`,
+    bidiString,
+  );
   return cleaned;
 };

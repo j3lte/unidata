@@ -353,7 +353,7 @@ export enum CharacterSetType {
 }
 
 /**
- * General category of the character.
+ * General Category of the character.
  *
  * See [General Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#General_Category_Values) for more information.
  */
@@ -396,4 +396,35 @@ export enum Category {
   Titlecase_Letter = "Lt",
   Unassigned = "Cn",
   Uppercase_Letter = "Lu",
+}
+
+/**
+ * Bidirectional Class Values of the character.
+ *
+ * See [Bidi Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#Bidi_Class_Values) for more information.
+ */
+export enum BidiClass {
+  Arabic_Letter = "AL",
+  Arabic_Number = "AN",
+  Boundary_Neutral = "BN",
+  Common_Separator = "CS",
+  European_Number = "EN",
+  European_Separator = "ES",
+  European_Terminator = "ET",
+  First_Strong_Isolate = "FSI",
+  Left_To_Right = "L",
+  Left_To_Right_Embedding = "LRE",
+  Left_To_Right_Isolate = "LRI",
+  Left_To_Right_Override = "LRO",
+  Nonspacing_Mark = "NSM",
+  Other_Neutral = "ON",
+  Paragraph_Separator = "B",
+  Pop_Directional_Format = "PDF",
+  Pop_Directional_Isolate = "PDI",
+  Right_To_Left = "R",
+  Right_To_Left_Embedding = "RLE",
+  Right_To_Left_Isolate = "RLI",
+  Right_To_Left_Override = "RLO",
+  Segment_Separator = "S",
+  White_Space = "WS",
 }

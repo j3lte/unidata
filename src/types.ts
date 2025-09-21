@@ -1,4 +1,4 @@
-import type { Category, CharacterSetType } from "./enums.ts";
+import type { BidiClass, Category, CharacterSetType } from "./enums.ts";
 
 /**
  * Character data
@@ -9,15 +9,19 @@ export type Character = {
   /** Character name (ASCII only) */
   name: string;
   /**
-   * General category
+   * General Category
    *
    * See [General Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#General_Category_Values) for more information.
    */
   cat: Category;
   /** Canonical combining class (missing if == 0 "not reordered") */
   comb?: number;
-  /** Bidirectional category (missing if == 'L' "Letter") */
-  bidi?: string;
+  /**
+   * Bidirectional Class Values
+   *
+   * See [Bidi Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#Bidi_Class_Values) for more information.
+   */
+  bidi: BidiClass;
   /** Decomposition type and mapping */
   decompType?: string;
   decomp?: number[];

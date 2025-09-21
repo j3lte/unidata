@@ -83,7 +83,7 @@ ${blocksEnums}
 }
 
 /**
- * General category of the character.
+ * General Category of the character.
  *
  * See [General Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#General_Category_Values) for more information.
  */
@@ -91,6 +91,19 @@ export enum Category {
 ${
       propertyValueAliases.categories.map(([category, abbreviation]) => {
         return `  ${category} = "${abbreviation}",`;
+      }).join("\n")
+    }
+}
+
+/**
+ * Bidirectional Class Values of the character.
+ *
+ * See [Bidi Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#Bidi_Class_Values) for more information.
+ */
+export enum BidiClass {
+${
+      propertyValueAliases.bidi.map(([bidi, abbreviation]) => {
+        return `  ${bidi} = "${abbreviation}",`;
       }).join("\n")
     }
 }
@@ -118,13 +131,14 @@ ${
 
   await Promise.all(blocks.map(async (block) => {
     const blockCharacters = characters.filter((char) => char.code >= block.startCode && char.code <= block.endCode);
+    const hasBidi = blockCharacters.some((char) => typeof char.bidi !== "undefined");
     const output = resolve(SRC_DIR, `datasets/${block.enumName}.ts`);
     done.push(...blockCharacters.map((char) => char.code));
 
     await Deno.writeTextFile(
       output,
       `import type { CharacterSet } from "../types.ts";
-import { Category, CharacterSetType } from "../enums.ts";
+import { ${hasBidi ? "BidiClass, " : ""}Category, CharacterSetType } from "../enums.ts";
 
 /**
  * _Unicode Dataset:_ **${block.blockName}**
@@ -144,7 +158,7 @@ export const dataSet: CharacterSet = {
   characters: [
 ${
         blockCharacters.map((char) => {
-          return `    ${stringifyCharacter(char, propertyValueAliases.categories)},`;
+          return `    ${stringifyCharacter(char, propertyValueAliases.categories, propertyValueAliases.bidi)},`;
         }).join("\n")
       }
   ]
