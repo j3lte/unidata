@@ -315,6 +315,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "LEFT POINTING GUILLEMET",
+      mirrorCode: 187,
     },
     { code: 172, name: "NOT SIGN", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
     { code: 173, name: "SOFT HYPHEN", cat: Category.Format, bidi: BidiClass.Boundary_Neutral, age: Age.V1_1 },
@@ -435,6 +436,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "RIGHT POINTING GUILLEMET",
+      mirrorCode: 171,
     },
     {
       code: 188,

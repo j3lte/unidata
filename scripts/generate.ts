@@ -6,6 +6,7 @@ import { getCharacters } from "./utils/character.ts";
 import { stringifyCharacter } from "./utils/character.ts";
 import { getPropertyValueAliases } from "./utils/propertyValues.ts";
 import { getDerivedAges } from "./utils/age.ts";
+import { getBidiMirroring } from "./utils/mirror.ts";
 
 const runVersion = async (UNICODE_VERSION: string) => {
   const UNICODE_URL = `https://www.unicode.org/Public/${UNICODE_VERSION}/ucd/UCD.zip`;
@@ -46,7 +47,11 @@ const runVersion = async (UNICODE_VERSION: string) => {
 
   for (const file of files) {
     const dest = resolve(OUTPUT_DIR, file.name);
-    if (!["Blocks.txt", "UnicodeData.txt", "PropertyValueAliases.txt", "DerivedAge.txt"].includes(file.name)) {
+    if (
+      !["Blocks.txt", "UnicodeData.txt", "PropertyValueAliases.txt", "DerivedAge.txt", "BidiMirroring.txt"].includes(
+        file.name,
+      )
+    ) {
       continue;
     }
     if (file.data.length === 0) {
@@ -67,6 +72,10 @@ const runVersion = async (UNICODE_VERSION: string) => {
   console.log("Derive age...");
   const derivedAgeTxt = await Deno.readTextFile(resolve(OUTPUT_DIR, "DerivedAge.txt"));
   const derivedAges = getDerivedAges(derivedAgeTxt);
+
+  console.log("Generating bidi mirroring...");
+  const bidiMirroringTxt = await Deno.readTextFile(resolve(OUTPUT_DIR, "BidiMirroring.txt"));
+  const bidiMirroring = getBidiMirroring(bidiMirroringTxt);
 
   console.log("Generating blocks...");
 
@@ -183,6 +192,7 @@ ${
               categories: propertyValueAliases.categories,
               bidi: propertyValueAliases.bidi,
               ages: propertyValueAliases.ages,
+              mirroring: bidiMirroring,
               derivedAges: derivedAges,
             })
           },`;

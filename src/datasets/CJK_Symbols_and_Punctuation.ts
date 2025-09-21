@@ -79,6 +79,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING ANGLE BRACKET",
+      mirrorCode: 12297,
     },
     {
       code: 12297,
@@ -88,6 +89,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING ANGLE BRACKET",
+      mirrorCode: 12296,
     },
     {
       code: 12298,
@@ -97,6 +99,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING DOUBLE ANGLE BRACKET",
+      mirrorCode: 12299,
     },
     {
       code: 12299,
@@ -106,6 +109,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING DOUBLE ANGLE BRACKET",
+      mirrorCode: 12298,
     },
     {
       code: 12300,
@@ -115,6 +119,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING CORNER BRACKET",
+      mirrorCode: 12301,
     },
     {
       code: 12301,
@@ -124,6 +129,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING CORNER BRACKET",
+      mirrorCode: 12300,
     },
     {
       code: 12302,
@@ -133,6 +139,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING WHITE CORNER BRACKET",
+      mirrorCode: 12303,
     },
     {
       code: 12303,
@@ -142,6 +149,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING WHITE CORNER BRACKET",
+      mirrorCode: 12302,
     },
     {
       code: 12304,
@@ -151,6 +159,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING BLACK LENTICULAR BRACKET",
+      mirrorCode: 12305,
     },
     {
       code: 12305,
@@ -160,6 +169,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING BLACK LENTICULAR BRACKET",
+      mirrorCode: 12304,
     },
     { code: 12306, name: "POSTAL MARK", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
     { code: 12307, name: "GETA MARK", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
@@ -171,6 +181,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING TORTOISE SHELL BRACKET",
+      mirrorCode: 12309,
     },
     {
       code: 12309,
@@ -180,6 +191,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING TORTOISE SHELL BRACKET",
+      mirrorCode: 12308,
     },
     {
       code: 12310,
@@ -189,6 +201,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING WHITE LENTICULAR BRACKET",
+      mirrorCode: 12311,
     },
     {
       code: 12311,
@@ -198,6 +211,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING WHITE LENTICULAR BRACKET",
+      mirrorCode: 12310,
     },
     {
       code: 12312,
@@ -207,6 +221,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING WHITE TORTOISE SHELL BRACKET",
+      mirrorCode: 12313,
     },
     {
       code: 12313,
@@ -216,6 +231,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING WHITE TORTOISE SHELL BRACKET",
+      mirrorCode: 12312,
     },
     {
       code: 12314,
@@ -225,6 +241,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING WHITE SQUARE BRACKET",
+      mirrorCode: 12315,
     },
     {
       code: 12315,
@@ -234,6 +251,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING WHITE SQUARE BRACKET",
+      mirrorCode: 12314,
     },
     { code: 12316, name: "WAVE DASH", cat: Category.Dash_Punctuation, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
     {

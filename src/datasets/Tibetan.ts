@@ -467,6 +467,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V2_0,
       bidiMirror: true,
+      mirrorCode: 3899,
     },
     {
       code: 3899,
@@ -475,6 +476,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V2_0,
       bidiMirror: true,
+      mirrorCode: 3898,
     },
     {
       code: 3900,
@@ -484,6 +486,7 @@ export const dataSet: CharacterSet = {
       age: Age.V2_0,
       bidiMirror: true,
       oldName: "TIBETAN LEFT BRACE",
+      mirrorCode: 3901,
     },
     {
       code: 3901,
@@ -493,6 +496,7 @@ export const dataSet: CharacterSet = {
       age: Age.V2_0,
       bidiMirror: true,
       oldName: "TIBETAN RIGHT BRACE",
+      mirrorCode: 3900,
     },
     {
       code: 3902,

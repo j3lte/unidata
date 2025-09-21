@@ -90,6 +90,7 @@ export const dataSet: CharacterSet = {
       decompType: "wide",
       bidiMirror: true,
       oldName: "FULLWIDTH OPENING PARENTHESIS",
+      mirrorCode: 65289,
     },
     {
       code: 65289,
@@ -101,6 +102,7 @@ export const dataSet: CharacterSet = {
       decompType: "wide",
       bidiMirror: true,
       oldName: "FULLWIDTH CLOSING PARENTHESIS",
+      mirrorCode: 65288,
     },
     {
       code: 65290,
@@ -285,6 +287,7 @@ export const dataSet: CharacterSet = {
       decomp: [60],
       decompType: "wide",
       bidiMirror: true,
+      mirrorCode: 65310,
     },
     {
       code: 65309,
@@ -304,6 +307,7 @@ export const dataSet: CharacterSet = {
       decomp: [62],
       decompType: "wide",
       bidiMirror: true,
+      mirrorCode: 65308,
     },
     {
       code: 65311,
@@ -593,6 +597,7 @@ export const dataSet: CharacterSet = {
       decompType: "wide",
       bidiMirror: true,
       oldName: "FULLWIDTH OPENING SQUARE BRACKET",
+      mirrorCode: 65341,
     },
     {
       code: 65340,
@@ -614,6 +619,7 @@ export const dataSet: CharacterSet = {
       decompType: "wide",
       bidiMirror: true,
       oldName: "FULLWIDTH CLOSING SQUARE BRACKET",
+      mirrorCode: 65339,
     },
     {
       code: 65342,
@@ -941,6 +947,7 @@ export const dataSet: CharacterSet = {
       decompType: "wide",
       bidiMirror: true,
       oldName: "FULLWIDTH OPENING CURLY BRACKET",
+      mirrorCode: 65373,
     },
     {
       code: 65372,
@@ -962,6 +969,7 @@ export const dataSet: CharacterSet = {
       decompType: "wide",
       bidiMirror: true,
       oldName: "FULLWIDTH CLOSING CURLY BRACKET",
+      mirrorCode: 65371,
     },
     {
       code: 65374,
@@ -982,6 +990,7 @@ export const dataSet: CharacterSet = {
       decomp: [10629],
       decompType: "wide",
       bidiMirror: true,
+      mirrorCode: 65376,
     },
     {
       code: 65376,
@@ -992,6 +1001,7 @@ export const dataSet: CharacterSet = {
       decomp: [10630],
       decompType: "wide",
       bidiMirror: true,
+      mirrorCode: 65375,
     },
     {
       code: 65377,
@@ -1013,6 +1023,7 @@ export const dataSet: CharacterSet = {
       decompType: "narrow",
       bidiMirror: true,
       oldName: "HALFWIDTH OPENING CORNER BRACKET",
+      mirrorCode: 65379,
     },
     {
       code: 65379,
@@ -1024,6 +1035,7 @@ export const dataSet: CharacterSet = {
       decompType: "narrow",
       bidiMirror: true,
       oldName: "HALFWIDTH CLOSING CORNER BRACKET",
+      mirrorCode: 65378,
     },
     {
       code: 65380,

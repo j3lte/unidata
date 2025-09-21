@@ -397,6 +397,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "LEFT POINTING SINGLE GUILLEMET",
+      mirrorCode: 8250,
     },
     {
       code: 8250,
@@ -406,6 +407,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "RIGHT POINTING SINGLE GUILLEMET",
+      mirrorCode: 8249,
     },
     {
       code: 8251,
@@ -465,6 +467,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V1_1,
       bidiMirror: true,
+      mirrorCode: 8262,
     },
     {
       code: 8262,
@@ -473,6 +476,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V1_1,
       bidiMirror: true,
+      mirrorCode: 8261,
     },
     {
       code: 8263,

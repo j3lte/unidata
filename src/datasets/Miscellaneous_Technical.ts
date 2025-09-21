@@ -32,6 +32,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V1_1,
       bidiMirror: true,
+      mirrorCode: 8969,
     },
     {
       code: 8969,
@@ -40,6 +41,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V1_1,
       bidiMirror: true,
+      mirrorCode: 8968,
     },
     {
       code: 8970,
@@ -48,6 +50,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V1_1,
       bidiMirror: true,
+      mirrorCode: 8971,
     },
     {
       code: 8971,
@@ -56,6 +59,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V1_1,
       bidiMirror: true,
+      mirrorCode: 8970,
     },
     { code: 8972, name: "BOTTOM RIGHT CROP", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
     { code: 8973, name: "BOTTOM LEFT CROP", cat: Category.Other_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
@@ -161,6 +165,7 @@ export const dataSet: CharacterSet = {
       decomp: [12296],
       bidiMirror: true,
       oldName: "BRA",
+      mirrorCode: 9002,
     },
     {
       code: 9002,
@@ -171,6 +176,7 @@ export const dataSet: CharacterSet = {
       decomp: [12297],
       bidiMirror: true,
       oldName: "KET",
+      mirrorCode: 9001,
     },
     {
       code: 9003,

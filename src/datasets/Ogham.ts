@@ -123,6 +123,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_0,
       bidiMirror: true,
+      mirrorCode: 5788,
     },
     {
       code: 5788,
@@ -131,6 +132,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_0,
       bidiMirror: true,
+      mirrorCode: 5787,
     },
   ],
 };

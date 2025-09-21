@@ -11,6 +11,7 @@ interface Character {
   decomp?: number[];
   num?: string;
   bidiMirror?: boolean;
+  mirrorCode?: number;
   oldName?: string;
   upper?: number;
   lower?: number;
@@ -106,9 +107,9 @@ export const getCharacters = (txt: string) =>
 
 export const stringifyCharacter = (
   character: Character,
-  opts: PropertyValueAliasReturn & { derivedAges: DerivedAge[] },
+  opts: PropertyValueAliasReturn & { derivedAges: DerivedAge[]; mirroring: Map<number, number> },
 ) => {
-  const { categories, bidi, derivedAges, ages } = opts;
+  const { categories, bidi, derivedAges, ages, mirroring } = opts;
   const category = categories.find(([, abbreviation]) => abbreviation === character.cat);
   let catString = "";
   if (category) {
@@ -134,6 +135,10 @@ export const stringifyCharacter = (
     character.age = ageString;
   } else {
     throw new Error(`Age ${age} not found in ages`);
+  }
+  const mirror = mirroring.get(character.code);
+  if (mirror) {
+    character.mirrorCode = mirror;
   }
   const base = JSON.stringify(character);
   const cleaned = base.replace(/"(\w+)":/g, "$1: ").replace(`"${catString}"`, catString).replace(

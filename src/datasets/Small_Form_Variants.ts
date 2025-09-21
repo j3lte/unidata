@@ -100,6 +100,7 @@ export const dataSet: CharacterSet = {
       decompType: "small",
       bidiMirror: true,
       oldName: "SMALL OPENING PARENTHESIS",
+      mirrorCode: 65114,
     },
     {
       code: 65114,
@@ -111,6 +112,7 @@ export const dataSet: CharacterSet = {
       decompType: "small",
       bidiMirror: true,
       oldName: "SMALL CLOSING PARENTHESIS",
+      mirrorCode: 65113,
     },
     {
       code: 65115,
@@ -122,6 +124,7 @@ export const dataSet: CharacterSet = {
       decompType: "small",
       bidiMirror: true,
       oldName: "SMALL OPENING CURLY BRACKET",
+      mirrorCode: 65116,
     },
     {
       code: 65116,
@@ -133,6 +136,7 @@ export const dataSet: CharacterSet = {
       decompType: "small",
       bidiMirror: true,
       oldName: "SMALL CLOSING CURLY BRACKET",
+      mirrorCode: 65115,
     },
     {
       code: 65117,
@@ -144,6 +148,7 @@ export const dataSet: CharacterSet = {
       decompType: "small",
       bidiMirror: true,
       oldName: "SMALL OPENING TORTOISE SHELL BRACKET",
+      mirrorCode: 65118,
     },
     {
       code: 65118,
@@ -155,6 +160,7 @@ export const dataSet: CharacterSet = {
       decompType: "small",
       bidiMirror: true,
       oldName: "SMALL CLOSING TORTOISE SHELL BRACKET",
+      mirrorCode: 65117,
     },
     {
       code: 65119,
@@ -210,6 +216,7 @@ export const dataSet: CharacterSet = {
       decomp: [60],
       decompType: "small",
       bidiMirror: true,
+      mirrorCode: 65125,
     },
     {
       code: 65125,
@@ -220,6 +227,7 @@ export const dataSet: CharacterSet = {
       decomp: [62],
       decompType: "small",
       bidiMirror: true,
+      mirrorCode: 65124,
     },
     {
       code: 65126,

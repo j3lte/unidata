@@ -1542,6 +1542,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V11_0,
       bidiMirror: true,
+      mirrorCode: 8735,
     },
     {
       code: 11263,

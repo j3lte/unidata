@@ -141,6 +141,7 @@ export const dataSet: CharacterSet = {
       decompType: "super",
       bidiMirror: true,
       oldName: "SUPERSCRIPT OPENING PARENTHESIS",
+      mirrorCode: 8318,
     },
     {
       code: 8318,
@@ -152,6 +153,7 @@ export const dataSet: CharacterSet = {
       decompType: "super",
       bidiMirror: true,
       oldName: "SUPERSCRIPT CLOSING PARENTHESIS",
+      mirrorCode: 8317,
     },
     {
       code: 8319,
@@ -310,6 +312,7 @@ export const dataSet: CharacterSet = {
       decompType: "sub",
       bidiMirror: true,
       oldName: "SUBSCRIPT OPENING PARENTHESIS",
+      mirrorCode: 8334,
     },
     {
       code: 8334,
@@ -321,6 +324,7 @@ export const dataSet: CharacterSet = {
       decompType: "sub",
       bidiMirror: true,
       oldName: "SUBSCRIPT CLOSING PARENTHESIS",
+      mirrorCode: 8333,
     },
     {
       code: 8336,

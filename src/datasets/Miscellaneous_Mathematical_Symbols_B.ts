@@ -39,6 +39,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10628,
     },
     {
       code: 10628,
@@ -47,6 +48,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10627,
     },
     {
       code: 10629,
@@ -55,6 +57,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10630,
     },
     {
       code: 10630,
@@ -63,6 +66,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10629,
     },
     {
       code: 10631,
@@ -71,6 +75,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10632,
     },
     {
       code: 10632,
@@ -79,6 +84,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10631,
     },
     {
       code: 10633,
@@ -87,6 +93,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10634,
     },
     {
       code: 10634,
@@ -95,6 +102,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10633,
     },
     {
       code: 10635,
@@ -103,6 +111,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10636,
     },
     {
       code: 10636,
@@ -111,6 +120,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10635,
     },
     {
       code: 10637,
@@ -119,6 +129,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10640,
     },
     {
       code: 10638,
@@ -127,6 +138,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10639,
     },
     {
       code: 10639,
@@ -135,6 +147,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10638,
     },
     {
       code: 10640,
@@ -143,6 +156,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10637,
     },
     {
       code: 10641,
@@ -151,6 +165,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10642,
     },
     {
       code: 10642,
@@ -159,6 +174,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10641,
     },
     {
       code: 10643,
@@ -167,6 +183,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10644,
     },
     {
       code: 10644,
@@ -175,6 +192,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10643,
     },
     {
       code: 10645,
@@ -183,6 +201,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10646,
     },
     {
       code: 10646,
@@ -191,6 +210,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10645,
     },
     {
       code: 10647,
@@ -199,6 +219,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10648,
     },
     {
       code: 10648,
@@ -207,6 +228,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10647,
     },
     { code: 10649, name: "DOTTED FENCE", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V3_2 },
     {
@@ -223,6 +245,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 8737,
     },
     {
       code: 10652,
@@ -263,6 +286,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 8738,
     },
     {
       code: 10657,
@@ -286,6 +310,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 8736,
     },
     {
       code: 10660,
@@ -294,6 +319,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10661,
     },
     {
       code: 10661,
@@ -302,6 +328,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10660,
     },
     {
       code: 10662,
@@ -326,6 +353,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10665,
     },
     {
       code: 10665,
@@ -334,6 +362,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10664,
     },
     {
       code: 10666,
@@ -342,6 +371,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10667,
     },
     {
       code: 10667,
@@ -350,6 +380,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10666,
     },
     {
       code: 10668,
@@ -358,6 +389,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10669,
     },
     {
       code: 10669,
@@ -366,6 +398,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10668,
     },
     {
       code: 10670,
@@ -374,6 +407,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10671,
     },
     {
       code: 10671,
@@ -382,6 +416,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10670,
     },
     {
       code: 10672,
@@ -440,6 +475,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 8856,
     },
     {
       code: 10681,
@@ -491,6 +527,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10689,
     },
     {
       code: 10689,
@@ -499,6 +536,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10688,
     },
     {
       code: 10690,
@@ -523,6 +561,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10693,
     },
     {
       code: 10693,
@@ -531,6 +570,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10692,
     },
     { code: 10694, name: "SQUARED ASTERISK", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V3_2 },
     {
@@ -586,6 +626,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10704,
     },
     {
       code: 10704,
@@ -594,6 +635,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10703,
     },
     {
       code: 10705,
@@ -602,6 +644,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10706,
     },
     {
       code: 10706,
@@ -610,6 +653,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10705,
     },
     { code: 10707, name: "BLACK BOWTIE", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V3_2 },
     {
@@ -619,6 +663,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10709,
     },
     {
       code: 10709,
@@ -627,6 +672,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10708,
     },
     { code: 10710, name: "WHITE HOURGLASS", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V3_2 },
     { code: 10711, name: "BLACK HOURGLASS", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V3_2 },
@@ -637,6 +683,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10713,
     },
     {
       code: 10713,
@@ -645,6 +692,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10712,
     },
     {
       code: 10714,
@@ -653,6 +701,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10715,
     },
     {
       code: 10715,
@@ -661,6 +710,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10714,
     },
     {
       code: 10716,
@@ -734,6 +784,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10729,
     },
     {
       code: 10729,
@@ -742,6 +793,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10728,
     },
     {
       code: 10730,
@@ -822,6 +874,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 8725,
     },
     {
       code: 10742,
@@ -846,6 +899,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10745,
     },
     {
       code: 10745,
@@ -854,6 +908,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10744,
     },
     { code: 10746, name: "DOUBLE PLUS", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V3_2 },
     { code: 10747, name: "TRIPLE PLUS", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V3_2 },
@@ -864,6 +919,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10749,
     },
     {
       code: 10749,
@@ -872,6 +928,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V3_2,
       bidiMirror: true,
+      mirrorCode: 10748,
     },
     { code: 10750, name: "TINY", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V3_2 },
     { code: 10751, name: "MINY", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V3_2 },

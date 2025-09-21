@@ -40,7 +40,13 @@ export type Character = {
   num?: string;
   /** True if character is mirrored in bidirectional text (missing otherwise) */
   bidiMirror?: boolean;
-  /** Unicode 1.0 name, if it differs from the current name */
+  /** Simple mirror code mapping */
+  mirrorCode?: number;
+  /**
+   * Old name as published in Unicode 1.0 or ISO 6429 names for control functions.
+   *
+   * > (Obsolete as of 6.2.0)
+   */
   oldName?: string;
   /** Simple uppercase mapping */
   upper?: number;

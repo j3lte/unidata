@@ -320,6 +320,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING PARENTHESIS",
+      mirrorCode: 41,
     },
     {
       code: 41,
@@ -329,6 +330,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING PARENTHESIS",
+      mirrorCode: 40,
     },
     { code: 42, name: "ASTERISK", cat: Category.Other_Punctuation, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
     { code: 43, name: "PLUS SIGN", cat: Category.Math_Symbol, bidi: BidiClass.European_Separator, age: Age.V1_1 },
@@ -445,6 +447,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V1_1,
       bidiMirror: true,
+      mirrorCode: 62,
     },
     { code: 61, name: "EQUALS SIGN", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
     {
@@ -454,6 +457,7 @@ export const dataSet: CharacterSet = {
       bidi: BidiClass.Other_Neutral,
       age: Age.V1_1,
       bidiMirror: true,
+      mirrorCode: 60,
     },
     { code: 63, name: "QUESTION MARK", cat: Category.Other_Punctuation, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
     { code: 64, name: "COMMERCIAL AT", cat: Category.Other_Punctuation, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
@@ -673,6 +677,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING SQUARE BRACKET",
+      mirrorCode: 93,
     },
     {
       code: 92,
@@ -690,6 +695,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING SQUARE BRACKET",
+      mirrorCode: 91,
     },
     {
       code: 94,
@@ -957,6 +963,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "OPENING CURLY BRACKET",
+      mirrorCode: 125,
     },
     {
       code: 124,
@@ -974,6 +981,7 @@ export const dataSet: CharacterSet = {
       age: Age.V1_1,
       bidiMirror: true,
       oldName: "CLOSING CURLY BRACKET",
+      mirrorCode: 123,
     },
     { code: 126, name: "TILDE", cat: Category.Math_Symbol, bidi: BidiClass.Other_Neutral, age: Age.V1_1 },
     {
