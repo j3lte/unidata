@@ -14,7 +14,13 @@ export type Character = {
    * See [General Category Values](https://www.unicode.org/reports/tr44/tr44-36.html#General_Category_Values) for more information.
    */
   cat: Category;
-  /** Canonical combining class (missing if == 0 "not reordered") */
+  /**
+   * Canonical Combining Class Values
+   *
+   * > (missing if == 0 "Not Reordered")
+   *
+   * See [Canonical Combining Class](https://www.unicode.org/reports/tr44/tr44-36.html#Canonical_Combining_Class_Values) for more information.
+   */
   comb?: number;
   /**
    * Bidirectional Class Values
